@@ -4,6 +4,7 @@ import uuid
 from openai import AzureOpenAI
 from dotenv import load_dotenv
 from datetime import datetime
+import time
 
 # Load environment variables
 load_dotenv()
@@ -76,9 +77,29 @@ def process_factoid(factoid):
         print(f"Error processing factoid: {str(e)}")
         return None
 
+def process_factoids_in_batches(factoids, batch_size=5):
+    """Process factoids in batches to handle rate limits."""
+    mcqs = []
+    total_batches = (len(factoids) + batch_size - 1) // batch_size
+    
+    for i in range(0, len(factoids), batch_size):
+        batch = factoids[i:i + batch_size]
+        print(f"\nProcessing batch {(i//batch_size)+1}/{total_batches}")
+        
+        for factoid in batch:
+            mcq = process_factoid(factoid)
+            if mcq:
+                mcqs.append(mcq)
+            
+        # Add delay between batches
+        if i + batch_size < len(factoids):
+            time.sleep(2)  # Adjust based on your rate limits
+    
+    return mcqs
+
 def main():
     # Find the most recent factoids file
-    factoids_dir = "2_factoids"
+    factoids_dir = "python/factoids"
     files = [f for f in os.listdir(factoids_dir) if f.endswith('.json')]
     if not files:
         print("No factoid files found!")
@@ -102,23 +123,10 @@ def main():
         factoids = factoids_raw
     
     # Process each factoid
-    mcqs = []
-    total = len(factoids)
-    
-    for i, factoid in enumerate(factoids, 1):
-        print(f"\nProcessing factoid {i}/{total}")
-        if factoid.startswith('-'):  # Remove leading dash if present
-            factoid = factoid[1:].strip()
-        
-        mcq = process_factoid(factoid)
-        if mcq:
-            mcqs.append(mcq)
-            print("MCQ generated successfully")
-        else:
-            print("Failed to generate MCQ")
+    mcqs = process_factoids_in_batches(factoids)
     
     # Create output directory if it doesn't exist
-    output_dir = "3_mcqs"
+    output_dir = "python/mcqs"
     os.makedirs(output_dir, exist_ok=True)
     
     # Generate output filename with timestamp
@@ -134,7 +142,7 @@ def main():
         }, f, indent=2, ensure_ascii=False)
     
     print(f"\nMCQs have been generated and saved to: {output_file}")
-    print(f"Successfully generated {len(mcqs)} MCQs out of {total} factoids")
+    print(f"Successfully generated {len(mcqs)} MCQs out of {len(factoids)} factoids")
 
 if __name__ == "__main__":
     main() 

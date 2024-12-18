@@ -1,3 +1,13 @@
+python python/test_pipeline.py 
+
+git add .
+git commit -m "Initial commit"
+git push
+
+
+
+
+
 # Medical MCQ Generator and Viewer
 
 This project consists of two main parts:

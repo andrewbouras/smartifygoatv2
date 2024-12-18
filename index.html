@@ -62,49 +62,19 @@
 <script>
   async function loadMCQs() {
     try {
-      const response = await fetch('python/mcqs/Trimmed Mehlman Anatomy_factoids_20241218_090728_mcqs_20241218_091630.json');
-      const data = await response.json();
-      const mcqs = data.mcqs || [];
-      const container = document.getElementById('mcq-container');
-      container.innerHTML = '';
-
-      mcqs.forEach((mcq, index) => {
-        const block = document.createElement('div');
-        block.className = 'question-block';
-
-        const qTitle = document.createElement('h2');
-        qTitle.textContent = (index + 1) + '. ' + mcq.question;
-        block.appendChild(qTitle);
-
-        const choicesDiv = document.createElement('div');
-        choicesDiv.className = 'choices';
+        // Get list of MCQ files
+        const response = await fetch('python/mcqs/mcqs.json');
+        const data = await response.json();
         
-        mcq.answerChoices.forEach((choice, idx) => {
-          const choiceDiv = document.createElement('div');
-          choiceDiv.className = 'choice';
-
-          const radio = document.createElement('input');
-          radio.type = 'radio';
-          radio.name = mcq.id;
-          radio.value = choice.value;
-          radio.addEventListener('change', () => {
-            showExplanation(mcq, block, radio.value);
-          });
-
-          const label = document.createElement('label');
-          label.textContent = choice.value;
-
-          choiceDiv.appendChild(radio);
-          choiceDiv.appendChild(label);
-          choicesDiv.appendChild(choiceDiv);
-        });
-
-        block.appendChild(choicesDiv);
-        container.appendChild(block);
-      });
+        if (!data.mcqs) {
+            throw new Error('Invalid MCQ file format');
+        }
+        
+        displayMCQs(data.mcqs);
     } catch (error) {
-      console.error('Error loading MCQs:', error);
-      document.getElementById('mcq-container').textContent = 'Failed to load MCQs.';
+        console.error('Error loading MCQs:', error);
+        document.getElementById('mcq-container').textContent = 
+            'Error loading MCQs: ' + error.message;
     }
   }
 
@@ -135,6 +105,56 @@
 
     explanationDiv.appendChild(factoidDiv);
     block.appendChild(explanationDiv);
+  }
+
+  function displayMCQs(mcqs) {
+    const container = document.getElementById('mcq-container');
+    container.innerHTML = '';
+    
+    mcqs.forEach((mcq, index) => {
+        const block = document.createElement('div');
+        block.className = 'question-block';
+        
+        // Question title
+        const qTitle = document.createElement('h2');
+        qTitle.textContent = (index + 1) + '. ' + mcq.question;
+        block.appendChild(qTitle);
+        
+        // Choices
+        const choicesDiv = document.createElement('div');
+        choicesDiv.className = 'choices';
+        
+        // Sort answer choices alphabetically by value
+        const sortedChoices = [...mcq.answerChoices].sort((a, b) => 
+            a.value.localeCompare(b.value)
+        );
+        
+        sortedChoices.forEach((choice, choiceIndex) => {
+            const choiceDiv = document.createElement('div');
+            choiceDiv.className = 'choice';
+            
+            const input = document.createElement('input');
+            input.type = 'radio';
+            input.name = 'q' + index;
+            input.value = choice.value;
+            input.id = 'q' + index + 'c' + choiceIndex;
+            
+            input.addEventListener('change', () => {
+                showExplanation(mcq, block, choice.value);
+            });
+            
+            const label = document.createElement('label');
+            label.htmlFor = input.id;
+            label.textContent = choice.value;
+            
+            choiceDiv.appendChild(input);
+            choiceDiv.appendChild(label);
+            choicesDiv.appendChild(choiceDiv);
+        });
+        
+        block.appendChild(choicesDiv);
+        container.appendChild(block);
+    });
   }
 
   loadMCQs();

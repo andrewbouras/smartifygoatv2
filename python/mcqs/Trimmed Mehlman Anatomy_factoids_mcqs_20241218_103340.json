@@ -1,0 +1,817 @@
+{
+  "source_file": "Trimmed Mehlman Anatomy.txt",
+  "mcqs": [
+    {
+      "question": "Which of the following statements about muscle contraction is correct?",
+      "answerChoices": [
+        {
+          "value": "The I-band does not change in length during muscle contraction.",
+          "correct": false
+        },
+        {
+          "value": "The A-band does not change in length during muscle contraction.",
+          "correct": true
+        },
+        {
+          "value": "The H-zone increases in length during muscle contraction.",
+          "correct": false
+        },
+        {
+          "value": "The Z-line moves further apart during muscle contraction.",
+          "correct": false
+        },
+        {
+          "value": "The sarcomere lengthens during muscle contraction.",
+          "correct": false
+        }
+      ],
+      "explanation": "During muscle contraction, the A-band remains constant in length, whereas the I-band and H-zone shorten. The Z-lines move closer together, and the sarcomere shortens.",
+      "factoid": "The A-band does not change in length during muscle contraction.",
+      "id": "a5bbce71-2258-4e18-a098-e5c35761c28b"
+    },
+    {
+      "question": "During muscle contraction, which of the following structures shorten?",
+      "answerChoices": [
+        {
+          "value": "A-band, H-zone, and Z-line",
+          "correct": false
+        },
+        {
+          "value": "H-zone, I-band, and sarcomere (Z-Z)",
+          "correct": true
+        },
+        {
+          "value": "I-band, A-band, and M-line",
+          "correct": false
+        },
+        {
+          "value": "M-line, H-zone, and A-band",
+          "correct": false
+        },
+        {
+          "value": "Z-line, I-band, and M-line",
+          "correct": false
+        }
+      ],
+      "explanation": "During muscle contraction, the H-zone, I-band, and sarcomere (Z-Z) shorten. The A-band remains the same length, as it is defined by the length of the thick filaments, which do not change length.",
+      "factoid": "During muscle contraction, the H-zone, I-band, and sarcomere (Z-Z) shorten.",
+      "id": "b4207fb5-878b-4107-bb81-82376a8c5870"
+    },
+    {
+      "question": "Which protein on actin covers up myosin binding sites?",
+      "answerChoices": [
+        {
+          "value": "Troponin",
+          "correct": false
+        },
+        {
+          "value": "Tropomyosin",
+          "correct": true
+        },
+        {
+          "value": "Myosin",
+          "correct": false
+        },
+        {
+          "value": "Actinin",
+          "correct": false
+        },
+        {
+          "value": "Nebulin",
+          "correct": false
+        }
+      ],
+      "explanation": "Tropomyosin is the correct protein that covers up myosin binding sites on actin filaments, preventing contraction in the absence of calcium ions.",
+      "factoid": "Tropomyosin is a protein on actin that covers up myosin binding sites.",
+      "id": "4c6066e9-73af-4935-bb46-59a9fad8da35"
+    },
+    {
+      "question": "What role does calcium play during muscle contraction?",
+      "answerChoices": [
+        {
+          "value": "It binds to myosin, facilitating its attachment to actin.",
+          "correct": false
+        },
+        {
+          "value": "It is released from the sarcoplasmic reticulum and binds to troponin, causing tropomyosin to release from actin.",
+          "correct": true
+        },
+        {
+          "value": "It breaks down ATP to provide energy for muscle contraction.",
+          "correct": false
+        },
+        {
+          "value": "It binds directly to actin, initiating the contraction process.",
+          "correct": false
+        },
+        {
+          "value": "It inhibits the binding of myosin to actin.",
+          "correct": false
+        }
+      ],
+      "explanation": "During muscle contraction, calcium is released from the sarcoplasmic reticulum and binds to troponin. This binding causes a conformational change in troponin that releases tropomyosin from actin, allowing myosin to bind to actin and initiate muscle contraction.",
+      "factoid": "During muscle contraction, calcium is released from the sarcoplasmic reticulum and binds to troponin, causing a conformational change that releases tropomyosin from actin, allowing myosin to bind.",
+      "id": "ea372993-3dfa-4abe-a1e7-cfdec2cef1e5"
+    },
+    {
+      "question": "Which molecule is required for muscle relaxation?",
+      "answerChoices": [
+        {
+          "value": "Calcium",
+          "correct": false
+        },
+        {
+          "value": "ADP",
+          "correct": false
+        },
+        {
+          "value": "ATP",
+          "correct": true
+        },
+        {
+          "value": "Lactic acid",
+          "correct": false
+        },
+        {
+          "value": "Glucose",
+          "correct": false
+        }
+      ],
+      "explanation": "ATP is required for muscle relaxation because it is needed to detach myosin from actin filaments after a contraction. Without ATP, muscles would remain in a contracted state.",
+      "factoid": "5. ATP is required to relax muscle.",
+      "id": "1d2c7069-d631-4b1f-930c-fa23be7d6003"
+    },
+    {
+      "question": "What is the primary cause of rigor mortis in a deceased individual?",
+      "answerChoices": [
+        {
+          "value": "Increased calcium levels",
+          "correct": false
+        },
+        {
+          "value": "Decreased oxygen levels",
+          "correct": false
+        },
+        {
+          "value": "Decreased ATP",
+          "correct": true
+        },
+        {
+          "value": "Increased lactic acid",
+          "correct": false
+        },
+        {
+          "value": "Decreased potassium levels",
+          "correct": false
+        }
+      ],
+      "explanation": "Rigor mortis in the deceased is primarily caused by decreased ATP. ATP is required for the detachment of myosin heads from actin filaments during muscle contraction and relaxation. Without sufficient ATP, the muscles remain in a contracted state, leading to rigor mortis.",
+      "factoid": "6. Rigor mortis in the deceased is due to decreased ATP.",
+      "id": "fe7c8710-a6c8-44d5-92fc-febb33cd836e"
+    },
+    {
+      "question": "Which type of muscle fibers are predominant in long-distance runners?",
+      "answerChoices": [
+        {
+          "value": "Fast-twitch (type IIa) fibers",
+          "correct": false
+        },
+        {
+          "value": "Fast-twitch (type IIb) fibers",
+          "correct": false
+        },
+        {
+          "value": "Slow-twitch (type I) fibers",
+          "correct": true
+        },
+        {
+          "value": "Intermediate-twitch (type IIc) fibers",
+          "correct": false
+        },
+        {
+          "value": "Fast oxidative (type IIx) fibers",
+          "correct": false
+        }
+      ],
+      "explanation": "Slow-twitch (type I) muscle fibers are more efficient at using oxygen to generate more fuel (ATP) for continuous, extended muscle contractions over a long time. This characteristic makes them predominant in long-distance runners.",
+      "factoid": "Slow-twitch (type I) muscle fibers are predominant in long-distance runners.",
+      "id": "45be9783-0bc7-4eac-b914-59b3a6720e68"
+    },
+    {
+      "question": "Which type of muscle fibers are predominant in powerlifters and sprinters?",
+      "answerChoices": [
+        {
+          "value": "Slow-twitch (type I) muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Fast-twitch (type II) muscle fibers",
+          "correct": true
+        },
+        {
+          "value": "Intermediate-twitch (type III) muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Oxidative-twitch (type IV) muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Non-twitch (type V) muscle fibers",
+          "correct": false
+        }
+      ],
+      "explanation": "Fast-twitch (type II) muscle fibers are predominant in powerlifters and sprinters because they generate more force and power for short, explosive movements.",
+      "factoid": "8. Fast-twitch (type II) muscle fibers are predominant in powerlifters and sprinters.",
+      "id": "f18463ec-ddfe-4d69-a632-4960370a2d73"
+    },
+    {
+      "question": "Which type of muscle fibers primarily use aerobic oxygen?",
+      "answerChoices": [
+        {
+          "value": "Fast-twitch muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Slow-twitch muscle fibers",
+          "correct": true
+        },
+        {
+          "value": "Intermediate-twitch muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Cardiac muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Smooth muscle fibers",
+          "correct": false
+        }
+      ],
+      "explanation": "Slow-twitch muscle fibers, also known as type I fibers, are designed for endurance and prolonged activities. They rely primarily on aerobic metabolism, which uses oxygen to generate energy.",
+      "factoid": "9. Slow-titch muscle fibers use aerobic oxygen.",
+      "id": "5370a8a1-f6e1-46f2-b503-b0a3213c675b"
+    },
+    {
+      "question": "Which type of muscle fibers primarily use anaerobic respiration?",
+      "answerChoices": [
+        {
+          "value": "Slow-twitch muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Fast-twitch muscle fibers",
+          "correct": true
+        },
+        {
+          "value": "Cardiac muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Smooth muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Intermediate muscle fibers",
+          "correct": false
+        }
+      ],
+      "explanation": "Fast-twitch muscle fibers primarily use anaerobic respiration to generate energy quickly for short bursts of activity, unlike slow-twitch fibers, which rely more on aerobic respiration for endurance.",
+      "factoid": "Fast-twitch muscle fibers use anaerobic oxygen.",
+      "id": "89449f0a-6bde-4498-9c9d-e826d48e4cc9"
+    },
+    {
+      "question": "Which of the following is a characteristic of slow-twitch muscle fibers?",
+      "answerChoices": [
+        {
+          "value": "High glycogen content",
+          "correct": false
+        },
+        {
+          "value": "Low glycogen content",
+          "correct": true
+        },
+        {
+          "value": "High fatigue rate",
+          "correct": false
+        },
+        {
+          "value": "Predominantly anaerobic metabolism",
+          "correct": false
+        },
+        {
+          "value": "Large fiber diameter",
+          "correct": false
+        }
+      ],
+      "explanation": "Slow-twitch muscle fibers are characterized by having low glycogen content. They are adapted for endurance and prolonged activities, which rely more on aerobic metabolism and less on glycogen stores.",
+      "factoid": "Slow-twitch muscle fibers have low glycogen content.",
+      "id": "1f3879d1-6bfa-46fe-8e8a-497a76094786"
+    },
+    {
+      "question": "Which of the following characteristics is true about fast-twitch muscle fibers?",
+      "answerChoices": [
+        {
+          "value": "They have low glycogen content.",
+          "correct": false
+        },
+        {
+          "value": "They primarily rely on oxidative metabolism.",
+          "correct": false
+        },
+        {
+          "value": "They have high glycogen content.",
+          "correct": true
+        },
+        {
+          "value": "They are more resistant to fatigue than slow-twitch fibers.",
+          "correct": false
+        },
+        {
+          "value": "They have a high density of mitochondria.",
+          "correct": false
+        }
+      ],
+      "explanation": "Fast-twitch muscle fibers are known for their high glycogen content, which provides a readily available source of energy for quick, intense bursts of activity.",
+      "factoid": "12. Fast-twitch muscle fibers have high glycogen content.",
+      "id": "b8efbdae-38d0-4c30-be2f-5e24fe75c445"
+    },
+    {
+      "question": "Which type of muscle fibers are known for being slow to fatigue?",
+      "answerChoices": [
+        {
+          "value": "Fast-twitch muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Slow-twitch muscle fibers",
+          "correct": true
+        },
+        {
+          "value": "Intermediate-twitch muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Cardiac muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Smooth muscle fibers",
+          "correct": false
+        }
+      ],
+      "explanation": "Slow-twitch muscle fibers are characterized by their resistance to fatigue, making them ideal for endurance activities.",
+      "factoid": "13. Slow-titch muscle fibers are slow to fatigue.",
+      "id": "e888d45f-b403-49db-a876-5044c87b1026"
+    },
+    {
+      "question": "Which type of muscle fibers are quick to fatigue?",
+      "answerChoices": [
+        {
+          "value": "Slow-twitch muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Intermediate-twitch muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Fast-twitch muscle fibers",
+          "correct": true
+        },
+        {
+          "value": "Cardiac muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Smooth muscle fibers",
+          "correct": false
+        }
+      ],
+      "explanation": "Fast-twitch muscle fibers are designed for rapid and powerful contractions but they fatigue quickly compared to slow-twitch fibers, which are more resistant to fatigue.",
+      "factoid": "Fast-twitch muscle fibers are quick to fatigue.",
+      "id": "6de0363d-c030-4b90-91b2-fb252562da07"
+    },
+    {
+      "question": "Which characteristic is true about slow-twitch muscle fibers?",
+      "answerChoices": [
+        {
+          "value": "They fatigue quickly.",
+          "correct": false
+        },
+        {
+          "value": "They primarily rely on anaerobic metabolism.",
+          "correct": false
+        },
+        {
+          "value": "They have many mitochondria.",
+          "correct": true
+        },
+        {
+          "value": "They are larger in diameter than fast-twitch fibers.",
+          "correct": false
+        },
+        {
+          "value": "They contract rapidly.",
+          "correct": false
+        }
+      ],
+      "explanation": "Slow-twitch muscle fibers have many mitochondria, which allows them to sustain prolonged aerobic activity and resist fatigue.",
+      "factoid": "15. Slow-twitch muscle fibers have many mitochondria.",
+      "id": "74ce39ae-019d-482b-b81e-36cff18c059e"
+    },
+    {
+      "question": "Which type of muscle fibers have few mitochondria?",
+      "answerChoices": [
+        {
+          "value": "Slow-twitch muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Cardiac muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Fast-twitch muscle fibers",
+          "correct": true
+        },
+        {
+          "value": "Smooth muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Intermediate muscle fibers",
+          "correct": false
+        }
+      ],
+      "explanation": "Fast-twitch muscle fibers have few mitochondria compared to slow-twitch muscle fibers, which have many mitochondria to support their endurance capabilities.",
+      "factoid": "Fast-twitch muscle fibers have few mitochondria.",
+      "id": "08397767-9d58-4bf4-9e48-40a61bd0a8e9"
+    },
+    {
+      "question": "Which type of muscle fiber has a high myoglobin content, giving it a more red appearance?",
+      "answerChoices": [
+        {
+          "value": "Fast-twitch muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Slow-twitch muscle fibers",
+          "correct": true
+        },
+        {
+          "value": "Intermediate-twitch muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Cardiac muscle fibers",
+          "correct": false
+        },
+        {
+          "value": "Smooth muscle fibers",
+          "correct": false
+        }
+      ],
+      "explanation": "Slow-twitch muscle fibers contain a high amount of myoglobin, which binds oxygen and gives these fibers a red appearance. This characteristic enables them to sustain aerobic activities for longer periods.",
+      "factoid": "Slow-twitch muscle fibers have high myoglobin content (more red).",
+      "id": "68babab0-d8fd-4210-9164-ab5093664e5b"
+    },
+    {
+      "question": "Which characteristic is true of fast-twitch muscle fibers?",
+      "answerChoices": [
+        {
+          "value": "They have high myoglobin content",
+          "correct": false
+        },
+        {
+          "value": "They are primarily used for endurance activities",
+          "correct": false
+        },
+        {
+          "value": "They have low myoglobin content",
+          "correct": true
+        },
+        {
+          "value": "They are more red in color",
+          "correct": false
+        },
+        {
+          "value": "They fatigue slowly",
+          "correct": false
+        }
+      ],
+      "explanation": "Fast-twitch muscle fibers have low myoglobin content, which gives them a whiter appearance compared to slow-twitch fibers that have higher myoglobin content and appear redder.",
+      "factoid": "18. Fast-twitch muscle fibers have low myoglobin content (more white).",
+      "id": "49972f63-8dff-477a-8346-45c49eca1c13"
+    },
+    {
+      "question": "What is the term used to describe the aberrant reorganization of type I and II muscle units following reinnervation?",
+      "answerChoices": [
+        {
+          "value": "Muscle hypertrophy",
+          "correct": false
+        },
+        {
+          "value": "Muscle atrophy",
+          "correct": false
+        },
+        {
+          "value": "Muscle dystrophy",
+          "correct": false
+        },
+        {
+          "value": "Fiber type grouping",
+          "correct": true
+        },
+        {
+          "value": "Myopathy",
+          "correct": false
+        }
+      ],
+      "explanation": "Fiber type grouping refers to the abnormal reorganization of type I and II muscle units that occurs following reinnervation of muscle.",
+      "factoid": "19. Reinnervation of muscle results in aberrant reorganization of type I and II muscle units, called fiber type grouping.",
+      "id": "d12a5a19-a7f5-464c-a592-89ebcab954c0"
+    },
+    {
+      "question": "What is the primary response of skeletal muscle to increased activity?",
+      "answerChoices": [
+        {
+          "value": "Hyperplasia",
+          "correct": false
+        },
+        {
+          "value": "Hypertrophy",
+          "correct": true
+        },
+        {
+          "value": "Atrophy",
+          "correct": false
+        },
+        {
+          "value": "Metaplasia",
+          "correct": false
+        },
+        {
+          "value": "Dysplasia",
+          "correct": false
+        }
+      ],
+      "explanation": "Skeletal muscle adapts to increased activity by undergoing hypertrophy, which is an increase in muscle cell size, rather than hyperplasia, which would be an increase in the number of muscle cells.",
+      "factoid": "Skeletal muscle response to activity is hypertrophy, not hyperplasia.",
+      "id": "195f5a47-9bc2-4ae4-a944-ef654bd54184"
+    },
+    {
+      "question": "Which of the following statements about powerlifting is true?",
+      "answerChoices": [
+        {
+          "value": "Powerlifting primarily increases mitochondrial density.",
+          "correct": false
+        },
+        {
+          "value": "Powerlifting is an aerobic exercise.",
+          "correct": false
+        },
+        {
+          "value": "Powerlifting significantly enhances cardiovascular endurance.",
+          "correct": false
+        },
+        {
+          "value": "Powerlifting is an anaerobic activity and does not increase mitochondria.",
+          "correct": true
+        },
+        {
+          "value": "Powerlifting primarily targets the slow-twitch muscle fibers.",
+          "correct": false
+        }
+      ],
+      "explanation": "Powerlifting is an anaerobic exercise, meaning it does not rely on oxygen for fuel and does not increase mitochondrial density in muscles.",
+      "factoid": "Powerlifting is anaerobic and does not increase mitochondria.",
+      "id": "bd236182-8b11-4d89-b41f-0d65b0c8495f"
+    },
+    {
+      "question": "What is the role of ubiquitin in protein degradation?",
+      "answerChoices": [
+        {
+          "value": "It protects proteins from being broken down.",
+          "correct": false
+        },
+        {
+          "value": "It tags proteins for breakdown by the proteasome.",
+          "correct": true
+        },
+        {
+          "value": "It transports proteins to the mitochondria.",
+          "correct": false
+        },
+        {
+          "value": "It helps in protein synthesis.",
+          "correct": false
+        },
+        {
+          "value": "It assists in the folding of newly synthesized proteins.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ubiquitin tags proteins to be recognized and degraded by the proteasome, which is a protein complex that breaks down unneeded or damaged proteins.",
+      "factoid": "Proteins are tagged with ubiquitin to be sent to the proteasome for breakdown.",
+      "id": "6f62de39-0970-44d0-91b7-feefdcfac899"
+    },
+    {
+      "question": "What is the biochemical consequence of atrophy due to inactivity?",
+      "answerChoices": [
+        {
+          "value": "Increased protein synthesis",
+          "correct": false
+        },
+        {
+          "value": "Decreased apoptosis",
+          "correct": false
+        },
+        {
+          "value": "Increased ubiquitination",
+          "correct": true
+        },
+        {
+          "value": "Decreased autophagy",
+          "correct": false
+        },
+        {
+          "value": "Increased cell proliferation",
+          "correct": false
+        }
+      ],
+      "explanation": "Atrophy resulting from inactivity leads to increased ubiquitination, a process that tags proteins for degradation by the proteasome, thereby contributing to muscle wasting.",
+      "factoid": "Atrophy in the setting of inactivity results in increased ubiquitination.",
+      "id": "bb186e6d-6c66-4430-a9c8-f14fc5342383"
+    },
+    {
+      "question": "Which of the following statements is true regarding skeletal muscle metabolism?",
+      "answerChoices": [
+        {
+          "value": "Skeletal muscle contains glucose-6-phosphatase and carries out gluconeogenesis.",
+          "correct": false
+        },
+        {
+          "value": "Skeletal muscle does not contain glucose-6-phosphatase and does not directly carry out gluconeogenesis.",
+          "correct": true
+        },
+        {
+          "value": "Skeletal muscle contains glucose-6-phosphatase but does not carry out gluconeogenesis.",
+          "correct": false
+        },
+        {
+          "value": "Skeletal muscle does not contain glucose-6-phosphatase but directly carries out gluconeogenesis.",
+          "correct": false
+        },
+        {
+          "value": "Skeletal muscle contains glucose-6-phosphatase and indirectly carries out gluconeogenesis.",
+          "correct": false
+        }
+      ],
+      "explanation": "Skeletal muscle does not contain glucose-6-phosphatase, an enzyme necessary for gluconeogenesis. Therefore, it cannot directly carry out gluconeogenesis.",
+      "factoid": "Skeletal muscle does not contain glucose-6-phosphatase and does not directly carry out gluconeogenesis.",
+      "id": "49e43221-38ec-470e-9cb6-f5503aadbf52"
+    },
+    {
+      "question": "Which type of amino acids can be liberated from skeletal muscle in the fasting state for the liver to carry out gluconeogenesis?",
+      "answerChoices": [
+        {
+          "value": "Ketogenic amino acids",
+          "correct": false
+        },
+        {
+          "value": "Essential amino acids",
+          "correct": false
+        },
+        {
+          "value": "Non-essential amino acids",
+          "correct": false
+        },
+        {
+          "value": "Glucogenic amino acids",
+          "correct": true
+        },
+        {
+          "value": "Branched-chain amino acids",
+          "correct": false
+        }
+      ],
+      "explanation": "Glucogenic amino acids can be liberated from skeletal muscle during fasting and are used by the liver to carry out gluconeogenesis, which is the process of generating glucose from non-carbohydrate sources.",
+      "factoid": "Glucogenic amino acids can be liberated in the fasting state from skeletal muscle, with the liver carrying out gluconeogenesis.",
+      "id": "e2aac5f0-4f2c-450f-93f5-54de4528e8f2"
+    },
+    {
+      "question": "Which organ, besides the liver, has the capability to perform gluconeogenesis?",
+      "answerChoices": [
+        {
+          "value": "Heart",
+          "correct": false
+        },
+        {
+          "value": "Lungs",
+          "correct": false
+        },
+        {
+          "value": "Kidney",
+          "correct": true
+        },
+        {
+          "value": "Spleen",
+          "correct": false
+        },
+        {
+          "value": "Pancreas",
+          "correct": false
+        }
+      ],
+      "explanation": "The kidney, in addition to the liver, has the capability to perform gluconeogenesis, which is the metabolic process of producing glucose from non-carbohydrate substrates.",
+      "factoid": "26. The kidney can also carry out gluconeogenesis.",
+      "id": "250cefc0-a530-432e-a846-6eff8331c65f"
+    },
+    {
+      "question": "Which transporter is responsible for the uptake of glucose in skeletal muscle and adipose tissue in response to insulin?",
+      "answerChoices": [
+        {
+          "value": "GLUT1",
+          "correct": false
+        },
+        {
+          "value": "GLUT2",
+          "correct": false
+        },
+        {
+          "value": "GLUT3",
+          "correct": false
+        },
+        {
+          "value": "GLUT4",
+          "correct": true
+        },
+        {
+          "value": "GLUT5",
+          "correct": false
+        }
+      ],
+      "explanation": "GLUT4 is the glucose transporter that is responsible for the uptake of glucose in skeletal muscle and adipose tissue in response to insulin. Other GLUT transporters like GLUT1, GLUT2, GLUT3, and GLUT5 are involved in different tissues and functions.",
+      "factoid": "Skeletal muscle and adipose tissue take up glucose via GLUT4 in response to insulin.",
+      "id": "e65d3a2d-2927-4648-99b1-dff042a73d81"
+    },
+    {
+      "question": "What is the primary source of rapid ATP regeneration during a series of muscle twitches?",
+      "answerChoices": [
+        {
+          "value": "Glycogen",
+          "correct": false
+        },
+        {
+          "value": "Fatty acids",
+          "correct": false
+        },
+        {
+          "value": "Glucose",
+          "correct": false
+        },
+        {
+          "value": "Creatine phosphate",
+          "correct": true
+        },
+        {
+          "value": "Amino acids",
+          "correct": false
+        }
+      ],
+      "explanation": "Creatine phosphate serves as a quick source of ATP regeneration during short bursts of muscle activity, such as a series of muscle twitches.",
+      "factoid": "28. ATP is quickly regenerated from creatine phosphate during a series of muscle twitches.",
+      "id": "d643c7d3-5cb1-4e61-a9bd-c1b13542d765"
+    },
+    {
+      "question": "Which of the following types of fractures might be shown in images on the USMLE exam?",
+      "answerChoices": [
+        {
+          "value": "Pelvic fractures",
+          "correct": false
+        },
+        {
+          "value": "Skull fractures",
+          "correct": false
+        },
+        {
+          "value": "Shoulder fractures",
+          "correct": true
+        },
+        {
+          "value": "Tibial fractures",
+          "correct": false
+        },
+        {
+          "value": "Femoral fractures",
+          "correct": false
+        }
+      ],
+      "explanation": "The USMLE exam occasionally gives images of shoulder, clavicular, and humeral fractures, so shoulder fractures might be shown in these images.",
+      "factoid": "29. USMLE occasionally gives images of shoulder, clavicular, and humeral fractures.",
+      "id": "739eb4f2-f058-447d-9cb5-3f02a25010de"
+    }
+  ]
+}
