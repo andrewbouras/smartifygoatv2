@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>MCQ Viewer</title>
+<style>
+  body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.5;
+  }
+  .question-block {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  .question-block h2 {
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+  }
+  .choices {
+    margin-bottom: 10px;
+  }
+  .choice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .choice input {
+    margin-right: 10px;
+  }
+  .explanation {
+    background: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid #ccc;
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  .correct {
+    background-color: #dff0d8;
+    border-left-color: #3c763d;
+  }
+  .incorrect {
+    background-color: #f2dede;
+    border-left-color: #a94442;
+  }
+  .factoid {
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 5px;
+  }
+</style>
+</head>
+<body>
+
+<h1>MCQ Practice</h1>
+<div id="mcq-container">Loading MCQs...</div>
+
+<script>
+  async function loadMCQs() {
+    try {
+      const response = await fetch('python/mcqs/Trimmed Mehlman Anatomy_factoids_20241218_090728_mcqs_20241218_091630.json');
+      const data = await response.json();
+      const mcqs = data.mcqs || [];
+      const container = document.getElementById('mcq-container');
+      container.innerHTML = '';
+
+      mcqs.forEach((mcq, index) => {
+        const block = document.createElement('div');
+        block.className = 'question-block';
+
+        const qTitle = document.createElement('h2');
+        qTitle.textContent = (index + 1) + '. ' + mcq.question;
+        block.appendChild(qTitle);
+
+        const choicesDiv = document.createElement('div');
+        choicesDiv.className = 'choices';
+        
+        mcq.answerChoices.forEach((choice, idx) => {
+          const choiceDiv = document.createElement('div');
+          choiceDiv.className = 'choice';
+
+          const radio = document.createElement('input');
+          radio.type = 'radio';
+          radio.name = mcq.id;
+          radio.value = choice.value;
+          radio.addEventListener('change', () => {
+            showExplanation(mcq, block, radio.value);
+          });
+
+          const label = document.createElement('label');
+          label.textContent = choice.value;
+
+          choiceDiv.appendChild(radio);
+          choiceDiv.appendChild(label);
+          choicesDiv.appendChild(choiceDiv);
+        });
+
+        block.appendChild(choicesDiv);
+        container.appendChild(block);
+      });
+    } catch (error) {
+      console.error('Error loading MCQs:', error);
+      document.getElementById('mcq-container').textContent = 'Failed to load MCQs.';
+    }
+  }
+
+  function showExplanation(mcq, block, selectedValue) {
+    // Remove existing explanation if any
+    const oldExp = block.querySelector('.explanation');
+    if (oldExp) oldExp.remove();
+
+    const explanationDiv = document.createElement('div');
+    explanationDiv.className = 'explanation';
+
+    const correctChoice = mcq.answerChoices.find(c => c.correct);
+    const isCorrect = correctChoice && selectedValue === correctChoice.value;
+
+    if (isCorrect) {
+      explanationDiv.classList.add('correct');
+      explanationDiv.textContent = 'Correct! ' + mcq.explanation;
+    } else {
+      explanationDiv.classList.add('incorrect');
+      explanationDiv.textContent = 'Incorrect. The correct answer is: ' + 
+        (correctChoice ? correctChoice.value : 'No correct answer found') + '. ' + mcq.explanation;
+    }
+
+    // Factoid section
+    const factoidDiv = document.createElement('div');
+    factoidDiv.className = 'factoid';
+    factoidDiv.textContent = 'Factoid: ' + mcq.factoid;
+
+    explanationDiv.appendChild(factoidDiv);
+    block.appendChild(explanationDiv);
+  }
+
+  loadMCQs();
+</script>
+
+</body>
+</html>
