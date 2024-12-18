@@ -1,4 +1,5 @@
-python python/test_pipeline.py 
+python python/test_pipeline.py --> creates MCQs from uploaded PDF
+python serve_mcqs.py --> opens generated MCQs in browser (localhost:8000)
 
 git add .
 git commit -m "Initial commit"
