@@ -20,8 +20,12 @@ class MCQHandler(http.server.SimpleHTTPRequestHandler):
             post_data = self.rfile.read(content_length)
             data = json.loads(post_data.decode('utf-8'))
             
-            # Log the incorrect answer
-            log_incorrect_answer(data['mcq_id'], data['factoid'])
+            # Log the incorrect answer with user ID
+            log_incorrect_answer(
+                data['mcq_id'], 
+                data['factoid'],
+                data.get('userId')  # Get user ID from request
+            )
             
             # Send response
             self.send_response(200)

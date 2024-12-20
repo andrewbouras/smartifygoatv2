@@ -69,8 +69,8 @@
 <script>
   async function loadMCQs() {
     try {
-        // Get list of MCQ files
-        const response = await fetch('python/mcqs/mcqs.json');
+        // Get list of MCQ files - update path to be relative to /mcq
+        const response = await fetch('/mcq/mcqs/mcqs.json');
         const data = await response.json();
         
         if (!data.mcqs) {
@@ -233,16 +233,18 @@
 
   document.addEventListener('keypress', handleKeyPress);
 
-  async function logIncorrectAnswer(mcqId, factoid) {
+  async function logIncorrectAnswer(mcq_id, factoid) {
     try {
+        const userId = localStorage.getItem('userId'); // Get user ID from localStorage
         await fetch('/log_incorrect', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                mcq_id: mcqId,
-                factoid: factoid
+                mcq_id: mcq_id,
+                factoid: factoid,
+                userId: userId
             })
         });
     } catch (error) {

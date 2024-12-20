@@ -9,13 +9,13 @@ def get_db():
     client = MongoClient(os.getenv('MONGODB_URI'))
     return client[os.getenv('MONGO_DB_NAME')]
 
-def log_incorrect_answer(mcq_id, factoid):
+def log_incorrect_answer(mcq_id, factoid, user_id):
     db = get_db()
     collection = db['incorrect_answers']
     
-    # Simply insert the incorrect answer with timestamp
     collection.insert_one({
         'mcq_id': mcq_id,
         'factoid': factoid,
+        'userId': user_id,
         'timestamp': datetime.utcnow()
     })

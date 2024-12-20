@@ -10,6 +10,10 @@ const { setupGoogleStrategy } = require('./config/googleStrategy'); // Import Go
 const bodyParser = require('body-parser'); // Import body-parser
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const cookieParser = require('cookie-parser');
+const path = require('path');
+const { IncorrectAnswer } = require('./models/incorrectAnswer');
+const jwt = require('jsonwebtoken');
+const ensureAuthenticated = require('./middlewares/auth');
 
 
 const app = express();
@@ -198,6 +202,70 @@ app.use((req, res, next) => {
     }
   });
   next();
+});
+
+// Add static file serving for the python directory
+app.use('/mcq', express.static(path.join(__dirname, '../python')));
+
+// Add this before your other routes
+app.post('/log_incorrect', async (req, res) => {
+  try {
+    const { mcq_id, factoid } = req.body;
+    
+    // Debug logging
+    console.log('Request cookies:', req.cookies);
+    console.log('JWT token:', req.cookies.jwt);
+    
+    // Get JWT token from cookies
+    const token = req.cookies.jwt;
+    if (!token) {
+      return res.status(401).json({ status: 'error', message: 'No authentication token' });
+    }
+
+    // Debug logging
+    console.log('Token before verification:', token);
+    
+    // Decode token to get user ID
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    console.log('Decoded token:', decoded);
+    
+    const userId = decoded.id;
+    console.log('User ID:', userId);
+
+    const incorrectAnswer = new IncorrectAnswer({
+      userId,
+      mcq_id,
+      factoid,
+      timestamp: new Date()
+    });
+
+    await incorrectAnswer.save();
+    console.log('Incorrect answer saved:', incorrectAnswer);
+    
+    res.status(200).json({ status: 'success' });
+  } catch (error) {
+    console.error('Error logging incorrect answer:', error);
+    console.error('Error stack:', error.stack);
+    res.status(500).json({ status: 'error', message: error.message });
+  }
+});
+
+// Add this route before your other routes
+app.get('/api/incorrect-answers', ensureAuthenticated, async (req, res) => {
+    try {
+        // User ID comes from the ensureAuthenticated middleware
+        const userId = req.user.id;
+        console.log('Fetching incorrect answers for user:', userId);
+
+        const incorrectAnswers = await IncorrectAnswer.find({ userId })
+            .sort({ timestamp: -1 });
+
+        console.log('Found incorrect answers:', incorrectAnswers.length);
+        res.json({ incorrectAnswers });
+    } catch (error) {
+        console.error('Error fetching incorrect answers:', error);
+        res.status(500).json({ message: 'Server error', error: error.message });
+    }
 });
 
 module.exports = { app };

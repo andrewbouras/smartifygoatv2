@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Incorrect Answers</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.5;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+        .factoid-card {
+            border: 1px solid #444;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            background-color: #2a2a2a;
+        }
+        .timestamp {
+            color: #888;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+        }
+        .error {
+            color: #ff6b6b;
+            padding: 10px;
+            border: 1px solid #ff6b6b;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Incorrect Answers</h1>
+    <div id="incorrects-container">Loading...</div>
+
+    <script>
+        async function loadIncorrectAnswers() {
+            try {
+                const response = await fetch('/api/incorrect-answers', {
+                    method: 'GET',
+                    credentials: 'same-origin',
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.message || 'Failed to fetch incorrect answers');
+                }
+
+                const data = await response.json();
+                displayIncorrectAnswers(data.incorrectAnswers);
+            } catch (error) {
+                console.error('Error loading incorrect answers:', error);
+                document.getElementById('incorrects-container').innerHTML = 
+                    `<div class="error">Error: ${error.message}</div>`;
+            }
+        }
+
+        function displayIncorrectAnswers(incorrectAnswers) {
+            const container = document.getElementById('incorrects-container');
+            
+            if (!incorrectAnswers || incorrectAnswers.length === 0) {
+                container.innerHTML = '<p>No incorrect answers recorded yet.</p>';
+                return;
+            }
+
+            const html = incorrectAnswers
+                .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
+                .map(answer => `
+                    <div class="factoid-card">
+                        <div class="factoid">${answer.factoid}</div>
+                        <div class="timestamp">
+                            ${new Date(answer.timestamp).toLocaleString()}
+                        </div>
+                    </div>
+                `)
+                .join('');
+
+            container.innerHTML = html;
+        }
+
+        loadIncorrectAnswers();
+    </script>
+</body>
+</html> 

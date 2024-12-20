@@ -13,11 +13,15 @@ export const AuthProvider = ({ children }) => {
             try {
                 const data = await api.post('/api/verify-token');
                 setIsAuthenticated(data.isValid);
-                if (data.user) setUser(data.user);
+                if (data.user) {
+                    setUser(data.user);
+                    localStorage.setItem('userId', data.user._id);
+                }
             } catch (error) {
                 console.error('Auth check failed:', error);
                 setIsAuthenticated(false);
                 setUser(null);
+                localStorage.removeItem('userId');
             } finally {
                 setLoading(false);
             }
