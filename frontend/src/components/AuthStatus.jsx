@@ -1,44 +1,26 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import LoginButton from './LoginButton';
+import { useAuth } from '../context/AuthContext';
 
 const AuthStatus = () => {
-    const [isAuthenticated, setIsAuthenticated] = useState(false);
-    const [user, setUser] = useState(null);
-  
-    useEffect(() => {
-      fetch('http://localhost:3001/api/verify-token', {
-        credentials: 'include',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': '*/*',
-        },
-        method: 'POST',
-        mode: 'cors'
-      })
-      .then(res => res.json())
-      .then(data => {
-        setIsAuthenticated(data.isValid);
-        if (data.user) setUser(data.user);
-      })
-      .catch(err => {
-        console.error('Auth check failed:', err);
-        setIsAuthenticated(false);
-        setUser(null);
-      });
-    }, []);
-  
+    const { isAuthenticated, user, loading } = useAuth();
+
+    if (loading) {
+        return <div>Loading...</div>;
+    }
+
     return (
-      <div>
-        {isAuthenticated ? (
-          <>
-            <p>Welcome, {user?.name}</p>
-            <img src={user?.image} alt="Profile" style={{ width: '50px', borderRadius: '50%' }} />
-          </>
-        ) : (
-          <LoginButton />
-        )}
-      </div>
+        <div>
+            {isAuthenticated ? (
+                <>
+                    <p>Welcome, {user?.name}</p>
+                    <img src={user?.image} alt="Profile" style={{ width: '50px', borderRadius: '50%' }} />
+                </>
+            ) : (
+                <LoginButton />
+            )}
+        </div>
     );
-  };
+};
 
 export default AuthStatus;

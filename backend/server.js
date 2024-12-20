@@ -92,21 +92,11 @@ app.use(bodyParser.urlencoded({ limit: '700mb', extended: true }));
 app.use(express.json());
 app.use(cors({
   origin: 'http://localhost:3000',
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: [
-    'Content-Type', 
-    'Authorization',
-    'Accept',
-    'Accept-Language',
-    'Origin',
-    'User-Agent',
-    'Sec-Fetch-Mode',
-    'Sec-Fetch-Site',
-    'Sec-Fetch-Dest',
-    'Priority',
-    'stripe-signature'
-  ],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'Accept'],
   credentials: true,
+  preflightContinue: false,
+  optionsSuccessStatus: 204,
   exposedHeaders: ['Set-Cookie'],
   maxAge: 86400
 }));
@@ -117,17 +107,32 @@ app.use(session({
   resave: false,
   saveUninitialized: false,
   cookie: {
-    secure: false,
+    secure: process.env.NODE_ENV === 'production',
     httpOnly: true,
     maxAge: 24 * 60 * 60 * 1000,
-    sameSite: 'lax',
-    domain: 'localhost',
+    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
     path: '/'
   },
   name: 'sessionId'
 }));
 app.use(passport.initialize());
 app.use(passport.session());
+
+// If in production, ensure secure cookies
+if (process.env.NODE_ENV === 'production') {
+  app.set('trust proxy', 1); // trust first proxy
+}
+
+// Add this after your other middleware configurations
+app.use((req, res, next) => {
+  res.cookie('TESTCOOKIESENABLED', 'true', {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
+    maxAge: 24 * 60 * 60 * 1000
+  });
+  next();
+});
 
 // Add this middleware to log session and cookie information
 app.use((req, res, next) => {
@@ -164,6 +169,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 // Routes
 app.use('/api', require('./routes/authRoutes'));
+app.use('/api', require('./routes/notebookRoutes')); // Add notebook routes
 app.use('/verify', require('./routes/authRoutes'));
 // app.use('/api', require('./routes/noteRoutes'));
 // app.use('/api', require('./routes/notebookroutes'));
@@ -180,6 +186,19 @@ app.use('/api/auth', require('./routes/sessionRoutes')); // Added session routes
 // const enrollRoutes = require('./routes/enroll');
 // app.use('/api', enrollRoutes);
 
+// Debug middleware for tracking requests
+app.use((req, res, next) => {
+  console.log('Incoming request:', {
+    url: req.url,
+    method: req.method,
+    headers: {
+      cookie: req.headers.cookie,
+      origin: req.headers.origin,
+      credentials: req.headers.credentials
+    }
+  });
+  next();
+});
 
 module.exports = { app };
 

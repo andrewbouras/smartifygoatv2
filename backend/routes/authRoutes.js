@@ -10,11 +10,15 @@ router.get('/auth/google', passport.authenticate('google', {
 }));
 
 // Google OAuth callback route
-router.get('/auth/google/callback', 
+router.get('/auth/callback/google', 
     passport.authenticate('google', { failureRedirect: '/login' }),
     (req, res) => {
+        console.log('Google OAuth callback received');
+        console.log('User:', req.user);
+        
         // User has been authenticated, get the token from the user object
         const token = req.user.token;
+        console.log('Token to be set:', token);
         
         // Set token in HTTP-only cookie
         res.cookie('jwt', token, {
@@ -25,6 +29,7 @@ router.get('/auth/google/callback',
             path: '/',
             maxAge: 24 * 60 * 60 * 1000 // 24 hours
         });
+        console.log('Cookie set, redirecting to frontend');
 
         // Redirect to frontend
         res.redirect('http://localhost:3000');
