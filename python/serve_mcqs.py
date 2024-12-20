@@ -35,6 +35,29 @@ class MCQHandler(http.server.SimpleHTTPRequestHandler):
         else:
             super().do_POST()
 
+    def do_GET(self):
+        if self.path == '/mcq/incorrects':
+            # Serve the incorrects.html file
+            self.path = '/python/incorrects.html'
+        elif self.path == '/api/incorrect-answers':
+            # Get incorrect answers from MongoDB
+            db = get_db()
+            collection = db['incorrect_answers']
+            incorrect_answers = list(collection.find().sort('timestamp', -1))
+            
+            # Convert ObjectId to string for JSON serialization
+            for answer in incorrect_answers:
+                answer['_id'] = str(answer['_id'])
+                answer['userId'] = str(answer['userId'])
+            
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
+            self.end_headers()
+            self.wfile.write(json.dumps({'incorrectAnswers': incorrect_answers}).encode())
+            return
+            
+        return http.server.SimpleHTTPRequestHandler.do_GET(self)
+
 def start_server():
     PORT = 8000
     Handler = MCQHandler

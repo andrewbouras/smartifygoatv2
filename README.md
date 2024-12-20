@@ -5,11 +5,18 @@ cd frontend --> npm run dev
 cd backend --> npm run dev
 
 git add .
-git commit -m "Initial commit"
+git commit -m "
 git push
 
 
+# Fetch the latest updates from remote
+git fetch origin
 
+# Show the latest commit on the remote main branch
+git log origin/main -1
+
+# Reset to that version
+git reset --hard origin/main
 
 
 # Medical MCQ Generator and Viewer

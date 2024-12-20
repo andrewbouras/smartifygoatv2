@@ -268,6 +268,12 @@ app.get('/api/incorrect-answers', ensureAuthenticated, async (req, res) => {
     }
 });
 
+// Add this route to serve static HTML files for MCQs
+app.get('/mcq/:page', (req, res) => {
+    const page = req.params.page;
+    res.sendFile(path.join(__dirname, '../python/', page));
+});
+
 module.exports = { app };
 
 // Start server
