@@ -97,12 +97,15 @@
     const isCorrect = correctChoice && selectedValue === correctChoice.value;
 
     if (isCorrect) {
-      explanationDiv.classList.add('correct');
-      explanationDiv.textContent = 'Correct! ' + mcq.explanation;
+        explanationDiv.classList.add('correct');
+        explanationDiv.textContent = 'Correct! ' + mcq.explanation;
     } else {
-      explanationDiv.classList.add('incorrect');
-      explanationDiv.textContent = 'Incorrect. The correct answer is: ' + 
-        (correctChoice ? correctChoice.value : 'No correct answer found') + '. ' + mcq.explanation;
+        explanationDiv.classList.add('incorrect');
+        explanationDiv.textContent = 'Incorrect. The correct answer is: ' + 
+            (correctChoice ? correctChoice.value : 'No correct answer found') + '. ' + mcq.explanation;
+        
+        // Log incorrect answer
+        logIncorrectAnswer(mcq.id, mcq.factoid);
     }
 
     // Factoid section
@@ -112,6 +115,9 @@
 
     explanationDiv.appendChild(factoidDiv);
     block.appendChild(explanationDiv);
+    
+    // Add scroll to next question
+    scrollToNextQuestion(block);
   }
 
   function displayMCQs(mcqs) {
@@ -162,6 +168,86 @@
         block.appendChild(choicesDiv);
         container.appendChild(block);
     });
+  }
+
+  function scrollToNextQuestion(block) {
+    // Wait 1 second before scrolling
+    setTimeout(() => {
+        // Get the next question block
+        const nextBlock = block.nextElementSibling;
+        if (nextBlock && nextBlock.classList.contains('question-block')) {
+            // Calculate position to center the next question
+            const windowHeight = window.innerHeight;
+            const nextBlockRect = nextBlock.getBoundingClientRect();
+            const scrollTo = window.pageYOffset + nextBlockRect.top - (windowHeight/2) + (nextBlockRect.height/2);
+            
+            // Smooth scroll
+            window.scrollTo({
+                top: scrollTo,
+                behavior: 'smooth'
+            });
+        }
+    }, 1000); // 1 second delay
+  }
+
+  function getMostCenteredQuestion() {
+    const questions = document.querySelectorAll('.question-block');
+    const windowCenter = window.innerHeight / 2;
+    let closestQuestion = null;
+    let closestDistance = Infinity;
+
+    questions.forEach(question => {
+        const rect = question.getBoundingClientRect();
+        const questionCenter = rect.top + (rect.height / 2);
+        const distance = Math.abs(questionCenter - windowCenter);
+        
+        if (distance < closestDistance) {
+            closestDistance = distance;
+            closestQuestion = question;
+        }
+    });
+
+    return closestQuestion;
+  }
+
+  function handleKeyPress(event) {
+    const keyMap = {
+        'a': 0,  // First choice
+        's': 1,  // Second choice
+        'd': 2,  // Third choice
+        'f': 3,  // Fourth choice
+        'g': 4   // Fifth choice
+    };
+
+    if (event.key in keyMap) {
+        const centeredQuestion = getMostCenteredQuestion();
+        if (centeredQuestion) {
+            const inputs = centeredQuestion.querySelectorAll('input[type="radio"]');
+            const index = keyMap[event.key];
+            if (inputs[index]) {
+                inputs[index].click();
+            }
+        }
+    }
+  }
+
+  document.addEventListener('keypress', handleKeyPress);
+
+  async function logIncorrectAnswer(mcqId, factoid) {
+    try {
+        await fetch('/log_incorrect', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                mcq_id: mcqId,
+                factoid: factoid
+            })
+        });
+    } catch (error) {
+        console.error('Error logging incorrect answer:', error);
+    }
   }
 
   loadMCQs();
