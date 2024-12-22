@@ -13,12 +13,24 @@ const QuestionSchema = new mongoose.Schema({
   id: String
 });
 
+const UserProgressSchema = new mongoose.Schema({
+  userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  lastQuestionIndex: { type: Number, default: 0 },
+  answers: [{
+    questionId: String,
+    selectedAnswer: String,
+    isCorrect: Boolean,
+    timestamp: { type: Date, default: Date.now }
+  }]
+});
+
 const QuestionBankSchema = new mongoose.Schema({
   sourceFile: { type: String, required: true, unique: true },
   title: String,
   description: String,
   creator: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
   questions: [QuestionSchema],
+  userProgress: [UserProgressSchema],
   timestamp: { type: Date, default: Date.now }
 });
 

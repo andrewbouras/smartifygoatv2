@@ -115,6 +115,9 @@ router.post('/import', async (req, res) => {
 // Keep authentication for getting questions
 router.get('/:sourceFile', ensureAuthenticated, async (req, res) => {
   try {
+    console.log('Getting questions for source file:', req.params.sourceFile);
+    console.log('User ID:', req.user.id);
+    
     const questionBank = await QuestionBank.findOne({ 
       sourceFile: req.params.sourceFile 
     });
@@ -123,12 +126,108 @@ router.get('/:sourceFile', ensureAuthenticated, async (req, res) => {
       return res.status(404).json({ status: 'error', message: 'Question bank not found' });
     }
 
+    // Get user's progress
+    const userProgress = questionBank.userProgress.find(
+      progress => progress.userId.equals(req.user.id)
+    ) || { lastQuestionIndex: 0, answers: [] };
+
+    console.log('Found user progress:', userProgress);
+
     res.status(200).json({ 
       status: 'success', 
-      mcqs: questionBank.questions 
+      mcqs: questionBank.questions,
+      userProgress
     });
   } catch (error) {
     console.error('Error fetching MCQs:', error);
+    res.status(500).json({ status: 'error', message: error.message });
+  }
+});
+
+// Save user progress
+router.post('/save-progress', ensureAuthenticated, async (req, res) => {
+  try {
+    const { questionId, selectedAnswer, isCorrect } = req.body;
+    const userId = req.user.id;
+
+    console.log('Saving progress:', { questionId, selectedAnswer, isCorrect, userId });
+
+    // Find the question bank containing this question
+    const questionBank = await QuestionBank.findOne({
+      'questions.id': questionId
+    });
+
+    if (!questionBank) {
+      console.log('Question bank not found for question ID:', questionId);
+      return res.status(404).json({ status: 'error', message: 'Question not found' });
+    }
+
+    console.log('Found question bank:', questionBank.sourceFile);
+
+    // Find or create user progress
+    let userProgress = questionBank.userProgress.find(
+      progress => progress.userId.equals(userId)
+    );
+
+    console.log('Existing user progress:', userProgress);
+
+    if (!userProgress) {
+      userProgress = {
+        userId,
+        lastQuestionIndex: 0,
+        answers: []
+      };
+      questionBank.userProgress.push(userProgress);
+      console.log('Created new user progress');
+    } else {
+      // Get the index of the existing progress
+      const progressIndex = questionBank.userProgress.findIndex(
+        progress => progress.userId.equals(userId)
+      );
+      // Update the existing progress in the array
+      questionBank.userProgress[progressIndex] = userProgress;
+    }
+
+    // Check if answer already exists
+    const existingAnswerIndex = userProgress.answers.findIndex(a => a.questionId === questionId);
+    if (existingAnswerIndex !== -1) {
+      // Update existing answer
+      userProgress.answers[existingAnswerIndex] = {
+        questionId,
+        selectedAnswer,
+        isCorrect,
+        timestamp: new Date()
+      };
+      console.log('Updated existing answer at index:', existingAnswerIndex);
+    } else {
+      // Add new answer
+      userProgress.answers.push({
+        questionId,
+        selectedAnswer,
+        isCorrect,
+        timestamp: new Date()
+      });
+      console.log('Added new answer');
+    }
+
+    // Update last question index
+    const questionIndex = questionBank.questions.findIndex(q => q.id === questionId);
+    if (questionIndex > userProgress.lastQuestionIndex) {
+      userProgress.lastQuestionIndex = questionIndex;
+    }
+
+    // Mark the userProgress array as modified
+    questionBank.markModified('userProgress');
+    await questionBank.save();
+    console.log('Saved question bank with updated progress');
+
+    res.status(200).json({ 
+      status: 'success', 
+      message: 'Progress saved',
+      userProgress 
+    });
+  } catch (error) {
+    console.error('Error saving progress:', error);
     res.status(500).json({ status: 'error', message: error.message });
   }
 });

@@ -73,8 +73,66 @@ const server = http.createServer(app);
 const webhookRoutes = require('./routes/webhookRoutes');
 app.use('/api/webhook', webhookRoutes);
 
-// Middleware to log payload size
-// Middleware to log payload size using the content-length header
+// Essential middleware first
+app.use(cookieParser());
+
+// CORS configuration must come before other middleware
+app.use(cors({
+  origin: ['http://localhost:3000', 'http://localhost:3001'],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-API-Key', 'Accept', 'Origin', 'Cookie'],
+  exposedHeaders: ['Set-Cookie'],
+  preflightContinue: true
+}));
+
+// Session configuration
+app.use(session({
+  secret: process.env.SESSION_SECRET || 'your-secret-key',
+  resave: false,
+  saveUninitialized: false,
+  cookie: {
+    secure: process.env.NODE_ENV === 'production',
+    httpOnly: true,
+    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
+    maxAge: 24 * 60 * 60 * 1000, // 24 hours
+    path: '/'
+  }
+}));
+
+// Passport initialization
+app.use(passport.initialize());
+app.use(passport.session());
+
+// Body parsing middleware
+app.use(express.json({ limit: '700mb' }));
+app.use(express.urlencoded({ limit: '700mb', extended: true }));
+app.use(bodyParser.json({ limit: '700mb' }));
+app.use(bodyParser.urlencoded({ limit: '700mb', extended: true }));
+
+// Prevent caching
+app.use((req, res, next) => {
+  res.setHeader('Cache-Control', 'no-store');
+  next();
+});
+
+// Debug logging middleware
+app.use((req, res, next) => {
+  console.log('Session:', req.session);
+  console.log('Cookies:', req.cookies);
+  console.log('Incoming request:', {
+    url: req.url,
+    method: req.method,
+    headers: {
+      cookie: req.headers.cookie,
+      origin: req.headers.origin,
+      credentials: req.headers.credentials
+    }
+  });
+  next();
+});
+
+// Payload size logging
 app.use((req, res, next) => {
   const payloadSize = req.headers['content-length'];
   if (payloadSize) {
@@ -82,45 +140,6 @@ app.use((req, res, next) => {
   }
   next();
 });
-// Middleware
-app.use(express.json({ limit: '700mb' })); // Set a higher limit if needed
-app.use(express.urlencoded({ limit: '700mb', extended: true })); // Set a higher limit if needed
-
-// Body Parser Middleware
-app.use(bodyParser.json({ limit: '700mb' }));
-app.use(bodyParser.urlencoded({ limit: '700mb', extended: true }));
-
-
-
-// Middleware
-app.use(express.json());
-app.use(cors({
-  origin: 'http://localhost:3000',
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'Accept'],
-  credentials: true,
-  preflightContinue: false,
-  optionsSuccessStatus: 204,
-  exposedHeaders: ['Set-Cookie'],
-  maxAge: 86400
-}));
-
-app.use(cookieParser());
-app.use(session({
-  secret: process.env.SESSION_SECRET,
-  resave: false,
-  saveUninitialized: false,
-  cookie: {
-    secure: process.env.NODE_ENV === 'production',
-    httpOnly: true,
-    maxAge: 24 * 60 * 60 * 1000,
-    sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
-    path: '/'
-  },
-  name: 'sessionId'
-}));
-app.use(passport.initialize());
-app.use(passport.session());
 
 // If in production, ensure secure cookies
 if (process.env.NODE_ENV === 'production') {
@@ -135,19 +154,6 @@ app.use((req, res, next) => {
     sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
     maxAge: 24 * 60 * 60 * 1000
   });
-  next();
-});
-
-// Add this middleware to log session and cookie information
-app.use((req, res, next) => {
-  console.log('Session:', req.session);
-  console.log('Cookies:', req.cookies);
-  next();
-});
-
-// Middleware to prevent caching
-app.use((req, res, next) => {
-  res.setHeader('Cache-Control', 'no-store');
   next();
 });
 
@@ -179,6 +185,7 @@ app.use('/verify', require('./routes/authRoutes'));
 // app.use('/api', require('./routes/notebookroutes'));
 // app.use('/api', require('./routes/notebookshare'));
 app.use('/api/auth', require('./routes/sessionRoutes')); // Added session routes
+app.use('/api/questionbank', require('./routes/questionBankRoutes')); // Add question bank routes
 // app.use('/api', require('./routes/mcqRoutes'));
 // app.use('/api', require('./routes/similar'));
 // app.use('/api', require('./routes/upload'));
@@ -204,8 +211,14 @@ app.use((req, res, next) => {
   next();
 });
 
-// Add static file serving for the python directory
-app.use('/mcq', express.static(path.join(__dirname, '../python')));
+// Add static file serving for the python directory with proper CORS handling
+app.use('/mcq', (req, res, next) => {
+  res.header('Access-Control-Allow-Origin', ['http://localhost:3000', 'http://localhost:3001']);
+  res.header('Access-Control-Allow-Credentials', 'true');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-API-Key, Accept, Origin, Cookie');
+  next();
+}, express.static(path.join(__dirname, '../python')));
 
 // Add this before your other routes
 app.post('/log_incorrect', async (req, res) => {
@@ -288,9 +301,6 @@ app.get('/api/questionbank/test', async (req, res) => {
     res.status(500).json({ status: 'error', message: error.message });
   }
 });
-
-const questionBankRoutes = require('./routes/questionBankRoutes');
-app.use('/api/questionbank', questionBankRoutes);
 
 module.exports = { app };
 
