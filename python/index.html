@@ -251,16 +251,15 @@
 
   async function logIncorrectAnswer(mcq_id, factoid) {
     try {
-        const userId = localStorage.getItem('userId'); // Get user ID from localStorage
         await fetch('/log_incorrect', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
+            credentials: 'include',  // This will send cookies including JWT
             body: JSON.stringify({
                 mcq_id: mcq_id,
-                factoid: factoid,
-                userId: userId
+                factoid: factoid
             })
         });
     } catch (error) {

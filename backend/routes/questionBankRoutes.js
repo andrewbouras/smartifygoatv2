@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const QuestionBank = require('../models/QuestionBank');
 const ensureAuthenticated = require('../middlewares/auth');
+const User = require('../models/user');
 
 // Test endpoint to check MongoDB connection
 router.get('/test', async (req, res) => {
@@ -20,6 +21,44 @@ router.get('/test', async (req, res) => {
       message: error.message,
       stack: error.stack 
     });
+  }
+});
+
+// Log incorrect answers (requires authentication)
+router.post('/log_incorrect', ensureAuthenticated, async (req, res) => {
+  try {
+    const { mcq_id, factoid } = req.body;
+    const userId = req.user.id;
+
+    // Find user and update their incorrect answers
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ status: 'error', message: 'User not found' });
+    }
+
+    // Initialize incorrectAnswers array if it doesn't exist
+    if (!user.incorrectAnswers) {
+      user.incorrectAnswers = [];
+    }
+
+    // Add the incorrect answer if it's not already there
+    const existingAnswer = user.incorrectAnswers.find(
+      answer => answer.mcq_id === mcq_id
+    );
+
+    if (!existingAnswer) {
+      user.incorrectAnswers.push({
+        mcq_id,
+        factoid,
+        timestamp: new Date()
+      });
+      await user.save();
+    }
+
+    res.json({ status: 'success', message: 'Incorrect answer logged' });
+  } catch (error) {
+    console.error('Error logging incorrect answer:', error);
+    res.status(500).json({ status: 'error', message: error.message });
   }
 });
 
@@ -43,13 +82,19 @@ router.get('/auth-test', ensureAuthenticated, async (req, res) => {
 // Simple import endpoint for local use
 router.post('/import', async (req, res) => {
   try {
-    const { sourceFile, questions } = req.body;
+    const { sourceFile, questions, clearExisting } = req.body;
     
     // Check if question bank already exists
     let questionBank = await QuestionBank.findOne({ sourceFile });
     
     if (questionBank) {
-      questionBank.questions.push(...questions);
+      if (clearExisting) {
+        // Clear existing questions if flag is set
+        questionBank.questions = [];
+      } else {
+        // Append new questions
+        questionBank.questions.push(...questions);
+      }
       await questionBank.save();
     } else {
       questionBank = new QuestionBank({

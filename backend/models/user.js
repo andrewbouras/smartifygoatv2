@@ -9,6 +9,12 @@ const AddressSchema = new mongoose.Schema({
   country: { type: String, required: true, default: 'US' }, // Assuming 'US' as default
 });
 
+const IncorrectAnswerSchema = new mongoose.Schema({
+  mcq_id: String,
+  factoid: String,
+  timestamp: { type: Date, default: Date.now }
+});
+
 const UserSchema = new mongoose.Schema({
   image: {
     type: String,
@@ -60,6 +66,7 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
+  incorrectAnswers: [IncorrectAnswerSchema]  // Add array of incorrect answers
 }, { collection: 'users' });
 
 module.exports = mongoose.model('User', UserSchema);

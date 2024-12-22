@@ -1,4 +1,4 @@
-python python/test_pipeline.py --> creates MCQs from uploaded PDF
+python python/generate_mcqs.py --> creates MCQs from uploaded PDF
 python serve_mcqs.py --> opens generated MCQs in browser (localhost:8000)
 
 cd frontend --> npm run dev
