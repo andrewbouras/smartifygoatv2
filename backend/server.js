@@ -14,7 +14,7 @@ const path = require('path');
 const { IncorrectAnswer } = require('./models/incorrectAnswer');
 const jwt = require('jsonwebtoken');
 const ensureAuthenticated = require('./middlewares/auth');
-
+const QuestionBank = require('./models/QuestionBank');
 
 const app = express();
 const server = http.createServer(app);
@@ -273,6 +273,24 @@ app.get('/mcq/:page', (req, res) => {
     const page = req.params.page;
     res.sendFile(path.join(__dirname, '../python/', page));
 });
+
+// Add this test route
+app.get('/api/questionbank/test', async (req, res) => {
+  try {
+    const testBank = await QuestionBank.findOne();
+    res.json({ 
+      status: 'success',
+      message: 'Database connection working',
+      questionBankCount: await QuestionBank.countDocuments(),
+      sampleBank: testBank 
+    });
+  } catch (error) {
+    res.status(500).json({ status: 'error', message: error.message });
+  }
+});
+
+const questionBankRoutes = require('./routes/questionBankRoutes');
+app.use('/api/questionbank', questionBankRoutes);
 
 module.exports = { app };
 

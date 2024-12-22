@@ -5,6 +5,7 @@ from openai import AzureOpenAI
 from dotenv import load_dotenv
 from datetime import datetime
 import time
+import requests
 
 # Load environment variables
 load_dotenv()
@@ -77,72 +78,132 @@ def process_factoid(factoid):
         print(f"Error processing factoid: {str(e)}")
         return None
 
-def process_factoids_in_batches(factoids, batch_size=5):
-    """Process factoids in batches to handle rate limits."""
-    mcqs = []
+def process_factoids_in_batches(factoids, source_file, batch_size=5):
+    """Process factoids in batches and save each batch immediately."""
     total_batches = (len(factoids) + batch_size - 1) // batch_size
+    print(f"\n=== Starting batch processing ===")
+    print(f"Total factoids: {len(factoids)}")
+    print(f"Batch size: {batch_size}")
+    print(f"Total batches: {total_batches}")
+    print(f"Source file: {source_file}\n")
+    
+    # Initialize consolidated backup file
+    all_failed_mcqs = []
     
     for i in range(0, len(factoids), batch_size):
         batch = factoids[i:i + batch_size]
-        print(f"\nProcessing batch {(i//batch_size)+1}/{total_batches}")
+        current_batch = (i//batch_size) + 1
+        print(f"\n🔄 Processing batch {current_batch}/{total_batches}")
+        print(f"Factoids in this batch: {len(batch)}")
         
-        for factoid in batch:
+        batch_mcqs = []
+        for idx, factoid in enumerate(batch, 1):
+            print(f"\n  Processing factoid {idx}/{len(batch)}")
             mcq = process_factoid(factoid)
             if mcq:
-                mcqs.append(mcq)
+                batch_mcqs.append(mcq)
+                print(f"  ✅ MCQ generated successfully")
+            else:
+                print(f"  ❌ Failed to generate MCQ")
+            time.sleep(1)  # Rate limiting
+        
+        # Modified error handling
+        try:
+            api_url = "http://localhost:3001/api/questionbank/import"
+            payload = {
+                "sourceFile": source_file,
+                "questions": batch_mcqs
+            }
             
-        # Add delay between batches
-        if i + batch_size < len(factoids):
-            time.sleep(2)  # Adjust based on your rate limits
+            print(f"\n📤 Saving batch {current_batch} to database...")
+            response = requests.post(api_url, json=payload)
+            response.raise_for_status()
+            print(f"✅ Successfully saved batch {current_batch} with {len(batch_mcqs)} MCQs")
+        except Exception as e:
+            print(f"❌ Error saving batch {current_batch}: {str(e)}")
+            print(f"Response status code: {getattr(e.response, 'status_code', 'N/A')}")
+            print(f"Response text: {getattr(e.response, 'text', 'N/A')}")
+            all_failed_mcqs.extend(batch_mcqs)
+            
+    # Save consolidated backup file if there were any failures
+    if all_failed_mcqs:
+        backup_file = f"python/mcqs/failed_mcqs_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        with open(backup_file, 'w', encoding='utf-8') as f:
+            json.dump({
+                "source_file": source_file,
+                "mcqs": all_failed_mcqs,
+                "total_failed": len(all_failed_mcqs)
+            }, f, indent=2)
+        print(f"💾 Saved all failed MCQs to {backup_file}")
+
+def save_mcqs_to_database(source_file, mcqs):
+    """Save MCQs to MongoDB via backend API."""
+    try:
+        api_url = "http://localhost:3001/api/questionbank/import"
+        
+        payload = {
+            "sourceFile": source_file,
+            "questions": mcqs
+        }
+        
+        print(f"Attempting to save to: {api_url}")
+        print(f"Payload size: {len(mcqs)} MCQs")
+        
+        response = requests.post(api_url, json=payload)
+        print(f"Response status: {response.status_code}")
+        print(f"Response body: {response.text}")
+        
+        response.raise_for_status()
+        print(f"Successfully saved {len(mcqs)} MCQs to database")
+        return True
+    except requests.exceptions.RequestException as e:
+        print(f"Network error: {str(e)}")
+        print(f"Response status code: {e.response.status_code if hasattr(e, 'response') else 'N/A'}")
+        print(f"Response body: {e.response.text if hasattr(e, 'response') else 'N/A'}")
+        return False
+
+def send_questions_to_backend(questions):
+    url = 'http://localhost:3001/api/questionbank/import'
     
-    return mcqs
+    # You'll need to get a valid JWT token. For development, you could either:
+    # 1. Use an API key approach
+    # 2. Create a development token
+    # 3. Implement a service-to-service authentication
+    
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer YOUR_AUTH_TOKEN',  # Add proper authentication
+        'X-API-Key': 'YOUR_API_KEY'  # Store this in environment variables
+    }
+    
+    try:
+        response = requests.post(url, json=questions, headers=headers)
+        response.raise_for_status()
+        print("Questions successfully sent to backend")
+        return response.json()
+    except requests.exceptions.RequestException as e:
+        print(f"Error sending questions to backend: {e}")
+        return None
 
 def main():
-    # Find the most recent factoids file
-    factoids_dir = "python/factoids"
-    files = [f for f in os.listdir(factoids_dir) if f.endswith('.json')]
-    if not files:
-        print("No factoid files found!")
+    input_file_path = "python/factoids/Mehlman Microbiology_factoids.json"
+    print(f"\n🚀 Starting MCQ generation process")
+    print(f"📂 Processing factoids from: {input_file_path}")
+    
+    try:
+        with open(input_file_path, "r", encoding='utf-8') as f:
+            data = json.load(f)
+        
+        factoids = data.get("factoids", [])
+        source_file = os.path.basename(input_file_path)
+        
+        print(f"📊 Found {len(factoids)} factoids")
+        process_factoids_in_batches(factoids, source_file)
+        print("\n✨ MCQ generation process completed!")
+        
+    except Exception as e:
+        print(f"\n❌ Error in main process: {str(e)}")
         return
-    
-    latest_file = max(files, key=lambda x: os.path.getctime(os.path.join(factoids_dir, x)))
-    input_file_path = os.path.join(factoids_dir, latest_file)
-    
-    print(f"Processing factoids from: {input_file_path}")
-    
-    # Read the factoids
-    with open(input_file_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    
-    # Extract factoids (handle both string and list formats)
-    factoids_raw = data.get("factoids", [])
-    if isinstance(factoids_raw, str):
-        # Split the string into a list if it's a string
-        factoids = [f.strip() for f in factoids_raw.split('\n') if f.strip()]
-    else:
-        factoids = factoids_raw
-    
-    # Process each factoid
-    mcqs = process_factoids_in_batches(factoids)
-    
-    # Create output directory if it doesn't exist
-    output_dir = "python/mcqs"
-    os.makedirs(output_dir, exist_ok=True)
-    
-    # Generate output filename with timestamp
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    base_name = os.path.splitext(os.path.basename(input_file_path))[0]
-    output_file = os.path.join(output_dir, f"{base_name}_mcqs_{timestamp}.json")
-    
-    # Save the MCQs
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump({
-            "source_file": data.get("source_file"),
-            "mcqs": mcqs
-        }, f, indent=2, ensure_ascii=False)
-    
-    print(f"\nMCQs have been generated and saved to: {output_file}")
-    print(f"Successfully generated {len(mcqs)} MCQs out of {len(factoids)} factoids")
 
 if __name__ == "__main__":
     main() 
