@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Medical MCQs</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --background-color: #f8fafc;
+            --text-color: #1e293b;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .progress {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            color: var(--primary-color);
+        }
+
+        .tabs {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 10px 0;
+            margin-bottom: 20px;
+            -webkit-overflow-scrolling: touch;
+            scroll-snap-type: x mandatory;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.2s;
+            scroll-snap-align: start;
+        }
+
+        .tab.active {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .mcq {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .question {
+            font-weight: 600;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .option {
+            padding: 15px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 1.05em;
+        }
+
+        .option:hover {
+            background: #f1f5f9;
+        }
+
+        .option.selected {
+            background: #dbeafe;
+            border-color: var(--primary-color);
+        }
+
+        .option.correct {
+            background: #dcfce7;
+            border-color: #22c55e;
+        }
+
+        .option.incorrect {
+            background: #fee2e2;
+            border-color: #ef4444;
+        }
+
+        .explanation {
+            margin-top: 15px;
+            padding: 15px;
+            background: #f8fafc;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+            display: none;
+        }
+
+        .explanation.visible {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .mcq {
+                padding: 15px;
+            }
+
+            .option {
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Medical MCQs</h1>
+        </div>
+        <div class="progress" id="progress"></div>
+        <div class="tabs" id="tabs"></div>
+        <div id="mcqs"></div>
+    </div>
+
+    <script>
+        let currentMCQs = [];
+        let currentSet = 0;
+        let answeredQuestions = new Set();
+
+        async function loadMCQs() {
+            try {
+                const response = await fetch('mcqs.json');
+                const mcqs = await response.json();
+                currentMCQs = mcqs;
+                
+                // Create tabs
+                const numSets = Math.ceil(mcqs.length / 100);
+                const tabsContainer = document.getElementById('tabs');
+                
+                for (let i = 0; i < numSets; i++) {
+                    const tab = document.createElement('div');
+                    tab.className = 'tab' + (i === 0 ? ' active' : '');
+                    tab.textContent = `Set ${i + 1}`;
+                    tab.onclick = () => showSet(i);
+                    tabsContainer.appendChild(tab);
+                }
+
+                showSet(0);
+                updateProgress();
+            } catch (error) {
+                console.error('Error loading MCQs:', error);
+                document.getElementById('mcqs').innerHTML = 'Error loading MCQs. Please ensure mcqs.json is present in the same directory.';
+            }
+        }
+
+        function updateProgress() {
+            const total = currentMCQs.length;
+            const answered = answeredQuestions.size;
+            const percent = Math.round((answered / total) * 100);
+            document.getElementById('progress').textContent = 
+                `Progress: ${answered}/${total} (${percent}%)`;
+        }
+
+        function showSet(setIndex) {
+            currentSet = setIndex;
+            const start = setIndex * 100;
+            const end = Math.min(start + 100, currentMCQs.length);
+            const mcqsToShow = currentMCQs.slice(start, end);
+
+            // Update tabs
+            document.querySelectorAll('.tab').forEach((tab, i) => {
+                tab.className = 'tab' + (i === setIndex ? ' active' : '');
+            });
+
+            // Show MCQs
+            const mcqsContainer = document.getElementById('mcqs');
+            mcqsContainer.innerHTML = mcqsToShow.map((mcq, index) => `
+                <div class="mcq" id="mcq-${start + index}">
+                    <div class="question">${index + 1}. ${mcq.question}</div>
+                    <div class="options">
+                        ${mcq.options.map((option, optIndex) => `
+                            <div class="option" 
+                                 onclick="selectOption(${start + index}, ${optIndex})"
+                                 data-correct="${optIndex === mcq.correct_index}">
+                                ${String.fromCharCode(65 + optIndex)}. ${option}
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div class="explanation" id="explanation-${start + index}">
+                        ${mcq.explanation}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function selectOption(mcqIndex, optionIndex) {
+            if (answeredQuestions.has(mcqIndex)) return;
+            
+            const mcq = document.getElementById(`mcq-${mcqIndex}`);
+            const options = mcq.querySelectorAll('.option');
+            const correctIndex = currentMCQs[mcqIndex].correct_index;
+            const explanation = document.getElementById(`explanation-${mcqIndex}`);
+
+            options.forEach(opt => opt.className = 'option');
+            options[optionIndex].className = 'option selected';
+
+            setTimeout(() => {
+                options[correctIndex].className = 'option correct';
+                if (optionIndex !== correctIndex) {
+                    options[optionIndex].className = 'option incorrect';
+                }
+                explanation.className = 'explanation visible';
+                answeredQuestions.add(mcqIndex);
+                updateProgress();
+            }, 500);
+        }
+
+        window.onload = loadMCQs;
+    </script>
+</body>
+</html> 
