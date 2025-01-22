@@ -182,7 +182,7 @@ app.use('/api', require('./routes/authRoutes'));
 app.use('/api', require('./routes/notebookRoutes')); // Add notebook routes
 app.use('/verify', require('./routes/authRoutes'));
 // app.use('/api', require('./routes/noteRoutes'));
-// app.use('/api', require('./routes/notebookroutes'));
+// app.use('/api', require('./routes/notebookRoutes')); // Ensure the filename matches exactly
 // app.use('/api', require('./routes/notebookshare'));
 app.use('/api/auth', require('./routes/sessionRoutes')); // Added session routes
 app.use('/api/questionbank', require('./routes/questionBankRoutes')); // Add question bank routes
