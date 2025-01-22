@@ -177,15 +177,16 @@ mongoose.connect(process.env.MONGODB_URI)
     process.exit(1);
   });
 
-// Routes
+// Routes - Only include the ones we know exist and work
 app.use('/api', require('./routes/authRoutes'));
-app.use('/api', require('./routes/notebookroutes')); // Remove the extra 's'
 app.use('/verify', require('./routes/authRoutes'));
+app.use('/api/auth', require('./routes/sessionRoutes'));
+app.use('/api/questionbank', require('./routes/questionBankRoutes'));
+app.use('/api/webhook', require('./routes/webhookRoutes'));
+
+// Comment out all other routes until we verify each one works
+// app.use('/api', require('./routes/notebookroutes'));
 // app.use('/api', require('./routes/noteRoutes'));
-// app.use('/api', require('./routes/notebookRoutes')); // Ensure the filename matches exactly
-// app.use('/api', require('./routes/notebookshare'));
-app.use('/api/auth', require('./routes/sessionRoutes')); // Added session routes
-app.use('/api/questionbank', require('./routes/questionBankRoutes')); // Add question bank routes
 // app.use('/api', require('./routes/mcqRoutes'));
 // app.use('/api', require('./routes/similar'));
 // app.use('/api', require('./routes/upload'));
@@ -301,6 +302,9 @@ app.get('/api/questionbank/test', async (req, res) => {
     res.status(500).json({ status: 'error', message: error.message });
   }
 });
+
+// Add this single route back
+app.use('/api', require('./routes/notebookroutes'));
 
 module.exports = { app };
 
