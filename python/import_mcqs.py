@@ -43,7 +43,7 @@ def import_mcqs_to_mongodb():
             mcqs_collection.delete_many({
                 '$or': [
                     {'source_file': source_file},
-                    {'bank_id': 'mehlman-microbiology'}
+                    {'bank_id': 'mehlman-microbiology]'}
                 ]
             })
             
