@@ -179,7 +179,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 // Routes
 app.use('/api', require('./routes/authRoutes'));
-app.use('/api', require('./routes/notebookRoutes')); // Add notebook routes
+app.use('/api', require('./routes/notebookroutes')); // Remove the extra 's'
 app.use('/verify', require('./routes/authRoutes'));
 // app.use('/api', require('./routes/noteRoutes'));
 // app.use('/api', require('./routes/notebookRoutes')); // Ensure the filename matches exactly
