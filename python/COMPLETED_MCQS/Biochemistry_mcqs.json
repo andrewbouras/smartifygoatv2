@@ -1,0 +1,2905 @@
+{
+  "source_file": "Biochemistry",
+  "mcqs": [
+    {
+      "question": "What is the inheritance pattern of \u03b11-antitrypsin deficiency when caused by homozygous Z-alleles?",
+      "answerChoices": [
+        {
+          "value": "Autosomal recessive",
+          "correct": false
+        },
+        {
+          "value": "Autosomal dominant",
+          "correct": false
+        },
+        {
+          "value": "X-linked recessive",
+          "correct": false
+        },
+        {
+          "value": "Codominant",
+          "correct": true
+        },
+        {
+          "value": "Mitochondrial",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b11-antitrypsin deficiency due to homozygous Z-alleles follows a codominant inheritance pattern, meaning both alleles in a heterozygote contribute to the phenotype.",
+      "factoid": "Homozygous Z-alleles in \u03b11-antitrypsin deficiency cause disease, but the inheritance is codominant, not autosomal recessive.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the inheritance pattern of \u03b11-antitrypsin deficiency?",
+      "answerChoices": [
+        {
+          "value": "Autosomal dominant",
+          "correct": false
+        },
+        {
+          "value": "Autosomal recessive",
+          "correct": false
+        },
+        {
+          "value": "X-linked recessive",
+          "correct": false
+        },
+        {
+          "value": "Codominant",
+          "correct": true
+        },
+        {
+          "value": "Mitochondrial",
+          "correct": false
+        }
+      ],
+      "explanation": "The correct answer is 'Codominant'. \u03b11-antitrypsin deficiency is inherited in a codominant manner, meaning that two different versions (alleles) of the gene can both be expressed and influence the trait.",
+      "factoid": "The inheritance pattern of \u03b11-antitrypsin deficiency is codominant.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following best describes the inheritance pattern of AB RBC antigens?",
+      "answerChoices": [
+        {
+          "value": "Dominant",
+          "correct": false
+        },
+        {
+          "value": "Recessive",
+          "correct": false
+        },
+        {
+          "value": "Codominant",
+          "correct": true
+        },
+        {
+          "value": "Incomplete dominance",
+          "correct": false
+        },
+        {
+          "value": "X-linked recessive",
+          "correct": false
+        }
+      ],
+      "explanation": "AB RBC antigens are codominant, meaning both A and B antigens are expressed equally when inherited together.",
+      "factoid": "AB RBC antigens are also codominant.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Where is \u03b11-antitrypsin primarily produced in the body?",
+      "answerChoices": [
+        {
+          "value": "Kidneys",
+          "correct": false
+        },
+        {
+          "value": "Lungs",
+          "correct": false
+        },
+        {
+          "value": "Pancreas",
+          "correct": false
+        },
+        {
+          "value": "Liver",
+          "correct": true
+        },
+        {
+          "value": "Spleen",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b11-antitrypsin is primarily produced in the liver, which is critical for its role in protecting the lungs from enzymatic damage.",
+      "factoid": "\u03b11-antitrypsin is produced in the liver.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the primary function of \u03b11-antitrypsin?",
+      "answerChoices": [
+        {
+          "value": "It breaks down elastase.",
+          "correct": true
+        },
+        {
+          "value": "It synthesizes collagen.",
+          "correct": false
+        },
+        {
+          "value": "It transports oxygen in the blood.",
+          "correct": false
+        },
+        {
+          "value": "It breaks down carbohydrates.",
+          "correct": false
+        },
+        {
+          "value": "It regulates blood pressure.",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b11-antitrypsin's primary function is to break down elastase, an enzyme that can degrade elastin and other proteins in the lung, thus protecting tissues from enzyme-related damage.",
+      "factoid": "\u03b11-antitrypsin breaks down elastase.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Where is misfolded \u03b11-antitrypsin protein sequestered, preventing it from reaching the lungs?",
+      "answerChoices": [
+        {
+          "value": "Kidneys",
+          "correct": false
+        },
+        {
+          "value": "Heart",
+          "correct": false
+        },
+        {
+          "value": "Liver",
+          "correct": true
+        },
+        {
+          "value": "Pancreas",
+          "correct": false
+        },
+        {
+          "value": "Spleen",
+          "correct": false
+        }
+      ],
+      "explanation": "Misfolded \u03b11-antitrypsin protein is sequestered in the liver and never reaches the lungs, contributing to the disease pathology.",
+      "factoid": "Misfolded \u03b11-antitrypsin protein is sequestered in the liver and never reaches the lungs.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following conditions is most commonly associated with \u03b11-antitrypsin deficiency in middle-aged individuals?",
+      "answerChoices": [
+        {
+          "value": "Hepatic cirrhosis",
+          "correct": true
+        },
+        {
+          "value": "Pulmonary fibrosis",
+          "correct": false
+        },
+        {
+          "value": "Rheumatoid arthritis",
+          "correct": false
+        },
+        {
+          "value": "Myocardial infarction",
+          "correct": false
+        },
+        {
+          "value": "Diabetes mellitus",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b11-antitrypsin deficiency is most commonly associated with the development of hepatic cirrhosis, particularly by middle age, due to the accumulation of abnormal \u03b11-antitrypsin protein in the liver cells.",
+      "factoid": "\u03b11-antitrypsin deficiency causes hepatic cirrhosis, generally by middle age.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following factors increases the risk of liver disease in patients with \u03b11-antitrypsin deficiency?",
+      "answerChoices": [
+        {
+          "value": "Regular exercise",
+          "correct": false
+        },
+        {
+          "value": "High fiber diet",
+          "correct": false
+        },
+        {
+          "value": "Smoking cessation",
+          "correct": false
+        },
+        {
+          "value": "Alcohol consumption",
+          "correct": true
+        },
+        {
+          "value": "Adequate hydration",
+          "correct": false
+        }
+      ],
+      "explanation": "Patients with \u03b11-antitrypsin deficiency who consume alcohol have an increased risk of developing liver disease due to the exacerbation of liver damage caused by the deficiency.",
+      "factoid": "Patients with \u03b11-antitrypsin deficiency who drink alcohol have an increased risk of liver disease.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following lung disorders is caused by \u03b11-antitrypsin deficiency?",
+      "answerChoices": [
+        {
+          "value": "Centrilobular emphysema",
+          "correct": false
+        },
+        {
+          "value": "Panacinar emphysema",
+          "correct": true
+        },
+        {
+          "value": "Bronchiectasis",
+          "correct": false
+        },
+        {
+          "value": "Interstitial lung disease",
+          "correct": false
+        },
+        {
+          "value": "Chronic bronchitis",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b11-antitrypsin deficiency leads to panacinar emphysema, which affects the entire respiratory zone of the lung. This condition is distinct from other forms of emphysema such as centrilobular emphysema, which is typically associated with smoking.",
+      "factoid": "\u03b11-antitrypsin deficiency causes panacinar emphysema, affecting the entire respiratory zone of the lung.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which type of emphysema is classically caused by smoking and primarily affects the proximal respiratory zone first?",
+      "answerChoices": [
+        {
+          "value": "Panacinar emphysema",
+          "correct": false
+        },
+        {
+          "value": "Paraseptal emphysema",
+          "correct": false
+        },
+        {
+          "value": "Centriacinar emphysema",
+          "correct": true
+        },
+        {
+          "value": "Irregular emphysema",
+          "correct": false
+        },
+        {
+          "value": "Bullous emphysema",
+          "correct": false
+        }
+      ],
+      "explanation": "Centriacinar emphysema is classically associated with smoking and affects the proximal respiratory zone first. This type of emphysema is characterized by damage primarily around the central or proximal parts of the acini.",
+      "factoid": "Smoking classically causes centriacinar emphysema, affecting the proximal respiratory zone first.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following findings on a chest X-ray would be most indicative of emphysema in a young non-smoker?",
+      "answerChoices": [
+        {
+          "value": "Pleural effusion",
+          "correct": false
+        },
+        {
+          "value": "Bullous changes",
+          "correct": true
+        },
+        {
+          "value": "Consolidation",
+          "correct": false
+        },
+        {
+          "value": "Kerley B lines",
+          "correct": false
+        },
+        {
+          "value": "Pericardial effusion",
+          "correct": false
+        }
+      ],
+      "explanation": "Bullous changes on a chest X-ray, along with an increased anterior-posterior diameter and lucency of lung fields, are indicative of emphysema, even in a young non-smoker.",
+      "factoid": "USMLE may describe bullous changes on CXR, increased anterior-posterior diameter, and/or lucency of lung fields in a young non-smoker with emphysema.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "A young non-smoker with emphysema whose father died from alcoholic cirrhosis and whose brother has similar symptoms is most likely suffering from which condition?",
+      "answerChoices": [
+        {
+          "value": "Chronic Obstructive Pulmonary Disease (COPD)",
+          "correct": false
+        },
+        {
+          "value": "Alpha-1 Antitrypsin Deficiency",
+          "correct": true
+        },
+        {
+          "value": "Cystic Fibrosis",
+          "correct": false
+        },
+        {
+          "value": "Idiopathic Pulmonary Fibrosis",
+          "correct": false
+        },
+        {
+          "value": "Asthma",
+          "correct": false
+        }
+      ],
+      "explanation": "Alpha-1 Antitrypsin Deficiency is a genetic condition that can cause emphysema in young non-smokers and is associated with liver disease, explaining the family history of alcoholic cirrhosis and similar symptoms in the brother.",
+      "factoid": "A frequent question stem involves a young non-smoker with emphysema whose father died from alcoholic cirrhosis and whose brother has similar symptoms.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "How does smoking increase the risk of emphysema in patients with \u03b11-antitrypsin deficiency?",
+      "answerChoices": [
+        {
+          "value": "By decreasing alveolar macrophage function",
+          "correct": false
+        },
+        {
+          "value": "By increasing elastase activity",
+          "correct": true
+        },
+        {
+          "value": "By reducing surfactant production",
+          "correct": false
+        },
+        {
+          "value": "By inducing pulmonary fibrosis",
+          "correct": false
+        },
+        {
+          "value": "By causing bronchoconstriction",
+          "correct": false
+        }
+      ],
+      "explanation": "Smoking increases the risk of emphysema in patients with \u03b11-antitrypsin deficiency by increasing elastase activity, which leads to the breakdown of elastin in the alveolar walls.",
+      "factoid": "Smoking increases the risk of emphysema in \u03b11-antitrypsin deficiency patients by increasing elastase activity.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What histological finding is characteristic of a liver biopsy in a patient with \u03b11-antitrypsin deficiency?",
+      "answerChoices": [
+        {
+          "value": "Hepatocyte necrosis",
+          "correct": false
+        },
+        {
+          "value": "Steatosis",
+          "correct": false
+        },
+        {
+          "value": "Intracellular PAS-positive aggregates of misfolded glycoprotein",
+          "correct": true
+        },
+        {
+          "value": "Periportal inflammation",
+          "correct": false
+        },
+        {
+          "value": "Mallory bodies",
+          "correct": false
+        }
+      ],
+      "explanation": "In \u03b11-antitrypsin deficiency, liver biopsy typically shows intracellular PAS-positive aggregates of misfolded glycoprotein. This is a hallmark of the disease.",
+      "factoid": "Liver biopsy in \u03b11-antitrypsin deficiency reveals intracellular PAS-positive aggregates of misfolded glycoprotein.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the primary cause of cirrhosis in \u03b11-antitrypsin deficiency?",
+      "answerChoices": [
+        {
+          "value": "Viral hepatitis",
+          "correct": false
+        },
+        {
+          "value": "Autoimmune liver disease",
+          "correct": false
+        },
+        {
+          "value": "Accumulation of misfolded protein leading to hepatocyte death",
+          "correct": true
+        },
+        {
+          "value": "Alcohol abuse",
+          "correct": false
+        },
+        {
+          "value": "Biliary obstruction",
+          "correct": false
+        }
+      ],
+      "explanation": "In \u03b11-antitrypsin deficiency, the primary cause of cirrhosis is the accumulation of misfolded \u03b11-antitrypsin protein within hepatocytes, which leads to cell death and subsequent liver scarring.",
+      "factoid": "The cirrhosis in \u03b11-antitrypsin deficiency is due to the accumulation of misfolded protein leading to hepatocyte death.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "In which cellular structure does misfolded \u03b11-antitrypsin protein primarily accumulate in hepatocytes?",
+      "answerChoices": [
+        {
+          "value": "Mitochondria",
+          "correct": false
+        },
+        {
+          "value": "Lysosomes",
+          "correct": false
+        },
+        {
+          "value": "Golgi apparatus",
+          "correct": false
+        },
+        {
+          "value": "Endoplasmic reticulum",
+          "correct": true
+        },
+        {
+          "value": "Cytosol",
+          "correct": false
+        }
+      ],
+      "explanation": "Misfolded \u03b11-antitrypsin protein primarily accumulates in the endoplasmic reticulum of hepatocytes, which is responsible for the synthesis and folding of proteins.",
+      "factoid": "Misfolded \u03b11-antitrypsin protein accumulates in the endoplasmic reticulum of hepatocytes.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which condition is caused by \u03b11-antitrypsin deficiency, even in smokers?",
+      "answerChoices": [
+        {
+          "value": "Centriacinar emphysema",
+          "correct": false
+        },
+        {
+          "value": "Panacinar emphysema",
+          "correct": true
+        },
+        {
+          "value": "Bronchiectasis",
+          "correct": false
+        },
+        {
+          "value": "Asthma",
+          "correct": false
+        },
+        {
+          "value": "Chronic bronchitis",
+          "correct": false
+        }
+      ],
+      "explanation": "Panacinar emphysema is associated with \u03b11-antitrypsin deficiency, affecting the entire acinus uniformly. This genetic condition can lead to emphysema even in individuals who smoke.",
+      "factoid": "\u03b11-antitrypsin deficiency causes panacinar emphysema, even in smokers.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following conditions is characterized by a deficiency in ApoB-48 and ApoB-100 production?",
+      "answerChoices": [
+        {
+          "value": "Familial hypercholesterolemia",
+          "correct": false
+        },
+        {
+          "value": "Tangier disease",
+          "correct": false
+        },
+        {
+          "value": "Abetalipoproteinemia",
+          "correct": true
+        },
+        {
+          "value": "Niemann-Pick disease",
+          "correct": false
+        },
+        {
+          "value": "Gaucher disease",
+          "correct": false
+        }
+      ],
+      "explanation": "Abetalipoproteinemia is a rare inherited disorder that affects the absorption of dietary fats, cholesterol, and fat-soluble vitamins due to a deficiency in ApoB-48 and ApoB-100 production.",
+      "factoid": "Abetalipoproteinemia is a condition where ApoB-48 and ApoB-100 production is deficient.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which apolipoprotein allows chylomicrons absorbed by the gut to be released into the circulation?",
+      "answerChoices": [
+        {
+          "value": "ApoA-I",
+          "correct": false
+        },
+        {
+          "value": "ApoB-48",
+          "correct": true
+        },
+        {
+          "value": "ApoC-II",
+          "correct": false
+        },
+        {
+          "value": "ApoE",
+          "correct": false
+        },
+        {
+          "value": "ApoB-100",
+          "correct": false
+        }
+      ],
+      "explanation": "ApoB-48 is essential in the formation and release of chylomicrons into the bloodstream after they are absorbed by the gut. Other apolipoproteins like ApoA-I, ApoC-II, ApoE, and ApoB-100 have different roles in lipid metabolism.",
+      "factoid": "ApoB-48 allows chylomicrons absorbed by the gut to be released into the circulation.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "The presence of fat droplets in the bowel wall on biopsy is indicative of which condition?",
+      "answerChoices": [
+        {
+          "value": "Crohn's disease",
+          "correct": false
+        },
+        {
+          "value": "Celiac disease",
+          "correct": false
+        },
+        {
+          "value": "Abetalipoproteinemia",
+          "correct": true
+        },
+        {
+          "value": "Ulcerative colitis",
+          "correct": false
+        },
+        {
+          "value": "Whipple's disease",
+          "correct": false
+        }
+      ],
+      "explanation": "Fat droplets in the bowel wall on biopsy are characteristic of abetalipoproteinemia, a rare inherited disorder affecting the absorption of dietary fats, cholesterol, and fat-soluble vitamins.",
+      "factoid": "Fat droplets in the bowel wall on biopsy indicate abetalipoproteinemia.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following conditions leads to the formation of acanthocytes (spur cells)?",
+      "answerChoices": [
+        {
+          "value": "Iron deficiency anemia",
+          "correct": false
+        },
+        {
+          "value": "Thalassemia",
+          "correct": false
+        },
+        {
+          "value": "Abetalipoproteinemia",
+          "correct": true
+        },
+        {
+          "value": "Sickle cell anemia",
+          "correct": false
+        },
+        {
+          "value": "Hereditary spherocytosis",
+          "correct": false
+        }
+      ],
+      "explanation": "Abetalipoproteinemia is a rare inherited disorder that affects the absorption of dietary fats and fat-soluble vitamins. It leads to the formation of acanthocytes, also known as spur cells, which are abnormal red blood cells with spiked cell membranes.",
+      "factoid": "Abetalipoproteinemia leads to acanthocytes (spur cells).",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "In addition to neuroacanthocytosis, acanthocytes can also be seen in which of the following conditions?",
+      "answerChoices": [
+        {
+          "value": "Iron deficiency anemia",
+          "correct": false
+        },
+        {
+          "value": "Liver failure",
+          "correct": true
+        },
+        {
+          "value": "Thalassemia",
+          "correct": false
+        },
+        {
+          "value": "Chronic kidney disease",
+          "correct": false
+        },
+        {
+          "value": "Vitamin B12 deficiency",
+          "correct": false
+        }
+      ],
+      "explanation": "Acanthocytes are abnormally shaped red blood cells that can be seen in various conditions, including neuroacanthocytosis and liver failure. The presence of acanthocytes in liver failure is due to alterations in lipid metabolism affecting red cell membranes.",
+      "factoid": "Acanthocytes are also seen in liver failure.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following conditions can cause end-organ damage, including liver failure, leading to the presence of acanthocytes in the blood?",
+      "answerChoices": [
+        {
+          "value": "Hypothermia",
+          "correct": false
+        },
+        {
+          "value": "Septicemia",
+          "correct": false
+        },
+        {
+          "value": "Heat stroke",
+          "correct": true
+        },
+        {
+          "value": "Anemia",
+          "correct": false
+        },
+        {
+          "value": "Diabetes mellitus",
+          "correct": false
+        }
+      ],
+      "explanation": "Heat stroke can cause severe hyperthermia that leads to multi-organ failure, including liver failure, which can result in the presence of acanthocytes in the blood.",
+      "factoid": "Heat stroke can cause end-organ damage, including liver failure, leading to acanthocytes in the blood.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What enzyme is responsible for converting glucose to sorbitol, leading to high intracellular sorbitol levels in patients with diabetes mellitus?",
+      "answerChoices": [
+        {
+          "value": "Hexokinase",
+          "correct": false
+        },
+        {
+          "value": "Aldose reductase",
+          "correct": true
+        },
+        {
+          "value": "Glucokinase",
+          "correct": false
+        },
+        {
+          "value": "Phosphofructokinase",
+          "correct": false
+        },
+        {
+          "value": "Pyruvate kinase",
+          "correct": false
+        }
+      ],
+      "explanation": "Aldose reductase is the enzyme that converts glucose to sorbitol. In diabetes mellitus, high plasma glucose levels lead to increased intracellular sorbitol due to the action of aldose reductase.",
+      "factoid": "High plasma glucose levels in diabetes mellitus lead to high intracellular sorbitol levels due to aldose reductase converting glucose to sorbitol.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What condition is caused by sorbitol accumulation leading to osmotic injury to cells?",
+      "answerChoices": [
+        {
+          "value": "Diabetic retinopathy",
+          "correct": false
+        },
+        {
+          "value": "Cataracts",
+          "correct": true
+        },
+        {
+          "value": "Glaucoma",
+          "correct": false
+        },
+        {
+          "value": "Macular degeneration",
+          "correct": false
+        },
+        {
+          "value": "Uveitis",
+          "correct": false
+        }
+      ],
+      "explanation": "Sorbitol accumulation in cells causes osmotic injury, which can result in cataracts and neuropathy. Cataracts are characterized by the clouding of the eye's lens, leading to vision impairment.",
+      "factoid": "Sorbitol accumulation causes osmotic injury to cells, leading to cataracts and neuropathy.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following complications of diabetes is primarily due to non-enzymatic glycosylation of endothelial cells?",
+      "answerChoices": [
+        {
+          "value": "Diabetic ketoacidosis",
+          "correct": false
+        },
+        {
+          "value": "Diabetic nephropathy",
+          "correct": true
+        },
+        {
+          "value": "Diabetic neuropathy",
+          "correct": false
+        },
+        {
+          "value": "Hypoglycemia",
+          "correct": false
+        },
+        {
+          "value": "Insulin resistance",
+          "correct": false
+        }
+      ],
+      "explanation": "Diabetic nephropathy, along with retinopathy and atherosclerosis, is due to non-enzymatic glycosylation of endothelial cells, which is a hallmark of chronic diabetes complications.",
+      "factoid": "Diabetic nephropathy, retinopathy, and atherosclerosis are due to non-enzymatic glycosylation of endothelial cells.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What enzyme converts galactose to galactitol, potentially leading to cataracts in galactose disorders?",
+      "answerChoices": [
+        {
+          "value": "Galactokinase",
+          "correct": false
+        },
+        {
+          "value": "Aldose reductase",
+          "correct": true
+        },
+        {
+          "value": "Hexokinase",
+          "correct": false
+        },
+        {
+          "value": "Galactose-1-phosphate uridylyltransferase",
+          "correct": false
+        },
+        {
+          "value": "UDP-galactose-4-epimerase",
+          "correct": false
+        }
+      ],
+      "explanation": "Aldose reductase is the enzyme that converts galactose to galactitol, which can accumulate and lead to cataracts in individuals with galactose disorders.",
+      "factoid": "Galactose is converted to galactitol by aldose reductase, causing cataracts in galactose disorders.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "In galactokinase deficiency, what enzyme is responsible for converting galactose to galactitol, leading to cataracts?",
+      "answerChoices": [
+        {
+          "value": "Hexokinase",
+          "correct": false
+        },
+        {
+          "value": "Aldolase",
+          "correct": false
+        },
+        {
+          "value": "Aldose reductase",
+          "correct": true
+        },
+        {
+          "value": "Galactose-1-phosphate uridylyltransferase",
+          "correct": false
+        },
+        {
+          "value": "Phosphoglucomutase",
+          "correct": false
+        }
+      ],
+      "explanation": "In galactokinase deficiency, the enzyme aldose reductase is responsible for converting galactose to galactitol, which accumulates and leads to cataracts.",
+      "factoid": "In galactokinase deficiency, cataracts are caused by aldose reductase converting galactose to galactitol.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following cofactors is required for the conversion of glucose to sorbitol?",
+      "answerChoices": [
+        {
+          "value": "NADH",
+          "correct": false
+        },
+        {
+          "value": "FADH2",
+          "correct": false
+        },
+        {
+          "value": "ATP",
+          "correct": false
+        },
+        {
+          "value": "NADPH",
+          "correct": true
+        },
+        {
+          "value": "Coenzyme A",
+          "correct": false
+        }
+      ],
+      "explanation": "The conversion of glucose to sorbitol is catalyzed by aldose reductase, which requires NADPH as a cofactor.",
+      "factoid": "The conversion of glucose to sorbitol requires NADPH as a cofactor.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which enzyme deficiency leads to alkaptonuria, characterized by dark/black urine upon standing?",
+      "answerChoices": [
+        {
+          "value": "Phenylalanine hydroxylase",
+          "correct": false
+        },
+        {
+          "value": "Tyrosinase",
+          "correct": false
+        },
+        {
+          "value": "Homogentisic acid oxidase",
+          "correct": true
+        },
+        {
+          "value": "Dopamine beta-hydroxylase",
+          "correct": false
+        },
+        {
+          "value": "Fumarase",
+          "correct": false
+        }
+      ],
+      "explanation": "Alkaptonuria is caused by a deficiency of homogentisic acid oxidase, which results in the accumulation of homogentisic acid. This acid oxidizes and polymerizes to a dark pigment, causing the characteristic dark/black urine upon standing.",
+      "factoid": "Alkaptonuria is caused by a deficiency of homogentisic acid oxidase, leading to dark/black urine upon standing.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What condition is characterized by homogentisate buildup in joints leading to ochronosis and painful joints?",
+      "answerChoices": [
+        {
+          "value": "Rheumatoid arthritis",
+          "correct": false
+        },
+        {
+          "value": "Ochronotic arthropathy",
+          "correct": true
+        },
+        {
+          "value": "Ankylosing spondylitis",
+          "correct": false
+        },
+        {
+          "value": "Osteoarthritis",
+          "correct": false
+        },
+        {
+          "value": "Gout",
+          "correct": false
+        }
+      ],
+      "explanation": "Ochronotic arthropathy is the correct answer because it is the condition specifically associated with homogentisate buildup in joints, leading to ochronosis and painful joints.",
+      "factoid": "Homogentisate buildup in joints causes ochronosis and painful joints (ochronotic arthropathy).",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Alkaptonuria is a disorder of the breakdown of which amino acid?",
+      "answerChoices": [
+        {
+          "value": "Phenylalanine",
+          "correct": false
+        },
+        {
+          "value": "Tyrosine",
+          "correct": true
+        },
+        {
+          "value": "Tryptophan",
+          "correct": false
+        },
+        {
+          "value": "Lysine",
+          "correct": false
+        },
+        {
+          "value": "Methionine",
+          "correct": false
+        }
+      ],
+      "explanation": "Alkaptonuria is a rare metabolic disorder characterized by the inability to break down tyrosine completely, leading to the accumulation of homogentisic acid.",
+      "factoid": "Alkaptonuria is a disorder of tyrosine breakdown.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the term used to describe the connective tissue discoloration in alkaptonuria?",
+      "answerChoices": [
+        {
+          "value": "Osteogenesis",
+          "correct": false
+        },
+        {
+          "value": "Melanosis",
+          "correct": false
+        },
+        {
+          "value": "Ochronosis",
+          "correct": true
+        },
+        {
+          "value": "Hemochromatosis",
+          "correct": false
+        },
+        {
+          "value": "Amyloidosis",
+          "correct": false
+        }
+      ],
+      "explanation": "Ochronosis is the term used to describe the connective tissue discoloration seen in alkaptonuria, a condition where homogentisic acid accumulates and deposits in tissues.",
+      "factoid": "The connective tissue discoloration in alkaptonuria is called ochronosis.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which genetic mechanism is responsible for Prader-Willi syndrome?",
+      "answerChoices": [
+        {
+          "value": "Paternal uniparental disomy",
+          "correct": false
+        },
+        {
+          "value": "Maternal uniparental disomy",
+          "correct": true
+        },
+        {
+          "value": "X-linked recessive inheritance",
+          "correct": false
+        },
+        {
+          "value": "Autosomal dominant inheritance",
+          "correct": false
+        },
+        {
+          "value": "Mitochondrial inheritance",
+          "correct": false
+        }
+      ],
+      "explanation": "Prader-Willi syndrome is caused by maternal uniparental disomy or maternal imprinting, where the paternal genes are missing or not expressed as they should be.",
+      "factoid": "Prader-Willi syndrome is due to maternal imprinting or maternal uniparental disomy.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which genetic mechanism is responsible for Angelman syndrome?",
+      "answerChoices": [
+        {
+          "value": "Maternal imprinting",
+          "correct": false
+        },
+        {
+          "value": "Maternal uniparental disomy",
+          "correct": false
+        },
+        {
+          "value": "Paternal imprinting",
+          "correct": true
+        },
+        {
+          "value": "Trisomy 21",
+          "correct": false
+        },
+        {
+          "value": "Turner syndrome",
+          "correct": false
+        }
+      ],
+      "explanation": "Angelman syndrome is caused by paternal imprinting or paternal uniparental disomy, where the paternal genes are incorrectly expressed or both copies come from the father, leading to the characteristic symptoms of the syndrome.",
+      "factoid": "Angelman syndrome is due to paternal imprinting or paternal uniparental disomy.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following syndromes classically presents as an obese patient with mental impairment and hyperphagia?",
+      "answerChoices": [
+        {
+          "value": "Turner syndrome",
+          "correct": false
+        },
+        {
+          "value": "Klinefelter syndrome",
+          "correct": false
+        },
+        {
+          "value": "Prader-Willi syndrome",
+          "correct": true
+        },
+        {
+          "value": "Fragile X syndrome",
+          "correct": false
+        },
+        {
+          "value": "Down syndrome",
+          "correct": false
+        }
+      ],
+      "explanation": "Prader-Willi syndrome is characterized by obesity, mental impairment, and hyperphagia. This distinguishes it from other syndromes which may have different presentations.",
+      "factoid": "Prader-Willi syndrome classically presents as an obese patient with mental impairment and hyperphagia.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following syndromes is characterized by mental impairment and frequent laughter or easily being made happy, often referred to as a 'happy puppet'?",
+      "answerChoices": [
+        {
+          "value": "Down syndrome",
+          "correct": false
+        },
+        {
+          "value": "Fragile X syndrome",
+          "correct": false
+        },
+        {
+          "value": "Prader-Willi syndrome",
+          "correct": false
+        },
+        {
+          "value": "Rett syndrome",
+          "correct": false
+        },
+        {
+          "value": "Angelman syndrome",
+          "correct": true
+        }
+      ],
+      "explanation": "Angelman syndrome is characterized by mental impairment and frequent laughter or easily being made happy, often referred to as the 'happy puppet' syndrome.",
+      "factoid": "Angelman syndrome classically presents as a patient with mental impairment who laughs a lot and/or is easily made happy ('happy puppet').",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Prader-Willi syndrome is associated with abnormalities in which chromosome?",
+      "answerChoices": [
+        {
+          "value": "Chromosome 7",
+          "correct": false
+        },
+        {
+          "value": "Chromosome 11",
+          "correct": false
+        },
+        {
+          "value": "Chromosome 15",
+          "correct": true
+        },
+        {
+          "value": "Chromosome 18",
+          "correct": false
+        },
+        {
+          "value": "Chromosome 21",
+          "correct": false
+        }
+      ],
+      "explanation": "Prader-Willi syndrome is associated with many genes on chromosome 15. This genetic disorder is caused by the loss of function of genes in a specific region of this chromosome.",
+      "factoid": "Prader-Willi syndrome is associated with many genes on chromosome 15.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which gene on chromosome 15 is associated with Angelman syndrome?",
+      "answerChoices": [
+        {
+          "value": "UBE3A",
+          "correct": true
+        },
+        {
+          "value": "FBN1",
+          "correct": false
+        },
+        {
+          "value": "CFTR",
+          "correct": false
+        },
+        {
+          "value": "BRCA1",
+          "correct": false
+        },
+        {
+          "value": "PAX6",
+          "correct": false
+        }
+      ],
+      "explanation": "Angelman syndrome is caused by mutations or deletions of the UBE3A gene located on chromosome 15. This gene plays a crucial role in the normal development of the nervous system.",
+      "factoid": "Angelman syndrome is associated with the UBE3A gene on chromosome 15.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What does genetic imprinting refer to?",
+      "answerChoices": [
+        {
+          "value": "Receiving only maternal alleles",
+          "correct": false
+        },
+        {
+          "value": "Receiving only paternal alleles",
+          "correct": false
+        },
+        {
+          "value": "Receiving one allele from each parent, but one is preferentially silenced",
+          "correct": true
+        },
+        {
+          "value": "Receiving two alleles from one parent",
+          "correct": false
+        },
+        {
+          "value": "Having alleles from both parents equally expressed",
+          "correct": false
+        }
+      ],
+      "explanation": "Genetic imprinting involves receiving one allele from each parent, but one of these alleles is preferentially silenced, meaning it is not expressed.",
+      "factoid": "Imprinting means receiving one allele from each parent, but one is preferentially silenced.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What does maternal imprinting mean in genetics?",
+      "answerChoices": [
+        {
+          "value": "Both alleles from mom and dad are silenced",
+          "correct": false
+        },
+        {
+          "value": "Mom's allele is silenced; only dad's allele is expressed",
+          "correct": true
+        },
+        {
+          "value": "Both alleles from mom and dad are expressed equally",
+          "correct": false
+        },
+        {
+          "value": "Only mom's allele is expressed; dad's allele is silenced",
+          "correct": false
+        },
+        {
+          "value": "Neither mom's nor dad's allele is expressed",
+          "correct": false
+        }
+      ],
+      "explanation": "Maternal imprinting means that the allele inherited from the mother is silenced, and only the allele inherited from the father is expressed.",
+      "factoid": "Maternal imprinting means mom's allele is silenced; only dad's allele is expressed.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What does paternal imprinting imply in the context of allele expression?",
+      "answerChoices": [
+        {
+          "value": "Both alleles from mom and dad are expressed equally.",
+          "correct": false
+        },
+        {
+          "value": "Only the dad's allele is expressed, and the mom's allele is silenced.",
+          "correct": false
+        },
+        {
+          "value": "Neither allele from mom nor dad is expressed.",
+          "correct": false
+        },
+        {
+          "value": "Only the mom's allele is expressed, and the dad's allele is silenced.",
+          "correct": true
+        },
+        {
+          "value": "Both alleles are silenced.",
+          "correct": false
+        }
+      ],
+      "explanation": "Paternal imprinting means that the allele inherited from the father is silenced, and only the allele inherited from the mother is expressed.",
+      "factoid": "Paternal imprinting means dad's allele is silenced; only mom's allele is expressed.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What does uniparental disomy mean?",
+      "answerChoices": [
+        {
+          "value": "Both alleles for a gene are mutated.",
+          "correct": false
+        },
+        {
+          "value": "Both alleles for a gene are received from the same parent.",
+          "correct": true
+        },
+        {
+          "value": "One allele for a gene is received from an unrelated individual.",
+          "correct": false
+        },
+        {
+          "value": "Both alleles for a gene are missing.",
+          "correct": false
+        },
+        {
+          "value": "One allele is dominant and the other is recessive.",
+          "correct": false
+        }
+      ],
+      "explanation": "Uniparental disomy refers to a condition where an individual receives two copies of a chromosome, or part of a chromosome, from one parent and no copies from the other parent. This means both alleles for a gene are received from the same parent.",
+      "factoid": "Uniparental disomy means both alleles for a gene are received from the same parent.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What does maternal uniparental disomy mean?",
+      "answerChoices": [
+        {
+          "value": "Receiving one allele from mom and one from dad",
+          "correct": false
+        },
+        {
+          "value": "Receiving both alleles from mom",
+          "correct": true
+        },
+        {
+          "value": "Receiving two identical alleles from dad",
+          "correct": false
+        },
+        {
+          "value": "Receiving one allele from mom and no alleles from dad",
+          "correct": false
+        },
+        {
+          "value": "Receiving no alleles from mom",
+          "correct": false
+        }
+      ],
+      "explanation": "Maternal uniparental disomy refers to the condition where both alleles of a gene are inherited from the mother, rather than one allele from each parent.",
+      "factoid": "Maternal uniparental disomy means receiving both alleles from mom.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What does paternal uniparental disomy mean?",
+      "answerChoices": [
+        {
+          "value": "Receiving one allele from each parent",
+          "correct": false
+        },
+        {
+          "value": "Receiving both alleles from mom",
+          "correct": false
+        },
+        {
+          "value": "Receiving both alleles from dad",
+          "correct": true
+        },
+        {
+          "value": "Receiving no alleles from dad",
+          "correct": false
+        },
+        {
+          "value": "Receiving no alleles from mom",
+          "correct": false
+        }
+      ],
+      "explanation": "Paternal uniparental disomy refers to a situation where an individual receives both copies of a chromosome, or part of a chromosome, from the father and none from the mother.",
+      "factoid": "Paternal uniparental disomy means receiving both alleles from dad.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What does uniparental heterodisomy refer to?",
+      "answerChoices": [
+        {
+          "value": "Receiving two copies of the same allele from one parent",
+          "correct": false
+        },
+        {
+          "value": "Receiving one copy of each of the parent's alleles",
+          "correct": true
+        },
+        {
+          "value": "Receiving no alleles from one parent and two from the other",
+          "correct": false
+        },
+        {
+          "value": "Receiving three copies of alleles from one parent",
+          "correct": false
+        },
+        {
+          "value": "Receiving one copy of an allele from each parent",
+          "correct": false
+        }
+      ],
+      "explanation": "Uniparental heterodisomy means getting one copy of each of the parent's alleles, where the child inherits both alleles of a chromosome from one parent, but each allele is different.",
+      "factoid": "Uniparental heterodisomy means getting one copy of each of the parent's alleles.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What does uniparental isodisomy indicate?",
+      "answerChoices": [
+        {
+          "value": "Receiving one allele from each parent",
+          "correct": false
+        },
+        {
+          "value": "Receiving two identical alleles, one from each parent",
+          "correct": false
+        },
+        {
+          "value": "Receiving two copies of the same allele from the same parent",
+          "correct": true
+        },
+        {
+          "value": "Receiving no alleles from one parent",
+          "correct": false
+        },
+        {
+          "value": "Receiving two different alleles from the same parent",
+          "correct": false
+        }
+      ],
+      "explanation": "Uniparental isodisomy refers to the situation where an individual receives two copies of the same allele from one parent, rather than one allele from each parent.",
+      "factoid": "Uniparental isodisomy means getting two copies of the same allele from the same parent.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Chronic granulomatous disease (CGD) is most commonly caused by a deficiency in which enzyme?",
+      "answerChoices": [
+        {
+          "value": "Glucose-6-phosphate dehydrogenase",
+          "correct": false
+        },
+        {
+          "value": "Catalase",
+          "correct": false
+        },
+        {
+          "value": "Myeloperoxidase",
+          "correct": false
+        },
+        {
+          "value": "Superoxide dismutase",
+          "correct": false
+        },
+        {
+          "value": "NADPH oxidase",
+          "correct": true
+        }
+      ],
+      "explanation": "Chronic granulomatous disease (CGD) is caused by a deficiency in NADPH oxidase, which is crucial for the respiratory burst in phagocytes. This enzyme deficiency leads to a reduced ability to kill certain bacteria and fungi.",
+      "factoid": "Chronic granulomatous disease (CGD) is due to NADPH oxidase deficiency.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the substrate used by NADPH oxidase?",
+      "answerChoices": [
+        {
+          "value": "Carbon dioxide",
+          "correct": false
+        },
+        {
+          "value": "Molecular oxygen",
+          "correct": true
+        },
+        {
+          "value": "Glucose",
+          "correct": false
+        },
+        {
+          "value": "NADH",
+          "correct": false
+        },
+        {
+          "value": "ATP",
+          "correct": false
+        }
+      ],
+      "explanation": "NADPH oxidase uses molecular oxygen as its substrate to produce reactive oxygen species (ROS) during the respiratory burst in immune cells.",
+      "factoid": "NADPH oxidase uses molecular oxygen as its substrate.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Patients with Chronic Granulomatous Disease (CGD) are particularly susceptible to infections caused by which type of organisms?",
+      "answerChoices": [
+        {
+          "value": "Catalase-negative organisms",
+          "correct": false
+        },
+        {
+          "value": "Catalase-positive organisms",
+          "correct": true
+        },
+        {
+          "value": "Gram-positive cocci",
+          "correct": false
+        },
+        {
+          "value": "Obligate anaerobes",
+          "correct": false
+        },
+        {
+          "value": "Non-spore forming bacteria",
+          "correct": false
+        }
+      ],
+      "explanation": "Patients with Chronic Granulomatous Disease (CGD) have a defect in their ability to produce reactive oxygen species, which makes them particularly susceptible to infections by catalase-positive organisms. These organisms can neutralize hydrogen peroxide, which CGD patients rely on to kill pathogens.",
+      "factoid": "CGD patients are susceptible to catalase-positive organisms.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following organisms is catalase-positive?",
+      "answerChoices": [
+        {
+          "value": "Streptococcus pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Candida",
+          "correct": true
+        },
+        {
+          "value": "Clostridium tetani",
+          "correct": false
+        },
+        {
+          "value": "Mycobacterium tuberculosis",
+          "correct": false
+        },
+        {
+          "value": "Enterococcus faecalis",
+          "correct": false
+        }
+      ],
+      "explanation": "Candida is a catalase-positive organism, along with others such as Serratia, H. pylori, Actinomyces, Pseudomonas, E. coli, and S. aureus.",
+      "factoid": "Catalase-positive organisms include Candida, Serratia, H. pylori, Actinomyces, Pseudomonas, E. coli, and S. aureus.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which test is used to diagnose chronic granulomatous disease (CGD)?",
+      "answerChoices": [
+        {
+          "value": "Nitroblue tetrazolium test",
+          "correct": false
+        },
+        {
+          "value": "Dihydrorhodamine test",
+          "correct": true
+        },
+        {
+          "value": "Flow cytometry",
+          "correct": false
+        },
+        {
+          "value": "Complete blood count",
+          "correct": false
+        },
+        {
+          "value": "Bone marrow biopsy",
+          "correct": false
+        }
+      ],
+      "explanation": "The dihydrorhodamine (DHR) test is used to diagnose chronic granulomatous disease (CGD) because it assesses the ability of neutrophils to produce reactive oxygen species.",
+      "factoid": "Diagnosis of CGD is made via a positive dihydrorhodamine test.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following tests is now considered obsolete for diagnosing Chronic Granulomatous Disease (CGD)?",
+      "answerChoices": [
+        {
+          "value": "Dihydrorhodamine (DHR) flow cytometry",
+          "correct": false
+        },
+        {
+          "value": "Nitroblue-tetrazolium (NBT) test",
+          "correct": true
+        },
+        {
+          "value": "Genetic testing",
+          "correct": false
+        },
+        {
+          "value": "Nitric oxide synthase assay",
+          "correct": false
+        },
+        {
+          "value": "Oxidative burst assay",
+          "correct": false
+        }
+      ],
+      "explanation": "The Nitroblue-tetrazolium (NBT) test is now considered obsolete for diagnosing Chronic Granulomatous Disease (CGD). More modern and accurate tests such as dihydrorhodamine (DHR) flow cytometry are preferred.",
+      "factoid": "The nitroblue-tetrazolium test is now obsolete for diagnosing CGD.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following is a treatment option for Chronic Granulomatous Disease (CGD)?",
+      "answerChoices": [
+        {
+          "value": "IL-2",
+          "correct": false
+        },
+        {
+          "value": "TNF-\u03b1",
+          "correct": false
+        },
+        {
+          "value": "IFN-\u03b3",
+          "correct": true
+        },
+        {
+          "value": "IL-10",
+          "correct": false
+        },
+        {
+          "value": "GM-CSF",
+          "correct": false
+        }
+      ],
+      "explanation": "IFN-\u03b3 (Interferon gamma) is used as a treatment for Chronic Granulomatous Disease (CGD) because it helps boost the immune system's ability to fight off infections.",
+      "factoid": "Treatment for CGD includes IFN-\u03b3.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which enzyme is responsible for converting hydrogen peroxide into bleach within phagocytes?",
+      "answerChoices": [
+        {
+          "value": "Catalase",
+          "correct": false
+        },
+        {
+          "value": "Superoxide dismutase",
+          "correct": false
+        },
+        {
+          "value": "Glutathione peroxidase",
+          "correct": false
+        },
+        {
+          "value": "Myeloperoxidase",
+          "correct": true
+        },
+        {
+          "value": "Peroxidase",
+          "correct": false
+        }
+      ],
+      "explanation": "Myeloperoxidase is the enzyme that converts hydrogen peroxide into hypochlorous acid (bleach) in phagocytes, which is a critical component of the immune response.",
+      "factoid": "Myeloperoxidase converts hydrogen peroxide into bleach in phagocytes.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What are Auer rods in acute myeloid leukemia (AML) composed of?",
+      "answerChoices": [
+        {
+          "value": "Hemoglobin",
+          "correct": false
+        },
+        {
+          "value": "Myeloperoxidase",
+          "correct": true
+        },
+        {
+          "value": "Lymphocytes",
+          "correct": false
+        },
+        {
+          "value": "Platelets",
+          "correct": false
+        },
+        {
+          "value": "Eosinophils",
+          "correct": false
+        }
+      ],
+      "explanation": "Auer rods are needle-like inclusions found in the cytoplasm of myeloid cells in patients with acute myeloid leukemia (AML). They are composed of the enzyme myeloperoxidase, which is a marker for myeloid differentiation.",
+      "factoid": "Auer rods in AML are composed of myeloperoxidase.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which enzyme is responsible for giving sputum its color?",
+      "answerChoices": [
+        {
+          "value": "Amylase",
+          "correct": false
+        },
+        {
+          "value": "Lipase",
+          "correct": false
+        },
+        {
+          "value": "Myeloperoxidase",
+          "correct": true
+        },
+        {
+          "value": "Pepsin",
+          "correct": false
+        },
+        {
+          "value": "Trypsin",
+          "correct": false
+        }
+      ],
+      "explanation": "Myeloperoxidase is an enzyme found in neutrophils that contributes to the greenish color of sputum due to its heme pigment and its role in the immune response.",
+      "factoid": "Myeloperoxidase gives sputum its color.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which type of collagen is primarily found in skin, bone, dentin, cornea, and is important for late wound repair?",
+      "answerChoices": [
+        {
+          "value": "Type II collagen",
+          "correct": false
+        },
+        {
+          "value": "Type III collagen",
+          "correct": false
+        },
+        {
+          "value": "Type IV collagen",
+          "correct": false
+        },
+        {
+          "value": "Type I collagen",
+          "correct": true
+        },
+        {
+          "value": "Type V collagen",
+          "correct": false
+        }
+      ],
+      "explanation": "Type I collagen is predominantly found in skin, bone, dentin, and cornea, and it plays a crucial role in the late stages of wound repair.",
+      "factoid": "Type I collagen is found in skin, bone, dentin, cornea, and is important for late wound repair.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the primary cause of Osteogenesis Imperfecta (OI)?",
+      "answerChoices": [
+        {
+          "value": "Deficiency of type II collagen",
+          "correct": false
+        },
+        {
+          "value": "Deficiency of type I collagen",
+          "correct": true
+        },
+        {
+          "value": "Deficiency of type III collagen",
+          "correct": false
+        },
+        {
+          "value": "Deficiency of type IV collagen",
+          "correct": false
+        },
+        {
+          "value": "Deficiency of osteocalcin",
+          "correct": false
+        }
+      ],
+      "explanation": "Osteogenesis Imperfecta (OI) is primarily caused by a deficiency of type I collagen, which is encoded by the COL1A1 and COL1A2 genes. This leads to the characteristic brittle bones seen in OI.",
+      "factoid": "Osteogenesis imperfecta (OI) is usually caused by a deficiency of type I collagen (COL1A# genes).",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the most common inheritance pattern of Osteogenesis Imperfecta (OI)?",
+      "answerChoices": [
+        {
+          "value": "Autosomal recessive",
+          "correct": false
+        },
+        {
+          "value": "X-linked dominant",
+          "correct": false
+        },
+        {
+          "value": "Autosomal dominant",
+          "correct": true
+        },
+        {
+          "value": "Mitochondrial",
+          "correct": false
+        },
+        {
+          "value": "X-linked recessive",
+          "correct": false
+        }
+      ],
+      "explanation": "Osteogenesis Imperfecta (OI) is most commonly inherited in an autosomal dominant pattern, meaning only one copy of the altered gene is sufficient to cause the disorder.",
+      "factoid": "OI is usually autosomal dominant.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following conditions is characterized by blue sclerae and conductive hearing loss?",
+      "answerChoices": [
+        {
+          "value": "Marfan syndrome",
+          "correct": false
+        },
+        {
+          "value": "Osteogenesis imperfecta",
+          "correct": true
+        },
+        {
+          "value": "Ehlers-Danlos syndrome",
+          "correct": false
+        },
+        {
+          "value": "Achondroplasia",
+          "correct": false
+        },
+        {
+          "value": "Paget's disease",
+          "correct": false
+        }
+      ],
+      "explanation": "Osteogenesis imperfecta (OI) is a genetic disorder characterized by fragile bones, blue sclerae, and conductive hearing loss.",
+      "factoid": "Blue sclerae and conductive hearing loss are features of OI.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following is most commonly associated with child abuse?",
+      "answerChoices": [
+        {
+          "value": "Acute respiratory distress syndrome",
+          "correct": false
+        },
+        {
+          "value": "Chronic ear infections",
+          "correct": false
+        },
+        {
+          "value": "Avoidant behavior and fractures at different stages of healing",
+          "correct": true
+        },
+        {
+          "value": "Congenital heart defects",
+          "correct": false
+        },
+        {
+          "value": "Severe allergic reactions",
+          "correct": false
+        }
+      ],
+      "explanation": "Child abuse is commonly associated with avoidant behavior and fractures at different stages of healing, which indicate repeated injury over a period of time.",
+      "factoid": "Child abuse is associated with avoidant behavior and fractures at different stages of healing.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following conditions is characterized by non-response to a physician and fractures at different stages of healing?",
+      "answerChoices": [
+        {
+          "value": "Rickets",
+          "correct": false
+        },
+        {
+          "value": "Osteogenesis Imperfecta (OI)",
+          "correct": true
+        },
+        {
+          "value": "Osteoporosis",
+          "correct": false
+        },
+        {
+          "value": "Paget's Disease",
+          "correct": false
+        },
+        {
+          "value": "Fibrous Dysplasia",
+          "correct": false
+        }
+      ],
+      "explanation": "Osteogenesis Imperfecta (OI) is associated with non-response to a physician due to its genetic nature and can present with fractures at different stages of healing due to the brittle nature of the bones.",
+      "factoid": "OI is associated with non-response to a physician and fractures at different stages of healing.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the consequence of the null allele effect in type I Osteogenesis Imperfecta (OI)?",
+      "answerChoices": [
+        {
+          "value": "Increased bone density",
+          "correct": false
+        },
+        {
+          "value": "Decreased type I collagen production",
+          "correct": true
+        },
+        {
+          "value": "Increased type I collagen production",
+          "correct": false
+        },
+        {
+          "value": "Decreased type II collagen production",
+          "correct": false
+        },
+        {
+          "value": "Increased type II collagen production",
+          "correct": false
+        }
+      ],
+      "explanation": "The null allele effect in type I Osteogenesis Imperfecta (OI) leads to decreased type I collagen production, which is crucial for bone strength and structure.",
+      "factoid": "The null allele effect in type I OI results in decreased type I collagen production.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the consequence of the dominant-negative effect in types II and III osteogenesis imperfecta (OI)?",
+      "answerChoices": [
+        {
+          "value": "It leads to increased bone density.",
+          "correct": false
+        },
+        {
+          "value": "It results in abnormal collagen production.",
+          "correct": true
+        },
+        {
+          "value": "It causes mild symptoms with no significant skeletal abnormalities.",
+          "correct": false
+        },
+        {
+          "value": "It results in a complete absence of collagen.",
+          "correct": false
+        },
+        {
+          "value": "It primarily affects the nervous system.",
+          "correct": false
+        }
+      ],
+      "explanation": "The dominant-negative effect in types II and III osteogenesis imperfecta (OI) leads to the production of abnormal collagen, which is associated with more severe outcomes, such as bone fragility and deformities.",
+      "factoid": "The dominant-negative effect in types II and III OI yields abnormal collagen and is associated with more severe outcomes.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is a characteristic feature of osteopetrosis?",
+      "answerChoices": [
+        {
+          "value": "Decreased bone density due to increased osteoclast activity",
+          "correct": false
+        },
+        {
+          "value": "Increased bone density due to decreased osteoclast activity",
+          "correct": true
+        },
+        {
+          "value": "Increased bone density due to increased osteoclast activity",
+          "correct": false
+        },
+        {
+          "value": "Decreased bone density due to decreased osteoclast activity",
+          "correct": false
+        },
+        {
+          "value": "Normal bone density with normal osteoclast activity",
+          "correct": false
+        }
+      ],
+      "explanation": "Osteopetrosis is characterized by increased bone density due to decreased osteoclast activity, leading to abnormally dense and brittle bones.",
+      "factoid": "Osteopetrosis is characterized by increased bone density due to decreased osteoclast activity.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What enzyme deficiency is responsible for the development of osteopetrosis?",
+      "answerChoices": [
+        {
+          "value": "Alkaline phosphatase",
+          "correct": false
+        },
+        {
+          "value": "Carbonic anhydrase II",
+          "correct": true
+        },
+        {
+          "value": "Lactate dehydrogenase",
+          "correct": false
+        },
+        {
+          "value": "Adenylate cyclase",
+          "correct": false
+        },
+        {
+          "value": "Glucose-6-phosphate dehydrogenase",
+          "correct": false
+        }
+      ],
+      "explanation": "Osteopetrosis is caused by a deficiency of carbonic anhydrase II inside bone, which is crucial for the normal function of osteoclasts and bone resorption.",
+      "factoid": "Osteopetrosis is due to a deficiency of carbonic anhydrase II inside bone.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following laboratory findings is typically normal in patients with osteopetrosis?",
+      "answerChoices": [
+        {
+          "value": "Elevated calcium levels",
+          "correct": false
+        },
+        {
+          "value": "Decreased phosphate levels",
+          "correct": false
+        },
+        {
+          "value": "Increased alkaline phosphatase (ALP) levels",
+          "correct": false
+        },
+        {
+          "value": "Normal parathyroid hormone (PTH) levels",
+          "correct": true
+        },
+        {
+          "value": "Elevated calcium and phosphate levels",
+          "correct": false
+        }
+      ],
+      "explanation": "In osteopetrosis, the levels of calcium, phosphate, alkaline phosphatase (ALP), and parathyroid hormone (PTH) are typically normal.",
+      "factoid": "Calcium, phosphate, ALP, and PTH levels are normal in osteopetrosis.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Where is Type II collagen primarily found?",
+      "answerChoices": [
+        {
+          "value": "Bone",
+          "correct": false
+        },
+        {
+          "value": "Tendons",
+          "correct": false
+        },
+        {
+          "value": "Cartilage",
+          "correct": true
+        },
+        {
+          "value": "Skin",
+          "correct": false
+        },
+        {
+          "value": "Liver",
+          "correct": false
+        }
+      ],
+      "explanation": "Type II collagen is primarily found in cartilage, as well as in the nucleus pulposus of intervertebral discs and the vitreous body of the eye.",
+      "factoid": "Type II collagen is found in cartilage, nucleus pulposus, and vitreous body.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Stickler syndrome is associated with mutations in which gene and commonly involves which complications?",
+      "answerChoices": [
+        {
+          "value": "BRCA1; breast cancer and ovarian cancer",
+          "correct": false
+        },
+        {
+          "value": "COL2A1; deafness and ocular problems",
+          "correct": true
+        },
+        {
+          "value": "CFTR; lung infections and digestive issues",
+          "correct": false
+        },
+        {
+          "value": "FBN1; aortic aneurysms and skeletal abnormalities",
+          "correct": false
+        },
+        {
+          "value": "HBB; anemia and jaundice",
+          "correct": false
+        }
+      ],
+      "explanation": "Stickler syndrome is caused by mutations in the COL2A1 gene and is commonly associated with hearing loss (deafness) and various eye (ocular) problems.",
+      "factoid": "Stickler syndrome is due to mutations in COL2A1 and is associated with deafness and ocular problems.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "In which of the following tissues is Type III collagen most commonly found?",
+      "answerChoices": [
+        {
+          "value": "Bone",
+          "correct": false
+        },
+        {
+          "value": "Granulation tissue",
+          "correct": true
+        },
+        {
+          "value": "Tendons",
+          "correct": false
+        },
+        {
+          "value": "Cartilage",
+          "correct": false
+        },
+        {
+          "value": "Skin",
+          "correct": false
+        }
+      ],
+      "explanation": "Type III collagen is primarily found in granulation tissue, as well as in blood vessels, the uterus, and fetal tissue, playing a crucial role in wound healing and tissue repair.",
+      "factoid": "Type III collagen is found in granulation tissue, blood vessels, uterus, and fetal tissue.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which type of collagen is most commonly associated with Ehlers-Danlos syndrome (EDS)?",
+      "answerChoices": [
+        {
+          "value": "Type I collagen",
+          "correct": false
+        },
+        {
+          "value": "Type II collagen",
+          "correct": false
+        },
+        {
+          "value": "Type III collagen",
+          "correct": true
+        },
+        {
+          "value": "Type IV collagen",
+          "correct": false
+        },
+        {
+          "value": "Type V collagen",
+          "correct": false
+        }
+      ],
+      "explanation": "Ehlers-Danlos syndrome (EDS) is most commonly associated with defects in type III collagen, which leads to the characteristic symptoms of hypermobility, skin hyperextensibility, and tissue fragility.",
+      "factoid": "Ehlers-Danlos syndrome (EDS) is associated with defects in type III collagen.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following conditions is characterized by hyperextensible skin, joint hypermobility, and joint subluxations?",
+      "answerChoices": [
+        {
+          "value": "Marfan Syndrome",
+          "correct": false
+        },
+        {
+          "value": "Osteogenesis Imperfecta",
+          "correct": false
+        },
+        {
+          "value": "Ehlers-Danlos Syndrome",
+          "correct": true
+        },
+        {
+          "value": "Rheumatoid Arthritis",
+          "correct": false
+        },
+        {
+          "value": "Systemic Lupus Erythematosus",
+          "correct": false
+        }
+      ],
+      "explanation": "Ehlers-Danlos Syndrome (EDS) is characterized by hyperextensible skin, joint hypermobility, and joint subluxations, distinguishing it from other connective tissue disorders.",
+      "factoid": "EDS features hyperextensible skin, joint hypermobility, and joint subluxations.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following conditions is associated with Ehlers-Danlos Syndrome (EDS)?",
+      "answerChoices": [
+        {
+          "value": "Atrial fibrillation",
+          "correct": false
+        },
+        {
+          "value": "Chronic obstructive pulmonary disease (COPD)",
+          "correct": false
+        },
+        {
+          "value": "Mitral valve prolapse",
+          "correct": true
+        },
+        {
+          "value": "Chronic kidney disease",
+          "correct": false
+        },
+        {
+          "value": "Peptic ulcer disease",
+          "correct": false
+        }
+      ],
+      "explanation": "Ehlers-Danlos Syndrome (EDS) is associated with mitral valve prolapse due to the connective tissue abnormalities that characterize the condition. This can lead to other complications such as aortic aneurysm and subarachnoid hemorrhage.",
+      "factoid": "EDS increases the risk of aortic aneurysm, mitral valve prolapse, and subarachnoid hemorrhage.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Where is Type IV collagen primarily found?",
+      "answerChoices": [
+        {
+          "value": "In tendons and ligaments",
+          "correct": false
+        },
+        {
+          "value": "In cartilage and bone",
+          "correct": false
+        },
+        {
+          "value": "In the basement membranes, basal lamina, and the lens of the eye",
+          "correct": true
+        },
+        {
+          "value": "In the dermis of the skin",
+          "correct": false
+        },
+        {
+          "value": "In muscle fibers",
+          "correct": false
+        }
+      ],
+      "explanation": "Type IV collagen is primarily found in basement membranes, basal lamina, and the lens of the eye, providing structural support in these areas.",
+      "factoid": "Type IV collagen is found in basement membranes, basal lamina, and the lens of the eye.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the underlying genetic cause of Alport syndrome?",
+      "answerChoices": [
+        {
+          "value": "Mutations in type I collagen genes",
+          "correct": false
+        },
+        {
+          "value": "Mutations in type II collagen genes",
+          "correct": false
+        },
+        {
+          "value": "Mutations in type III collagen genes",
+          "correct": false
+        },
+        {
+          "value": "Mutations in type IV collagen genes",
+          "correct": true
+        },
+        {
+          "value": "Mutations in type V collagen genes",
+          "correct": false
+        }
+      ],
+      "explanation": "Alport syndrome is caused by mutations in the genes encoding type IV collagen (COL4A3, COL4A4, COL4A5), which are crucial for the structure of the basement membranes in the kidneys, ears, and eyes.",
+      "factoid": "Alport syndrome is due to mutations in type IV collagen genes (COL4A#) and is X-linked.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Goodpasture syndrome involves autoantibodies against which of the following structures?",
+      "answerChoices": [
+        {
+          "value": "Type I collagen",
+          "correct": false
+        },
+        {
+          "value": "Type II collagen",
+          "correct": false
+        },
+        {
+          "value": "Type III collagen",
+          "correct": false
+        },
+        {
+          "value": "Type IV collagen",
+          "correct": true
+        },
+        {
+          "value": "Elastin",
+          "correct": false
+        }
+      ],
+      "explanation": "Goodpasture syndrome is characterized by the presence of autoantibodies against the alpha-3 chain of type IV collagen, which is found in the basement membranes of the glomeruli and alveoli.",
+      "factoid": "Goodpasture syndrome involves autoantibodies against type IV collagen.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following symptoms are commonly associated with Goodpasture syndrome?",
+      "answerChoices": [
+        {
+          "value": "Fever and chills",
+          "correct": false
+        },
+        {
+          "value": "Chest pain and shortness of breath",
+          "correct": false
+        },
+        {
+          "value": "Hemoptysis and hematuria",
+          "correct": true
+        },
+        {
+          "value": "Abdominal pain and jaundice",
+          "correct": false
+        },
+        {
+          "value": "Joint pain and skin rashes",
+          "correct": false
+        }
+      ],
+      "explanation": "Goodpasture syndrome typically presents with hemoptysis (coughing up blood) and hematuria (blood in the urine), generally in a male in his 40s.",
+      "factoid": "Goodpasture syndrome presents with hemoptysis and hematuria, generally in a male in his 40s.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which condition is characterized by linear immunofluorescence on biopsy?",
+      "answerChoices": [
+        {
+          "value": "Systemic lupus erythematosus",
+          "correct": false
+        },
+        {
+          "value": "Goodpasture syndrome",
+          "correct": true
+        },
+        {
+          "value": "Wegener's granulomatosis",
+          "correct": false
+        },
+        {
+          "value": "IgA nephropathy",
+          "correct": false
+        },
+        {
+          "value": "Alport syndrome",
+          "correct": false
+        }
+      ],
+      "explanation": "Goodpasture syndrome is characterized by the presence of linear immunofluorescence on biopsy, indicating the deposition of antibodies along the glomerular basement membrane.",
+      "factoid": "Linear immunofluorescence on biopsy is characteristic of Goodpasture syndrome.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "In which condition are fibrin crescents typically seen?",
+      "answerChoices": [
+        {
+          "value": "Minimal change disease",
+          "correct": false
+        },
+        {
+          "value": "Focal segmental glomerulosclerosis",
+          "correct": false
+        },
+        {
+          "value": "Membranous nephropathy",
+          "correct": false
+        },
+        {
+          "value": "Goodpasture syndrome",
+          "correct": true
+        },
+        {
+          "value": "IgA nephropathy",
+          "correct": false
+        }
+      ],
+      "explanation": "Fibrin crescents are typically seen in rapidly progressive glomerulonephritis (RPGN), which can occur in Goodpasture syndrome. This condition is characterized by the presence of antibodies against the glomerular basement membrane, leading to glomerular damage and the formation of crescents.",
+      "factoid": "Fibrin crescents are seen in rapidly progressive glomerulonephritis (RPGN) in Goodpasture syndrome.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the primary structure of collagen?",
+      "answerChoices": [
+        {
+          "value": "Alanine-X-Y",
+          "correct": false
+        },
+        {
+          "value": "Valine-X-Y",
+          "correct": false
+        },
+        {
+          "value": "Glycine-X-Y",
+          "correct": true
+        },
+        {
+          "value": "Leucine-X-Y",
+          "correct": false
+        },
+        {
+          "value": "Proline-X-Y",
+          "correct": false
+        }
+      ],
+      "explanation": "The primary structure of collagen is characterized by the repeating triplet sequence Glycine-X-Y, where X and Y are often proline and hydroxyproline. Glycine is critical in this structure because it is small enough to fit into the tight turns of the collagen helix.",
+      "factoid": "Collagen has a Glycine-X-Y primary structure.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which vitamin is required as a cofactor for the hydroxylation of preprocollagen?",
+      "answerChoices": [
+        {
+          "value": "Vitamin D",
+          "correct": false
+        },
+        {
+          "value": "Vitamin B12",
+          "correct": false
+        },
+        {
+          "value": "Vitamin A",
+          "correct": false
+        },
+        {
+          "value": "Vitamin C",
+          "correct": true
+        },
+        {
+          "value": "Vitamin K",
+          "correct": false
+        }
+      ],
+      "explanation": "Vitamin C is required as a cofactor for the hydroxylation of preprocollagen, which is a critical step in collagen synthesis.",
+      "factoid": "Hydroxylation of preprocollagen requires vitamin C as a cofactor.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the role of glycosylation in preprocollagen?",
+      "answerChoices": [
+        {
+          "value": "It initiates the transcription of collagen genes.",
+          "correct": false
+        },
+        {
+          "value": "It facilitates the hydroxylation of proline residues.",
+          "correct": false
+        },
+        {
+          "value": "It strengthens bonding between polypeptides.",
+          "correct": true
+        },
+        {
+          "value": "It inhibits the formation of triple helices.",
+          "correct": false
+        },
+        {
+          "value": "It degrades misfolded collagen molecules.",
+          "correct": false
+        }
+      ],
+      "explanation": "Glycosylation of preprocollagen strengthens bonding between polypeptides, which is essential for the stability and proper function of collagen fibers.",
+      "factoid": "Glycosylation of preprocollagen strengthens bonding between polypeptides.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which enzyme is responsible for cleaving non-helical end-groups from procollagen to form tropocollagen?",
+      "answerChoices": [
+        {
+          "value": "Collagenase",
+          "correct": false
+        },
+        {
+          "value": "Elastase",
+          "correct": false
+        },
+        {
+          "value": "Procollagen peptidase",
+          "correct": true
+        },
+        {
+          "value": "Lysyl oxidase",
+          "correct": false
+        },
+        {
+          "value": "Matrix metalloproteinase",
+          "correct": false
+        }
+      ],
+      "explanation": "Procollagen peptidase is the enzyme that cleaves the non-helical end-groups from procollagen, converting it into tropocollagen, which is the building block for collagen fibers.",
+      "factoid": "Procollagen peptidase cleaves non-helical end-groups from procollagen to form tropocollagen.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which enzyme is responsible for crosslinking collagen fibrils to form mature collagen?",
+      "answerChoices": [
+        {
+          "value": "Prolyl hydroxylase",
+          "correct": false
+        },
+        {
+          "value": "Lysyl oxidase",
+          "correct": true
+        },
+        {
+          "value": "Collagenase",
+          "correct": false
+        },
+        {
+          "value": "Elastase",
+          "correct": false
+        },
+        {
+          "value": "Matrix metalloproteinase",
+          "correct": false
+        }
+      ],
+      "explanation": "Lysyl oxidase is the enzyme that crosslinks collagen fibrils, which is essential for forming mature collagen. This process stabilizes the collagen structure.",
+      "factoid": "Tropocollagen arranges into collagen fibrils, which are crosslinked by lysyl oxidase to form mature collagen.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following enzymes is copper-dependent?",
+      "answerChoices": [
+        {
+          "value": "Catalase",
+          "correct": false
+        },
+        {
+          "value": "Lactate dehydrogenase",
+          "correct": false
+        },
+        {
+          "value": "Lysyl oxidase",
+          "correct": true
+        },
+        {
+          "value": "Amylase",
+          "correct": false
+        },
+        {
+          "value": "Lipase",
+          "correct": false
+        }
+      ],
+      "explanation": "Lysyl oxidase is a copper-dependent enzyme, which means it requires copper to function properly. This enzyme is involved in the cross-linking of collagen and elastin, which are important for the structural integrity of various tissues.",
+      "factoid": "Lysyl oxidase is a copper-dependent enzyme.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What enzyme's activity is decreased in Menkes syndrome due to copper deficiency?",
+      "answerChoices": [
+        {
+          "value": "Tyrosinase",
+          "correct": false
+        },
+        {
+          "value": "Cytochrome c oxidase",
+          "correct": false
+        },
+        {
+          "value": "Lysyl oxidase",
+          "correct": true
+        },
+        {
+          "value": "Superoxide dismutase",
+          "correct": false
+        },
+        {
+          "value": "Ceruloplasmin",
+          "correct": false
+        }
+      ],
+      "explanation": "Menkes syndrome is a disorder that results from a deficiency in copper, which leads to decreased activity of lysyl oxidase, an enzyme that requires copper as a cofactor.",
+      "factoid": "Menkes syndrome leads to decreased activity of lysyl oxidase due to copper deficiency.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which amino acids are not absorbed properly in cystinuria?",
+      "answerChoices": [
+        {
+          "value": "Cysteine, methionine, lysine, and arginine",
+          "correct": false
+        },
+        {
+          "value": "Cysteine, ornithine, lysine, and arginine",
+          "correct": true
+        },
+        {
+          "value": "Cysteine, phenylalanine, lysine, and arginine",
+          "correct": false
+        },
+        {
+          "value": "Cysteine, tryptophan, lysine, and arginine",
+          "correct": false
+        },
+        {
+          "value": "Cysteine, tyrosine, lysine, and arginine",
+          "correct": false
+        }
+      ],
+      "explanation": "Cystinuria is a genetic disorder characterized by the impaired absorption of the amino acids cysteine, ornithine, lysine, and arginine, commonly remembered with the acronym COLA.",
+      "factoid": "Cystinuria is characterized by the inability to absorb cysteine, ornithine, lysine, and arginine (COLA).",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the characteristic shape of cystine stones?",
+      "answerChoices": [
+        {
+          "value": "Rectangular",
+          "correct": false
+        },
+        {
+          "value": "Hexagonal",
+          "correct": true
+        },
+        {
+          "value": "Oval",
+          "correct": false
+        },
+        {
+          "value": "Round",
+          "correct": false
+        },
+        {
+          "value": "Triangular",
+          "correct": false
+        }
+      ],
+      "explanation": "Cystine stones are characteristically hexagonal in shape, which helps in their identification.",
+      "factoid": "Cystine stones are hexagonal in shape.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following tests is used to diagnose cystinuria?",
+      "answerChoices": [
+        {
+          "value": "Benedict's test",
+          "correct": false
+        },
+        {
+          "value": "Nitroprusside cyanide test",
+          "correct": true
+        },
+        {
+          "value": "Schilling test",
+          "correct": false
+        },
+        {
+          "value": "Coombs test",
+          "correct": false
+        },
+        {
+          "value": "Tzanck test",
+          "correct": false
+        }
+      ],
+      "explanation": "The nitroprusside cyanide test is specifically used to diagnose cystinuria, which is a disorder characterized by the excessive excretion of cystine in the urine.",
+      "factoid": "The nitroprusside cyanide test is used to diagnose cystinuria.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following medications is used to treat cystinuria and is known to cause drug-induced systemic lupus erythematosus (SLE)?",
+      "answerChoices": [
+        {
+          "value": "Methotrexate",
+          "correct": false
+        },
+        {
+          "value": "Penicillamine",
+          "correct": true
+        },
+        {
+          "value": "Hydroxychloroquine",
+          "correct": false
+        },
+        {
+          "value": "Azathioprine",
+          "correct": false
+        },
+        {
+          "value": "Sulfasalazine",
+          "correct": false
+        }
+      ],
+      "explanation": "Penicillamine is used to treat cystinuria and is known to cause drug-induced systemic lupus erythematosus (SLE).",
+      "factoid": "Penicillamine is used to treat cystinuria and can cause drug-induced SLE.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the genetic inheritance pattern of cystic fibrosis (CF) and the primary genetic mutation involved?",
+      "answerChoices": [
+        {
+          "value": "Autosomal dominant, deletion in the BRCA1 gene on chromosome 17",
+          "correct": false
+        },
+        {
+          "value": "Autosomal recessive, deletion in the CFTR gene on chromosome 7",
+          "correct": true
+        },
+        {
+          "value": "X-linked recessive, mutation in the DMD gene on chromosome X",
+          "correct": false
+        },
+        {
+          "value": "Mitochondrial inheritance, mutation in the MT-TL1 gene",
+          "correct": false
+        },
+        {
+          "value": "Autosomal recessive, mutation in the HBB gene on chromosome 11",
+          "correct": false
+        }
+      ],
+      "explanation": "Cystic fibrosis (CF) follows an autosomal recessive inheritance pattern and is primarily caused by a deletion (\u0394F508) in the CFTR gene on chromosome 7.",
+      "factoid": "Cystic fibrosis (CF) is autosomal recessive and caused by a deletion (\u0394F508) in the CFTR gene on chromosome 7.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following best describes the CFTR protein?",
+      "answerChoices": [
+        {
+          "value": "A sodium-potassium pump",
+          "correct": false
+        },
+        {
+          "value": "A cAMP-regulated and ATP-gated chloride channel",
+          "correct": true
+        },
+        {
+          "value": "A voltage-gated calcium channel",
+          "correct": false
+        },
+        {
+          "value": "A ligand-gated ion channel",
+          "correct": false
+        },
+        {
+          "value": "A proton pump",
+          "correct": false
+        }
+      ],
+      "explanation": "The CFTR (Cystic Fibrosis Transmembrane Conductance Regulator) protein functions as a cAMP-regulated and ATP-gated chloride channel, which is crucial for maintaining the balance of salt and water across epithelial membranes.",
+      "factoid": "CFTR is a cAMP-regulated and ATP-gated chloride channel.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "What is the normal function of the CFTR protein in the pancreas and lungs?",
+      "answerChoices": [
+        {
+          "value": "Absorbs Cl\u207b",
+          "correct": false
+        },
+        {
+          "value": "Secretes Cl\u207b",
+          "correct": true
+        },
+        {
+          "value": "Absorbs Na\u207a",
+          "correct": false
+        },
+        {
+          "value": "Secretes Na\u207a",
+          "correct": false
+        },
+        {
+          "value": "Secretes K\u207a",
+          "correct": false
+        }
+      ],
+      "explanation": "CFTR (Cystic Fibrosis Transmembrane Conductance Regulator) protein normally secretes chloride ions (Cl\u207b) in the pancreas and lungs. This function is crucial for maintaining the fluid balance and proper function of these tissues.",
+      "factoid": "CFTR normally absorbs Cl\u207b in sweat but secretes it in the pancreas and lungs.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Where is the mutated CFTR protein retained due to its misfolded structure?",
+      "answerChoices": [
+        {
+          "value": "Golgi apparatus",
+          "correct": false
+        },
+        {
+          "value": "Lysosome",
+          "correct": false
+        },
+        {
+          "value": "Mitochondria",
+          "correct": false
+        },
+        {
+          "value": "Rough endoplasmic reticulum",
+          "correct": true
+        },
+        {
+          "value": "Cytoplasm",
+          "correct": false
+        }
+      ],
+      "explanation": "The mutated CFTR protein is retained in the rough endoplasmic reticulum (RER) due to its misfolded structure, preventing it from reaching its proper location in the cell membrane.",
+      "factoid": "Mutated CFTR is retained as a misfolded protein in the rough endoplasmic reticulum (RER).",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following results from a sweat chloride test is indicative of cystic fibrosis (CF)?",
+      "answerChoices": [
+        {
+          "value": "20 mEq/L of chloride in sweat",
+          "correct": false
+        },
+        {
+          "value": "35 mEq/L of chloride in sweat",
+          "correct": false
+        },
+        {
+          "value": "45 mEq/L of chloride in sweat",
+          "correct": false
+        },
+        {
+          "value": "60 mEq/L of chloride in sweat",
+          "correct": false
+        },
+        {
+          "value": "75 mEq/L of chloride in sweat",
+          "correct": true
+        }
+      ],
+      "explanation": "A sweat chloride test result of greater than 60 mEq/L indicates cystic fibrosis. Therefore, 75 mEq/L is indicative of CF.",
+      "factoid": "Diagnosis of CF is made via sweat chloride testing indicating >60 mEq/L of chloride in sweat.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following tests can be used to confirm cystic fibrosis in neonates after an initial positive blood immunoreactive trypsinogen screening?",
+      "answerChoices": [
+        {
+          "value": "Genetic testing for CFTR mutations",
+          "correct": false
+        },
+        {
+          "value": "Sweat chloride test",
+          "correct": true
+        },
+        {
+          "value": "Chest X-ray",
+          "correct": false
+        },
+        {
+          "value": "Pulmonary function test",
+          "correct": false
+        },
+        {
+          "value": "Sputum culture for Pseudomonas aeruginosa",
+          "correct": false
+        }
+      ],
+      "explanation": "The sweat chloride test is used to confirm cystic fibrosis in neonates after an initial positive blood immunoreactive trypsinogen screening. Elevated chloride levels in sweat are indicative of cystic fibrosis.",
+      "factoid": "Neonates can be screened for CF with a positive blood immunoreactive trypsinogen followed by a confirmatory sweat chloride test.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "In patients with cystic fibrosis (CF), why is the transepithelial potential difference (TEPD) more negative?",
+      "answerChoices": [
+        {
+          "value": "Increased Cl\u207b secretion",
+          "correct": false
+        },
+        {
+          "value": "Decreased Na\u207a reabsorption",
+          "correct": false
+        },
+        {
+          "value": "Increased Na\u207a reabsorption",
+          "correct": true
+        },
+        {
+          "value": "Decreased K\u207a secretion",
+          "correct": false
+        },
+        {
+          "value": "Increased HCO\u2083\u207b reabsorption",
+          "correct": false
+        }
+      ],
+      "explanation": "In cystic fibrosis (CF), the transepithelial potential difference (TEPD) is more negative due to increased sodium (Na\u207a) reabsorption.",
+      "factoid": "In CF, transepithelial potential difference (TEPD) is more negative due to Na\u207a reabsorption.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following bacteria is the most likely cause of pneumonia in patients with cystic fibrosis?",
+      "answerChoices": [
+        {
+          "value": "Streptococcus pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Haemophilus influenzae",
+          "correct": false
+        },
+        {
+          "value": "Mycoplasma pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Pseudomonas aeruginosa",
+          "correct": true
+        },
+        {
+          "value": "Chlamydia pneumoniae",
+          "correct": false
+        }
+      ],
+      "explanation": "Pseudomonas aeruginosa is the most likely cause of pneumonia in patients with cystic fibrosis due to the unique environment of their lungs, which is conducive to the growth of this particular bacterium.",
+      "factoid": "Pseudomonas is the most likely cause of pneumonia in CF",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    },
+    {
+      "question": "Which of the following statements about Chorionic Villus Sampling (CVS) is correct?",
+      "answerChoices": [
+        {
+          "value": "CVS can only be performed transabdominally.",
+          "correct": false
+        },
+        {
+          "value": "CVS can only be performed transcervically.",
+          "correct": false
+        },
+        {
+          "value": "CVS can be performed either transcervically or transabdominally.",
+          "correct": true
+        },
+        {
+          "value": "CVS is performed exclusively through a laparoscopic procedure.",
+          "correct": false
+        },
+        {
+          "value": "CVS is suitable to be performed only after 20 weeks of pregnancy.",
+          "correct": false
+        }
+      ],
+      "explanation": "Chorionic Villus Sampling (CVS) is a prenatal test that can be performed either transcervically or transabdominally to obtain a sample of chorionic villi for genetic testing.",
+      "factoid": "Chorionic villus sampling (CVS) can be performed either transcervically or transabdominally.",
+      "source_file": "Biochemistry",
+      "bank_id": "mehlman-biochemistry"
+    }
+  ]
+}

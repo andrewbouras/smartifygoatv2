@@ -7,19 +7,11 @@ const QuestionBankButton = ({ bankId, title }) => {
   };
 
   return (
-    <button
+    <button 
       onClick={openMCQPractice}
-      style={{
-        backgroundColor: '#4a9eff',
-        color: 'white',
-        border: 'none',
-        padding: '10px 20px',
-        borderRadius: '4px',
-        cursor: 'pointer',
-        marginRight: '10px'
-      }}
+      className="w-full p-4 text-left bg-gray-800 hover:bg-gray-700 rounded-lg"
     >
-      {title} MCQ Practice
+      {title}
     </button>
   );
 };

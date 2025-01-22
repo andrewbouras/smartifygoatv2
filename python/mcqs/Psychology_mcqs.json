@@ -1,0 +1,2905 @@
+{
+  "source_file": "Psychology",
+  "mcqs": [
+    {
+      "question": "Which of the following statements best describes the nature of mature defense mechanisms?",
+      "answerChoices": [
+        {
+          "value": "They are less adaptive and often lead to negative outcomes.",
+          "correct": false
+        },
+        {
+          "value": "They are more adaptive and lead to positive outcomes.",
+          "correct": true
+        },
+        {
+          "value": "They are primarily used in childhood and adolescence.",
+          "correct": false
+        },
+        {
+          "value": "They are associated with higher levels of stress and anxiety.",
+          "correct": false
+        },
+        {
+          "value": "They are typically seen in individuals with personality disorders.",
+          "correct": false
+        }
+      ],
+      "explanation": "Mature defense mechanisms are considered to be more adaptive as they help individuals cope with stressors in a healthier way, leading to more positive outcomes.",
+      "factoid": "Mature defense mechanisms are more adaptive and lead to positive outcomes.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which defense mechanism involves redirecting unacceptable impulses into socially acceptable activities?",
+      "answerChoices": [
+        {
+          "value": "Repression",
+          "correct": false
+        },
+        {
+          "value": "Denial",
+          "correct": false
+        },
+        {
+          "value": "Projection",
+          "correct": false
+        },
+        {
+          "value": "Sublimation",
+          "correct": true
+        },
+        {
+          "value": "Displacement",
+          "correct": false
+        }
+      ],
+      "explanation": "Sublimation is the defense mechanism that involves redirecting unacceptable impulses into socially acceptable activities. This helps individuals channel potentially harmful emotions or desires into constructive and appropriate behaviors.",
+      "factoid": "Sublimation involves redirecting unacceptable impulses into socially acceptable activities.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What does altruism involve?",
+      "answerChoices": [
+        {
+          "value": "Receiving money or services from others",
+          "correct": false
+        },
+        {
+          "value": "Deriving gratification from providing money or services to others",
+          "correct": true
+        },
+        {
+          "value": "Avoiding any form of social interaction",
+          "correct": false
+        },
+        {
+          "value": "Seeking recognition for charitable actions",
+          "correct": false
+        },
+        {
+          "value": "Accumulating wealth for personal use",
+          "correct": false
+        }
+      ],
+      "explanation": "Altruism involves deriving gratification from providing money or services to others, rather than receiving or seeking personal gain.",
+      "factoid": "Altruism involves deriving gratification from providing money or services to others.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What does humor involve in the context of an adverse situation?",
+      "answerChoices": [
+        {
+          "value": "Ignoring the adverse situation completely",
+          "correct": false
+        },
+        {
+          "value": "Appreciating the amusing nature of the adverse situation",
+          "correct": true
+        },
+        {
+          "value": "Becoming angry about the adverse situation",
+          "correct": false
+        },
+        {
+          "value": "Feeling sad about the adverse situation",
+          "correct": false
+        },
+        {
+          "value": "Denying the existence of the adverse situation",
+          "correct": false
+        }
+      ],
+      "explanation": "Humor involves finding and appreciating the amusing aspects even in adverse situations, which can help in coping with stress and adversity.",
+      "factoid": "Humor involves appreciating the amusing nature of an adverse situation.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What does anticipation involve in the context of emotional reactions?",
+      "answerChoices": [
+        {
+          "value": "Ignoring emotional reactions altogether",
+          "correct": false
+        },
+        {
+          "value": "Experiencing emotional reactions in advance and considering realistic responses",
+          "correct": true
+        },
+        {
+          "value": "Suppressing emotional reactions until they become unmanageable",
+          "correct": false
+        },
+        {
+          "value": "Avoiding any emotional reactions by detaching oneself",
+          "correct": false
+        },
+        {
+          "value": "Reacting impulsively without considering the consequences",
+          "correct": false
+        }
+      ],
+      "explanation": "Anticipation involves experiencing emotional reactions in advance and considering realistic responses, which helps in better managing future emotional events.",
+      "factoid": "Anticipation involves experiencing emotional reactions in advance and considering realistic responses.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which psychological defense mechanism involves the conscious removal of a thought to cope with difficult emotions?",
+      "answerChoices": [
+        {
+          "value": "Repression",
+          "correct": false
+        },
+        {
+          "value": "Suppression",
+          "correct": true
+        },
+        {
+          "value": "Denial",
+          "correct": false
+        },
+        {
+          "value": "Displacement",
+          "correct": false
+        },
+        {
+          "value": "Sublimation",
+          "correct": false
+        }
+      ],
+      "explanation": "Suppression is a psychological defense mechanism that involves the conscious removal of a thought to cope with difficult emotions. Unlike repression, which is unconscious, suppression is a deliberate attempt to avoid thinking about certain thoughts or feelings.",
+      "factoid": "Suppression involves the conscious removal of a thought to cope with difficult emotions.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following statements about immature defense mechanisms is true?",
+      "answerChoices": [
+        {
+          "value": "They are the most effective in managing stress.",
+          "correct": false
+        },
+        {
+          "value": "They are less adaptive and can be detrimental with overuse.",
+          "correct": true
+        },
+        {
+          "value": "They are commonly used by individuals with high emotional intelligence.",
+          "correct": false
+        },
+        {
+          "value": "They are always beneficial in the short term.",
+          "correct": false
+        },
+        {
+          "value": "They are primarily used by well-adjusted adults.",
+          "correct": false
+        }
+      ],
+      "explanation": "Immature defense mechanisms are less adaptive and can be detrimental when overused, which means they are not the most effective in managing stress and can lead to negative outcomes.",
+      "factoid": "Immature defense mechanisms are less adaptive and can be detrimental with overuse.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What psychological mechanism involves the unconscious removal of unwanted memories, desires, or thoughts?",
+      "answerChoices": [
+        {
+          "value": "Denial",
+          "correct": false
+        },
+        {
+          "value": "Projection",
+          "correct": false
+        },
+        {
+          "value": "Repression",
+          "correct": true
+        },
+        {
+          "value": "Rationalization",
+          "correct": false
+        },
+        {
+          "value": "Displacement",
+          "correct": false
+        }
+      ],
+      "explanation": "Repression is a defense mechanism that involves the unconscious removal of unwanted memories, desires, or thoughts. This process helps in keeping distressing information out of conscious awareness.",
+      "factoid": "Repression involves the unconscious removal of unwanted memories, desires, or thoughts.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which defense mechanism involves refusing to accept reality or fact?",
+      "answerChoices": [
+        {
+          "value": "Displacement",
+          "correct": false
+        },
+        {
+          "value": "Denial",
+          "correct": true
+        },
+        {
+          "value": "Projection",
+          "correct": false
+        },
+        {
+          "value": "Sublimation",
+          "correct": false
+        },
+        {
+          "value": "Repression",
+          "correct": false
+        }
+      ],
+      "explanation": "Denial is a defense mechanism where an individual refuses to accept reality or fact, thereby avoiding a potentially distressing situation or experience.",
+      "factoid": "Denial involves refusing to accept reality or fact.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which psychological defense mechanism involves attributing one\u2019s own feelings, thoughts, or impulses onto another person?",
+      "answerChoices": [
+        {
+          "value": "Displacement",
+          "correct": false
+        },
+        {
+          "value": "Sublimation",
+          "correct": false
+        },
+        {
+          "value": "Repression",
+          "correct": false
+        },
+        {
+          "value": "Projection",
+          "correct": true
+        },
+        {
+          "value": "Rationalization",
+          "correct": false
+        }
+      ],
+      "explanation": "Projection is the psychological defense mechanism where an individual attributes their own feelings, thoughts, or impulses onto another person.",
+      "factoid": "Projection involves attributing one's own feelings, thoughts, or impulses onto another person.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What does the defense mechanism of splitting involve?",
+      "answerChoices": [
+        {
+          "value": "Viewing oneself as superior to others",
+          "correct": false
+        },
+        {
+          "value": "Repressing uncomfortable memories",
+          "correct": false
+        },
+        {
+          "value": "Viewing others as either all good or all bad",
+          "correct": true
+        },
+        {
+          "value": "Displacing emotions from one person to another",
+          "correct": false
+        },
+        {
+          "value": "Rationalizing unacceptable behaviors",
+          "correct": false
+        }
+      ],
+      "explanation": "Splitting is a defense mechanism where individuals view others as either all good or all bad, without recognizing the complexity and nuances of human nature.",
+      "factoid": "Splitting involves viewing others as either all good or all bad.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes the psychological concept of regression?",
+      "answerChoices": [
+        {
+          "value": "Adopting new, mature behaviors in response to stress",
+          "correct": false
+        },
+        {
+          "value": "Reverting to an earlier, more primitive pattern of behavior",
+          "correct": true
+        },
+        {
+          "value": "Displacing emotions from their original source to another target",
+          "correct": false
+        },
+        {
+          "value": "Refusing to accept reality or facts",
+          "correct": false
+        },
+        {
+          "value": "Projecting personal feelings onto others",
+          "correct": false
+        }
+      ],
+      "explanation": "Regression involves reverting to an earlier, more primitive pattern of behavior, often seen as a defense mechanism to cope with stress.",
+      "factoid": "Regression involves reverting to an earlier, more primitive pattern of behavior.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which defense mechanism involves redirecting emotions toward a substitute target?",
+      "answerChoices": [
+        {
+          "value": "Sublimation",
+          "correct": false
+        },
+        {
+          "value": "Displacement",
+          "correct": true
+        },
+        {
+          "value": "Repression",
+          "correct": false
+        },
+        {
+          "value": "Projection",
+          "correct": false
+        },
+        {
+          "value": "Denial",
+          "correct": false
+        }
+      ],
+      "explanation": "Displacement is a defense mechanism where emotions are redirected from the original source to a substitute target.",
+      "factoid": "Displacement involves redirecting emotions toward a substitute target.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What does 'acting out' involve in psychological terms?",
+      "answerChoices": [
+        {
+          "value": "Expressing conscious thoughts through verbal communication",
+          "correct": false
+        },
+        {
+          "value": "Suppressing emotions and avoiding conflict",
+          "correct": false
+        },
+        {
+          "value": "Expressing unconscious emotional conflicts through actions",
+          "correct": true
+        },
+        {
+          "value": "Engaging in deliberate self-harm to gain attention",
+          "correct": false
+        },
+        {
+          "value": "Using humor to deflect from serious issues",
+          "correct": false
+        }
+      ],
+      "explanation": "Acting out involves expressing unconscious emotional conflicts through actions rather than words. This behavior is often a way to cope with or express internal struggles without direct verbal communication.",
+      "factoid": "Acting out involves expressing unconscious emotional conflicts through actions rather than words.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What does reaction formation involve in psychological defense mechanisms?",
+      "answerChoices": [
+        {
+          "value": "Suppressing unacceptable impulses",
+          "correct": false
+        },
+        {
+          "value": "Transforming an unacceptable impulse into its opposite",
+          "correct": true
+        },
+        {
+          "value": "Projecting personal feelings onto someone else",
+          "correct": false
+        },
+        {
+          "value": "Reverting to an earlier stage of development",
+          "correct": false
+        },
+        {
+          "value": "Redirecting impulses towards a safer target",
+          "correct": false
+        }
+      ],
+      "explanation": "Reaction formation involves transforming an unacceptable impulse into its opposite. For example, a person who feels hatred towards someone may act overly friendly towards them to hide their true feelings.",
+      "factoid": "Reaction formation involves transforming an unacceptable impulse into its opposite.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What defense mechanism involves crafting a positive explanation for adverse thoughts and actions?",
+      "answerChoices": [
+        {
+          "value": "Denial",
+          "correct": false
+        },
+        {
+          "value": "Rationalization",
+          "correct": true
+        },
+        {
+          "value": "Displacement",
+          "correct": false
+        },
+        {
+          "value": "Projection",
+          "correct": false
+        },
+        {
+          "value": "Sublimation",
+          "correct": false
+        }
+      ],
+      "explanation": "Rationalization is a defense mechanism where an individual creates a seemingly logical or positive explanation for thoughts or behaviors that are actually driven by underlying adverse or unacceptable motivations.",
+      "factoid": "Rationalization involves crafting a positive explanation for adverse thoughts and actions.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which defense mechanism involves using complex terminology to detach from the emotional aspect of a situation?",
+      "answerChoices": [
+        {
+          "value": "Denial",
+          "correct": false
+        },
+        {
+          "value": "Displacement",
+          "correct": false
+        },
+        {
+          "value": "Intellectualization",
+          "correct": true
+        },
+        {
+          "value": "Projection",
+          "correct": false
+        },
+        {
+          "value": "Rationalization",
+          "correct": false
+        }
+      ],
+      "explanation": "Intellectualization is a defense mechanism that involves using complex terminology to distance oneself from the emotional aspects of a situation.",
+      "factoid": "Intellectualization involves using complex terminology to detach from the emotional aspect of a situation.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What does the psychological defense mechanism 'isolation of affect' involve?",
+      "answerChoices": [
+        {
+          "value": "Separating feelings from ideas and events",
+          "correct": true
+        },
+        {
+          "value": "Redirecting emotions to a substitute target",
+          "correct": false
+        },
+        {
+          "value": "Reverting to an earlier stage of development",
+          "correct": false
+        },
+        {
+          "value": "Refusing to acknowledge reality",
+          "correct": false
+        },
+        {
+          "value": "Attributing one's own unacceptable thoughts to others",
+          "correct": false
+        }
+      ],
+      "explanation": "Isolation of affect is a psychological defense mechanism that involves separating feelings from ideas and events. This allows a person to discuss traumatic or painful events without experiencing the associated emotions.",
+      "factoid": "Isolation of affect involves separating feelings from ideas and events.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What does somatization involve?",
+      "answerChoices": [
+        {
+          "value": "Consciously faking physical symptoms for personal gain",
+          "correct": false
+        },
+        {
+          "value": "Unconsciously converting distress into physical symptoms",
+          "correct": true
+        },
+        {
+          "value": "Experiencing hallucinations as a result of psychological stress",
+          "correct": false
+        },
+        {
+          "value": "Deliberately inflicting harm on oneself to seek attention",
+          "correct": false
+        },
+        {
+          "value": "Experiencing dissociative episodes without any physical symptoms",
+          "correct": false
+        }
+      ],
+      "explanation": "Somatization involves unconsciously converting psychological distress into physical symptoms, without any intentional effort or external incentives.",
+      "factoid": "Somatization involves unconsciously converting distress into physical symptoms.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is a characteristic behavior of someone displaying passive-aggression?",
+      "answerChoices": [
+        {
+          "value": "Directly confronting someone with anger",
+          "correct": false
+        },
+        {
+          "value": "Expressing feelings through ostensibly neutral behaviors",
+          "correct": true
+        },
+        {
+          "value": "Engaging in physical altercations",
+          "correct": false
+        },
+        {
+          "value": "Openly discussing their negative feelings",
+          "correct": false
+        },
+        {
+          "value": "Ignoring the problem completely",
+          "correct": false
+        }
+      ],
+      "explanation": "Passive-aggression involves indirectly expressing aggression or negative feelings through ostensibly neutral behaviors, rather than confronting the issue directly.",
+      "factoid": "Passive-aggression involves indirectly expressing aggression or negative feelings through ostensibly neutral behaviors.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which type of therapy focuses on identifying and changing negative thought patterns and behaviors?",
+      "answerChoices": [
+        {
+          "value": "Psychoanalytic therapy",
+          "correct": false
+        },
+        {
+          "value": "Humanistic therapy",
+          "correct": false
+        },
+        {
+          "value": "Cognitive behavioral therapy (CBT)",
+          "correct": true
+        },
+        {
+          "value": "Dialectical behavior therapy (DBT)",
+          "correct": false
+        },
+        {
+          "value": "Interpersonal therapy",
+          "correct": false
+        }
+      ],
+      "explanation": "Cognitive behavioral therapy (CBT) is the therapeutic approach that focuses on identifying and changing negative thought patterns and behaviors.",
+      "factoid": "Cognitive behavioral therapy (CBT) focuses on identifying and changing negative thought patterns and behaviors.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which type of therapy focuses on teaching coping skills for stress, emotional regulation, and interpersonal effectiveness?",
+      "answerChoices": [
+        {
+          "value": "Cognitive Behavioral Therapy (CBT)",
+          "correct": false
+        },
+        {
+          "value": "Interpersonal Therapy (IPT)",
+          "correct": false
+        },
+        {
+          "value": "Dialectical Behavioral Therapy (DBT)",
+          "correct": true
+        },
+        {
+          "value": "Psychodynamic Therapy",
+          "correct": false
+        },
+        {
+          "value": "Humanistic Therapy",
+          "correct": false
+        }
+      ],
+      "explanation": "Dialectical Behavioral Therapy (DBT) is specifically designed to teach coping skills for stress, emotional regulation, and interpersonal effectiveness, making it the correct answer.",
+      "factoid": "Dialectical behavioral therapy (DBT) teaches coping skills for stress, emotional regulation, and interpersonal effectiveness.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is the primary focus of psychodynamic psychotherapy?",
+      "answerChoices": [
+        {
+          "value": "Behavior modification",
+          "correct": false
+        },
+        {
+          "value": "Cognitive restructuring",
+          "correct": false
+        },
+        {
+          "value": "Unconscious processes, childhood memories, and unresolved past conflicts",
+          "correct": true
+        },
+        {
+          "value": "Mindfulness and present moment awareness",
+          "correct": false
+        },
+        {
+          "value": "Positive reinforcement techniques",
+          "correct": false
+        }
+      ],
+      "explanation": "Psychodynamic psychotherapy is primarily focused on exploring unconscious processes, childhood memories, and unresolved past conflicts to understand current behavior and emotions.",
+      "factoid": "Psychodynamic psychotherapy focuses on unconscious processes, childhood memories, and unresolved past conflicts.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is the primary mechanism of action in electroconvulsive therapy (ECT)?",
+      "answerChoices": [
+        {
+          "value": "Administering medication to induce a seizure",
+          "correct": false
+        },
+        {
+          "value": "Passing electricity through the scalp to induce a controlled seizure",
+          "correct": true
+        },
+        {
+          "value": "Using magnetic fields to stimulate the brain",
+          "correct": false
+        },
+        {
+          "value": "Applying cold therapy to the scalp to reduce inflammation",
+          "correct": false
+        },
+        {
+          "value": "Using light therapy to regulate circadian rhythms",
+          "correct": false
+        }
+      ],
+      "explanation": "Electroconvulsive therapy (ECT) involves passing electricity through the scalp to induce a controlled seizure, which is used as a treatment for certain psychiatric conditions.",
+      "factoid": "Electroconvulsive therapy (ECT) involves passing electricity through the scalp to induce a controlled seizure.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is the minimum number of SIGECAPS symptoms required to diagnose Major Depressive Disorder (MDD), and for how long must these symptoms be present?",
+      "answerChoices": [
+        {
+          "value": "3 symptoms for at least 1 week",
+          "correct": false
+        },
+        {
+          "value": "4 symptoms for at least 2 weeks",
+          "correct": false
+        },
+        {
+          "value": "5 symptoms for at least 2 weeks",
+          "correct": true
+        },
+        {
+          "value": "6 symptoms for at least 1 month",
+          "correct": false
+        },
+        {
+          "value": "7 symptoms for at least 3 weeks",
+          "correct": false
+        }
+      ],
+      "explanation": "Major Depressive Disorder (MDD) requires at least 5 out of 9 SIGECAPS symptoms to be present for a minimum duration of 2 weeks.",
+      "factoid": "Major depressive disorder (MDD) requires at least 5 out of 9 SIGECAPS symptoms for at least a 2-week period.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following medical conditions can cause depression?",
+      "answerChoices": [
+        {
+          "value": "Hypertension",
+          "correct": false
+        },
+        {
+          "value": "Hypothyroidism",
+          "correct": true
+        },
+        {
+          "value": "Gastroesophageal reflux disease (GERD)",
+          "correct": false
+        },
+        {
+          "value": "Asthma",
+          "correct": false
+        },
+        {
+          "value": "Chronic sinusitis",
+          "correct": false
+        }
+      ],
+      "explanation": "Hypothyroidism can cause depression due to the reduced levels of thyroid hormones affecting mood and cognitive function. Other medical conditions that can also cause depression include post-myocardial infarction (MI) and cancer diagnoses.",
+      "factoid": "Depression due to a medical condition can be caused by hypothyroidism, post-MI, and cancer diagnoses.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is a characteristic of atypical depression?",
+      "answerChoices": [
+        {
+          "value": "Insomnia",
+          "correct": false
+        },
+        {
+          "value": "Hypophagia",
+          "correct": false
+        },
+        {
+          "value": "Hypersomnolence",
+          "correct": true
+        },
+        {
+          "value": "Lack of mood reactivity",
+          "correct": false
+        },
+        {
+          "value": "Weight loss",
+          "correct": false
+        }
+      ],
+      "explanation": "Atypical depression is characterized by hypersomnolence (excessive sleepiness), hyperphagia (increased appetite), and mood reactivity (mood brightens in response to positive events).",
+      "factoid": "Atypical depression is characterized by hypersomnolence, hyperphagia, and mood reactivity.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What condition is described as depression presenting as cognitive decline, usually in the elderly?",
+      "answerChoices": [
+        {
+          "value": "Alzheimer's disease",
+          "correct": false
+        },
+        {
+          "value": "Vascular dementia",
+          "correct": false
+        },
+        {
+          "value": "Lewy body dementia",
+          "correct": false
+        },
+        {
+          "value": "Frontotemporal dementia",
+          "correct": false
+        },
+        {
+          "value": "Pseudodementia",
+          "correct": true
+        }
+      ],
+      "explanation": "Pseudodementia is characterized by depression that presents as cognitive decline, particularly in the elderly, distinguishing it from other forms of dementia which have different underlying pathologies.",
+      "factoid": "Pseudodementia is depression presenting as cognitive decline, usually in the elderly.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is the minimum duration of depressed mood required for a diagnosis of dysthymia?",
+      "answerChoices": [
+        {
+          "value": "1 month",
+          "correct": false
+        },
+        {
+          "value": "6 months",
+          "correct": false
+        },
+        {
+          "value": "1 year",
+          "correct": false
+        },
+        {
+          "value": "2 years",
+          "correct": true
+        },
+        {
+          "value": "5 years",
+          "correct": false
+        }
+      ],
+      "explanation": "Dysthymia, also known as persistent depressive disorder, requires a minimum duration of 2 years of depressed mood without meeting the full criteria for major depressive disorder (MDD).",
+      "factoid": "Dysthymia involves at least 2 years of depressed mood without fulfilling MDD criteria.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is the minimum duration of oscillation between depressed mood and hypomania required to diagnose cyclothymia?",
+      "answerChoices": [
+        {
+          "value": "6 months",
+          "correct": false
+        },
+        {
+          "value": "1 year",
+          "correct": false
+        },
+        {
+          "value": "2 years",
+          "correct": true
+        },
+        {
+          "value": "3 years",
+          "correct": false
+        },
+        {
+          "value": "5 years",
+          "correct": false
+        }
+      ],
+      "explanation": "Cyclothymia is characterized by at least 2 years of oscillation between episodes of depressed mood and hypomania, distinguishing it from other mood disorders.",
+      "factoid": "Cyclothymia involves at least 2 years of oscillation between depressed mood and hypomania.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is required for a diagnosis of Bipolar I disorder?",
+      "answerChoices": [
+        {
+          "value": "At least one depressive episode",
+          "correct": false
+        },
+        {
+          "value": "At least one hypomanic episode",
+          "correct": false
+        },
+        {
+          "value": "At least one manic episode",
+          "correct": true
+        },
+        {
+          "value": "At least one mixed episode",
+          "correct": false
+        },
+        {
+          "value": "At least two manic episodes",
+          "correct": false
+        }
+      ],
+      "explanation": "Bipolar I disorder is diagnosed with at least one manic episode, whether or not there are any depressive episodes.",
+      "factoid": "Bipolar I disorder is diagnosed with at least one manic episode, with or without a depressive episode.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is required for a diagnosis of Bipolar II disorder?",
+      "answerChoices": [
+        {
+          "value": "At least one manic episode",
+          "correct": false
+        },
+        {
+          "value": "At least one hypomanic episode and one major depressive episode",
+          "correct": true
+        },
+        {
+          "value": "At least one hypomanic episode and one manic episode",
+          "correct": false
+        },
+        {
+          "value": "At least two major depressive episodes",
+          "correct": false
+        },
+        {
+          "value": "At least one manic episode and one major depressive episode",
+          "correct": false
+        }
+      ],
+      "explanation": "Bipolar II disorder is characterized by at least one hypomanic episode and one major depressive episode. It does not include full manic episodes, which are a feature of Bipolar I disorder.",
+      "factoid": "Bipolar II disorder is diagnosed with at least one hypomanic episode and one major depressive episode.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is a criterion for the diagnosis of schizophrenia?",
+      "answerChoices": [
+        {
+          "value": "Symptoms lasting for at least 1 month",
+          "correct": false
+        },
+        {
+          "value": "Symptoms lasting for at least 3 months",
+          "correct": false
+        },
+        {
+          "value": "Symptoms lasting for at least 6 months",
+          "correct": true
+        },
+        {
+          "value": "Symptoms lasting for at least 9 months",
+          "correct": false
+        },
+        {
+          "value": "Symptoms lasting for at least 12 months",
+          "correct": false
+        }
+      ],
+      "explanation": "Schizophrenia requires the presence of symptoms such as hallucinations, delusions, disorganized speech, disorganized behavior, and negative symptoms for at least 6 months.",
+      "factoid": "Schizophrenia requires at least 6 months of symptoms, including hallucinations, delusions, disorganized speech, disorganized behavior, and negative symptoms.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What differentiates schizophreniform disorder from schizophrenia?",
+      "answerChoices": [
+        {
+          "value": "Schizophreniform disorder has more severe symptoms.",
+          "correct": false
+        },
+        {
+          "value": "Schizophreniform disorder is characterized by a shorter duration of symptoms.",
+          "correct": true
+        },
+        {
+          "value": "Schizophreniform disorder is treated with different medications.",
+          "correct": false
+        },
+        {
+          "value": "Schizophreniform disorder affects only adolescents.",
+          "correct": false
+        },
+        {
+          "value": "Schizophreniform disorder always progresses to schizophrenia.",
+          "correct": false
+        }
+      ],
+      "explanation": "Schizophreniform disorder is distinguished from schizophrenia by the duration of symptoms, which lasts between 1 to 6 months.",
+      "factoid": "Schizophreniform disorder has the same criteria as schizophrenia but lasts 1-6 months.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is the main distinguishing factor between brief psychotic disorder and schizophrenia?",
+      "answerChoices": [
+        {
+          "value": "Presence of hallucinations",
+          "correct": false
+        },
+        {
+          "value": "Duration of symptoms",
+          "correct": true
+        },
+        {
+          "value": "Type of delusions",
+          "correct": false
+        },
+        {
+          "value": "Response to medication",
+          "correct": false
+        },
+        {
+          "value": "Onset of symptoms",
+          "correct": false
+        }
+      ],
+      "explanation": "The main distinguishing factor between brief psychotic disorder and schizophrenia is the duration of symptoms. Brief psychotic disorder lasts less than 1 month, whereas schizophrenia requires a longer duration of symptoms for diagnosis.",
+      "factoid": "Brief psychotic disorder has the same criteria as schizophrenia but lasts less than 1 month.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following criteria is essential for diagnosing schizoaffective disorder?",
+      "answerChoices": [
+        {
+          "value": "Presence of mood disorder symptoms without psychosis",
+          "correct": false
+        },
+        {
+          "value": "Psychosis lasting less than two weeks",
+          "correct": false
+        },
+        {
+          "value": "At least two weeks of psychosis without a mood disorder",
+          "correct": true
+        },
+        {
+          "value": "Mood disorder symptoms lasting more than six months",
+          "correct": false
+        },
+        {
+          "value": "Psychosis only in the presence of mood disorder symptoms",
+          "correct": false
+        }
+      ],
+      "explanation": "Schizoaffective disorder requires at least two weeks of psychosis without a mood disorder, followed by periods with both psychotic and mood disorder symptoms.",
+      "factoid": "Schizoaffective disorder involves at least two weeks of psychosis without a mood disorder, followed by periods with simultaneous psychotic and mood disorder symptoms.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes depression with psychotic features?",
+      "answerChoices": [
+        {
+          "value": "Periods of intense happiness interspersed with manic episodes",
+          "correct": false
+        },
+        {
+          "value": "Periods of major depression with intermittent psychosis",
+          "correct": true
+        },
+        {
+          "value": "Constant mild depression with no psychotic symptoms",
+          "correct": false
+        },
+        {
+          "value": "Periods of major depression with episodes of anxiety",
+          "correct": false
+        },
+        {
+          "value": "Periods of major depression with hallucinations only",
+          "correct": false
+        }
+      ],
+      "explanation": "Depression with psychotic features is characterized by periods of major depression accompanied by intermittent episodes of psychosis, such as hallucinations or delusions.",
+      "factoid": "Depression with psychotic features involves periods of major depression with intermittent psychosis.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What characterizes Bipolar Disorder with psychotic features?",
+      "answerChoices": [
+        {
+          "value": "Periods of stable mood with occasional anxiety",
+          "correct": false
+        },
+        {
+          "value": "Periods of mania or depression with intermittent psychosis",
+          "correct": true
+        },
+        {
+          "value": "Continuous psychosis without mood fluctuation",
+          "correct": false
+        },
+        {
+          "value": "Mild mood swings without psychotic symptoms",
+          "correct": false
+        },
+        {
+          "value": "Episodes of depression only, without mania",
+          "correct": false
+        }
+      ],
+      "explanation": "Bipolar Disorder with psychotic features is characterized by periods of mania or depression during which psychotic symptoms, such as hallucinations or delusions, can occur intermittently.",
+      "factoid": "Bipolar with psychotic features involves periods of mania or depression with intermittent psychosis.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best characterizes delusional disorder?",
+      "answerChoices": [
+        {
+          "value": "Presence of multiple bizarre delusions with hallucinations",
+          "correct": false
+        },
+        {
+          "value": "Presence of one or more non-bizarre delusions without other signs of psychosis",
+          "correct": true
+        },
+        {
+          "value": "Presence of disorganized speech and behavior",
+          "correct": false
+        },
+        {
+          "value": "Presence of mood swings and grandiosity",
+          "correct": false
+        },
+        {
+          "value": "Presence of cognitive decline and memory loss",
+          "correct": false
+        }
+      ],
+      "explanation": "Delusional disorder is characterized by the presence of one or more non-bizarre delusions without other signs of psychosis, such as hallucinations, disorganized speech, or behavior.",
+      "factoid": "Delusional disorder involves one or more non-bizarre delusions without other signs of psychosis.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes the typical duration and progression of normal grief?",
+      "answerChoices": [
+        {
+          "value": "Normal grief usually lasts less than 3 months and involves stages of shock, depression, guilt, resolution, and recovery.",
+          "correct": false
+        },
+        {
+          "value": "Normal grief usually lasts less than 6 months and follows a progression of denial, anger, bargaining, lamentation, and acceptance.",
+          "correct": true
+        },
+        {
+          "value": "Normal grief typically lasts more than a year and progresses through phases of confusion, sorrow, despair, and renewal.",
+          "correct": false
+        },
+        {
+          "value": "Normal grief generally lasts about 9 months and includes stages of disbelief, sadness, anger, negotiation, and healing.",
+          "correct": false
+        },
+        {
+          "value": "Normal grief usually lasts less than a month and involves stages of shock, denial, anger, and resolution.",
+          "correct": false
+        }
+      ],
+      "explanation": "Normal grief usually lasts less than 6 months and follows a progression of denial, anger, bargaining, lamentation, and acceptance.",
+      "factoid": "Normal grief usually lasts less than 6 months and follows a progression of denial, anger, bargaining, lamentation, and acceptance.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes pathologic grief?",
+      "answerChoices": [
+        {
+          "value": "A temporary sadness lasting less than a month",
+          "correct": false
+        },
+        {
+          "value": "A period of intense mourning that resolves within 3 months without significant functional impairment",
+          "correct": false
+        },
+        {
+          "value": "A prolonged grief lasting more than 6-12 months with persistent functional impairment and thoughts of suicide",
+          "correct": true
+        },
+        {
+          "value": "A normal reaction to loss that includes occasional thoughts of the deceased",
+          "correct": false
+        },
+        {
+          "value": "A feeling of sadness that can be managed with over-the-counter medication",
+          "correct": false
+        }
+      ],
+      "explanation": "Pathologic grief is characterized by its duration of more than 6-12 months along with persistent functional impairment and thoughts of suicide, which differentiates it from normal or temporary grief reactions.",
+      "factoid": "Pathologic grief can last more than 6-12 months and involves persistent functional impairment and thoughts of suicide.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes the duration of symptoms required for a diagnosis of Generalized Anxiety Disorder (GAD)?",
+      "answerChoices": [
+        {
+          "value": "1 month",
+          "correct": false
+        },
+        {
+          "value": "3 months",
+          "correct": false
+        },
+        {
+          "value": "6 months",
+          "correct": true
+        },
+        {
+          "value": "9 months",
+          "correct": false
+        },
+        {
+          "value": "12 months",
+          "correct": false
+        }
+      ],
+      "explanation": "Generalized Anxiety Disorder (GAD) is characterized by excessive worry about various aspects of life lasting for at least 6 months.",
+      "factoid": "Generalized anxiety disorder (GAD) involves 6+ months of excessive worry about various aspects of life.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following criteria is essential for the diagnosis of panic disorder?",
+      "answerChoices": [
+        {
+          "value": "Having at least one panic attack",
+          "correct": false
+        },
+        {
+          "value": "Experiencing panic attacks only during stressful events",
+          "correct": false
+        },
+        {
+          "value": "Having 2 or more panic attacks and at least one month of worry about having more attacks",
+          "correct": true
+        },
+        {
+          "value": "Having panic attacks without any concern about future attacks",
+          "correct": false
+        },
+        {
+          "value": "Experiencing panic attacks due to a specific phobia",
+          "correct": false
+        }
+      ],
+      "explanation": "Panic disorder is diagnosed when an individual has had 2 or more panic attacks and has spent at least one month worrying about having more attacks. This differentiates it from isolated panic attacks that do not lead to ongoing concern or behavioral changes.",
+      "factoid": "Panic disorder is diagnosed with 2 or more panic attacks and at least one month of worry about having more attacks.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is a primary characteristic of social phobia?",
+      "answerChoices": [
+        {
+          "value": "Fear of being alone",
+          "correct": false
+        },
+        {
+          "value": "Fear of open spaces",
+          "correct": false
+        },
+        {
+          "value": "Fear of being judged or rejected in social or performance scenarios",
+          "correct": true
+        },
+        {
+          "value": "Fear of contamination",
+          "correct": false
+        },
+        {
+          "value": "Fear of heights",
+          "correct": false
+        }
+      ],
+      "explanation": "Social phobia, also known as social anxiety disorder, is primarily characterized by a fear of being judged or rejected in social or performance scenarios.",
+      "factoid": "Social phobia involves fear of being judged or rejected in social or performance scenarios.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes specific phobia?",
+      "answerChoices": [
+        {
+          "value": "A fear of social situations leading to significant distress or impairment.",
+          "correct": false
+        },
+        {
+          "value": "A fear of being in open or crowded places.",
+          "correct": false
+        },
+        {
+          "value": "A fear of a specific object or situation leading to significant distress or impairment.",
+          "correct": true
+        },
+        {
+          "value": "A fear of gaining weight and a distorted body image.",
+          "correct": false
+        },
+        {
+          "value": "A fear of separation from an attachment figure.",
+          "correct": false
+        }
+      ],
+      "explanation": "Specific phobia involves an intense fear of a specific object or situation that results in significant distress or impairment in functioning.",
+      "factoid": "Specific phobia involves fear of a specific object or situation leading to significant distress or impairment.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is agoraphobia primarily characterized by?",
+      "answerChoices": [
+        {
+          "value": "Fear of closed spaces",
+          "correct": false
+        },
+        {
+          "value": "Fear of heights",
+          "correct": false
+        },
+        {
+          "value": "Fear of social interactions",
+          "correct": false
+        },
+        {
+          "value": "Fear of being in places or situations where escape might be difficult or help unavailable",
+          "correct": true
+        },
+        {
+          "value": "Fear of contamination or germs",
+          "correct": false
+        }
+      ],
+      "explanation": "Agoraphobia is primarily characterized by a fear of being in places or situations where escape might be difficult or help unavailable, often leading individuals to avoid such situations and places.",
+      "factoid": "Agoraphobia involves fear of being in places or situations where escape might be difficult or help unavailable.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes separation anxiety disorder?",
+      "answerChoices": [
+        {
+          "value": "A condition where individuals have an intense fear of social situations",
+          "correct": false
+        },
+        {
+          "value": "A disorder characterized by excessive distress with separation from home or major attachment figures",
+          "correct": true
+        },
+        {
+          "value": "A type of anxiety disorder where individuals have a constant fear of specific objects or situations",
+          "correct": false
+        },
+        {
+          "value": "A condition where individuals experience repetitive thoughts and behaviors",
+          "correct": false
+        },
+        {
+          "value": "A disorder marked by periods of intense anxiety with no identifiable cause",
+          "correct": false
+        }
+      ],
+      "explanation": "Separation anxiety disorder is characterized by excessive distress when separated from home or major attachment figures. This distinguishes it from other anxiety disorders such as social anxiety disorder, specific phobias, obsessive-compulsive disorder, and generalized anxiety disorder.",
+      "factoid": "Separation anxiety disorder involves excessive distress with separation from home or major attachment figures.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is selective mutism characterized by?",
+      "answerChoices": [
+        {
+          "value": "Inability to speak at all times due to a physical condition",
+          "correct": false
+        },
+        {
+          "value": "Consistent inability to speak due to psychological trauma",
+          "correct": false
+        },
+        {
+          "value": "Failure to speak in certain situations despite being able to speak in others",
+          "correct": true
+        },
+        {
+          "value": "Inability to speak due to hearing impairment",
+          "correct": false
+        },
+        {
+          "value": "Choosing not to speak as a form of protest",
+          "correct": false
+        }
+      ],
+      "explanation": "Selective mutism is characterized by the failure to speak in specific social situations despite being able to speak in other situations where they feel comfortable.",
+      "factoid": "Selective mutism involves failure to speak in certain situations despite being able to speak in others.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "How long must symptoms of reliving a traumatic event, such as flashbacks or nightmares, persist for a diagnosis of PTSD?",
+      "answerChoices": [
+        {
+          "value": "1 week",
+          "correct": false
+        },
+        {
+          "value": "2 weeks",
+          "correct": false
+        },
+        {
+          "value": "1 month",
+          "correct": true
+        },
+        {
+          "value": "3 months",
+          "correct": false
+        },
+        {
+          "value": "6 months",
+          "correct": false
+        }
+      ],
+      "explanation": "PTSD involves at least 1 month of reliving a traumatic event with flashbacks or nightmares, which is necessary for a diagnosis.",
+      "factoid": "PTSD involves at least 1 month of reliving a traumatic event with flashbacks or nightmares.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "How long do the symptoms of Acute Stress Disorder typically last?",
+      "answerChoices": [
+        {
+          "value": "1 day to less than 3 days",
+          "correct": false
+        },
+        {
+          "value": "3 days to less than 1 month",
+          "correct": true
+        },
+        {
+          "value": "1 week to 3 months",
+          "correct": false
+        },
+        {
+          "value": "1 month to 6 months",
+          "correct": false
+        },
+        {
+          "value": "6 months to 1 year",
+          "correct": false
+        }
+      ],
+      "explanation": "Acute Stress Disorder involves symptoms that last from 3 days to less than 1 month. This duration differentiates it from PTSD, which involves longer-lasting symptoms.",
+      "factoid": "Acute stress disorder involves similar symptoms to PTSD but lasts 3 days to less than 1 month.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is a key characteristic of adjustment disorder?",
+      "answerChoices": [
+        {
+          "value": "Symptoms appear within 6 months of a stressor",
+          "correct": false
+        },
+        {
+          "value": "It involves socio-occupational dysfunction starting within 3 months of a specific stressor",
+          "correct": true
+        },
+        {
+          "value": "It is characterized by long-term symptoms lasting more than 2 years",
+          "correct": false
+        },
+        {
+          "value": "It only involves emotional symptoms without any socio-occupational impact",
+          "correct": false
+        },
+        {
+          "value": "Symptoms must involve psychotic features",
+          "correct": false
+        }
+      ],
+      "explanation": "Adjustment disorder is characterized by socio-occupational dysfunction that begins within 3 months of a specific stressor.",
+      "factoid": "Adjustment disorder involves socio-occupational dysfunction starting within 3 months of a specific stressor.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is a characteristic of ADHD?",
+      "answerChoices": [
+        {
+          "value": "Inattentiveness in specific settings only",
+          "correct": false
+        },
+        {
+          "value": "Hyperactivity that occurs only at home",
+          "correct": false
+        },
+        {
+          "value": "Inattentiveness and/or hyperactivity consistent across different settings",
+          "correct": true
+        },
+        {
+          "value": "Inattentiveness without any hyperactivity",
+          "correct": false
+        },
+        {
+          "value": "Hyperactivity without any inattentiveness",
+          "correct": false
+        }
+      ],
+      "explanation": "ADHD is characterized by inattentiveness and/or hyperactivity that is consistent across different settings, such as home, school, and work.",
+      "factoid": "ADHD involves inattentiveness and/or hyperactivity consistent across different settings.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best characterizes Obsessive-Compulsive Disorder (OCD)?",
+      "answerChoices": [
+        {
+          "value": "A persistent fear of social situations causing avoidance behaviors",
+          "correct": false
+        },
+        {
+          "value": "Episodes of excessive energy, reduced need for sleep, and grandiosity",
+          "correct": false
+        },
+        {
+          "value": "Persistent obsessions and/or compulsions causing significant distress or impairment",
+          "correct": true
+        },
+        {
+          "value": "Chronic feelings of sadness and loss of interest in daily activities",
+          "correct": false
+        },
+        {
+          "value": "Unpredictable mood swings between high and low states",
+          "correct": false
+        }
+      ],
+      "explanation": "Obsessive-Compulsive Disorder (OCD) is characterized by persistent obsessions (intrusive and unwanted thoughts) and/or compulsions (repetitive behaviors or mental acts) that cause significant distress or impairment in functioning.",
+      "factoid": "Obsessive-compulsive disorder (OCD) involves persistent obsessions and/or compulsions causing significant distress or impairment.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following disorders is characterized by argumentative and defiant behavior without law-breaking?",
+      "answerChoices": [
+        {
+          "value": "Conduct Disorder",
+          "correct": false
+        },
+        {
+          "value": "Oppositional Defiant Disorder",
+          "correct": true
+        },
+        {
+          "value": "Intermittent Explosive Disorder",
+          "correct": false
+        },
+        {
+          "value": "Antisocial Personality Disorder",
+          "correct": false
+        },
+        {
+          "value": "Attention-Deficit/Hyperactivity Disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Oppositional Defiant Disorder (ODD) involves a pattern of argumentative and defiant behavior, but does not involve law-breaking activities, which distinguishes it from other disorders such as Conduct Disorder.",
+      "factoid": "Oppositional defiant disorder involves argumentative and defiant behavior without law-breaking.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following disorders is characterized by a pattern of law-breaking behavior that starts before the age of 18?",
+      "answerChoices": [
+        {
+          "value": "Oppositional Defiant Disorder",
+          "correct": false
+        },
+        {
+          "value": "Antisocial Personality Disorder",
+          "correct": false
+        },
+        {
+          "value": "Intermittent Explosive Disorder",
+          "correct": false
+        },
+        {
+          "value": "Conduct Disorder",
+          "correct": true
+        },
+        {
+          "value": "Bipolar Disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Conduct disorder is characterized by a pattern of behavior in which the rights of others or basic social rules are violated. This behavior typically starts before the age of 18.",
+      "factoid": "Conduct disorder involves a pattern of law-breaking behavior starting before age 18.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is a key characteristic of paranoid personality disorder?",
+      "answerChoices": [
+        {
+          "value": "Excessive need for admiration",
+          "correct": false
+        },
+        {
+          "value": "Unstable interpersonal relationships",
+          "correct": false
+        },
+        {
+          "value": "Suspicion of others intending harm",
+          "correct": true
+        },
+        {
+          "value": "Lack of interest in social relationships",
+          "correct": false
+        },
+        {
+          "value": "Episodes of manic behavior",
+          "correct": false
+        }
+      ],
+      "explanation": "Paranoid personality disorder is primarily characterized by a pervasive distrust and suspicion of others, with the belief that others are plotting to cause harm. This leads to a reluctance to confide in others.",
+      "factoid": "Paranoid personality disorder involves suspicion of others intending harm and reluctance to confide in others.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is a characteristic of schizoid personality disorder?",
+      "answerChoices": [
+        {
+          "value": "Excessive emotionality and attention seeking",
+          "correct": false
+        },
+        {
+          "value": "Instability in relationships and self-image",
+          "correct": false
+        },
+        {
+          "value": "Detachment from social relationships and restricted emotional expression",
+          "correct": true
+        },
+        {
+          "value": "Pervasive distrust and suspicion of others",
+          "correct": false
+        },
+        {
+          "value": "Disregard for and violation of the rights of others",
+          "correct": false
+        }
+      ],
+      "explanation": "Schizoid personality disorder is characterized by detachment from social relationships and restricted emotional expression. Individuals with this disorder often prefer solitary activities and have little interest in forming personal relationships.",
+      "factoid": "Schizoid personality disorder involves detachment from social relationships and restricted emotional expression.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following disorders is characterized by cognitive and perceptual distortions and unusual beliefs?",
+      "answerChoices": [
+        {
+          "value": "Borderline Personality Disorder",
+          "correct": false
+        },
+        {
+          "value": "Obsessive-Compulsive Personality Disorder",
+          "correct": false
+        },
+        {
+          "value": "Schizotypal Personality Disorder",
+          "correct": true
+        },
+        {
+          "value": "Avoidant Personality Disorder",
+          "correct": false
+        },
+        {
+          "value": "Narcissistic Personality Disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Schizotypal Personality Disorder is characterized by cognitive and perceptual distortions and unusual beliefs, unlike the other personality disorders listed.",
+      "factoid": "Schizotypal personality disorder involves cognitive and perceptual distortions and unusual beliefs.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is a characteristic feature of borderline personality disorder?",
+      "answerChoices": [
+        {
+          "value": "Stable relationships",
+          "correct": false
+        },
+        {
+          "value": "Consistent self-image",
+          "correct": false
+        },
+        {
+          "value": "Emotional stability",
+          "correct": false
+        },
+        {
+          "value": "Impulsivity",
+          "correct": true
+        },
+        {
+          "value": "Predictable behavior",
+          "correct": false
+        }
+      ],
+      "explanation": "Impulsivity is a characteristic feature of borderline personality disorder, along with unstable relationships, self-image, and emotions.",
+      "factoid": "Borderline personality disorder involves unstable relationships, self-image, emotions, and impulsivity.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following characteristics is NOT commonly associated with histrionic personality disorder?",
+      "answerChoices": [
+        {
+          "value": "Attention-seeking behavior",
+          "correct": false
+        },
+        {
+          "value": "Eccentricity",
+          "correct": false
+        },
+        {
+          "value": "Sexual suggestibility",
+          "correct": false
+        },
+        {
+          "value": "Social withdrawal",
+          "correct": true
+        },
+        {
+          "value": "Dramatic emotional expressions",
+          "correct": false
+        }
+      ],
+      "explanation": "Histrionic personality disorder is characterized by attention-seeking behavior, eccentricity, and sexual suggestibility. Social withdrawal, however, is not typically associated with this disorder.",
+      "factoid": "Histrionic personality disorder involves attention-seeking, eccentricity, and sexual suggestibility.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following personality disorders is characterized by an inflated sense of self-importance and a need for excessive attention?",
+      "answerChoices": [
+        {
+          "value": "Borderline personality disorder",
+          "correct": false
+        },
+        {
+          "value": "Antisocial personality disorder",
+          "correct": false
+        },
+        {
+          "value": "Avoidant personality disorder",
+          "correct": false
+        },
+        {
+          "value": "Narcissistic personality disorder",
+          "correct": true
+        },
+        {
+          "value": "Dependent personality disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Narcissistic personality disorder is characterized by an inflated sense of self-importance and a need for excessive attention, which distinguishes it from other personality disorders.",
+      "factoid": "Narcissistic personality disorder involves an inflated sense of self-importance and a need for excessive attention.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following personality disorders is characterized by persistent law-breaking and violation of others' rights?",
+      "answerChoices": [
+        {
+          "value": "Borderline personality disorder",
+          "correct": false
+        },
+        {
+          "value": "Narcissistic personality disorder",
+          "correct": false
+        },
+        {
+          "value": "Obsessive-compulsive personality disorder",
+          "correct": false
+        },
+        {
+          "value": "Antisocial personality disorder",
+          "correct": true
+        },
+        {
+          "value": "Avoidant personality disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Antisocial personality disorder is characterized by a persistent pattern of disregard for, and violation of, the rights of others, which often includes law-breaking behavior.",
+      "factoid": "Antisocial personality disorder involves persistent law-breaking and violation of others' rights.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which personality disorder is characterized by extreme social inhibition and sensitivity to rejection?",
+      "answerChoices": [
+        {
+          "value": "Schizoid personality disorder",
+          "correct": false
+        },
+        {
+          "value": "Borderline personality disorder",
+          "correct": false
+        },
+        {
+          "value": "Avoidant personality disorder",
+          "correct": true
+        },
+        {
+          "value": "Narcissistic personality disorder",
+          "correct": false
+        },
+        {
+          "value": "Histrionic personality disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Avoidant personality disorder is the correct choice because it is known for extreme social inhibition and sensitivity to rejection, unlike the other personality disorders listed.",
+      "factoid": "Avoidant personality disorder involves extreme social inhibition and sensitivity to rejection.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes dependent personality disorder?",
+      "answerChoices": [
+        {
+          "value": "A persistent pattern of detachment from social relationships and a restricted range of emotional expression",
+          "correct": false
+        },
+        {
+          "value": "An excessive need to be taken care of and fear of separation",
+          "correct": true
+        },
+        {
+          "value": "A pervasive pattern of disregard for, and violation of, the rights of others",
+          "correct": false
+        },
+        {
+          "value": "A pattern of grandiosity, need for admiration, and lack of empathy",
+          "correct": false
+        },
+        {
+          "value": "A pattern of acute discomfort in close relationships, cognitive or perceptual distortions, and eccentricities of behavior",
+          "correct": false
+        }
+      ],
+      "explanation": "Dependent personality disorder is characterized by an excessive need to be taken care of and a fear of separation, leading to submissive and clinging behavior.",
+      "factoid": "Dependent personality disorder involves an excessive need to be taken care of and fear of separation.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following disorders involves a preoccupation with orderliness, perfectionism, and control?",
+      "answerChoices": [
+        {
+          "value": "Obsessive-compulsive disorder (OCD)",
+          "correct": false
+        },
+        {
+          "value": "Generalized anxiety disorder (GAD)",
+          "correct": false
+        },
+        {
+          "value": "Obsessive-compulsive personality disorder (OCPD)",
+          "correct": true
+        },
+        {
+          "value": "Schizotypal personality disorder",
+          "correct": false
+        },
+        {
+          "value": "Narcissistic personality disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Obsessive-compulsive personality disorder (OCPD) is characterized by a preoccupation with orderliness, perfectionism, and control. Unlike obsessive-compulsive disorder (OCD), OCPD does not involve true obsessions and compulsions, but rather a chronic pattern of behavior and attitudes.",
+      "factoid": "Obsessive-compulsive personality disorder (OCPD) involves preoccupation with orderliness, perfectionism, and control.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is most characteristic of Autism Spectrum Disorder (ASD)?",
+      "answerChoices": [
+        {
+          "value": "Sudden onset of symptoms in adolescence",
+          "correct": false
+        },
+        {
+          "value": "Repetitive behaviors and challenges in social communication starting before age 3",
+          "correct": true
+        },
+        {
+          "value": "Primarily affecting motor skills with no impact on communication",
+          "correct": false
+        },
+        {
+          "value": "Symptoms primarily emerging in adulthood",
+          "correct": false
+        },
+        {
+          "value": "Exclusive impact on cognitive abilities without behavioral changes",
+          "correct": false
+        }
+      ],
+      "explanation": "Autism spectrum disorder (ASD) typically involves repetitive behaviors and challenges in social communication that begin before the age of 3. These characteristics are essential for diagnosing ASD.",
+      "factoid": "Autism spectrum disorder (ASD) involves repetitive behaviors and challenges in social communication, starting before age 3.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following criteria is characteristic of anorexia nervosa?",
+      "answerChoices": [
+        {
+          "value": "BMI > 30",
+          "correct": false
+        },
+        {
+          "value": "Lack of concern about body weight",
+          "correct": false
+        },
+        {
+          "value": "BMI < 18.5",
+          "correct": true
+        },
+        {
+          "value": "Normal eating patterns",
+          "correct": false
+        },
+        {
+          "value": "Excessive weight gain",
+          "correct": false
+        }
+      ],
+      "explanation": "Anorexia nervosa is characterized by an intense preoccupation with low body weight and a fear of gaining weight, typically with a BMI <18.5.",
+      "factoid": "Anorexia nervosa involves intense preoccupation with low body weight and fear of gaining weight, with a BMI <18.5.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is a characteristic of bulimia nervosa?",
+      "answerChoices": [
+        {
+          "value": "Significantly underweight BMI",
+          "correct": false
+        },
+        {
+          "value": "Binge eating followed by compensatory behaviors",
+          "correct": true
+        },
+        {
+          "value": "Absence of compensatory behaviors",
+          "correct": false
+        },
+        {
+          "value": "Binge eating without concern for body weight",
+          "correct": false
+        },
+        {
+          "value": "Only occurs in males",
+          "correct": false
+        }
+      ],
+      "explanation": "The characteristic feature of bulimia nervosa is binge eating followed by compensatory behaviors, such as vomiting, to prevent weight gain. Individuals with bulimia nervosa typically have a normal or increased BMI.",
+      "factoid": "Bulimia nervosa involves binge eating followed by compensatory behaviors, with a normal or increased BMI.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes binge-eating disorder?",
+      "answerChoices": [
+        {
+          "value": "Frequent episodes of consuming large amounts of food with excessive exercise as compensation",
+          "correct": false
+        },
+        {
+          "value": "Frequent episodes of consuming large amounts of food without compensatory behaviors",
+          "correct": true
+        },
+        {
+          "value": "Recurrent episodes of eating small amounts of food with compensatory behaviors like vomiting",
+          "correct": false
+        },
+        {
+          "value": "Frequent episodes of consuming small amounts of food with the use of laxatives",
+          "correct": false
+        },
+        {
+          "value": "Occasional episodes of consuming large amounts of food with compensatory behaviors like fasting",
+          "correct": false
+        }
+      ],
+      "explanation": "Binge-eating disorder is characterized by frequent episodes of consuming large amounts of food without engaging in compensatory behaviors such as vomiting, excessive exercise, or fasting.",
+      "factoid": "Binge-eating disorder involves frequent episodes of consuming large amounts of food without compensatory behaviors.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following conditions involves two or more distinct identities controlling behavior with memory gaps?",
+      "answerChoices": [
+        {
+          "value": "Schizophrenia",
+          "correct": false
+        },
+        {
+          "value": "Bipolar disorder",
+          "correct": false
+        },
+        {
+          "value": "Dissociative identity disorder (DID)",
+          "correct": true
+        },
+        {
+          "value": "Borderline personality disorder",
+          "correct": false
+        },
+        {
+          "value": "Obsessive-compulsive disorder (OCD)",
+          "correct": false
+        }
+      ],
+      "explanation": "Dissociative identity disorder (DID) is characterized by the presence of two or more distinct identities or personality states that control an individual's behavior, along with memory gaps for everyday events and personal information.",
+      "factoid": "Dissociative identity disorder (DID) involves two or more distinct identities controlling behavior with memory gaps.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What condition is characterized by the inability to recall important personal information related to a traumatic event?",
+      "answerChoices": [
+        {
+          "value": "Generalized anxiety disorder",
+          "correct": false
+        },
+        {
+          "value": "Dissociative identity disorder",
+          "correct": false
+        },
+        {
+          "value": "Post-traumatic stress disorder",
+          "correct": false
+        },
+        {
+          "value": "Dissociative amnesia",
+          "correct": true
+        },
+        {
+          "value": "Conversion disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Dissociative amnesia specifically involves the inability to recall important personal information, usually related to a traumatic or stressful event. This differentiates it from other psychological conditions.",
+      "factoid": "Dissociative amnesia involves inability to recall important personal information related to a traumatic event.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes Depersonalization/Derealization Disorder?",
+      "answerChoices": [
+        {
+          "value": "A condition characterized by repetitive, intrusive thoughts and compulsive behaviors.",
+          "correct": false
+        },
+        {
+          "value": "A disorder involving intense and irrational fears of specific objects or situations.",
+          "correct": false
+        },
+        {
+          "value": "A mental health condition where individuals feel detached from themselves or their surroundings.",
+          "correct": true
+        },
+        {
+          "value": "A mood disorder marked by periods of depression and elevated mood.",
+          "correct": false
+        },
+        {
+          "value": "A disorder characterized by persistent difficulty discarding or parting with possessions.",
+          "correct": false
+        }
+      ],
+      "explanation": "Depersonalization/Derealization Disorder is a mental health condition where individuals experience a sense of detachment from themselves (depersonalization) or their surroundings (derealization).",
+      "factoid": "Depersonalization/derealization disorder involves feeling detached from oneself or the world around.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which disorder is characterized by chronic somatic symptoms causing distress or dysfunction without medical abnormalities?",
+      "answerChoices": [
+        {
+          "value": "Generalized anxiety disorder",
+          "correct": false
+        },
+        {
+          "value": "Major depressive disorder",
+          "correct": false
+        },
+        {
+          "value": "Somatic symptom disorder",
+          "correct": true
+        },
+        {
+          "value": "Panic disorder",
+          "correct": false
+        },
+        {
+          "value": "Obsessive-compulsive disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Somatic symptom disorder involves chronic somatic symptoms causing distress or dysfunction without medical abnormalities, distinguishing it from other mental health disorders.",
+      "factoid": "Somatic symptom disorder involves chronic somatic symptoms causing distress or dysfunction without medical abnormalities.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is characteristic of conversion disorder?",
+      "answerChoices": [
+        {
+          "value": "Neurologic deficits following a stressor with significant concern about the deficit",
+          "correct": false
+        },
+        {
+          "value": "Neurologic deficits following a stressor with a lack of concern about the deficit",
+          "correct": true
+        },
+        {
+          "value": "Neurologic deficits not associated with any stressor",
+          "correct": false
+        },
+        {
+          "value": "Mental deficits without any physical symptoms",
+          "correct": false
+        },
+        {
+          "value": "Physical deficits with clear medical explanations",
+          "correct": false
+        }
+      ],
+      "explanation": "Conversion disorder is characterized by neurologic deficits following a stressor, and typically, the patient exhibits a lack of concern about the deficit, a phenomenon known as 'la belle indifference.'",
+      "factoid": "Conversion disorder involves neurologic deficits following a stressor, with a lack of concern about the deficit.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is a key characteristic of illness anxiety disorder?",
+      "answerChoices": [
+        {
+          "value": "A persistent fear of social situations",
+          "correct": false
+        },
+        {
+          "value": "Obsessive-compulsive behaviors",
+          "correct": false
+        },
+        {
+          "value": "Extreme preoccupation with having or acquiring a serious illness despite medical reassurances",
+          "correct": true
+        },
+        {
+          "value": "Significant memory loss and confusion",
+          "correct": false
+        },
+        {
+          "value": "Episodes of intense emotional highs and lows",
+          "correct": false
+        }
+      ],
+      "explanation": "Illness anxiety disorder is characterized by an excessive preoccupation with having or acquiring a serious illness, even when medical evaluations provide reassurance that no serious illness is present.",
+      "factoid": "Illness anxiety disorder involves preoccupation with having or acquiring a serious illness despite medical reassurances.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following disorders involves the intentional production of symptoms to assume the sick role?",
+      "answerChoices": [
+        {
+          "value": "Conversion disorder",
+          "correct": false
+        },
+        {
+          "value": "Somatic symptom disorder",
+          "correct": false
+        },
+        {
+          "value": "Illness anxiety disorder",
+          "correct": false
+        },
+        {
+          "value": "Factitious disorder",
+          "correct": true
+        },
+        {
+          "value": "Body dysmorphic disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Factitious disorder is characterized by the intentional production or feigning of physical or psychological symptoms in order to assume the sick role, without external incentives such as financial gain or avoidance of duties.",
+      "factoid": "Factitious disorder involves intentional production of symptoms to assume the sick role.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is the primary characteristic of malingering?",
+      "answerChoices": [
+        {
+          "value": "Unintentional production of symptoms",
+          "correct": false
+        },
+        {
+          "value": "Production of symptoms for primary gain",
+          "correct": false
+        },
+        {
+          "value": "Intentional production of symptoms for secondary gain",
+          "correct": true
+        },
+        {
+          "value": "Symptoms that are always physical",
+          "correct": false
+        },
+        {
+          "value": "Symptoms that are always psychological",
+          "correct": false
+        }
+      ],
+      "explanation": "Malingering involves the intentional production of symptoms for secondary gain, such as money or drugs. This distinguishes it from other conditions where symptoms are not intentionally produced.",
+      "factoid": "Malingering involves intentional production of symptoms for secondary gain, such as money or drugs.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "How long does a typical sleep cycle, consisting of Non-REM and REM stages, last?",
+      "answerChoices": [
+        {
+          "value": "30 minutes",
+          "correct": false
+        },
+        {
+          "value": "60 minutes",
+          "correct": false
+        },
+        {
+          "value": "90 minutes",
+          "correct": true
+        },
+        {
+          "value": "120 minutes",
+          "correct": false
+        },
+        {
+          "value": "150 minutes",
+          "correct": false
+        }
+      ],
+      "explanation": "A typical sleep cycle, which includes both Non-REM and REM stages, lasts approximately 90 minutes.",
+      "factoid": "Sleep is divided into Non-REM and REM stages, with cycles lasting ~90 minutes.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "During which mental state are gamma waves most likely to be observed?",
+      "answerChoices": [
+        {
+          "value": "Deep sleep",
+          "correct": false
+        },
+        {
+          "value": "Relaxation",
+          "correct": false
+        },
+        {
+          "value": "High concentration",
+          "correct": true
+        },
+        {
+          "value": "Light sleep",
+          "correct": false
+        },
+        {
+          "value": "Daydreaming",
+          "correct": false
+        }
+      ],
+      "explanation": "Gamma waves are brain waves with a high frequency that are observed during periods of high concentration and cognitive processing.",
+      "factoid": "Gamma waves occur during periods of high concentration.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which type of brain waves predominantly occur during wakefulness with eyes open?",
+      "answerChoices": [
+        {
+          "value": "Alpha waves",
+          "correct": false
+        },
+        {
+          "value": "Theta waves",
+          "correct": false
+        },
+        {
+          "value": "Delta waves",
+          "correct": false
+        },
+        {
+          "value": "Beta waves",
+          "correct": true
+        },
+        {
+          "value": "Gamma waves",
+          "correct": false
+        }
+      ],
+      "explanation": "Beta waves are most commonly observed when an individual is awake and alert, with eyes open. They are associated with active thinking and focus.",
+      "factoid": "Beta waves predominate during wakefulness with eyes open.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "During which state do alpha waves predominantly occur?",
+      "answerChoices": [
+        {
+          "value": "During REM sleep",
+          "correct": false
+        },
+        {
+          "value": "During wakefulness with eyes closed",
+          "correct": true
+        },
+        {
+          "value": "During deep sleep",
+          "correct": false
+        },
+        {
+          "value": "During wakefulness with eyes open",
+          "correct": false
+        },
+        {
+          "value": "During sleep onset",
+          "correct": false
+        }
+      ],
+      "explanation": "Alpha waves are most commonly seen when a person is awake but in a relaxed state with their eyes closed. They do not predominate during sleep or when the eyes are open.",
+      "factoid": "Alpha waves predominate during wakefulness with eyes closed.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "During which stage of sleep do theta waves occur?",
+      "answerChoices": [
+        {
+          "value": "Stage 1",
+          "correct": true
+        },
+        {
+          "value": "Stage 2",
+          "correct": false
+        },
+        {
+          "value": "Stage 3",
+          "correct": false
+        },
+        {
+          "value": "REM sleep",
+          "correct": false
+        },
+        {
+          "value": "Stage 4",
+          "correct": false
+        }
+      ],
+      "explanation": "Theta waves are characteristic of Stage 1 sleep, which is the lightest stage of sleep where one transitions from wakefulness to sleep.",
+      "factoid": "Theta waves occur during Stage 1 sleep.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "During which stage of sleep do K-complexes and sleep spindles occur?",
+      "answerChoices": [
+        {
+          "value": "Stage 1",
+          "correct": false
+        },
+        {
+          "value": "Stage 2",
+          "correct": true
+        },
+        {
+          "value": "Stage 3",
+          "correct": false
+        },
+        {
+          "value": "REM sleep",
+          "correct": false
+        },
+        {
+          "value": "Stage 4",
+          "correct": false
+        }
+      ],
+      "explanation": "K-complexes and sleep spindles are characteristic features of Stage 2 sleep, which is a stage of light sleep.",
+      "factoid": "K-complexes and sleep spindles occur during Stage 2 sleep.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "During which stage of sleep do delta waves occur?",
+      "answerChoices": [
+        {
+          "value": "Stage 1",
+          "correct": false
+        },
+        {
+          "value": "Stage 2",
+          "correct": false
+        },
+        {
+          "value": "Stage 3",
+          "correct": true
+        },
+        {
+          "value": "REM sleep",
+          "correct": false
+        },
+        {
+          "value": "Stage 4",
+          "correct": false
+        }
+      ],
+      "explanation": "Delta waves occur during Stage 3 sleep, which is the deepest and most rejuvenating stage of sleep.",
+      "factoid": "Delta waves occur during Stage 3 sleep, the deepest and most rejuvenating sleep.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is characteristic of REM sleep?",
+      "answerChoices": [
+        {
+          "value": "Alpha waves",
+          "correct": false
+        },
+        {
+          "value": "Decreased brain oxygen consumption",
+          "correct": false
+        },
+        {
+          "value": "Muscle activity",
+          "correct": false
+        },
+        {
+          "value": "Beta waves",
+          "correct": true
+        },
+        {
+          "value": "Delta waves",
+          "correct": false
+        }
+      ],
+      "explanation": "REM sleep is characterized by beta waves, which are also seen in the awake, alert state. During REM sleep, there is increased brain oxygen consumption and muscle paralysis, making beta waves the correct answer.",
+      "factoid": "REM sleep involves beta waves, increased brain oxygen consumption, and muscle paralysis.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following symptoms is NOT typically associated with narcolepsy?",
+      "answerChoices": [
+        {
+          "value": "Excessive daytime sleepiness",
+          "correct": false
+        },
+        {
+          "value": "Cataplexy",
+          "correct": false
+        },
+        {
+          "value": "Sleep paralysis",
+          "correct": false
+        },
+        {
+          "value": "Hypnagogic hallucinations",
+          "correct": false
+        },
+        {
+          "value": "Insomnia",
+          "correct": true
+        }
+      ],
+      "explanation": "Narcolepsy is characterized by excessive daytime sleepiness, cataplexy, sleep paralysis, and hypnagogic/hypnopompic hallucinations. Insomnia is not typically associated with narcolepsy.",
+      "factoid": "Narcolepsy involves excessive daytime sleepiness, cataplexy, sleep paralysis, and hypnagogic/hypnopompic hallucinations.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which diagnostic test is used to diagnose both obstructive and central sleep apnea?",
+      "answerChoices": [
+        {
+          "value": "Electroencephalography (EEG)",
+          "correct": false
+        },
+        {
+          "value": "Polysomnography",
+          "correct": true
+        },
+        {
+          "value": "Magnetic Resonance Imaging (MRI)",
+          "correct": false
+        },
+        {
+          "value": "Electrocardiography (ECG)",
+          "correct": false
+        },
+        {
+          "value": "Spirometry",
+          "correct": false
+        }
+      ],
+      "explanation": "Polysomnography is the diagnostic test used to diagnose both obstructive and central sleep apnea. It monitors various physiological parameters during sleep to identify abnormalities.",
+      "factoid": "Sleep apnea can be obstructive or central and is diagnosed with polysomnography.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is a key characteristic of circadian rhythm sleep-wake disorder?",
+      "answerChoices": [
+        {
+          "value": "Inability to fall asleep in a quiet environment",
+          "correct": false
+        },
+        {
+          "value": "Misalignment between sleep patterns and societal norms",
+          "correct": true
+        },
+        {
+          "value": "Frequent nightmares disrupting sleep",
+          "correct": false
+        },
+        {
+          "value": "Daytime sleepiness due to sleep apnea",
+          "correct": false
+        },
+        {
+          "value": "Difficulty staying asleep once asleep",
+          "correct": false
+        }
+      ],
+      "explanation": "Circadian rhythm sleep-wake disorder is characterized by a mismatch between the individual's internal body clock and the timing required to meet societal demands, such as work or school schedules.",
+      "factoid": "Circadian rhythm sleep-wake disorder involves misalignment between sleep patterns and societal norms.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "During which stage of sleep does somnambulism (sleepwalking) typically occur?",
+      "answerChoices": [
+        {
+          "value": "Stage 1",
+          "correct": false
+        },
+        {
+          "value": "Stage 2",
+          "correct": false
+        },
+        {
+          "value": "Stage 3",
+          "correct": true
+        },
+        {
+          "value": "REM sleep",
+          "correct": false
+        },
+        {
+          "value": "Stage 4",
+          "correct": false
+        }
+      ],
+      "explanation": "Somnambulism, or sleepwalking, typically occurs during Stage 3 of sleep, which is also known as deep sleep or slow-wave sleep.",
+      "factoid": "Somnambulism involves sleepwalking during Stage 3 sleep.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which sleep phase is primarily associated with distressing dreams in nightmare disorder?",
+      "answerChoices": [
+        {
+          "value": "Non-REM stage 1",
+          "correct": false
+        },
+        {
+          "value": "Non-REM stage 3",
+          "correct": false
+        },
+        {
+          "value": "REM sleep",
+          "correct": true
+        },
+        {
+          "value": "Non-REM stage 2",
+          "correct": false
+        },
+        {
+          "value": "Non-REM stage 4",
+          "correct": false
+        }
+      ],
+      "explanation": "Nightmare disorder is characterized by distressing dreams that occur primarily during REM (Rapid Eye Movement) sleep, which is when vivid dreaming typically happens.",
+      "factoid": "Nightmare disorder involves distressing dreams during REM sleep.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "During which stage of sleep do episodes of sleep terror disorder most commonly occur?",
+      "answerChoices": [
+        {
+          "value": "REM sleep",
+          "correct": false
+        },
+        {
+          "value": "Stage 1 sleep",
+          "correct": false
+        },
+        {
+          "value": "Stage 2 sleep",
+          "correct": false
+        },
+        {
+          "value": "Stage 3 sleep",
+          "correct": true
+        },
+        {
+          "value": "Wakefulness",
+          "correct": false
+        }
+      ],
+      "explanation": "Sleep terror disorder involves episodes of panic and somnambulation during Stage 3 sleep, which is a deep sleep stage.",
+      "factoid": "Sleep terror disorder involves episodes of panic and somnambulation during Stage 3 sleep.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which condition is often associated with an irresistible urge to move the legs due to iron deficiency anemia?",
+      "answerChoices": [
+        {
+          "value": "Peripheral neuropathy",
+          "correct": false
+        },
+        {
+          "value": "Parkinson's disease",
+          "correct": false
+        },
+        {
+          "value": "Restless leg syndrome",
+          "correct": true
+        },
+        {
+          "value": "Multiple sclerosis",
+          "correct": false
+        },
+        {
+          "value": "Amyotrophic lateral sclerosis",
+          "correct": false
+        }
+      ],
+      "explanation": "Restless leg syndrome is characterized by an irresistible urge to move the legs, which can be exacerbated by iron deficiency anemia.",
+      "factoid": "Restless leg syndrome involves an irresistible urge to move the legs, often due to iron deficiency anemia.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes insomnia?",
+      "answerChoices": [
+        {
+          "value": "A condition characterized by excessive sleepiness during the day",
+          "correct": false
+        },
+        {
+          "value": "A sleep disorder involving difficulty falling or staying asleep, leading to impaired daytime functioning",
+          "correct": true
+        },
+        {
+          "value": "A condition where a person experiences sudden sleep attacks",
+          "correct": false
+        },
+        {
+          "value": "A disorder characterized by abnormal breathing patterns during sleep",
+          "correct": false
+        },
+        {
+          "value": "A condition involving sleepwalking and other complex behaviors during sleep",
+          "correct": false
+        }
+      ],
+      "explanation": "Insomnia is a sleep disorder characterized by difficulty in falling or staying asleep, which leads to impaired functioning during the day.",
+      "factoid": "Insomnia involves difficulty falling or staying asleep, leading to impaired daytime functioning.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following conditions is characterized by repetitive, involuntary movements and vocalizations?",
+      "answerChoices": [
+        {
+          "value": "Parkinson's disease",
+          "correct": false
+        },
+        {
+          "value": "Tourette syndrome",
+          "correct": true
+        },
+        {
+          "value": "Multiple sclerosis",
+          "correct": false
+        },
+        {
+          "value": "Huntington's disease",
+          "correct": false
+        },
+        {
+          "value": "Amyotrophic lateral sclerosis",
+          "correct": false
+        }
+      ],
+      "explanation": "Tourette syndrome is characterized by repetitive, involuntary movements and vocalizations. The other conditions listed have different characteristic symptoms.",
+      "factoid": "Tourette syndrome involves repetitive, involuntary movements and vocalizations.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "What is the defining characteristic of provisional tic disorder in children?",
+      "answerChoices": [
+        {
+          "value": "Multiple tics lasting more than a year",
+          "correct": false
+        },
+        {
+          "value": "A single tic lasting up to a year",
+          "correct": true
+        },
+        {
+          "value": "Multiple tics lasting less than a month",
+          "correct": false
+        },
+        {
+          "value": "A single tic lasting more than a year",
+          "correct": false
+        },
+        {
+          "value": "No tics, just vocal outbursts lasting up to a year",
+          "correct": false
+        }
+      ],
+      "explanation": "Provisional tic disorder is characterized by a single tic that lasts up to a year in children.",
+      "factoid": "Provisional tic disorder involves a singular tic lasting up to a year in children.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following conditions is associated with Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcal infections (PANDAS)?",
+      "answerChoices": [
+        {
+          "value": "Epilepsy",
+          "correct": false
+        },
+        {
+          "value": "Bipolar disorder",
+          "correct": false
+        },
+        {
+          "value": "Tic disorder",
+          "correct": true
+        },
+        {
+          "value": "Anorexia nervosa",
+          "correct": false
+        },
+        {
+          "value": "Schizophrenia",
+          "correct": false
+        }
+      ],
+      "explanation": "PANDAS is associated with tic disorders, obsessive-compulsive disorder (OCD), or attention-deficit/hyperactivity disorder (ADHD) following a Group A Streptococcal infection.",
+      "factoid": "PANDAS involves tic disorder, OCD, or ADHD following Group A Strep infection.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which condition involves pulling out one's hair, sometimes leading to gastric bezoars?",
+      "answerChoices": [
+        {
+          "value": "Dermatillomania",
+          "correct": false
+        },
+        {
+          "value": "Trichotillomania",
+          "correct": true
+        },
+        {
+          "value": "Onychophagia",
+          "correct": false
+        },
+        {
+          "value": "Excoriation disorder",
+          "correct": false
+        },
+        {
+          "value": "Body dysmorphic disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Trichotillomania is characterized by the compulsive urge to pull out one's hair, which can lead to the formation of gastric bezoars if the hair is ingested.",
+      "factoid": "Trichotillomania involves pulling out one's hair, sometimes leading to gastric bezoar.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following best describes skin-picking disorder?",
+      "answerChoices": [
+        {
+          "value": "A condition characterized by repetitive hand washing due to fear of contamination",
+          "correct": false
+        },
+        {
+          "value": "A condition where individuals repeatedly pick at their skin, causing lesions",
+          "correct": true
+        },
+        {
+          "value": "A disorder involving excessive hair pulling, resulting in hair loss",
+          "correct": false
+        },
+        {
+          "value": "A condition where individuals have an overwhelming urge to count objects repeatedly",
+          "correct": false
+        },
+        {
+          "value": "A disorder characterized by the persistent belief that one is ill despite lack of medical evidence",
+          "correct": false
+        }
+      ],
+      "explanation": "Skin-picking disorder is a condition where individuals repeatedly pick at their skin, which leads to the development of lesions.",
+      "factoid": "Skin-picking disorder involves picking at the skin, leading to lesions.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following conditions involves an excessive preoccupation with one's appearance?",
+      "answerChoices": [
+        {
+          "value": "Generalized Anxiety Disorder",
+          "correct": false
+        },
+        {
+          "value": "Body Dysmorphic Disorder",
+          "correct": true
+        },
+        {
+          "value": "Obsessive-Compulsive Disorder",
+          "correct": false
+        },
+        {
+          "value": "Social Anxiety Disorder",
+          "correct": false
+        },
+        {
+          "value": "Major Depressive Disorder",
+          "correct": false
+        }
+      ],
+      "explanation": "Body Dysmorphic Disorder (BDD) is characterized by an excessive preoccupation with one's appearance, often involving perceived flaws that may not be observable to others.",
+      "factoid": "Body dysmorphic disorder involves excessive preoccupation with one's appearance.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    },
+    {
+      "question": "Which of the following is a significant finding that may indicate child abuse?",
+      "answerChoices": [
+        {
+          "value": "Linear skull fracture",
+          "correct": false
+        },
+        {
+          "value": "Colles' fracture",
+          "correct": false
+        },
+        {
+          "value": "Posterior rib fractures",
+          "correct": true
+        },
+        {
+          "value": "Greenstick fracture",
+          "correct": false
+        },
+        {
+          "value": "Clavicle fracture",
+          "correct": false
+        }
+      ],
+      "explanation": "Posterior rib fractures are significant findings that may indicate child abuse. These types of fractures are less likely to occur accidentally and often result from squeezing or shaking the child.",
+      "factoid": "Important child abuse findings include spiral fractures, posterior rib fractures, circular burns, and retinal detachment.",
+      "source_file": "Psychology",
+      "bank_id": "mehlman-psychology"
+    }
+  ]
+}

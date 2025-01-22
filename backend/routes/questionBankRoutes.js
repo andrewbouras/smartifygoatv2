@@ -3,6 +3,11 @@ const router = express.Router();
 const QuestionBank = require('../models/QuestionBank');
 const ensureAuthenticated = require('../middlewares/auth');
 const User = require('../models/user');
+const mcqs_collection = require('../models/mcqs');
+const mongoose = require('mongoose');
+
+// Get the MongoDB connection
+const db = mongoose.connection;
 
 // Test endpoint to check MongoDB connection
 router.get('/test', async (req, res) => {
@@ -80,32 +85,44 @@ router.get('/auth-test', ensureAuthenticated, async (req, res) => {
 });
 
 // Simple import endpoint for local use
-router.post('/import', async (req, res) => {
+router.post('/import', ensureAuthenticated, async (req, res) => {
   try {
-    const { sourceFile, questions, clearExisting } = req.body;
+    const { sourceFile } = req.body;
     
-    // Check if question bank already exists
+    // Check if MCQs already exist
     let questionBank = await QuestionBank.findOne({ sourceFile });
     
-    if (questionBank) {
-      if (clearExisting) {
-        // Clear existing questions if flag is set
-        questionBank.questions = [];
-      } else {
-        // Append new questions
-        questionBank.questions.push(...questions);
+    if (!questionBank) {
+      // Read the MCQs from MongoDB mcqs collection
+      const mcqs = await mcqs_collection.find({ source_file: sourceFile }).toArray();
+      
+      if (!mcqs || mcqs.length === 0) {
+        return res.status(404).json({ 
+          status: 'error', 
+          message: 'No MCQs found for import' 
+        });
       }
-      await questionBank.save();
-    } else {
+
+      // Create new question bank
       questionBank = new QuestionBank({
         sourceFile,
-        title: sourceFile.split('.')[0],
-        questions
+        questions: mcqs.map(mcq => ({
+          question: mcq.question,
+          answerChoices: mcq.answerChoices,
+          explanation: mcq.explanation,
+          factoid: mcq.factoid
+        })),
+        userProgress: []
       });
+
       await questionBank.save();
     }
 
-    res.status(200).json({ status: 'success', questionBank });
+    res.status(200).json({ 
+      status: 'success', 
+      message: 'MCQs imported successfully',
+      questionBank 
+    });
   } catch (error) {
     console.error('Error importing MCQs:', error);
     res.status(500).json({ status: 'error', message: error.message });
@@ -115,32 +132,33 @@ router.post('/import', async (req, res) => {
 // Keep authentication for getting questions
 router.get('/:sourceFile', ensureAuthenticated, async (req, res) => {
   try {
-    console.log('Getting questions for source file:', req.params.sourceFile);
-    console.log('User ID:', req.user.id);
+    const sourceFile = decodeURIComponent(req.params.sourceFile);
+    console.log('Getting questions for source file:', sourceFile);
     
-    const questionBank = await QuestionBank.findOne({ 
-      sourceFile: req.params.sourceFile 
-    });
+    // Get the mcqs collection properly
+    const mcqs = await db.collection('mcqs')
+        .find({ source_file: sourceFile })
+        .toArray();
     
-    if (!questionBank) {
-      return res.status(404).json({ status: 'error', message: 'Question bank not found' });
+    console.log(`Found ${mcqs.length} questions for ${sourceFile}`);
+    
+    if (!mcqs || mcqs.length === 0) {
+      return res.status(404).json({
+        status: 'error',
+        message: 'Question bank not found'
+      });
     }
 
-    // Get user's progress
-    const userProgress = questionBank.userProgress.find(
-      progress => progress.userId.equals(req.user.id)
-    ) || { lastQuestionIndex: 0, answers: [] };
-
-    console.log('Found user progress:', userProgress);
-
-    res.status(200).json({ 
-      status: 'success', 
-      mcqs: questionBank.questions,
-      userProgress
+    res.json({
+      status: 'success',
+      mcqs: mcqs
     });
   } catch (error) {
     console.error('Error fetching MCQs:', error);
-    res.status(500).json({ status: 'error', message: error.message });
+    res.status(500).json({
+      status: 'error',
+      message: error.message
+    });
   }
 });
 

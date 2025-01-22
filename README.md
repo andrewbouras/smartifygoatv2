@@ -9,6 +9,28 @@ git commit -m "
 git push
 
 
+
+1. Add PDF to python/pdfs/
+2. Add to Home.jsx
+3. Add to index.html
+4. Add to generate_mcqs.py
+5. cd backend --> npm run dev
+6. cd frontend --> npm run dev
+7. cd python --> python test_pipeline.py
+8. Delete files from transcribed/, factoids/, and move /mcqs to COMPLETED_MCQS/
+
+Great, I just added .pdf, can we make sure we're all set and ready to go witht this file @Home.jsx @index.html @generate_mcqs.py 
+
+
+
+
+
+
+
+
+
+
+
 # Fetch the latest updates from remote
 git fetch origin
 

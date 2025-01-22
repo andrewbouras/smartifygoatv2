@@ -1,0 +1,2705 @@
+{
+  "source_file": "Microbiology",
+  "mcqs": [
+    {
+      "question": "Which of the following organisms causes scabies?",
+      "answerChoices": [
+        {
+          "value": "A. Pediculus humanus",
+          "correct": false
+        },
+        {
+          "value": "B. Sarcoptes scabiei",
+          "correct": true
+        },
+        {
+          "value": "C. Demodex folliculorum",
+          "correct": false
+        },
+        {
+          "value": "D. Tinea corporis",
+          "correct": false
+        },
+        {
+          "value": "E. Pthirus pubis",
+          "correct": false
+        }
+      ],
+      "explanation": "Sarcoptes scabiei is a mite that burrows into the skin and causes scabies, a condition characterized by intense itching and a pimple-like rash.",
+      "factoid": "Sarcoptes scabiei causes scabies."
+    },
+    {
+      "question": "Which of the following conditions is characterized by itchy bodily areas and is common among individuals living in close quarters?",
+      "answerChoices": [
+        {
+          "value": "Psoriasis",
+          "correct": false
+        },
+        {
+          "value": "Eczema",
+          "correct": false
+        },
+        {
+          "value": "Scabies",
+          "correct": true
+        },
+        {
+          "value": "Impetigo",
+          "correct": false
+        },
+        {
+          "value": "Tinea",
+          "correct": false
+        }
+      ],
+      "explanation": "Scabies is an infestation caused by the Sarcoptes scabiei mite, leading to intense itching and a rash, and is frequent among people living in close quarters.",
+      "factoid": "Scabies presents as itchy bodily areas, often in patients living in close quarters."
+    },
+    {
+      "question": "Which dermatological condition is characterized by the presence of linear burrows or red dots on the skin?",
+      "answerChoices": [
+        {
+          "value": "Psoriasis",
+          "correct": false
+        },
+        {
+          "value": "Eczema",
+          "correct": false
+        },
+        {
+          "value": "Scabies",
+          "correct": true
+        },
+        {
+          "value": "Tinea corporis",
+          "correct": false
+        },
+        {
+          "value": "Rosacea",
+          "correct": false
+        }
+      ],
+      "explanation": "Scabies is a dermatological condition caused by the mite Sarcoptes scabiei, and it is characterized by the presence of linear burrows or red dots on the skin.",
+      "factoid": "Scabies causes 'linear burrows' or red dots on the skin."
+    },
+    {
+      "question": "What is the recommended treatment for scabies?",
+      "answerChoices": [
+        {
+          "value": "Oral azithromycin",
+          "correct": false
+        },
+        {
+          "value": "Topical permethrin",
+          "correct": true
+        },
+        {
+          "value": "Topical hydrocortisone",
+          "correct": false
+        },
+        {
+          "value": "Oral metronidazole",
+          "correct": false
+        },
+        {
+          "value": "Topical mupirocin",
+          "correct": false
+        }
+      ],
+      "explanation": "Topical permethrin is recommended for the treatment of scabies due to its effectiveness in eradicating the mites that cause the condition.",
+      "factoid": "Treatment for scabies is topical permethrin."
+    },
+    {
+      "question": "What is a potential complication that can occur on scabies lesions?",
+      "answerChoices": [
+        {
+          "value": "Viral superinfection with herpes simplex",
+          "correct": false
+        },
+        {
+          "value": "Fungal superinfection with Candida",
+          "correct": false
+        },
+        {
+          "value": "Bacterial superinfection with Pseudomonas",
+          "correct": false
+        },
+        {
+          "value": "Bacterial superinfection with Staphylococcus aureus",
+          "correct": true
+        },
+        {
+          "value": "Parasitic superinfection with lice",
+          "correct": false
+        }
+      ],
+      "explanation": "Bacterial superinfection with Staphylococcus aureus is a known complication that can occur on scabies lesions, leading to further skin infections.",
+      "factoid": "Bacterial superinfection with S. aureus can occur on scabies lesions."
+    },
+    {
+      "question": "Which of the following antibiotics is commonly used to treat Staphylococcus aureus infections?",
+      "answerChoices": [
+        {
+          "value": "Amoxicillin",
+          "correct": false
+        },
+        {
+          "value": "Dicloxacillin",
+          "correct": true
+        },
+        {
+          "value": "Azithromycin",
+          "correct": false
+        },
+        {
+          "value": "Metronidazole",
+          "correct": false
+        },
+        {
+          "value": "Vancomycin",
+          "correct": false
+        }
+      ],
+      "explanation": "Dicloxacillin is commonly used to treat Staphylococcus aureus infections due to its effectiveness against this type of bacteria.",
+      "factoid": "6. S. aureus infections are treated with oral dicloxacillin or cephalexin."
+    },
+    {
+      "question": "What is the medical term for head lice?",
+      "answerChoices": [
+        {
+          "value": "Pediculosis capitis",
+          "correct": true
+        },
+        {
+          "value": "Scabies",
+          "correct": false
+        },
+        {
+          "value": "Tinea capitis",
+          "correct": false
+        },
+        {
+          "value": "Pityriasis rosea",
+          "correct": false
+        },
+        {
+          "value": "Alopecia areata",
+          "correct": false
+        }
+      ],
+      "explanation": "Pediculosis capitis is the medical term for an infestation of the scalp by head lice. The other terms refer to different conditions: scabies is caused by mites, tinea capitis is a fungal infection, pityriasis rosea is a skin rash, and alopecia areata is hair loss.",
+      "factoid": "7. Pediculosis capitis is head lice."
+    },
+    {
+      "question": "What is Pediculosis corporis?",
+      "answerChoices": [
+        {
+          "value": "Head lice",
+          "correct": false
+        },
+        {
+          "value": "Pubic lice",
+          "correct": false
+        },
+        {
+          "value": "Body lice",
+          "correct": true
+        },
+        {
+          "value": "Fungal infection",
+          "correct": false
+        },
+        {
+          "value": "Scabies",
+          "correct": false
+        }
+      ],
+      "explanation": "Pediculosis corporis refers to an infestation of body lice, which are small parasitic insects that live on clothing and bedding and move to the skin to feed on blood.",
+      "factoid": "8. Pediculosis corporis is body lice."
+    },
+    {
+      "question": "What is the medical term for lice?",
+      "answerChoices": [
+        {
+          "value": "Scabies",
+          "correct": false
+        },
+        {
+          "value": "Tinea",
+          "correct": false
+        },
+        {
+          "value": "Pediculosis",
+          "correct": true
+        },
+        {
+          "value": "Psoriasis",
+          "correct": false
+        },
+        {
+          "value": "Urticaria",
+          "correct": false
+        }
+      ],
+      "explanation": "Pediculosis is the medical term used to describe an infestation with lice.",
+      "factoid": "Pediculosis is the medical term for lice."
+    },
+    {
+      "question": "What is the recommended treatment for pediculosis?",
+      "answerChoices": [
+        {
+          "value": "Oral ivermectin",
+          "correct": false
+        },
+        {
+          "value": "Topical permethrin",
+          "correct": true
+        },
+        {
+          "value": "Topical mupirocin",
+          "correct": false
+        },
+        {
+          "value": "Oral amoxicillin",
+          "correct": false
+        },
+        {
+          "value": "Topical clindamycin",
+          "correct": false
+        }
+      ],
+      "explanation": "Topical permethrin is the recommended treatment for pediculosis, which is an infestation of lice.",
+      "factoid": "10. Treatment for pediculosis is topical permethrin."
+    },
+    {
+      "question": "Which organism is responsible for causing bed bugs?",
+      "answerChoices": [
+        {
+          "value": "Pediculus humanus capitis",
+          "correct": false
+        },
+        {
+          "value": "Sarcoptes scabiei",
+          "correct": false
+        },
+        {
+          "value": "Cimex lectularius",
+          "correct": true
+        },
+        {
+          "value": "Anopheles gambiae",
+          "correct": false
+        },
+        {
+          "value": "Pulex irritans",
+          "correct": false
+        }
+      ],
+      "explanation": "Cimex lectularius is the scientific name for the common bed bug, an insect that feeds on human blood and can cause itching and discomfort.",
+      "factoid": "11. Cimex lectularius causes bed bugs."
+    },
+    {
+      "question": "Which of the following is a typical presentation of bed bug bites?",
+      "answerChoices": [
+        {
+          "value": "Painless ulcers on the feet and hands",
+          "correct": false
+        },
+        {
+          "value": "Itchy clusters of erythematous lesions on the trunk and limbs",
+          "correct": true
+        },
+        {
+          "value": "Single, non-pruritic papules on the face",
+          "correct": false
+        },
+        {
+          "value": "Fluid-filled blisters on the back",
+          "correct": false
+        },
+        {
+          "value": "Scaly patches on the scalp",
+          "correct": false
+        }
+      ],
+      "explanation": "Bed bug bites typically present as itchy clusters of erythematous lesions on the trunk and limbs, which differentiates them from other types of skin lesions.",
+      "factoid": "12. Bed bugs present as itchy clusters of erythematous lesions on the trunk and limbs."
+    },
+    {
+      "question": "What is a recommended treatment approach for bed bug bites?",
+      "answerChoices": [
+        {
+          "value": "Application of antibiotics",
+          "correct": false
+        },
+        {
+          "value": "Use of antifungal creams",
+          "correct": false
+        },
+        {
+          "value": "Supportive care and avoiding scratching the lesions",
+          "correct": true
+        },
+        {
+          "value": "Administration of antiviral medication",
+          "correct": false
+        },
+        {
+          "value": "Immediate surgical intervention",
+          "correct": false
+        }
+      ],
+      "explanation": "The recommended treatment approach for bed bug bites is supportive care, which includes measures such as avoiding scratching the lesions to prevent further irritation or infection.",
+      "factoid": "Treatment for bed bugs is supportive, including not scratching the lesions."
+    },
+    {
+      "question": "Which of the following treatments can be applied to reduce itching from bed bug bites?",
+      "answerChoices": [
+        {
+          "value": "Antibiotic cream",
+          "correct": false
+        },
+        {
+          "value": "Calamine lotion",
+          "correct": true
+        },
+        {
+          "value": "Antifungal cream",
+          "correct": false
+        },
+        {
+          "value": "Moisturizing lotion",
+          "correct": false
+        },
+        {
+          "value": "Antihistamine cream",
+          "correct": false
+        }
+      ],
+      "explanation": "Calamine lotion or steroid cream can help to reduce itching caused by bed bug bites.",
+      "factoid": "14. Calamine or steroid cream can be applied to reduce itching from bed bugs."
+    },
+    {
+      "question": "Which of the following is NOT a type of horizontal gene transfer?",
+      "answerChoices": [
+        {
+          "value": "Conjugation",
+          "correct": false
+        },
+        {
+          "value": "Generalized transduction",
+          "correct": false
+        },
+        {
+          "value": "Specialized transduction",
+          "correct": false
+        },
+        {
+          "value": "Transformation",
+          "correct": false
+        },
+        {
+          "value": "Binary fission",
+          "correct": true
+        }
+      ],
+      "explanation": "Binary fission is a form of asexual reproduction in prokaryotes, not a method of horizontal gene transfer. Conjugation, generalized transduction, specialized transduction, and transformation are all methods by which genes are transferred between organisms in horizontal gene transfer.",
+      "factoid": "15. Conjugation, generalized transduction, specialized transduction, and transformation are types of horizontal gene transfer."
+    },
+    {
+      "question": "Where do most bacteria carry their antibiotic resistance genes?",
+      "answerChoices": [
+        {
+          "value": "On their chromosome",
+          "correct": false
+        },
+        {
+          "value": "On a plasmid",
+          "correct": true
+        },
+        {
+          "value": "In their ribosomes",
+          "correct": false
+        },
+        {
+          "value": "In their cell wall",
+          "correct": false
+        },
+        {
+          "value": "In the cytoplasm",
+          "correct": false
+        }
+      ],
+      "explanation": "Most bacteria carry their antibiotic resistance genes on a plasmid, which is a small, circular piece of DNA that is separate from the bacterial chromosome.",
+      "factoid": "16. Most bacteria carry their antibiotic resistance genes on a plasmid."
+    },
+    {
+      "question": "Which of the following best describes a plasmid?",
+      "answerChoices": [
+        {
+          "value": "A linear, single-stranded RNA molecule separate from chromosomal DNA",
+          "correct": false
+        },
+        {
+          "value": "A small, circular, double-stranded DNA molecule separate from chromosomal DNA",
+          "correct": true
+        },
+        {
+          "value": "A small, circular, single-stranded DNA molecule integrated into chromosomal DNA",
+          "correct": false
+        },
+        {
+          "value": "A large, circular, double-stranded DNA molecule integrated into chromosomal DNA",
+          "correct": false
+        },
+        {
+          "value": "A small, linear, double-stranded DNA molecule separate from chromosomal DNA",
+          "correct": false
+        }
+      ],
+      "explanation": "A plasmid is a small, circular, double-stranded DNA molecule that exists independently of the chromosomal DNA in a cell.",
+      "factoid": "A plasmid is a small, circular, dsDNA molecule separate from chromosomal DNA."
+    },
+    {
+      "question": "Which process involves gene transfer via a pilus and requires direct cell-to-cell contact?",
+      "answerChoices": [
+        {
+          "value": "Transformation",
+          "correct": false
+        },
+        {
+          "value": "Transduction",
+          "correct": false
+        },
+        {
+          "value": "Conjugation",
+          "correct": true
+        },
+        {
+          "value": "Binary fission",
+          "correct": false
+        },
+        {
+          "value": "Spore formation",
+          "correct": false
+        }
+      ],
+      "explanation": "Conjugation is a process that involves gene transfer through a pilus, requiring direct contact between cells. This is different from transformation and transduction, which do not involve cell-to-cell contact via a pilus.",
+      "factoid": "18. Conjugation involves gene transfer via a pilus requiring direct cell-to-cell contact."
+    },
+    {
+      "question": "What process involves a phage transferring random DNA fragments from one bacterium to another?",
+      "answerChoices": [
+        {
+          "value": "Conjugation",
+          "correct": false
+        },
+        {
+          "value": "Transformation",
+          "correct": false
+        },
+        {
+          "value": "Specialized transduction",
+          "correct": false
+        },
+        {
+          "value": "Generalized transduction",
+          "correct": true
+        },
+        {
+          "value": "Binary fission",
+          "correct": false
+        }
+      ],
+      "explanation": "Generalized transduction involves a phage transferring random DNA fragments from one bacterium to another, unlike specialized transduction, which transfers specific genes.",
+      "factoid": "19. Generalized transduction involves a phage transferring random DNA fragments from one bacterium to another."
+    },
+    {
+      "question": "Which type of transduction involves a phage incorporating into the bacterial genome and transferring specific DNA sequences?",
+      "answerChoices": [
+        {
+          "value": "Generalized transduction",
+          "correct": false
+        },
+        {
+          "value": "Specialized transduction",
+          "correct": true
+        },
+        {
+          "value": "Transformation",
+          "correct": false
+        },
+        {
+          "value": "Conjugation",
+          "correct": false
+        },
+        {
+          "value": "Natural competence",
+          "correct": false
+        }
+      ],
+      "explanation": "Specialized transduction is the process where a phage incorporates into the bacterial genome and transfers specific DNA sequences. This is different from generalized transduction, which can transfer any part of the bacterial DNA.",
+      "factoid": "Specialized transduction involves a phage incorporating into the bacterial genome and transferring specific DNA sequences."
+    },
+    {
+      "question": "What is the process called when a bacterial cell picks up free DNA fragments from the extracellular medium?",
+      "answerChoices": [
+        {
+          "value": "Transduction",
+          "correct": false
+        },
+        {
+          "value": "Conjugation",
+          "correct": false
+        },
+        {
+          "value": "Transformation",
+          "correct": true
+        },
+        {
+          "value": "Transcription",
+          "correct": false
+        },
+        {
+          "value": "Translation",
+          "correct": false
+        }
+      ],
+      "explanation": "Transformation is the process by which a bacterial cell takes up free DNA fragments from its surrounding environment, leading to genetic changes.",
+      "factoid": "21. Transformation is when a bacterial cell picks up free DNA fragments from the extracellular medium."
+    },
+    {
+      "question": "What term is used to describe bacteria that are capable of transformation?",
+      "answerChoices": [
+        {
+          "value": "Pathogenic",
+          "correct": false
+        },
+        {
+          "value": "Commensal",
+          "correct": false
+        },
+        {
+          "value": "Resistant",
+          "correct": false
+        },
+        {
+          "value": "Competent",
+          "correct": true
+        },
+        {
+          "value": "Virulent",
+          "correct": false
+        }
+      ],
+      "explanation": "Bacteria that are capable of transformation, which is the uptake and incorporation of foreign DNA from their environment, are known as 'competent'. This ability allows them to acquire new genetic traits.",
+      "factoid": "Bacteria capable of transformation are known as 'competent.'"
+    },
+    {
+      "question": "Which of the following enzymes can disrupt the process of bacterial transformation?",
+      "answerChoices": [
+        {
+          "value": "Protease",
+          "correct": false
+        },
+        {
+          "value": "DNase",
+          "correct": true
+        },
+        {
+          "value": "RNase",
+          "correct": false
+        },
+        {
+          "value": "Lipase",
+          "correct": false
+        },
+        {
+          "value": "Amylase",
+          "correct": false
+        }
+      ],
+      "explanation": "Transformation, the process by which bacteria take up and incorporate foreign DNA, can be disrupted by DNase because this enzyme degrades DNA, preventing it from being incorporated into the bacterial genome.",
+      "factoid": "23. Transformation can be disrupted by the addition of DNase."
+    },
+    {
+      "question": "What does lysogeny refer to in virology?",
+      "answerChoices": [
+        {
+          "value": "A. The ability of viruses to cause rapid cell lysis",
+          "correct": false
+        },
+        {
+          "value": "B. The process of viral particles being released from the host cell",
+          "correct": false
+        },
+        {
+          "value": "C. The ability of some viruses to incorporate into the host's nucleic acid and reemerge later",
+          "correct": true
+        },
+        {
+          "value": "D. The mechanism by which viruses avoid the host's immune system",
+          "correct": false
+        },
+        {
+          "value": "E. The ability of viruses to replicate without integrating into the host genome",
+          "correct": false
+        }
+      ],
+      "explanation": "Lysogeny refers to the ability of some viruses, particularly bacteriophages, to integrate their genetic material into the host's genome and remain dormant for a period of time, reemerging later to initiate the lytic cycle.",
+      "factoid": "24. Lysogeny refers to the ability of some viruses to incorporate into the host's nucleic acid and reemerge later."
+    },
+    {
+      "question": "Which virus is responsible for causing Fifth disease, which presents as 'slapped cheek' facial erythema in children?",
+      "answerChoices": [
+        {
+          "value": "Coxsackievirus",
+          "correct": false
+        },
+        {
+          "value": "Epstein-Barr virus",
+          "correct": false
+        },
+        {
+          "value": "Measles virus",
+          "correct": false
+        },
+        {
+          "value": "Rubella virus",
+          "correct": false
+        },
+        {
+          "value": "Parvovirus B19",
+          "correct": true
+        }
+      ],
+      "explanation": "Parvovirus B19 is the virus that causes Fifth disease, which is characterized by a distinctive 'slapped cheek' facial erythema in children.",
+      "factoid": "Parvovirus B19 causes Fifth disease, presenting as 'slapped cheek' facial erythema in children."
+    },
+    {
+      "question": "Which of the following viruses can cause exanthem and arthritis in adults, particularly in daycare workers?",
+      "answerChoices": [
+        {
+          "value": "Epstein-Barr virus",
+          "correct": false
+        },
+        {
+          "value": "Cytomegalovirus",
+          "correct": false
+        },
+        {
+          "value": "Parvovirus B19",
+          "correct": true
+        },
+        {
+          "value": "Varicella-zoster virus",
+          "correct": false
+        },
+        {
+          "value": "Herpes simplex virus",
+          "correct": false
+        }
+      ],
+      "explanation": "Parvovirus B19 is known to cause exanthem and arthritis in adults, particularly in those who work in environments like daycare centers where they are in close contact with children.",
+      "factoid": "Parvovirus B19 can cause exanthem and arthritis in adults, especially daycare workers."
+    },
+    {
+      "question": "Which of the following viruses is known to cause pure red blood cell aplasia or aplastic anemia?",
+      "answerChoices": [
+        {
+          "value": "Cytomegalovirus",
+          "correct": false
+        },
+        {
+          "value": "Epstein-Barr virus",
+          "correct": false
+        },
+        {
+          "value": "Hepatitis B virus",
+          "correct": false
+        },
+        {
+          "value": "Parvovirus B19",
+          "correct": true
+        },
+        {
+          "value": "Varicella-zoster virus",
+          "correct": false
+        }
+      ],
+      "explanation": "Parvovirus B19 is known to cause pure red blood cell aplasia or aplastic anemia, especially in individuals with underlying hematologic conditions.",
+      "factoid": "Parvovirus B19 can cause pure-RBC aplasia or aplastic anemia."
+    },
+    {
+      "question": "What is involved in the diagnosis of Fifth disease?",
+      "answerChoices": [
+        {
+          "value": "Checking serum IgG titers",
+          "correct": false
+        },
+        {
+          "value": "Performing a throat swab",
+          "correct": false
+        },
+        {
+          "value": "Checking serum IgM titers",
+          "correct": true
+        },
+        {
+          "value": "Conducting a skin biopsy",
+          "correct": false
+        },
+        {
+          "value": "Ordering a chest X-ray",
+          "correct": false
+        }
+      ],
+      "explanation": "The diagnosis of Fifth disease involves checking serum IgM titers, which indicates a recent infection with the virus causing the disease.",
+      "factoid": "28. Diagnosis of Fifth disease involves checking serum IgM titers."
+    },
+    {
+      "question": "Which strains of Human papillomavirus (HPV) are most commonly associated with condylomata acuminata (genital warts)?",
+      "answerChoices": [
+        {
+          "value": "HPV 16 and 18",
+          "correct": false
+        },
+        {
+          "value": "HPV 31 and 45",
+          "correct": false
+        },
+        {
+          "value": "HPV 6 and 11",
+          "correct": true
+        },
+        {
+          "value": "HPV 33 and 58",
+          "correct": false
+        },
+        {
+          "value": "HPV 52 and 66",
+          "correct": false
+        }
+      ],
+      "explanation": "HPV types 6 and 11 are most commonly associated with the development of condylomata acuminata, also known as genital warts.",
+      "factoid": "Human papillomavirus (HPV) 6 and 11 cause condylomata acuminata (genital warts)."
+    },
+    {
+      "question": "Which strains of Human Papillomavirus (HPV) are known to cause laryngeal papillomatosis in neonates?",
+      "answerChoices": [
+        {
+          "value": "HPV 16 and 18",
+          "correct": false
+        },
+        {
+          "value": "HPV 31 and 33",
+          "correct": false
+        },
+        {
+          "value": "HPV 6 and 11",
+          "correct": true
+        },
+        {
+          "value": "HPV 45 and 52",
+          "correct": false
+        },
+        {
+          "value": "HPV 35 and 58",
+          "correct": false
+        }
+      ],
+      "explanation": "HPV 6 and 11 are the strains of Human Papillomavirus that can cause laryngeal papillomatosis in neonates. These strains are typically associated with benign conditions, unlike HPV 16 and 18, which are more commonly linked to malignancies.",
+      "factoid": "HPV 6 and 11 can cause laryngeal papillomatosis in neonates."
+    },
+    {
+      "question": "Which types of Human Papillomavirus (HPV) are most commonly associated with squamous cell carcinoma of the genitalia and anus?",
+      "answerChoices": [
+        {
+          "value": "HPV 6 and 11",
+          "correct": false
+        },
+        {
+          "value": "HPV 16 and 18",
+          "correct": true
+        },
+        {
+          "value": "HPV 31 and 33",
+          "correct": false
+        },
+        {
+          "value": "HPV 45 and 52",
+          "correct": false
+        },
+        {
+          "value": "HPV 35 and 58",
+          "correct": false
+        }
+      ],
+      "explanation": "HPV 16 and 18 are the types most commonly associated with squamous cell carcinoma of the genitalia and anus. These types are known for their high oncogenic potential.",
+      "factoid": "HPV 16 and 18 cause squamous cell carcinoma of the genitalia and anus."
+    },
+    {
+      "question": "Which virus is responsible for causing progressive multifocal leukoencephalopathy (PML)?",
+      "answerChoices": [
+        {
+          "value": "Epstein-Barr virus",
+          "correct": false
+        },
+        {
+          "value": "Cytomegalovirus",
+          "correct": false
+        },
+        {
+          "value": "Herpes simplex virus",
+          "correct": false
+        },
+        {
+          "value": "JC polyomavirus",
+          "correct": true
+        },
+        {
+          "value": "Varicella-zoster virus",
+          "correct": false
+        }
+      ],
+      "explanation": "JC polyomavirus is the causative agent of progressive multifocal leukoencephalopathy (PML), a rare and often fatal viral disease characterized by progressive damage or inflammation of the white matter of the brain.",
+      "factoid": "32. JC polyomavirus causes progressive multifocal leukoencephalopathy (PML)."
+    },
+    {
+      "question": "Progressive multifocal leukoencephalopathy (PML) typically presents in which patient population?",
+      "answerChoices": [
+        {
+          "value": "Immunocompromised patients, presenting with neurodegeneration over weeks to months",
+          "correct": true
+        },
+        {
+          "value": "Healthy young adults with sudden onset of severe headaches",
+          "correct": false
+        },
+        {
+          "value": "Elderly patients with gradual memory loss over years",
+          "correct": false
+        },
+        {
+          "value": "Children with recurrent respiratory infections",
+          "correct": false
+        },
+        {
+          "value": "Middle-aged adults with chronic joint pain",
+          "correct": false
+        }
+      ],
+      "explanation": "PML presents as neurodegeneration over weeks to months in immunocompromised patients, which distinguishes it from other conditions that affect different populations or have different progression profiles.",
+      "factoid": "33. PML presents as neurodegeneration over weeks to months in immunocompromised patients."
+    },
+    {
+      "question": "Which of the following is the most common cause of viral conjunctivitis?",
+      "answerChoices": [
+        {
+          "value": "Herpes simplex virus",
+          "correct": false
+        },
+        {
+          "value": "Influenza virus",
+          "correct": false
+        },
+        {
+          "value": "Adenovirus",
+          "correct": true
+        },
+        {
+          "value": "Coxsackievirus",
+          "correct": false
+        },
+        {
+          "value": "Rhinovirus",
+          "correct": false
+        }
+      ],
+      "explanation": "Adenovirus is the most common cause of viral conjunctivitis, which is an inflammation of the conjunctiva typically presenting with redness, irritation, and discharge.",
+      "factoid": "34. Adenovirus is the most common cause of viral conjunctivitis."
+    },
+    {
+      "question": "Which of the following viruses is known to cause hemorrhagic cystitis?",
+      "answerChoices": [
+        {
+          "value": "Herpes Simplex Virus",
+          "correct": false
+        },
+        {
+          "value": "Epstein-Barr Virus",
+          "correct": false
+        },
+        {
+          "value": "Cytomegalovirus",
+          "correct": false
+        },
+        {
+          "value": "Adenovirus",
+          "correct": true
+        },
+        {
+          "value": "Human Papillomavirus",
+          "correct": false
+        }
+      ],
+      "explanation": "Adenovirus is known to cause hemorrhagic cystitis, which is a condition characterized by the sudden onset of hematuria (blood in the urine) along with bladder inflammation.",
+      "factoid": "35. Adenovirus can also cause hemorrhagic cystitis."
+    },
+    {
+      "question": "Which hepatitis infection is the most common worldwide?",
+      "answerChoices": [
+        {
+          "value": "Hepatitis A",
+          "correct": false
+        },
+        {
+          "value": "Hepatitis B",
+          "correct": true
+        },
+        {
+          "value": "Hepatitis C",
+          "correct": false
+        },
+        {
+          "value": "Hepatitis D",
+          "correct": false
+        },
+        {
+          "value": "Hepatitis E",
+          "correct": false
+        }
+      ],
+      "explanation": "Hepatitis B is the most common hepatitis infection worldwide, affecting a large number of people globally.",
+      "factoid": "Hepatitis B is the most common hepatitis infection worldwide."
+    },
+    {
+      "question": "How is Hepatitis B primarily transmitted?",
+      "answerChoices": [
+        {
+          "value": "Through respiratory droplets",
+          "correct": false
+        },
+        {
+          "value": "Through contaminated water",
+          "correct": false
+        },
+        {
+          "value": "Parenterally",
+          "correct": true
+        },
+        {
+          "value": "Through unwashed fruits and vegetables",
+          "correct": false
+        },
+        {
+          "value": "Through mosquito bites",
+          "correct": false
+        }
+      ],
+      "explanation": "Hepatitis B is primarily transmitted parenterally, which means through blood and body fluids, typically via needles, blood transfusions, or sexual contact.",
+      "factoid": "Hepatitis B is transmitted parenterally and can be acute or chronic."
+    },
+    {
+      "question": "Which of the following serological markers indicates an active Hepatitis B infection?",
+      "answerChoices": [
+        {
+          "value": "HBsAg (surface antigen)",
+          "correct": true
+        },
+        {
+          "value": "HBsAb (surface antibody)",
+          "correct": false
+        },
+        {
+          "value": "HBcAb (core antibody)",
+          "correct": false
+        },
+        {
+          "value": "IgG",
+          "correct": false
+        },
+        {
+          "value": "ALT (alanine transaminase)",
+          "correct": false
+        }
+      ],
+      "explanation": "HBsAg (surface antigen) is the serological marker used to indicate an active, ongoing Hepatitis B infection. The presence of HBsAg in blood usually indicates that the person is infectious.",
+      "factoid": "38. Hepatitis B serology: HBsAg (surface antigen), HBsAb (surface antibody), HBcAb (core antibody)."
+    },
+    {
+      "question": "At what ages should the Hepatitis B vaccination be administered?",
+      "answerChoices": [
+        {
+          "value": "At birth, 1 month, and 6 months",
+          "correct": false
+        },
+        {
+          "value": "At birth, 2 months, and 6 months",
+          "correct": true
+        },
+        {
+          "value": "At birth, 3 months, and 9 months",
+          "correct": false
+        },
+        {
+          "value": "At birth, 4 months, and 6 months",
+          "correct": false
+        },
+        {
+          "value": "At birth, 2 months, and 9 months",
+          "correct": false
+        }
+      ],
+      "explanation": "The correct schedule for Hepatitis B vaccination is at birth, 2 months, and 6 months.",
+      "factoid": "Vaccination against Hepatitis B is at birth, 2 months, and 6 months."
+    },
+    {
+      "question": "Which virus is responsible for causing molluscum contagiosum, characterized by skin-colored or reddish papules with central umbilication?",
+      "answerChoices": [
+        {
+          "value": "Herpes simplex virus",
+          "correct": false
+        },
+        {
+          "value": "Human papillomavirus",
+          "correct": false
+        },
+        {
+          "value": "Poxvirus",
+          "correct": true
+        },
+        {
+          "value": "Varicella-zoster virus",
+          "correct": false
+        },
+        {
+          "value": "Coxsackievirus",
+          "correct": false
+        }
+      ],
+      "explanation": "Poxvirus causes molluscum contagiosum, which presents as skin-colored or reddish papules with central umbilication.",
+      "factoid": "Poxvirus causes molluscum contagiosum, presenting as skin-colored or reddish papules with central umbilication."
+    },
+    {
+      "question": "Which of the following viruses causes painful vesicular lesions of the lips and genitalia?",
+      "answerChoices": [
+        {
+          "value": "Human papillomavirus (HPV)",
+          "correct": false
+        },
+        {
+          "value": "Cytomegalovirus (CMV)",
+          "correct": false
+        },
+        {
+          "value": "Epstein-Barr virus (EBV)",
+          "correct": false
+        },
+        {
+          "value": "Herpes simplex virus (HSV) 1/2",
+          "correct": true
+        },
+        {
+          "value": "Varicella-zoster virus (VZV)",
+          "correct": false
+        }
+      ],
+      "explanation": "Herpes simplex virus (HSV) types 1 and 2 are known to cause painful vesicular lesions on the lips and genitalia, respectively.",
+      "factoid": "Herpes simplex virus (HSV) 1/2 causes painful vesicular lesions of the lips and genitalia."
+    },
+    {
+      "question": "In which type of nerves does HSV1/2 go latent?",
+      "answerChoices": [
+        {
+          "value": "Motor nerves",
+          "correct": false
+        },
+        {
+          "value": "Autonomic nerves",
+          "correct": false
+        },
+        {
+          "value": "Sensory nerves",
+          "correct": true
+        },
+        {
+          "value": "Sympathetic nerves",
+          "correct": false
+        },
+        {
+          "value": "Parasympathetic nerves",
+          "correct": false
+        }
+      ],
+      "explanation": "HSV1/2 goes latent in sensory nerves, where it can remain dormant and reactivate under certain conditions.",
+      "factoid": "42. HSV1/2 goes latent in sensory nerves."
+    },
+    {
+      "question": "Which of the following statements is true regarding HSV1/2 and its potential neurological complications?",
+      "answerChoices": [
+        {
+          "value": "HSV1/2 can cause bacterial meningitis.",
+          "correct": false
+        },
+        {
+          "value": "HSV1/2 can cause herpes encephalitis, presenting with confusion and blood in CSF.",
+          "correct": true
+        },
+        {
+          "value": "HSV1/2 is only associated with oral and genital lesions.",
+          "correct": false
+        },
+        {
+          "value": "HSV1/2 cannot affect the central nervous system.",
+          "correct": false
+        },
+        {
+          "value": "HSV1/2 only causes mild, self-limiting illnesses.",
+          "correct": false
+        }
+      ],
+      "explanation": "HSV1 and HSV2 are known to cause herpes encephalitis, a severe brain infection that can present with symptoms such as confusion and the presence of blood in the cerebrospinal fluid (CSF).",
+      "factoid": "HSV1/2 can cause herpes encephalitis, presenting with confusion and blood in CSF."
+    },
+    {
+      "question": "Which virus is responsible for causing both chickenpox and shingles?",
+      "answerChoices": [
+        {
+          "value": "Herpes simplex virus",
+          "correct": false
+        },
+        {
+          "value": "Epstein-Barr virus",
+          "correct": false
+        },
+        {
+          "value": "Cytomegalovirus",
+          "correct": false
+        },
+        {
+          "value": "Human papillomavirus",
+          "correct": false
+        },
+        {
+          "value": "Varicella zoster virus",
+          "correct": true
+        }
+      ],
+      "explanation": "Varicella zoster virus (VZV) is the virus responsible for causing both chickenpox (primary infection) and shingles (reactivation of the virus).",
+      "factoid": "Varicella zoster virus (VZV) causes chickenpox and shingles."
+    },
+    {
+      "question": "What is a characteristic presentation of shingles?",
+      "answerChoices": [
+        {
+          "value": "Maculopapular rash covering the entire body",
+          "correct": false
+        },
+        {
+          "value": "Vesicles in a dermatomal distribution",
+          "correct": true
+        },
+        {
+          "value": "Petechiae primarily on the lower extremities",
+          "correct": false
+        },
+        {
+          "value": "Purpura on the trunk",
+          "correct": false
+        },
+        {
+          "value": "Urticarial plaques on the face",
+          "correct": false
+        }
+      ],
+      "explanation": "Shingles, caused by the reactivation of the varicella-zoster virus, presents as vesicles in a dermatomal distribution, meaning that the rash appears in a band-like pattern along the sensory nerves.",
+      "factoid": "Shingles presents as vesicles in a dermatomal distribution."
+    },
+    {
+      "question": "Which of the following medications can be used to treat shingles?",
+      "answerChoices": [
+        {
+          "value": "Amoxicillin",
+          "correct": false
+        },
+        {
+          "value": "Acyclovir",
+          "correct": true
+        },
+        {
+          "value": "Metronidazole",
+          "correct": false
+        },
+        {
+          "value": "Ibuprofen",
+          "correct": false
+        },
+        {
+          "value": "Ciprofloxacin",
+          "correct": false
+        }
+      ],
+      "explanation": "Acyclovir is an antiviral medication effective in treating shingles, which is caused by the varicella-zoster virus. Valacyclovir is another antiviral that can also be used for this purpose.",
+      "factoid": "Shingles can be treated with acyclovir or valacyclovir."
+    },
+    {
+      "question": "Which of the following conditions is caused by the Epstein-Barr virus (EBV)?",
+      "answerChoices": [
+        {
+          "value": "Hepatitis B",
+          "correct": false
+        },
+        {
+          "value": "Mononucleosis",
+          "correct": true
+        },
+        {
+          "value": "Tuberculosis",
+          "correct": false
+        },
+        {
+          "value": "Syphilis",
+          "correct": false
+        },
+        {
+          "value": "Malaria",
+          "correct": false
+        }
+      ],
+      "explanation": "Epstein-Barr virus (EBV) is known to cause mononucleosis, also known as 'mono' or 'the kissing disease'. It is one of the most common human viruses and is a member of the herpesvirus family.",
+      "factoid": "Epstein-Barr virus (EBV) causes mononucleosis, nasopharyngeal carcinoma, oral hairy leukoplakia, and lymphomas."
+    },
+    {
+      "question": "Which organism is most commonly transmitted via blood transfusions and organ transplants?",
+      "answerChoices": [
+        {
+          "value": "Hepatitis C virus (HCV)",
+          "correct": false
+        },
+        {
+          "value": "Human immunodeficiency virus (HIV)",
+          "correct": false
+        },
+        {
+          "value": "Epstein-Barr virus (EBV)",
+          "correct": false
+        },
+        {
+          "value": "Cytomegalovirus (CMV)",
+          "correct": true
+        },
+        {
+          "value": "Hepatitis B virus (HBV)",
+          "correct": false
+        }
+      ],
+      "explanation": "Cytomegalovirus (CMV) is the most common organism transmitted via blood transfusions and organ transplants.",
+      "factoid": "Cytomegalovirus (CMV) is the most common organism transmitted via blood transfusions and organ transplants."
+    },
+    {
+      "question": "Which virus is known to cause infections of various organ systems and CMV mono?",
+      "answerChoices": [
+        {
+          "value": "Epstein-Barr Virus (EBV)",
+          "correct": false
+        },
+        {
+          "value": "Human Immunodeficiency Virus (HIV)",
+          "correct": false
+        },
+        {
+          "value": "Cytomegalovirus (CMV)",
+          "correct": true
+        },
+        {
+          "value": "Hepatitis B Virus (HBV)",
+          "correct": false
+        },
+        {
+          "value": "Herpes Simplex Virus (HSV)",
+          "correct": false
+        }
+      ],
+      "explanation": "Cytomegalovirus (CMV) is the virus that can cause infections in various organ systems and is also responsible for CMV mono, a mononucleosis-like illness.",
+      "factoid": "CMV can cause infections of various organ systems and CMV mono."
+    },
+    {
+      "question": "Which of the following conditions presents with linear/confluent ulcers and odynophagia?",
+      "answerChoices": [
+        {
+          "value": "HSV esophagitis",
+          "correct": false
+        },
+        {
+          "value": "Candida esophagitis",
+          "correct": false
+        },
+        {
+          "value": "Pill-induced esophagitis",
+          "correct": false
+        },
+        {
+          "value": "GERD",
+          "correct": false
+        },
+        {
+          "value": "CMV esophagitis",
+          "correct": true
+        }
+      ],
+      "explanation": "CMV esophagitis presents as linear/confluent ulcers and odynophagia. This is a distinguishing feature of the condition.",
+      "factoid": "CMV esophagitis presents as linear/confluent ulcers and odynophagia."
+    },
+    {
+      "question": "Which of the following medications is used to treat CMV (Cytomegalovirus) infections?",
+      "answerChoices": [
+        {
+          "value": "Acyclovir",
+          "correct": false
+        },
+        {
+          "value": "Ribavirin",
+          "correct": false
+        },
+        {
+          "value": "Oseltamivir",
+          "correct": false
+        },
+        {
+          "value": "Ganciclovir",
+          "correct": true
+        },
+        {
+          "value": "Amantadine",
+          "correct": false
+        }
+      ],
+      "explanation": "Ganciclovir is the antiviral medication specifically used to treat infections caused by Cytomegalovirus (CMV).",
+      "factoid": "CMV is treated with ganciclovir."
+    },
+    {
+      "question": "Which virus is responsible for causing roseola infantum, characterized by a spiking fever followed by a rash?",
+      "answerChoices": [
+        {
+          "value": "Epstein-Barr virus (EBV)",
+          "correct": false
+        },
+        {
+          "value": "Human herpesvirus-6 (HHV-6)",
+          "correct": true
+        },
+        {
+          "value": "Cytomegalovirus (CMV)",
+          "correct": false
+        },
+        {
+          "value": "Varicella-zoster virus (VZV)",
+          "correct": false
+        },
+        {
+          "value": "Herpes simplex virus (HSV)",
+          "correct": false
+        }
+      ],
+      "explanation": "Human herpesvirus-6 (HHV-6) is the causative agent of roseola infantum, which typically presents with a high fever that suddenly resolves, followed by the appearance of a rash.",
+      "factoid": "Human herpesvirus-6 (HHV-6) causes roseola infantum, presenting as a spiking fever followed by a rash."
+    },
+    {
+      "question": "Which virus is known to cause pityriasis rosea, characterized by a rash with a 'Christmas tree distribution'?",
+      "answerChoices": [
+        {
+          "value": "Human herpesvirus-6 (HHV-6)",
+          "correct": false
+        },
+        {
+          "value": "Human papillomavirus (HPV)",
+          "correct": false
+        },
+        {
+          "value": "Human herpesvirus-8 (HHV-8)",
+          "correct": false
+        },
+        {
+          "value": "Human herpesvirus-7 (HHV-7)",
+          "correct": true
+        },
+        {
+          "value": "Cytomegalovirus (CMV)",
+          "correct": false
+        }
+      ],
+      "explanation": "Human herpesvirus-7 (HHV-7) is the virus responsible for causing pityriasis rosea, which presents as a rash with a 'Christmas tree distribution.'",
+      "factoid": "Human herpesvirus-7 (HHV-7) causes pityriasis rosea, presenting as a rash with a 'Christmas tree distribution.'"
+    },
+    {
+      "question": "Which virus is associated with causing Kaposi sarcoma, which presents as violaceous, tumorous lesions?",
+      "answerChoices": [
+        {
+          "value": "Human papillomavirus (HPV)",
+          "correct": false
+        },
+        {
+          "value": "Epstein-Barr virus (EBV)",
+          "correct": false
+        },
+        {
+          "value": "Hepatitis B virus (HBV)",
+          "correct": false
+        },
+        {
+          "value": "Kaposi sarcoma-associated herpesvirus (HHV-8)",
+          "correct": true
+        },
+        {
+          "value": "Cytomegalovirus (CMV)",
+          "correct": false
+        }
+      ],
+      "explanation": "Kaposi sarcoma-associated herpesvirus (HHV-8) is the virus that causes Kaposi sarcoma, which is characterized by violaceous, tumorous lesions.",
+      "factoid": "Kaposi sarcoma-associated herpesvirus (HHV-8) causes Kaposi sarcoma, presenting as violaceous, tumorous lesions."
+    },
+    {
+      "question": "Which of the following pathogens is known to cause bacillary angiomatosis, which can present as Kaposi sarcoma-like lesions?",
+      "answerChoices": [
+        {
+          "value": "Treponema pallidum",
+          "correct": false
+        },
+        {
+          "value": "Bartonella henselae",
+          "correct": true
+        },
+        {
+          "value": "Borrelia burgdorferi",
+          "correct": false
+        },
+        {
+          "value": "Mycobacterium tuberculosis",
+          "correct": false
+        },
+        {
+          "value": "Rickettsia rickettsii",
+          "correct": false
+        }
+      ],
+      "explanation": "Bartonella henselae is the causative agent of bacillary angiomatosis, which can present with lesions resembling those seen in Kaposi sarcoma.",
+      "factoid": "Bacillary angiomatosis, caused by Bartonella henselae, can present as Kaposi sarcoma-like lesions."
+    },
+    {
+      "question": "Which of the following bacteria is most commonly associated with vomiting and diarrhea after consuming reheated rice?",
+      "answerChoices": [
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Salmonella typhi",
+          "correct": false
+        },
+        {
+          "value": "Bacillus cereus",
+          "correct": true
+        },
+        {
+          "value": "Clostridium perfringens",
+          "correct": false
+        },
+        {
+          "value": "Staphylococcus aureus",
+          "correct": false
+        }
+      ],
+      "explanation": "Bacillus cereus is a bacterium that is known to cause vomiting and diarrhea following the consumption of reheated rice. This is due to the production of toxins that can survive the reheating process.",
+      "factoid": "56. Bacillus cereus causes vomiting and diarrhea following consumption of reheated rice."
+    },
+    {
+      "question": "Which organism is responsible for causing both pulmonary and cutaneous anthrax?",
+      "answerChoices": [
+        {
+          "value": "Clostridium tetani",
+          "correct": false
+        },
+        {
+          "value": "Staphylococcus aureus",
+          "correct": false
+        },
+        {
+          "value": "Bacillus anthracis",
+          "correct": true
+        },
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Mycobacterium tuberculosis",
+          "correct": false
+        }
+      ],
+      "explanation": "Bacillus anthracis is the bacterium that causes both pulmonary (inhalational) and cutaneous anthrax.",
+      "factoid": "57. Bacillus anthracis causes pulmonary and cutaneous anthrax."
+    },
+    {
+      "question": "Which of the following organisms is responsible for causing spastic paralysis?",
+      "answerChoices": [
+        {
+          "value": "Clostridium botulinum",
+          "correct": false
+        },
+        {
+          "value": "Clostridium difficile",
+          "correct": false
+        },
+        {
+          "value": "Clostridium perfringens",
+          "correct": false
+        },
+        {
+          "value": "Clostridium tetani",
+          "correct": true
+        },
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        }
+      ],
+      "explanation": "Clostridium tetani is the bacterium that produces tetanospasmin, a toxin that leads to spastic paralysis, which is the hallmark of tetanus.",
+      "factoid": "58. Clostridium tetani causes spastic paralysis."
+    },
+    {
+      "question": "Which of the following bacteria is responsible for causing flaccid paralysis?",
+      "answerChoices": [
+        {
+          "value": "Staphylococcus aureus",
+          "correct": false
+        },
+        {
+          "value": "Clostridium tetani",
+          "correct": false
+        },
+        {
+          "value": "Clostridium botulinum",
+          "correct": true
+        },
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Bacillus anthracis",
+          "correct": false
+        }
+      ],
+      "explanation": "Clostridium botulinum produces a neurotoxin that inhibits acetylcholine release at the neuromuscular junction, leading to flaccid paralysis.",
+      "factoid": "Clostridium botulinum causes flaccid paralysis."
+    },
+    {
+      "question": "Which of the following bacteria is known to cause pseudomembranous colitis?",
+      "answerChoices": [
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Staphylococcus aureus",
+          "correct": false
+        },
+        {
+          "value": "Clostridium difficile",
+          "correct": true
+        },
+        {
+          "value": "Salmonella typhi",
+          "correct": false
+        },
+        {
+          "value": "Helicobacter pylori",
+          "correct": false
+        }
+      ],
+      "explanation": "Clostridium difficile is the bacterium responsible for causing pseudomembranous colitis, an inflammation of the colon associated with antibiotic use.",
+      "factoid": "Clostridium difficile causes pseudomembranous colitis."
+    },
+    {
+      "question": "Which of the following conditions is caused by Clostridium perfringens?",
+      "answerChoices": [
+        {
+          "value": "Tetanus",
+          "correct": false
+        },
+        {
+          "value": "Botulism",
+          "correct": false
+        },
+        {
+          "value": "Gas gangrene",
+          "correct": true
+        },
+        {
+          "value": "Leprosy",
+          "correct": false
+        },
+        {
+          "value": "Tuberculosis",
+          "correct": false
+        }
+      ],
+      "explanation": "Clostridium perfringens is a bacterial pathogen known to cause gas gangrene as well as watery diarrhea. The other conditions listed are caused by different microorganisms.",
+      "factoid": "61. Clostridium perfringens causes gas gangrene and watery diarrhea."
+    },
+    {
+      "question": "Which of the following pathogens is known to cause neonatal infections and is commonly acquired through consumption of deli meats and soft cheeses?",
+      "answerChoices": [
+        {
+          "value": "Salmonella enterica",
+          "correct": false
+        },
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Listeria monocytogenes",
+          "correct": true
+        },
+        {
+          "value": "Staphylococcus aureus",
+          "correct": false
+        },
+        {
+          "value": "Campylobacter jejuni",
+          "correct": false
+        }
+      ],
+      "explanation": "Listeria monocytogenes is a bacterium that can cause serious infections in newborns and is often transmitted through contaminated deli meats and soft cheeses.",
+      "factoid": "Listeria monocytogenes can cause neonatal infections and is acquired via deli meats and soft cheeses."
+    },
+    {
+      "question": "Which of the following bacteria causes diphtheria, presenting as a grey pseudomembrane in the oropharynx?",
+      "answerChoices": [
+        {
+          "value": "Streptococcus pyogenes",
+          "correct": false
+        },
+        {
+          "value": "Corynebacterium diphtheriae",
+          "correct": true
+        },
+        {
+          "value": "Mycobacterium tuberculosis",
+          "correct": false
+        },
+        {
+          "value": "Bordetella pertussis",
+          "correct": false
+        },
+        {
+          "value": "Haemophilus influenzae",
+          "correct": false
+        }
+      ],
+      "explanation": "Corynebacterium diphtheriae is the bacterium responsible for causing diphtheria, which is characterized by the formation of a grey pseudomembrane in the oropharynx.",
+      "factoid": "63. Corynebacterium diphtheriae causes diphtheria, presenting as a grey pseudomembrane in the oropharynx."
+    },
+    {
+      "question": "Which of the following organisms causes pulmonary infections resembling tuberculosis and is weakly acid-fast?",
+      "answerChoices": [
+        {
+          "value": "Mycobacterium tuberculosis",
+          "correct": false
+        },
+        {
+          "value": "Streptococcus pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Legionella pneumophila",
+          "correct": false
+        },
+        {
+          "value": "Nocardia",
+          "correct": true
+        },
+        {
+          "value": "Klebsiella pneumoniae",
+          "correct": false
+        }
+      ],
+      "explanation": "Nocardia is known to cause pulmonary infections that resemble tuberculosis and is characterized by being weakly acid-fast.",
+      "factoid": "64. Nocardia causes pulmonary infections resembling TB and is weakly acid-fast."
+    },
+    {
+      "question": "Which of the following bacteria is known to cause draining sinus tracts in the oral cavity and forms yellow sulfur granules?",
+      "answerChoices": [
+        {
+          "value": "Streptococcus mutans",
+          "correct": false
+        },
+        {
+          "value": "Porphyromonas gingivalis",
+          "correct": false
+        },
+        {
+          "value": "Actinomyces",
+          "correct": true
+        },
+        {
+          "value": "Fusobacterium nucleatum",
+          "correct": false
+        },
+        {
+          "value": "Prevotella intermedia",
+          "correct": false
+        }
+      ],
+      "explanation": "Actinomyces is known to cause draining sinus tracts in the oral cavity and forms yellow sulfur granules, distinguishing it from other oral bacteria.",
+      "factoid": "Actinomyces causes draining sinus tracts in the oral cavity and forms yellow sulfur granules."
+    },
+    {
+      "question": "Which pathogen is a common cause of meningitis, particularly among college-age students and military personnel?",
+      "answerChoices": [
+        {
+          "value": "Streptococcus pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Haemophilus influenzae",
+          "correct": false
+        },
+        {
+          "value": "Neisseria meningitidis",
+          "correct": true
+        },
+        {
+          "value": "Listeria monocytogenes",
+          "correct": false
+        },
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        }
+      ],
+      "explanation": "Neisseria meningitidis is known to cause meningitis, particularly in environments where people live in close quarters such as college dormitories and military barracks.",
+      "factoid": "Neisseria meningitidis causes meningitis, especially in college-age students and military barracks."
+    },
+    {
+      "question": "Which pathogen is known to cause sexually transmitted infections with mucopurulent discharge and can lead to pelvic inflammatory disease (PID)?",
+      "answerChoices": [
+        {
+          "value": "Chlamydia trachomatis",
+          "correct": false
+        },
+        {
+          "value": "Treponema pallidum",
+          "correct": false
+        },
+        {
+          "value": "Mycoplasma genitalium",
+          "correct": false
+        },
+        {
+          "value": "Neisseria gonorrhoeae",
+          "correct": true
+        },
+        {
+          "value": "Trichomonas vaginalis",
+          "correct": false
+        }
+      ],
+      "explanation": "Neisseria gonorrhoeae is the bacterium responsible for causing sexually transmitted infections characterized by mucopurulent discharge, and it can lead to pelvic inflammatory disease (PID) if left untreated.",
+      "factoid": "Neisseria gonorrhoeae causes STIs with mucopurulent discharge and can lead to PID."
+    },
+    {
+      "question": "Which of the following conditions is caused by Haemophilus influenzae type B?",
+      "answerChoices": [
+        {
+          "value": "Otitis media",
+          "correct": false
+        },
+        {
+          "value": "Pneumonia",
+          "correct": false
+        },
+        {
+          "value": "Epiglottitis",
+          "correct": true
+        },
+        {
+          "value": "Bronchitis",
+          "correct": false
+        },
+        {
+          "value": "Sinusitis",
+          "correct": false
+        }
+      ],
+      "explanation": "Haemophilus influenzae type B is known to cause epiglottitis as well as meningitis. While it can also be associated with other infections, epiglottitis is a key condition commonly linked to this pathogen.",
+      "factoid": "Haemophilus influenzae type B causes epiglottitis and meningitis."
+    },
+    {
+      "question": "Which of the following organisms causes atypical pneumonia and is commonly acquired through aerosols from air conditioners?",
+      "answerChoices": [
+        {
+          "value": "Streptococcus pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Mycoplasma pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Chlamydophila pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Legionella pneumophila",
+          "correct": true
+        },
+        {
+          "value": "Haemophilus influenzae",
+          "correct": false
+        }
+      ],
+      "explanation": "Legionella pneumophila is the correct answer as it is known to cause atypical pneumonia and is typically acquired through aerosols from air conditioning systems.",
+      "factoid": "Legionella causes atypical pneumonia and is acquired via aerosols from air conditioners."
+    },
+    {
+      "question": "Which of the following is the most common bacterial cause of atypical pneumonia?",
+      "answerChoices": [
+        {
+          "value": "Streptococcus pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Haemophilus influenzae",
+          "correct": false
+        },
+        {
+          "value": "Klebsiella pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Mycoplasma",
+          "correct": true
+        },
+        {
+          "value": "Pseudomonas aeruginosa",
+          "correct": false
+        }
+      ],
+      "explanation": "Mycoplasma is recognized as the most common bacterial cause of atypical pneumonia, which is a type of pneumonia not caused by the traditional bacterial pathogens.",
+      "factoid": "70. Mycoplasma is the most common bacterial cause of atypical pneumonia."
+    },
+    {
+      "question": "Which of the following pathogens can cause neonatal pneumonia following conjunctivitis?",
+      "answerChoices": [
+        {
+          "value": "Streptococcus agalactiae",
+          "correct": false
+        },
+        {
+          "value": "Chlamydia trachomatis D-K",
+          "correct": true
+        },
+        {
+          "value": "Neisseria gonorrhoeae",
+          "correct": false
+        },
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Staphylococcus aureus",
+          "correct": false
+        }
+      ],
+      "explanation": "Chlamydia trachomatis serovars D-K are known to cause neonatal pneumonia following an initial conjunctivitis infection. This pathogen can be transmitted from mother to infant during childbirth.",
+      "factoid": "71. Chlamydia trachomatis D-K can cause neonatal pneumonia following conjunctivitis."
+    },
+    {
+      "question": "Which bacterium is responsible for causing whooping cough?",
+      "answerChoices": [
+        {
+          "value": "Streptococcus pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Bordetella pertussis",
+          "correct": true
+        },
+        {
+          "value": "Haemophilus influenzae",
+          "correct": false
+        },
+        {
+          "value": "Mycobacterium tuberculosis",
+          "correct": false
+        },
+        {
+          "value": "Corynebacterium diphtheriae",
+          "correct": false
+        }
+      ],
+      "explanation": "Bordetella pertussis is the bacterium that causes whooping cough, a highly contagious respiratory disease known for severe coughing fits.",
+      "factoid": "72. Bordetella pertussis causes whooping cough."
+    },
+    {
+      "question": "Which pathogen causes tularemia and is commonly acquired from rabbits?",
+      "answerChoices": [
+        {
+          "value": "Borrelia burgdorferi",
+          "correct": false
+        },
+        {
+          "value": "Rickettsia rickettsii",
+          "correct": false
+        },
+        {
+          "value": "Bacillus anthracis",
+          "correct": false
+        },
+        {
+          "value": "Francisella tularensis",
+          "correct": true
+        },
+        {
+          "value": "Yersinia pestis",
+          "correct": false
+        }
+      ],
+      "explanation": "Francisella tularensis is the bacterium that causes tularemia, a disease often acquired from handling infected rabbits.",
+      "factoid": "Francisella tularensis causes tularemia and is acquired from rabbits."
+    },
+    {
+      "question": "Which organism causes Rocky Mountain spotted fever?",
+      "answerChoices": [
+        {
+          "value": "Borrelia burgdorferi",
+          "correct": false
+        },
+        {
+          "value": "Rickettsia rickettsii",
+          "correct": true
+        },
+        {
+          "value": "Coxiella burnetii",
+          "correct": false
+        },
+        {
+          "value": "Bartonella henselae",
+          "correct": false
+        },
+        {
+          "value": "Anaplasma phagocytophilum",
+          "correct": false
+        }
+      ],
+      "explanation": "Rickettsia rickettsii is the bacterium responsible for causing Rocky Mountain spotted fever, a serious tick-borne illness.",
+      "factoid": "74. Rickettsia rickettsii causes Rocky Mountain spotted fever."
+    },
+    {
+      "question": "Which of the following pathogens is responsible for causing Q-fever, typically acquired from farm animals?",
+      "answerChoices": [
+        {
+          "value": "Coxiella burnetii",
+          "correct": true
+        },
+        {
+          "value": "Brucella abortus",
+          "correct": false
+        },
+        {
+          "value": "Bacillus anthracis",
+          "correct": false
+        },
+        {
+          "value": "Mycobacterium bovis",
+          "correct": false
+        },
+        {
+          "value": "Yersinia pestis",
+          "correct": false
+        }
+      ],
+      "explanation": "Coxiella burnetii is the bacterium that causes Q-fever, often acquired from farm animals such as cattle, sheep, and goats.",
+      "factoid": "Coxiella burnetii causes Q-fever, acquired from farm animals."
+    },
+    {
+      "question": "Which of the following organisms causes undulating fever and is commonly acquired from unpasteurized goat products?",
+      "answerChoices": [
+        {
+          "value": "Salmonella",
+          "correct": false
+        },
+        {
+          "value": "Listeria",
+          "correct": false
+        },
+        {
+          "value": "Brucella",
+          "correct": true
+        },
+        {
+          "value": "Campylobacter",
+          "correct": false
+        },
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        }
+      ],
+      "explanation": "Brucella is a genus of bacteria that causes undulating fever, also known as brucellosis. It is commonly acquired from consuming unpasteurized dairy products, such as those from goats.",
+      "factoid": "76. Brucella causes undulating fever and is acquired from unpasteurized goat products."
+    },
+    {
+      "question": "Which of the following organisms is commonly responsible for skin infections following cat or dog bites?",
+      "answerChoices": [
+        {
+          "value": "Staphylococcus aureus",
+          "correct": false
+        },
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Pasteurella multocida",
+          "correct": true
+        },
+        {
+          "value": "Pseudomonas aeruginosa",
+          "correct": false
+        },
+        {
+          "value": "Mycobacterium marinum",
+          "correct": false
+        }
+      ],
+      "explanation": "Pasteurella multocida is the correct answer because it is a common pathogen responsible for skin infections following cat or dog bites. This organism is part of the normal flora in the mouths of these animals and can be transmitted through their bites.",
+      "factoid": "77. Pasteurella multocida causes skin infections following cat or dog bites."
+    },
+    {
+      "question": "Which of the following organisms is responsible for causing cat-scratch disease and bacillary angiomatosis?",
+      "answerChoices": [
+        {
+          "value": "Bacillus anthracis",
+          "correct": false
+        },
+        {
+          "value": "Bartonella henselae",
+          "correct": true
+        },
+        {
+          "value": "Borrelia burgdorferi",
+          "correct": false
+        },
+        {
+          "value": "Clostridium tetani",
+          "correct": false
+        },
+        {
+          "value": "Francisella tularensis",
+          "correct": false
+        }
+      ],
+      "explanation": "Bartonella henselae is the correct answer because it is the bacterium that causes cat-scratch disease and bacillary angiomatosis, as stated in the factoid.",
+      "factoid": "78. Bartonella henselae causes cat-scratch disease and bacillary angiomatosis."
+    },
+    {
+      "question": "Which bacterium is known to cause nosocomial urinary tract infections and grows cherry red on culture medium?",
+      "answerChoices": [
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Pseudomonas aeruginosa",
+          "correct": false
+        },
+        {
+          "value": "Klebsiella pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Serratia marcescens",
+          "correct": true
+        },
+        {
+          "value": "Staphylococcus saprophyticus",
+          "correct": false
+        }
+      ],
+      "explanation": "Serratia marcescens is known for causing nosocomial urinary tract infections and is characterized by its distinctive cherry red color when grown on culture medium.",
+      "factoid": "79. Serratia marcescens causes nosocomial UTIs and grows cherry red on culture medium."
+    },
+    {
+      "question": "Which of the following is the most common cause of urinary tract infections (UTIs), cystitis, and pyelonephritis?",
+      "answerChoices": [
+        {
+          "value": "Staphylococcus saprophyticus",
+          "correct": false
+        },
+        {
+          "value": "Klebsiella pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Proteus mirabilis",
+          "correct": false
+        },
+        {
+          "value": "Escherichia coli",
+          "correct": true
+        },
+        {
+          "value": "Enterococcus faecalis",
+          "correct": false
+        }
+      ],
+      "explanation": "Escherichia coli is the most common cause of urinary tract infections (UTIs), cystitis, and pyelonephritis due to its ability to adhere to the urinary tract lining and its prevalence in the gut flora.",
+      "factoid": "80. Escherichia coli is the most common cause of UTIs, cystitis, and pyelonephritis."
+    },
+    {
+      "question": "Which of the following is the most common cause of traveler's diarrhea?",
+      "answerChoices": [
+        {
+          "value": "Shigella flexneri",
+          "correct": false
+        },
+        {
+          "value": "Salmonella typhi",
+          "correct": false
+        },
+        {
+          "value": "Enterotoxigenic E. coli (ETEC)",
+          "correct": true
+        },
+        {
+          "value": "Vibrio cholerae",
+          "correct": false
+        },
+        {
+          "value": "Campylobacter jejuni",
+          "correct": false
+        }
+      ],
+      "explanation": "Enterotoxigenic E. coli (ETEC) is the most common cause of traveler's diarrhea, often acquired by ingestion of contaminated food or water.",
+      "factoid": "81. Enterotoxigenic E. coli (ETEC) causes traveler's diarrhea."
+    },
+    {
+      "question": "Which of the following E. coli strains is known to cause bloody diarrhea and hemolytic uremic syndrome (HUS)?",
+      "answerChoices": [
+        {
+          "value": "Enterotoxigenic E. coli (ETEC)",
+          "correct": false
+        },
+        {
+          "value": "Enteropathogenic E. coli (EPEC)",
+          "correct": false
+        },
+        {
+          "value": "Enteroaggregative E. coli (EAEC)",
+          "correct": false
+        },
+        {
+          "value": "Enteroinvasive E. coli (EIEC)",
+          "correct": false
+        },
+        {
+          "value": "Enterohemorrhagic E. coli (EHEC) O157:H7",
+          "correct": true
+        }
+      ],
+      "explanation": "Enterohemorrhagic E. coli (EHEC) O157:H7 is the strain of E. coli known to cause bloody diarrhea and hemolytic uremic syndrome (HUS), distinguishing it from other types of E. coli which cause different gastrointestinal diseases.",
+      "factoid": "82. Enterohemorrhagic E. coli (EHEC) O157:H7 causes bloody diarrhea and hemolytic uremic syndrome (HUS)."
+    },
+    {
+      "question": "Which of the following bacteria is known to cause cavitary pneumonia with currant jelly sputum?",
+      "answerChoices": [
+        {
+          "value": "Streptococcus pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Haemophilus influenzae",
+          "correct": false
+        },
+        {
+          "value": "Klebsiella pneumoniae",
+          "correct": true
+        },
+        {
+          "value": "Mycoplasma pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Legionella pneumophila",
+          "correct": false
+        }
+      ],
+      "explanation": "Klebsiella pneumoniae is known to cause cavitary pneumonia characterized by the production of thick, mucoid, blood-tinged sputum, often described as currant jelly sputum.",
+      "factoid": "Klebsiella can cause cavitary pneumonia with currant jelly sputum."
+    },
+    {
+      "question": "Which of the following bacteria can cause urinary tract infections (UTIs) that lead to the formation of struvite stones?",
+      "answerChoices": [
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Klebsiella pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Proteus",
+          "correct": true
+        },
+        {
+          "value": "Pseudomonas aeruginosa",
+          "correct": false
+        },
+        {
+          "value": "Staphylococcus saprophyticus",
+          "correct": false
+        }
+      ],
+      "explanation": "Proteus species are known to cause urinary tract infections that can lead to the formation of struvite stones due to their ability to produce urease, which alkalinizes the urine and promotes stone formation.",
+      "factoid": "84. Proteus can cause UTIs leading to struvite stones."
+    },
+    {
+      "question": "Which of the following conditions is caused by the bacterium Salmonella?",
+      "answerChoices": [
+        {
+          "value": "Tuberculosis",
+          "correct": false
+        },
+        {
+          "value": "Cholera",
+          "correct": false
+        },
+        {
+          "value": "Food poisoning",
+          "correct": true
+        },
+        {
+          "value": "Malaria",
+          "correct": false
+        },
+        {
+          "value": "Influenza",
+          "correct": false
+        }
+      ],
+      "explanation": "Salmonella is a type of bacteria that causes food poisoning and can also lead to typhoid fever. It does not cause tuberculosis, cholera, malaria, or influenza.",
+      "factoid": "85. Salmonella causes food poisoning and typhoid fever."
+    },
+    {
+      "question": "Which of the following bacteria is known to cause both shigellosis and hemolytic uremic syndrome (HUS)?",
+      "answerChoices": [
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Salmonella",
+          "correct": false
+        },
+        {
+          "value": "Shigella",
+          "correct": true
+        },
+        {
+          "value": "Campylobacter",
+          "correct": false
+        },
+        {
+          "value": "Vibrio cholerae",
+          "correct": false
+        }
+      ],
+      "explanation": "Shigella is the bacterium responsible for causing shigellosis and can also lead to hemolytic uremic syndrome (HUS).",
+      "factoid": "86. Shigella causes shigellosis and HUS."
+    },
+    {
+      "question": "Which of the following pathogens is most commonly associated with pneumonia in cystic fibrosis patients and infections on burns?",
+      "answerChoices": [
+        {
+          "value": "Streptococcus pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Haemophilus influenzae",
+          "correct": false
+        },
+        {
+          "value": "Pseudomonas aeruginosa",
+          "correct": true
+        },
+        {
+          "value": "Klebsiella pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Staphylococcus aureus",
+          "correct": false
+        }
+      ],
+      "explanation": "Pseudomonas aeruginosa is the most commonly associated pathogen with pneumonia in cystic fibrosis patients and infections on burns due to its unique virulence factors and ability to thrive in moist environments.",
+      "factoid": "Pseudomonas causes pneumonia in cystic fibrosis patients and infections on burns."
+    },
+    {
+      "question": "Which organism is known to cause profuse rice-water stool?",
+      "answerChoices": [
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Salmonella typhi",
+          "correct": false
+        },
+        {
+          "value": "Vibrio cholerae",
+          "correct": true
+        },
+        {
+          "value": "Shigella dysenteriae",
+          "correct": false
+        },
+        {
+          "value": "Clostridium difficile",
+          "correct": false
+        }
+      ],
+      "explanation": "Vibrio cholerae is the bacterium responsible for causing cholera, characterized by profuse rice-water stool.",
+      "factoid": "88. Vibrio cholerae causes profuse rice-water stool."
+    },
+    {
+      "question": "Which of the following bacteria can cause bloody diarrhea and pseudo-appendicitis?",
+      "answerChoices": [
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Salmonella enterica",
+          "correct": false
+        },
+        {
+          "value": "Clostridium difficile",
+          "correct": false
+        },
+        {
+          "value": "Yersinia enterocolitica",
+          "correct": true
+        },
+        {
+          "value": "Campylobacter jejuni",
+          "correct": false
+        }
+      ],
+      "explanation": "Yersinia enterocolitica is known to cause bloody diarrhea and pseudo-appendicitis, which can mimic the symptoms of appendicitis.",
+      "factoid": "89. Yersinia enterocolitica causes bloody diarrhea and pseudo-appendicitis."
+    },
+    {
+      "question": "Which of the following tests is commonly used to diagnose Helicobacter pylori infection in patients with peptic ulcers?",
+      "answerChoices": [
+        {
+          "value": "Fecal occult blood test",
+          "correct": false
+        },
+        {
+          "value": "Urease breath test",
+          "correct": true
+        },
+        {
+          "value": "Colonoscopy",
+          "correct": false
+        },
+        {
+          "value": "Upper endoscopy",
+          "correct": false
+        },
+        {
+          "value": "Abdominal ultrasound",
+          "correct": false
+        }
+      ],
+      "explanation": "The urease breath test is commonly used to diagnose Helicobacter pylori infection because H. pylori produces urease, which breaks down urea into carbon dioxide and ammonia. This test measures the amount of carbon dioxide in the breath after the patient consumes a urea solution.",
+      "factoid": "Helicobacter pylori causes peptic ulcers and is diagnosed with a urease breath test."
+    },
+    {
+      "question": "Which of the following bacterial infections is known to cause bloody diarrhea and can lead to Guillain-Barre syndrome?",
+      "answerChoices": [
+        {
+          "value": "Escherichia coli",
+          "correct": false
+        },
+        {
+          "value": "Salmonella enterica",
+          "correct": false
+        },
+        {
+          "value": "Campylobacter jejuni",
+          "correct": true
+        },
+        {
+          "value": "Shigella dysenteriae",
+          "correct": false
+        },
+        {
+          "value": "Clostridium difficile",
+          "correct": false
+        }
+      ],
+      "explanation": "Campylobacter jejuni is known to cause bloody diarrhea and can lead to Guillain-Barre syndrome, unlike the other bacteria listed.",
+      "factoid": "Campylobacter jejuni causes bloody diarrhea and can lead to Guillain-Barre syndrome."
+    },
+    {
+      "question": "Which of the following bacteria is a strictly anaerobic gram-negative rod that causes pulmonary abscesses?",
+      "answerChoices": [
+        {
+          "value": "Staphylococcus aureus",
+          "correct": false
+        },
+        {
+          "value": "Streptococcus pneumoniae",
+          "correct": false
+        },
+        {
+          "value": "Mycobacterium tuberculosis",
+          "correct": false
+        },
+        {
+          "value": "Bacteroides",
+          "correct": true
+        },
+        {
+          "value": "Klebsiella pneumoniae",
+          "correct": false
+        }
+      ],
+      "explanation": "Bacteroides is a strictly anaerobic gram-negative rod that is known to cause pulmonary abscesses, distinguishing it from the other bacteria listed.",
+      "factoid": "92. Bacteroides is a strictly anaerobic gram-negative rod causing pulmonary abscesses."
+    },
+    {
+      "question": "Which of the following parasitic infections is known to cause intestinal obstruction?",
+      "answerChoices": [
+        {
+          "value": "Giardia lamblia",
+          "correct": false
+        },
+        {
+          "value": "Entamoeba histolytica",
+          "correct": false
+        },
+        {
+          "value": "Ascaris lumbricoides",
+          "correct": true
+        },
+        {
+          "value": "Enterobius vermicularis",
+          "correct": false
+        },
+        {
+          "value": "Trichuris trichiura",
+          "correct": false
+        }
+      ],
+      "explanation": "Ascaris lumbricoides, a type of roundworm, is known to cause intestinal obstruction, especially in children. The large size and high worm burden can physically block the intestines.",
+      "factoid": "Ascaris lumbricoides causes intestinal obstruction."
+    },
+    {
+      "question": "Which of the following is the diagnostic test for Enterobius vermicularis, which causes perianal itching?",
+      "answerChoices": [
+        {
+          "value": "Stool culture",
+          "correct": false
+        },
+        {
+          "value": "Blood smear",
+          "correct": false
+        },
+        {
+          "value": "Scotch tape test",
+          "correct": true
+        },
+        {
+          "value": "Urine analysis",
+          "correct": false
+        },
+        {
+          "value": "Skin biopsy",
+          "correct": false
+        }
+      ],
+      "explanation": "The Scotch tape test is used to diagnose Enterobius vermicularis, which causes perianal itching. The test involves applying clear adhesive tape to the perianal area to collect eggs, which can then be observed under a microscope.",
+      "factoid": "Enterobius vermicularis causes perianal itching and is diagnosed with the Scotch tape test."
+    },
+    {
+      "question": "Which of the following parasites is known to cause visceral larva migrans?",
+      "answerChoices": [
+        {
+          "value": "Ascaris lumbricoides",
+          "correct": false
+        },
+        {
+          "value": "Trichuris trichiura",
+          "correct": false
+        },
+        {
+          "value": "Ancylostoma duodenale",
+          "correct": false
+        },
+        {
+          "value": "Strongyloides stercoralis",
+          "correct": false
+        },
+        {
+          "value": "Toxocara canis",
+          "correct": true
+        }
+      ],
+      "explanation": "Toxocara canis is the parasite responsible for causing visceral larva migrans, a condition where the larvae migrate through various tissues in the human body.",
+      "factoid": "95. Toxocara canis causes visceral larva migrans."
+    },
+    {
+      "question": "Which of the following pathogens is responsible for causing trichinosis, which presents with fever, myalgias, and periorbital edema?",
+      "answerChoices": [
+        {
+          "value": "Taenia solium",
+          "correct": false
+        },
+        {
+          "value": "Ascaris lumbricoides",
+          "correct": false
+        },
+        {
+          "value": "Enterobius vermicularis",
+          "correct": false
+        },
+        {
+          "value": "Trichinella spiralis",
+          "correct": true
+        },
+        {
+          "value": "Giardia lamblia",
+          "correct": false
+        }
+      ],
+      "explanation": "Trichinella spiralis is the causative agent of trichinosis, which is characterized by symptoms such as fever, myalgias, and periorbital edema.",
+      "factoid": "Trichinella spiralis causes trichinosis, presenting with fever, myalgias, and periorbital edema."
+    },
+    {
+      "question": "Which parasitic infection invades through the feet and causes pulmonary and abdominal symptoms?",
+      "answerChoices": [
+        {
+          "value": "Enterobius vermicularis",
+          "correct": false
+        },
+        {
+          "value": "Ascaris lumbricoides",
+          "correct": false
+        },
+        {
+          "value": "Taenia solium",
+          "correct": false
+        },
+        {
+          "value": "Strongyloides stercoralis",
+          "correct": true
+        },
+        {
+          "value": "Trichuris trichiura",
+          "correct": false
+        }
+      ],
+      "explanation": "Strongyloides stercoralis is the correct answer as it invades through the feet and causes both pulmonary and abdominal symptoms.",
+      "factoid": "97. Strongyloides stercoralis invades through the feet and causes pulmonary and abdominal symptoms."
+    },
+    {
+      "question": "Which of the following parasitic infections is most likely to cause microcytic anemia?",
+      "answerChoices": [
+        {
+          "value": "Ascaris lumbricoides",
+          "correct": false
+        },
+        {
+          "value": "Taenia saginata",
+          "correct": false
+        },
+        {
+          "value": "Ancylostoma duodenale",
+          "correct": true
+        },
+        {
+          "value": "Enterobius vermicularis",
+          "correct": false
+        },
+        {
+          "value": "Trichuris trichiura",
+          "correct": false
+        }
+      ],
+      "explanation": "Ancylostoma duodenale and Necator americanus are hookworms known to cause microcytic anemia. These parasites feed on blood, leading to iron deficiency anemia.",
+      "factoid": "Ancylostoma duodenale and Necator americanus are hookworms causing microcytic anemia."
+    },
+    {
+      "question": "Which of the following parasites is responsible for causing river blindness?",
+      "answerChoices": [
+        {
+          "value": "Wuchereria bancrofti",
+          "correct": false
+        },
+        {
+          "value": "Plasmodium falciparum",
+          "correct": false
+        },
+        {
+          "value": "Trypanosoma cruzi",
+          "correct": false
+        },
+        {
+          "value": "Onchocerca volvulus",
+          "correct": true
+        },
+        {
+          "value": "Schistosoma haematobium",
+          "correct": false
+        }
+      ],
+      "explanation": "Onchocerca volvulus is the parasitic worm that causes onchocerciasis, also known as river blindness.",
+      "factoid": "99. Onchocerca volvulus causes river blindness."
+    },
+    {
+      "question": "Which parasitic infection is known to cause elephantiasis?",
+      "answerChoices": [
+        {
+          "value": "Plasmodium falciparum",
+          "correct": false
+        },
+        {
+          "value": "Trypanosoma cruzi",
+          "correct": false
+        },
+        {
+          "value": "Wuchereria bancrofti",
+          "correct": true
+        },
+        {
+          "value": "Leishmania donovani",
+          "correct": false
+        },
+        {
+          "value": "Schistosoma mansoni",
+          "correct": false
+        }
+      ],
+      "explanation": "Wuchereria bancrofti is a parasitic worm known to cause lymphatic filariasis, which can lead to elephantiasis, characterized by severe swelling of limbs and other body parts.",
+      "factoid": "100. Wuchereria bancrofti causes elephantiasis."
+    }
+  ]
+}

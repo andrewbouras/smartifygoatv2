@@ -29,34 +29,67 @@ SYSTEM_MESSAGE = {
     )
 }
 
-def process_text_file(file_path):
+def process_text_file(file_path, output_dir):
     """Process a single text file and generate factoids."""
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             text_content = f.read()
 
-        # Construct user prompt
-        user_prompt = {
-            "role": "user",
-            "content": (
-                "Below is a block of text extracted from a medical textbook resource. "
-                "Please convert all testable information into a list of factoids as described in the instructions.\n\n"
-                f"[BEGIN TEXT]\n{text_content}\n[END TEXT]"
+        # Split text into chunks of roughly 100k characters
+        chunk_size = 100000
+        chunks = [text_content[i:i + chunk_size] for i in range(0, len(text_content), chunk_size)]
+        
+        all_factoids = []
+        for i, chunk in enumerate(chunks):
+            print(f"Processing chunk {i+1}/{len(chunks)}...")
+            
+            user_prompt = {
+                "role": "user",
+                "content": (
+                    "Below is a block of text extracted from a resource who has curated a high-yield document for a given subject for student preparation for the USMLE STEP 1 exam. The author has already done a great job at only including high yield information, so now I want to have a way of actively engaging with the material via MCQs. To do so, I need to effectively convert this document into testable chunks of information that I can reasonably go through and convert into MCQs. I don't want to be doing thousands of questions per document, I would like to keep it at hundreds max. "
+                    "Please convert all testable information into a list of factoids as described in the instructions -- Avoid redundancy but the entirety of the document should be covered and addressed accordingly.\n\n"
+                    f"[BEGIN TEXT]\n{chunk}\n[END TEXT]"
+                )
+            }
+
+            response = client.chat.completions.create(
+                model=DEPLOYMENT_NAME,
+                messages=[SYSTEM_MESSAGE, user_prompt],
+                max_tokens=2048,
+                temperature=0.0,
+                top_p=1.0
             )
-        }
 
-        # Send request to Azure OpenAI
-        response = client.chat.completions.create(
-            model=DEPLOYMENT_NAME,
-            messages=[SYSTEM_MESSAGE, user_prompt],
-            max_tokens=2048,
-            temperature=0.0,
-            top_p=1.0
+            # Extract and clean the factoids from this chunk
+            completion = response.choices[0].message.content
+            
+            # Split by newlines and clean up
+            chunk_factoids = []
+            for line in completion.split('\n'):
+                line = line.strip()
+                # Remove bullet points and other markers
+                line = line.lstrip('- ').lstrip('* ').lstrip('• ')
+                if line and not line.startswith(('Note:', 'Example:', 'Remember:')):
+                    chunk_factoids.append(line)
+            
+            all_factoids.extend(chunk_factoids)
+
+        # Limit to maximum 100 factoids from all chunks combined
+        all_factoids = all_factoids[:100]
+        
+        # Save to JSON file
+        output_file = os.path.join(
+            output_dir,
+            f"{os.path.splitext(os.path.basename(file_path))[0]}_factoids.json"
         )
-
-        # Extract the completion
-        completion = response.choices[0].message.content
-        return completion
+        
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump({
+                "source_file": os.path.basename(file_path),
+                "factoids": all_factoids
+            }, f, indent=2, ensure_ascii=False)
+        
+        return all_factoids
 
     except Exception as e:
         print(f"Error processing {file_path}: {str(e)}")
@@ -76,24 +109,28 @@ def save_factoids(filename, factoids):
     
     return output_file
 
-def main():
-    input_dir = "1_TranscribedPDFs"
+def main(input_dir="python/transcribed", output_dir="python/factoids"):
+    """Main function to process all text files."""
+    # Ensure directories exist
+    os.makedirs(input_dir, exist_ok=True)
+    os.makedirs(output_dir, exist_ok=True)
     
-    # Process each text file in the input directory
-    for filename in os.listdir(input_dir):
-        if filename.endswith(".txt"):
-            print(f"\nProcessing {filename}...")
-            file_path = os.path.join(input_dir, filename)
-            
-            # Generate factoids
-            factoids = process_text_file(file_path)
-            
-            if factoids:
-                # Save factoids to JSON file
-                output_file = save_factoids(filename, factoids)
-                print(f"Factoids saved to: {output_file}")
-            else:
-                print(f"Failed to generate factoids for {filename}")
+    # Get list of transcribed text files
+    text_files = [f for f in os.listdir(input_dir) if f.endswith('.txt')]
+    
+    if not text_files:
+        print("\n❌ No text files found in transcribed directory!")
+        return
+    
+    for text_file in text_files:
+        print(f"\nProcessing {text_file}...")
+        file_path = os.path.join(input_dir, text_file)
+        factoids = process_text_file(file_path, output_dir)
+        
+        if factoids:
+            print(f"✅ Successfully generated factoids for {text_file}")
+        else:
+            print(f"❌ Failed to generate factoids for {text_file}")
 
 if __name__ == "__main__":
     main() 

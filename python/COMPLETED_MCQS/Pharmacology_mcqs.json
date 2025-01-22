@@ -1,0 +1,2905 @@
+{
+  "source_file": "Pharmacology",
+  "mcqs": [
+    {
+      "question": "Which genetic disorder is caused by a defective chloride channel and is inherited in an autosomal recessive manner?",
+      "answerChoices": [
+        {
+          "value": "Huntington's disease",
+          "correct": false
+        },
+        {
+          "value": "Cystic fibrosis",
+          "correct": true
+        },
+        {
+          "value": "Marfan syndrome",
+          "correct": false
+        },
+        {
+          "value": "Hemophilia",
+          "correct": false
+        },
+        {
+          "value": "Sickle cell anemia",
+          "correct": false
+        }
+      ],
+      "explanation": "Cystic fibrosis (CF) is an autosomal recessive disorder on chromosome 7 caused by a defective chloride channel.",
+      "factoid": "Cystic fibrosis (CF) is an autosomal recessive disorder on chromosome 7 caused by a defective chloride channel.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following is NOT a characteristic feature of cystic fibrosis (CF)?",
+      "answerChoices": [
+        {
+          "value": "Chronic bacterial respiratory infections",
+          "correct": false
+        },
+        {
+          "value": "Fat malabsorption secondary to exocrine pancreas insufficiency",
+          "correct": false
+        },
+        {
+          "value": "Infertility in males due to congenital bilateral absence of the vas deferens (CBAVD)",
+          "correct": false
+        },
+        {
+          "value": "Elevated concentrations of chloride in sweat",
+          "correct": false
+        },
+        {
+          "value": "Increased risk of developing type 2 diabetes",
+          "correct": true
+        }
+      ],
+      "explanation": "While cystic fibrosis (CF) is characterized by chronic bacterial respiratory infections, fat malabsorption due to exocrine pancreas insufficiency, infertility in males due to CBAVD, and elevated chloride concentrations in sweat, an increased risk of developing type 2 diabetes is not a primary characteristic feature of CF.",
+      "factoid": "CF is characterized by chronic bacterial respiratory infections, fat malabsorption secondary to exocrine pancreas insufficiency, infertility in males due to congenital bilateral absence of the vas deferens (CBAVD), and elevated concentrations of chloride in sweat.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which amino acid replacement is caused by the G551D missense mutation in the CFTR gene?",
+      "answerChoices": [
+        {
+          "value": "Aspartic acid is replaced by glycine",
+          "correct": false
+        },
+        {
+          "value": "Glycine is replaced by aspartic acid",
+          "correct": true
+        },
+        {
+          "value": "Aspartic acid is replaced by serine",
+          "correct": false
+        },
+        {
+          "value": "Glycine is replaced by serine",
+          "correct": false
+        },
+        {
+          "value": "Aspartic acid is replaced by lysine",
+          "correct": false
+        }
+      ],
+      "explanation": "The G551D missense mutation in the CFTR gene results in the substitution of glycine with aspartic acid at position 551.",
+      "factoid": "The G551D missense mutation in the CFTR gene leads to glycine being replaced by aspartic acid at position 551.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "What is the primary action of Ivacaftor in the treatment of cystic fibrosis?",
+      "answerChoices": [
+        {
+          "value": "It acts as an antibiotic to reduce lung infections.",
+          "correct": false
+        },
+        {
+          "value": "It serves as a mucolytic agent to thin mucus secretions.",
+          "correct": false
+        },
+        {
+          "value": "It binds to the misfolded CFTR channel and increases the probability it will open.",
+          "correct": true
+        },
+        {
+          "value": "It works as an anti-inflammatory to reduce lung inflammation.",
+          "correct": false
+        },
+        {
+          "value": "It acts as a bronchodilator to open airways.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ivacaftor is a CFTR modulator/potentiator that binds to the misfolded CFTR channel and increases the probability it will open, thereby improving chloride transport and hydration of mucus in patients with cystic fibrosis.",
+      "factoid": "Ivacaftor is a CFTR modulator/potentiator that binds to the misfolded CFTR channel and increases the probability it will open.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "For which patient population is Ivacaftor approved?",
+      "answerChoices": [
+        {
+          "value": "Patients >6 years of age with at least one copy of the G551D-CFTR mutation",
+          "correct": true
+        },
+        {
+          "value": "Patients <6 years of age with any CFTR mutation",
+          "correct": false
+        },
+        {
+          "value": "Patients >6 years of age with any CFTR mutation",
+          "correct": false
+        },
+        {
+          "value": "Patients >12 years of age with at least one copy of the F508del-CFTR mutation",
+          "correct": false
+        },
+        {
+          "value": "Patients >12 years of age with at least one copy of the G551D-CFTR mutation",
+          "correct": false
+        }
+      ],
+      "explanation": "Ivacaftor is specifically approved for use in patients who are older than 6 years and have at least one copy of the G551D-CFTR mutation.",
+      "factoid": "Ivacaftor is approved for use in patients >6 years of age with at least one copy of the G551D-CFTR mutation.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "For which specific mutation in cystic fibrosis (CF) patients is the combination of lumacaftor/ivacaftor approved for treatment?",
+      "answerChoices": [
+        {
+          "value": "G551D mutation",
+          "correct": false
+        },
+        {
+          "value": "G542X mutation",
+          "correct": false
+        },
+        {
+          "value": "R117H mutation",
+          "correct": false
+        },
+        {
+          "value": "Phe508del (\u0394F508) mutation",
+          "correct": true
+        },
+        {
+          "value": "N1303K mutation",
+          "correct": false
+        }
+      ],
+      "explanation": "Lumacaftor/ivacaftor is specifically approved for the treatment of cystic fibrosis in patients who are homozygous for the Phe508del (\u0394F508) mutation.",
+      "factoid": "6. Lumacaftor/ivacaftor is approved for the treatment of CF in patients who are homozygous for the Phe508del (\u0394F508) mutation.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "What is the primary mechanism of action of Lumacaftor in treating cystic fibrosis?",
+      "answerChoices": [
+        {
+          "value": "It increases the trafficking of CFTR proteins to the cell surface.",
+          "correct": true
+        },
+        {
+          "value": "It decreases the production of mucus in the lungs.",
+          "correct": false
+        },
+        {
+          "value": "It enhances the secretion of digestive enzymes.",
+          "correct": false
+        },
+        {
+          "value": "It reduces inflammation in the airways.",
+          "correct": false
+        },
+        {
+          "value": "It inhibits the growth of pathogenic bacteria in the lungs.",
+          "correct": false
+        }
+      ],
+      "explanation": "Lumacaftor works by increasing the trafficking of CFTR proteins to the cell surface, which helps to correct the underlying defect in cystic fibrosis.",
+      "factoid": "Lumacaftor works by increasing the trafficking of CFTR proteins to the cell surface.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which combination therapy is approved by the US FDA for the treatment of cystic fibrosis in patients aged 12 years and older who have at least one F508del mutation in the CFTR gene?",
+      "answerChoices": [
+        {
+          "value": "Lumacaftor/ivacaftor",
+          "correct": false
+        },
+        {
+          "value": "Elexacaftor/ivacaftor/tezacaftor",
+          "correct": true
+        },
+        {
+          "value": "Tezacaftor/ivacaftor",
+          "correct": false
+        },
+        {
+          "value": "Ivacaftor alone",
+          "correct": false
+        },
+        {
+          "value": "Lumacaftor alone",
+          "correct": false
+        }
+      ],
+      "explanation": "Elexacaftor/ivacaftor/tezacaftor is the combination therapy approved by the US FDA for the treatment of cystic fibrosis in patients aged 12 years and older who have at least one F508del mutation in the CFTR gene.",
+      "factoid": "Elexacaftor/ivacaftor/tezacaftor is approved by the US FDA for the treatment of CF in patients age \u226512 years who have \u22651 F508del mutation in the CFTR gene.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following drugs are CFTR correctors that help traffic the defective CFTR channel to the cell surface?",
+      "answerChoices": [
+        {
+          "value": "Ivacaftor and Lumacaftor",
+          "correct": false
+        },
+        {
+          "value": "Tezacaftor and Elexacaftor",
+          "correct": true
+        },
+        {
+          "value": "Ivacaftor and Tezacaftor",
+          "correct": false
+        },
+        {
+          "value": "Lumacaftor and Elexacaftor",
+          "correct": false
+        },
+        {
+          "value": "Ivacaftor and Elexacaftor",
+          "correct": false
+        }
+      ],
+      "explanation": "Tezacaftor and elexacaftor are CFTR correctors that specifically help traffic the defective CFTR channel to the cell surface, improving its function in cystic fibrosis patients.",
+      "factoid": "9. Tezacaftor and elexacaftor are CFTR correctors that help traffic the defective CFTR channel to the cell surface.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is a recombinant deoxyribonuclease used as a mucolytic in the treatment of cystic fibrosis (CF)?",
+      "answerChoices": [
+        {
+          "value": "Acetylcysteine",
+          "correct": false
+        },
+        {
+          "value": "Guaifenesin",
+          "correct": false
+        },
+        {
+          "value": "Dornase-alfa",
+          "correct": true
+        },
+        {
+          "value": "Albuterol",
+          "correct": false
+        },
+        {
+          "value": "Hypertonic saline",
+          "correct": false
+        }
+      ],
+      "explanation": "Dornase-alfa is a recombinant deoxyribonuclease used in the treatment of cystic fibrosis and functions as a mucolytic to help break down mucus in the lungs.",
+      "factoid": "10. Dornase-alfa is a recombinant deoxyribonuclease used in the treatment of CF and functions as a mucolytic.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following statements about Guaifenesin is true?",
+      "answerChoices": [
+        {
+          "value": "Guaifenesin is a prescription-only medication used to treat cystic fibrosis.",
+          "correct": false
+        },
+        {
+          "value": "Guaifenesin is an over-the-counter mucous expectorant with proven effectiveness for lung diseases.",
+          "correct": false
+        },
+        {
+          "value": "Guaifenesin is an over-the-counter mucous expectorant that may be used in cystic fibrosis, but there is no evidence of its effectiveness for lung diseases.",
+          "correct": true
+        },
+        {
+          "value": "Guaifenesin is exclusively used for the treatment of chronic obstructive pulmonary disease (COPD).",
+          "correct": false
+        },
+        {
+          "value": "Guaifenesin is an antibiotic used to treat bacterial lung infections.",
+          "correct": false
+        }
+      ],
+      "explanation": "Guaifenesin is an over-the-counter mucous expectorant that may be used in cystic fibrosis; however, there is no evidence supporting its effectiveness for any form of lung disease.",
+      "factoid": "11. Guaifenesin is an over-the-counter mucous expectorant that may be used in CF, although there is no evidence that it is effective for any form of lung disease.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following chemotherapeutic agents is a platinum-based compound used as a first-line treatment for testicular cancer?",
+      "answerChoices": [
+        {
+          "value": "Methotrexate",
+          "correct": false
+        },
+        {
+          "value": "Doxorubicin",
+          "correct": false
+        },
+        {
+          "value": "Cyclophosphamide",
+          "correct": false
+        },
+        {
+          "value": "Cisplatin",
+          "correct": true
+        },
+        {
+          "value": "Paclitaxel",
+          "correct": false
+        }
+      ],
+      "explanation": "Cisplatin is a platinum-based chemotherapeutic agent that is commonly used as a first-line treatment for testicular cancer due to its effectiveness.",
+      "factoid": "12. Cisplatin is a platinum-based compound used as a first-line chemotherapeutic agent for testicular cancer.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following chemotherapeutic agents is known to cause ototoxicity by damaging the cochlear stereocilia?",
+      "answerChoices": [
+        {
+          "value": "5-Fluorouracil",
+          "correct": false
+        },
+        {
+          "value": "Doxorubicin",
+          "correct": false
+        },
+        {
+          "value": "Cisplatin",
+          "correct": true
+        },
+        {
+          "value": "Methotrexate",
+          "correct": false
+        },
+        {
+          "value": "Cyclophosphamide",
+          "correct": false
+        }
+      ],
+      "explanation": "Cisplatin is known to cause ototoxicity by damaging the cochlear stereocilia, which can lead to hearing loss. Other chemotherapeutic agents listed do not typically cause this specific side effect.",
+      "factoid": "Cisplatin is known to cause ototoxicity by damaging the cochlear stereocilia.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following chemotherapeutic agents is associated with nephrotoxicity?",
+      "answerChoices": [
+        {
+          "value": "Doxorubicin",
+          "correct": false
+        },
+        {
+          "value": "Methotrexate",
+          "correct": false
+        },
+        {
+          "value": "Cisplatin",
+          "correct": true
+        },
+        {
+          "value": "Vincristine",
+          "correct": false
+        },
+        {
+          "value": "5-Fluorouracil",
+          "correct": false
+        }
+      ],
+      "explanation": "Cisplatin is known to cause nephrotoxicity, which can lead to kidney damage. It is important to monitor renal function in patients receiving cisplatin.",
+      "factoid": "14. Cisplatin is associated with nephrotoxicity.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "What is an essential measure to prevent cisplatin-induced nephrotoxicity in patients?",
+      "answerChoices": [
+        {
+          "value": "Administration of diuretics",
+          "correct": false
+        },
+        {
+          "value": "Increased hydration",
+          "correct": true
+        },
+        {
+          "value": "Restriction of fluid intake",
+          "correct": false
+        },
+        {
+          "value": "High-protein diet",
+          "correct": false
+        },
+        {
+          "value": "Use of nephrotoxic medications",
+          "correct": false
+        }
+      ],
+      "explanation": "Increased hydration is essential for all patients to prevent cisplatin-induced nephrotoxicity, as it helps to decrease the concentration of the drug in the kidneys and thereby reduces its toxic effects.",
+      "factoid": "Hydration is essential for all patients to prevent cisplatin-induced nephrotoxicity.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is used as a cytoprotective adjuvant to decrease the incidence of cisplatin-induced toxicity?",
+      "answerChoices": [
+        {
+          "value": "Ondansetron",
+          "correct": false
+        },
+        {
+          "value": "Amifostine",
+          "correct": true
+        },
+        {
+          "value": "Dexamethasone",
+          "correct": false
+        },
+        {
+          "value": "Mesna",
+          "correct": false
+        },
+        {
+          "value": "Folic acid",
+          "correct": false
+        }
+      ],
+      "explanation": "Amifostine is a cytoprotective adjuvant that decreases the incidence of cisplatin-induced toxicity if administered prior to and during cisplatin infusion.",
+      "factoid": "16. Amifostine is a cytoprotective adjuvant that decreases the incidence of cisplatin-induced toxicity if administered prior to and during cisplatin infusion.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is used to decrease the risk of hemorrhagic cystitis in patients being treated with cyclophosphamide?",
+      "answerChoices": [
+        {
+          "value": "Mesna",
+          "correct": true
+        },
+        {
+          "value": "Folic acid",
+          "correct": false
+        },
+        {
+          "value": "Dexamethasone",
+          "correct": false
+        },
+        {
+          "value": "Ondansetron",
+          "correct": false
+        },
+        {
+          "value": "Allopurinol",
+          "correct": false
+        }
+      ],
+      "explanation": "Mesna is used to decrease the risk of hemorrhagic cystitis, a potential side effect of cyclophosphamide treatment, by binding to and inactivating toxic metabolites in the urine.",
+      "factoid": "Mesna decreases the risk of hemorrhagic cystitis in patients being treated with cyclophosphamide.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is used to decrease the incidence of severe hepatotoxicity in acetaminophen overdose by regenerating reduced glutathione?",
+      "answerChoices": [
+        {
+          "value": "N-acetylcysteine",
+          "correct": true
+        },
+        {
+          "value": "Activated charcoal",
+          "correct": false
+        },
+        {
+          "value": "Naloxone",
+          "correct": false
+        },
+        {
+          "value": "Flumazenil",
+          "correct": false
+        },
+        {
+          "value": "Methionine",
+          "correct": false
+        }
+      ],
+      "explanation": "N-acetylcysteine is used in cases of acetaminophen overdose to decrease the incidence of severe hepatotoxicity by regenerating reduced glutathione, which detoxifies the harmful metabolites of acetaminophen.",
+      "factoid": "N-acetylcysteine decreases the incidence of severe hepatotoxicity caused by acetaminophen overdose by regenerating reduced glutathione.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following is used as a 'rescue' agent to mitigate myelosuppression, gastrointestinal toxicity, neurotoxicity, and acute kidney injury in patients receiving methotrexate?",
+      "answerChoices": [
+        {
+          "value": "Leucovorin (folinic acid)",
+          "correct": true
+        },
+        {
+          "value": "Filgrastim",
+          "correct": false
+        },
+        {
+          "value": "Ondansetron",
+          "correct": false
+        },
+        {
+          "value": "Mesna",
+          "correct": false
+        },
+        {
+          "value": "Epoetin alfa",
+          "correct": false
+        }
+      ],
+      "explanation": "Leucovorin (folinic acid) is used as a 'rescue' agent to mitigate the toxic effects such as myelosuppression, gastrointestinal toxicity, neurotoxicity, and acute kidney injury in patients receiving methotrexate. It helps protect normal cells from methotrexate's harmful effects.",
+      "factoid": "19. Leucovorin 'rescue' (folinic acid) may be used to mitigate myelosuppression, gastrointestinal toxicity, neurotoxicity, and acute kidney injury in patients receiving methotrexate.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following drugs is a free-radical chelator that reduces the risk of dilated cardiomyopathy in patients receiving doxorubicin?",
+      "answerChoices": [
+        {
+          "value": "Amifostine",
+          "correct": false
+        },
+        {
+          "value": "Mesna",
+          "correct": false
+        },
+        {
+          "value": "Dexrazoxane",
+          "correct": true
+        },
+        {
+          "value": "Ondansetron",
+          "correct": false
+        },
+        {
+          "value": "Leucovorin",
+          "correct": false
+        }
+      ],
+      "explanation": "Dexrazoxane is used specifically to mitigate the cardiotoxic effects of doxorubicin by chelating free radicals, which helps reduce the risk of developing dilated cardiomyopathy.",
+      "factoid": "Dexrazoxane is a free-radical chelator that decreases the risk of dilated cardiomyopathy in patients receiving doxorubicin.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which class of antiarrhythmic drugs lengthens action potential duration and increases the risk of torsades de pointes?",
+      "answerChoices": [
+        {
+          "value": "Class Ib",
+          "correct": false
+        },
+        {
+          "value": "Class Ic",
+          "correct": false
+        },
+        {
+          "value": "Class II",
+          "correct": false
+        },
+        {
+          "value": "Class III",
+          "correct": false
+        },
+        {
+          "value": "Class Ia",
+          "correct": true
+        }
+      ],
+      "explanation": "Class Ia antiarrhythmic drugs are sodium channel blockers that lengthen action potential duration and increase the risk of torsades de pointes.",
+      "factoid": "21. Sodium channel blockers (Class Ia) lengthen action potential duration and increase the risk of torsades de pointes.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following adverse effects is associated with Quinidine?",
+      "answerChoices": [
+        {
+          "value": "Nephrotoxicity",
+          "correct": false
+        },
+        {
+          "value": "Hepatotoxicity",
+          "correct": false
+        },
+        {
+          "value": "Cinchonism",
+          "correct": true
+        },
+        {
+          "value": "Agranulocytosis",
+          "correct": false
+        },
+        {
+          "value": "Hypokalemia",
+          "correct": false
+        }
+      ],
+      "explanation": "Quinidine can cause cinchonism, which is characterized by symptoms such as headache and tinnitus.",
+      "factoid": "Quinidine can cause cinchonism (headache and tinnitus) and displaces digoxin from bilirubin, leading to digoxin toxicity.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following drugs is known to cause drug-induced lupus and is used for Wolf-Parkinson-White syndrome?",
+      "answerChoices": [
+        {
+          "value": "Amiodarone",
+          "correct": false
+        },
+        {
+          "value": "Lidocaine",
+          "correct": false
+        },
+        {
+          "value": "Procainamide",
+          "correct": true
+        },
+        {
+          "value": "Flecainide",
+          "correct": false
+        },
+        {
+          "value": "Quinidine",
+          "correct": false
+        }
+      ],
+      "explanation": "Procainamide is used for the treatment of Wolf-Parkinson-White syndrome and is known to cause drug-induced lupus, characterized by the presence of anti-histone antibodies.",
+      "factoid": "Procainamide can cause drug-induced lupus (anti-histone antibodies) and is used for Wolf-Parkinson-White syndrome.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following drugs is classified as a Class Ib sodium channel blocker that shortens the action potential duration and preferentially affects ischemic myocardium?",
+      "answerChoices": [
+        {
+          "value": "Amiodarone",
+          "correct": false
+        },
+        {
+          "value": "Verapamil",
+          "correct": false
+        },
+        {
+          "value": "Lidocaine",
+          "correct": true
+        },
+        {
+          "value": "Propranolol",
+          "correct": false
+        },
+        {
+          "value": "Digoxin",
+          "correct": false
+        }
+      ],
+      "explanation": "Lidocaine is a Class Ib sodium channel blocker that shortens the action potential duration and preferentially affects ischemic myocardium. Amiodarone is a Class III antiarrhythmic, Verapamil is a calcium channel blocker, Propranolol is a beta-blocker, and Digoxin is a cardiac glycoside.",
+      "factoid": "Lidocaine, mexiletine, and tocainide are Class Ib sodium channel blockers that shorten the action potential duration and preferentially affect ischemic myocardium.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following adverse effects is associated with Class Ib anti-arrhythmics?",
+      "answerChoices": [
+        {
+          "value": "Bradycardia",
+          "correct": false
+        },
+        {
+          "value": "CNS dysfunction (e.g., dizziness, tremor)",
+          "correct": true
+        },
+        {
+          "value": "Hyperkalemia",
+          "correct": false
+        },
+        {
+          "value": "Pulmonary fibrosis",
+          "correct": false
+        },
+        {
+          "value": "Thyroid dysfunction",
+          "correct": false
+        }
+      ],
+      "explanation": "Class Ib anti-arrhythmics are known to cause central nervous system (CNS) dysfunction, including symptoms such as dizziness and tremor.",
+      "factoid": "Class Ib anti-arrhythmics can cause CNS dysfunction (e.g., dizziness, tremor).",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following statements about Class Ic sodium channel blockers is true?",
+      "answerChoices": [
+        {
+          "value": "They significantly prolong action potential duration.",
+          "correct": false
+        },
+        {
+          "value": "They are associated with a decreased risk of pro-arrhythmic effects.",
+          "correct": false
+        },
+        {
+          "value": "They do not change action potential duration but increase the risk of torsades de pointes.",
+          "correct": true
+        },
+        {
+          "value": "They primarily block potassium channels.",
+          "correct": false
+        },
+        {
+          "value": "They are Class III antiarrhythmics.",
+          "correct": false
+        }
+      ],
+      "explanation": "Class Ic sodium channel blockers such as flecainide, encainide, and propafenone do not change the action potential duration but are known to increase the risk of torsades de pointes and are pro-arrhythmic.",
+      "factoid": "26. Flecainide, encainide, and propafenone are Class Ic sodium channel blockers that do not change action potential duration but increase the risk of torsades de pointes and are pro-arrhythmic.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "In the management of atrial fibrillation (AF), how are beta-blockers classified?",
+      "answerChoices": [
+        {
+          "value": "As anti-arrhythmic agents used for rhythm control",
+          "correct": false
+        },
+        {
+          "value": "As anti-arrhythmic agents used for rate control",
+          "correct": true
+        },
+        {
+          "value": "As anti-hypertensive agents used for rhythm control",
+          "correct": false
+        },
+        {
+          "value": "As anti-hypertensive agents used for rate control",
+          "correct": false
+        },
+        {
+          "value": "As anti-coagulant agents used for rhythm control",
+          "correct": false
+        }
+      ],
+      "explanation": "Beta-blockers are classified as anti-arrhythmic agents specifically used for rate control in the management of atrial fibrillation (AF), rather than for rhythm control.",
+      "factoid": "Beta-blockers are classified as anti-arrhythmic but are considered 'rate-control' rather than 'rhythm-control' when discussing atrial fibrillation (AF).",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is commonly used as a first-line rate-control treatment in atrial fibrillation?",
+      "answerChoices": [
+        {
+          "value": "Calcium channel blockers",
+          "correct": false
+        },
+        {
+          "value": "Beta-blockers",
+          "correct": true
+        },
+        {
+          "value": "Digoxin",
+          "correct": false
+        },
+        {
+          "value": "ACE inhibitors",
+          "correct": false
+        },
+        {
+          "value": "Diuretics",
+          "correct": false
+        }
+      ],
+      "explanation": "Beta-blockers are commonly used as the first-line rate-control treatment in patients with atrial fibrillation due to their effectiveness in managing heart rate.",
+      "factoid": "Beta-blockers are used as first-line rate-control in atrial fibrillation.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following side effects can beta-blockers cause?",
+      "answerChoices": [
+        {
+          "value": "Increased appetite",
+          "correct": false
+        },
+        {
+          "value": "Depression and sexual dysfunction",
+          "correct": true
+        },
+        {
+          "value": "Hyperglycemia",
+          "correct": false
+        },
+        {
+          "value": "Insomnia",
+          "correct": false
+        },
+        {
+          "value": "Weight gain",
+          "correct": false
+        }
+      ],
+      "explanation": "Beta-blockers can cause depression and sexual dysfunction, and they may also mask the signs of hypoglycemia in diabetic patients.",
+      "factoid": "Beta-blockers can cause depression and sexual dysfunction and may mask the signs of hypoglycemia in diabetes.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which class of antiarrhythmic drugs can cause torsades de pointes and are used for rhythm control in atrial fibrillation if the patient cannot take flecainide?",
+      "answerChoices": [
+        {
+          "value": "Class I (Sodium channel blockers)",
+          "correct": false
+        },
+        {
+          "value": "Class II (Beta blockers)",
+          "correct": false
+        },
+        {
+          "value": "Class III (Potassium channel blockers)",
+          "correct": true
+        },
+        {
+          "value": "Class IV (Calcium channel blockers)",
+          "correct": false
+        },
+        {
+          "value": "Class V (Miscellaneous antiarrhythmics)",
+          "correct": false
+        }
+      ],
+      "explanation": "Class III antiarrhythmic drugs, which are potassium channel blockers, can cause torsades de pointes and are used for rhythm control in atrial fibrillation if the patient cannot take flecainide.",
+      "factoid": "30. Potassium channel blockers (Class III) can cause torsades de pointes and are used for rhythm control in atrial fibrillation if the patient cannot take flecainide.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following adverse effects is associated with Amiodarone?",
+      "answerChoices": [
+        {
+          "value": "Pulmonary fibrosis",
+          "correct": true
+        },
+        {
+          "value": "Renal failure",
+          "correct": false
+        },
+        {
+          "value": "Hyperglycemia",
+          "correct": false
+        },
+        {
+          "value": "Alopecia",
+          "correct": false
+        },
+        {
+          "value": "Hypertension",
+          "correct": false
+        }
+      ],
+      "explanation": "Amiodarone is known to cause several adverse effects, including pulmonary fibrosis, torsades, blue/grey skin discolorations, drug-induced thyroiditis, and hepatotoxicity.",
+      "factoid": "Amiodarone can cause pulmonary fibrosis, torsades, blue/grey skin discolorations, drug-induced thyroiditis, and hepatotoxicity.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is a non-dihydropyridine calcium channel blocker used for rate-control in atrial fibrillation when beta-blockers are contraindicated?",
+      "answerChoices": [
+        {
+          "value": "Amlodipine",
+          "correct": false
+        },
+        {
+          "value": "Diltiazem",
+          "correct": false
+        },
+        {
+          "value": "Nifedipine",
+          "correct": false
+        },
+        {
+          "value": "Verapamil",
+          "correct": true
+        },
+        {
+          "value": "Metoprolol",
+          "correct": false
+        }
+      ],
+      "explanation": "Verapamil is a non-dihydropyridine calcium channel blocker that is used for rate control in atrial fibrillation, particularly when beta-blockers are contraindicated. Diltiazem is another non-dihydropyridine calcium channel blocker, while Amlodipine and Nifedipine are dihydropyridine calcium channel blockers, and Metoprolol is a beta-blocker.",
+      "factoid": "Verapamil is a non-dihydropyridine calcium channel blocker used for rate-control in atrial fibrillation when beta-blockers are contraindicated.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is known to cause constipation as a side effect?",
+      "answerChoices": [
+        {
+          "value": "Aspirin",
+          "correct": false
+        },
+        {
+          "value": "Lisinopril",
+          "correct": false
+        },
+        {
+          "value": "Metformin",
+          "correct": false
+        },
+        {
+          "value": "Verapamil",
+          "correct": true
+        },
+        {
+          "value": "Albuterol",
+          "correct": false
+        }
+      ],
+      "explanation": "Verapamil, a calcium channel blocker used to treat high blood pressure and other heart-related conditions, is known to cause constipation as a side effect.",
+      "factoid": "33. Verapamil can cause constipation.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following statements about Diltiazem is correct?",
+      "answerChoices": [
+        {
+          "value": "Diltiazem is primarily a cardiac-selective agent.",
+          "correct": false
+        },
+        {
+          "value": "Diltiazem is primarily a vascular-selective agent.",
+          "correct": false
+        },
+        {
+          "value": "Diltiazem is a mixed cardiac-/vascular-selective agent.",
+          "correct": true
+        },
+        {
+          "value": "Diltiazem is primarily used for its diuretic effects.",
+          "correct": false
+        },
+        {
+          "value": "Diltiazem is used exclusively for hypertension.",
+          "correct": false
+        }
+      ],
+      "explanation": "Diltiazem is known for its mixed cardiac and vascular selective properties, meaning it affects both the heart and blood vessels.",
+      "factoid": "34. Diltiazem is a mixed cardiac-/vascular-selective agent.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which medication is used in hypertensive emergency during pregnancy due to its mechanism of causing arterial vasodilation by disrupting calcium currents in smooth muscle?",
+      "answerChoices": [
+        {
+          "value": "Labetalol",
+          "correct": false
+        },
+        {
+          "value": "Nifedipine",
+          "correct": false
+        },
+        {
+          "value": "Methyldopa",
+          "correct": false
+        },
+        {
+          "value": "Hydralazine",
+          "correct": true
+        },
+        {
+          "value": "Magnesium sulfate",
+          "correct": false
+        }
+      ],
+      "explanation": "Hydralazine is used in hypertensive emergency during pregnancy because it causes arterial vasodilation by disrupting calcium currents in smooth muscle.",
+      "factoid": "Hydralazine causes arterial vasodilation by disrupting calcium currents in smooth muscle and is used in hypertensive emergency during pregnancy.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications increases potassium release from cells, resulting in hyperpolarization, and is used to treat supraventricular tachycardia (SVT)?",
+      "answerChoices": [
+        {
+          "value": "Epinephrine",
+          "correct": false
+        },
+        {
+          "value": "Amiodarone",
+          "correct": false
+        },
+        {
+          "value": "Lidocaine",
+          "correct": false
+        },
+        {
+          "value": "Adenosine",
+          "correct": true
+        },
+        {
+          "value": "Atropine",
+          "correct": false
+        }
+      ],
+      "explanation": "Adenosine is the correct answer because it increases potassium release from cells, resulting in hyperpolarization, and is used to treat supraventricular tachycardia (SVT).",
+      "factoid": "Adenosine increases potassium release from cells, resulting in hyperpolarization, and is used to treat supraventricular tachycardia (SVT).",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications works by inhibiting mixed Na/K 'funny currents' at the sinoatrial node to decrease heart rate?",
+      "answerChoices": [
+        {
+          "value": "Atenolol",
+          "correct": false
+        },
+        {
+          "value": "Amiodarone",
+          "correct": false
+        },
+        {
+          "value": "Ivabradine",
+          "correct": true
+        },
+        {
+          "value": "Digoxin",
+          "correct": false
+        },
+        {
+          "value": "Verapamil",
+          "correct": false
+        }
+      ],
+      "explanation": "Ivabradine specifically inhibits mixed Na/K 'funny currents' at the sinoatrial node, leading to a decrease in heart rate. Other medications listed work through different mechanisms.",
+      "factoid": "Ivabradine inhibits mixed Na/K 'funny currents' at the sinoatrial node, resulting in decreased heart rate.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following describes the primary action of Digoxin on the heart?",
+      "answerChoices": [
+        {
+          "value": "Inhibits calcium channels, decreasing myocardial contractility and increasing heart rate",
+          "correct": false
+        },
+        {
+          "value": "Inhibits myocardial Na/K ATPase pumps, leading to increased myocardial contractility and decreased heart rate",
+          "correct": true
+        },
+        {
+          "value": "Stimulates beta-adrenergic receptors, increasing myocardial contractility and heart rate",
+          "correct": false
+        },
+        {
+          "value": "Blocks angiotensin II receptors, reducing myocardial contractility and heart rate",
+          "correct": false
+        },
+        {
+          "value": "Inhibits sodium channels, leading to decreased myocardial contractility and heart rate",
+          "correct": false
+        }
+      ],
+      "explanation": "Digoxin works by inhibiting myocardial Na/K ATPase pumps, which results in increased intracellular calcium levels, enhancing myocardial contractility, and it also has parasympathetic effects that reduce heart rate.",
+      "factoid": "Digoxin inhibits myocardial Na/K ATPase pumps, leading to increased myocardial contractility and decreased heart rate.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is used for heart failure in patients who are not responding to other management strategies?",
+      "answerChoices": [
+        {
+          "value": "Atenolol",
+          "correct": false
+        },
+        {
+          "value": "Lisinopril",
+          "correct": false
+        },
+        {
+          "value": "Furosemide",
+          "correct": false
+        },
+        {
+          "value": "Digoxin",
+          "correct": true
+        },
+        {
+          "value": "Amlodipine",
+          "correct": false
+        }
+      ],
+      "explanation": "Digoxin is used for heart failure in patients who are not responding to other management strategies.",
+      "factoid": "Digoxin is used for heart failure in patients failing other management.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "What is the mechanism of action of ranolazine, which is used for angina refractory to other therapies?",
+      "answerChoices": [
+        {
+          "value": "It blocks calcium channels.",
+          "correct": false
+        },
+        {
+          "value": "It blocks potassium channels.",
+          "correct": false
+        },
+        {
+          "value": "It stimulates beta-adrenergic receptors.",
+          "correct": false
+        },
+        {
+          "value": "It inhibits the sodium currents in cardiac cells.",
+          "correct": true
+        },
+        {
+          "value": "It acts as a vasodilator by releasing nitric oxide.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ranolazine is known to inhibit sodium currents in cardiac cells, which helps in the management of angina that is not responsive to other treatments.",
+      "factoid": "40. Ranolazine blocks sodium channels and is used for angina refractory to other therapies.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is a neprilysin inhibitor used in combination with valsartan for the treatment of heart failure?",
+      "answerChoices": [
+        {
+          "value": "Lisinopril",
+          "correct": false
+        },
+        {
+          "value": "Metoprolol",
+          "correct": false
+        },
+        {
+          "value": "Furosemide",
+          "correct": false
+        },
+        {
+          "value": "Sacubitril",
+          "correct": true
+        },
+        {
+          "value": "Spironolactone",
+          "correct": false
+        }
+      ],
+      "explanation": "Sacubitril is a neprilysin inhibitor that is used in combination with valsartan for the treatment of heart failure. This combination helps to reduce the risk of cardiovascular death and hospitalization for heart failure.",
+      "factoid": "Sacubitril is a neprilysin inhibitor used in combination with valsartan for the treatment of heart failure.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "What is the primary mechanism by which statins lower blood cholesterol levels?",
+      "answerChoices": [
+        {
+          "value": "By inhibiting bile acid absorption in the intestines",
+          "correct": false
+        },
+        {
+          "value": "By increasing the excretion of cholesterol in the urine",
+          "correct": false
+        },
+        {
+          "value": "By inhibiting the enzyme HMG-CoA reductase",
+          "correct": true
+        },
+        {
+          "value": "By stimulating the production of high-density lipoprotein (HDL)",
+          "correct": false
+        },
+        {
+          "value": "By decreasing the dietary intake of cholesterol",
+          "correct": false
+        }
+      ],
+      "explanation": "Statins lower blood cholesterol levels primarily by inhibiting HMG-CoA reductase, an enzyme involved in the synthesis of cholesterol in the liver. This inhibition leads to a compensatory increase in LDL receptor expression on hepatocytes, which increases the clearance of LDL cholesterol from the blood.",
+      "factoid": "Statins are competitive, reversible inhibitors of HMG-CoA reductase and cause a compensatory increase in LDL receptor expression on hepatocytes.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "In which of the following scenarios would statins be recommended for a 35-year-old non-diabetic patient?",
+      "answerChoices": [
+        {
+          "value": "LDL > 70 mg/dL",
+          "correct": false
+        },
+        {
+          "value": "LDL > 100 mg/dL",
+          "correct": false
+        },
+        {
+          "value": "LDL > 150 mg/dL",
+          "correct": false
+        },
+        {
+          "value": "LDL > 190 mg/dL",
+          "correct": true
+        },
+        {
+          "value": "LDL > 130 mg/dL",
+          "correct": false
+        }
+      ],
+      "explanation": "Statins are recommended for non-diabetics aged 20-39 if their LDL level is greater than 190 mg/dL.",
+      "factoid": "Statins are used in non-diabetics 20-39 if LDL >190 mg/dL, diabetics 20-39 if LDL >100 mg/dL, and anyone 40-75 if LDL >70 mg/dL.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following adverse effects can be caused by statins?",
+      "answerChoices": [
+        {
+          "value": "Renal toxicity and pancreatitis",
+          "correct": false
+        },
+        {
+          "value": "Hepatotoxicity and myositis",
+          "correct": true
+        },
+        {
+          "value": "Nephrotoxicity and thrombocytopenia",
+          "correct": false
+        },
+        {
+          "value": "Pulmonary fibrosis and hyperkalemia",
+          "correct": false
+        },
+        {
+          "value": "Ototoxicity and anemia",
+          "correct": false
+        }
+      ],
+      "explanation": "Statins are known to cause hepatotoxicity (liver damage) and myositis (muscle inflammation) as adverse effects.",
+      "factoid": "44. Statins can cause hepatotoxicity and myositis.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which class of drugs is used to upregulate lipoprotein lipase and is indicated for use when triglycerides are greater than 500 mg/dL?",
+      "answerChoices": [
+        {
+          "value": "Statins",
+          "correct": false
+        },
+        {
+          "value": "Fibrates",
+          "correct": true
+        },
+        {
+          "value": "Niacin",
+          "correct": false
+        },
+        {
+          "value": "Bile acid sequestrants",
+          "correct": false
+        },
+        {
+          "value": "PCSK9 inhibitors",
+          "correct": false
+        }
+      ],
+      "explanation": "Fibrates work by upregulating lipoprotein lipase, an enzyme responsible for breaking down triglycerides in the blood. They are specifically indicated for use when triglyceride levels are greater than 500 mg/dL to prevent pancreatitis and other complications.",
+      "factoid": "Fibrates upregulate lipoprotein lipase and are used when triglycerides are greater than 500 mg/dL.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following adverse effects is commonly associated with the use of fibrates?",
+      "answerChoices": [
+        {
+          "value": "Hypoglycemia",
+          "correct": false
+        },
+        {
+          "value": "Cholesterol gallstones",
+          "correct": true
+        },
+        {
+          "value": "Renal failure",
+          "correct": false
+        },
+        {
+          "value": "Pancreatitis",
+          "correct": false
+        },
+        {
+          "value": "Hypertension",
+          "correct": false
+        }
+      ],
+      "explanation": "Fibrates are known to cause cholesterol gallstones, hepatotoxicity, and myositis. Cholesterol gallstones are a specifically noted adverse effect.",
+      "factoid": "46. Fibrates can cause cholesterol gallstones, hepatotoxicity, and myositis.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "What is the primary action of bile acid sequestrants?",
+      "answerChoices": [
+        {
+          "value": "Increase bile acid production",
+          "correct": false
+        },
+        {
+          "value": "Enhance fat absorption",
+          "correct": false
+        },
+        {
+          "value": "Prevent enterohepatic circulation of bile acids",
+          "correct": true
+        },
+        {
+          "value": "Inhibit pancreatic enzyme activity",
+          "correct": false
+        },
+        {
+          "value": "Reduce bile acid excretion",
+          "correct": false
+        }
+      ],
+      "explanation": "Bile acid sequestrants work by binding bile acids in the intestine, which prevents their reabsorption and thus interrupts the enterohepatic circulation of bile acids.",
+      "factoid": "Bile acid sequestrants prevent enterohepatic circulation of bile acids.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which medication selectively inhibits the absorption of cholesterol through the brush border of the small bowel wall?",
+      "answerChoices": [
+        {
+          "value": "Atorvastatin",
+          "correct": false
+        },
+        {
+          "value": "Ezetimibe",
+          "correct": true
+        },
+        {
+          "value": "Gemfibrozil",
+          "correct": false
+        },
+        {
+          "value": "Niacin",
+          "correct": false
+        },
+        {
+          "value": "Cholestyramine",
+          "correct": false
+        }
+      ],
+      "explanation": "Ezetimibe is a medication that selectively inhibits the absorption of cholesterol through the brush border of the small bowel wall.",
+      "factoid": "Ezetimibe selectively inhibits the absorption of cholesterol through the brush border of the small bowel wall.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which agent is known to increase HDL levels more than any other and also decrease hepatic synthesis and export of VLDL?",
+      "answerChoices": [
+        {
+          "value": "Atorvastatin",
+          "correct": false
+        },
+        {
+          "value": "Ezetimibe",
+          "correct": false
+        },
+        {
+          "value": "Niacin",
+          "correct": true
+        },
+        {
+          "value": "Gemfibrozil",
+          "correct": false
+        },
+        {
+          "value": "Fish oil",
+          "correct": false
+        }
+      ],
+      "explanation": "Niacin is known for its ability to increase HDL cholesterol levels more than any other agent and also decreases the hepatic synthesis and export of VLDL.",
+      "factoid": "49. Niacin increases HDL more than any other agent and decreases hepatic synthesis and export of VLDL.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following side effects is associated with the use of niacin?",
+      "answerChoices": [
+        {
+          "value": "Bradycardia",
+          "correct": false
+        },
+        {
+          "value": "Facial flushing",
+          "correct": true
+        },
+        {
+          "value": "Hyperkalemia",
+          "correct": false
+        },
+        {
+          "value": "Hypotension",
+          "correct": false
+        },
+        {
+          "value": "Anemia",
+          "correct": false
+        }
+      ],
+      "explanation": "Niacin can cause facial flushing, hyperglycemia, and gout. Facial flushing is a common side effect due to the release of prostaglandins.",
+      "factoid": "Niacin can cause facial flushing, hyperglycemia, and gout.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications are PCSK9 inhibitors designed to inhibit the enzyme that breaks down LDL receptors?",
+      "answerChoices": [
+        {
+          "value": "Atorvastatin",
+          "correct": false
+        },
+        {
+          "value": "Evolocumab",
+          "correct": true
+        },
+        {
+          "value": "Lisinopril",
+          "correct": false
+        },
+        {
+          "value": "Metoprolol",
+          "correct": false
+        },
+        {
+          "value": "Aspirin",
+          "correct": false
+        }
+      ],
+      "explanation": "Evolocumab is a PCSK9 inhibitor that inhibits the enzyme responsible for breaking down LDL receptors, thereby increasing their availability to remove LDL cholesterol from the bloodstream.",
+      "factoid": "Evolocumab and alirocumab are PCSK9 inhibitors that inhibit the enzyme that breaks down LDL receptors.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following supplements is scientifically proven to lower triglycerides?",
+      "answerChoices": [
+        {
+          "value": "Vitamin B12",
+          "correct": false
+        },
+        {
+          "value": "Calcium",
+          "correct": false
+        },
+        {
+          "value": "Fish oil (DHA/EPA)",
+          "correct": true
+        },
+        {
+          "value": "Iron",
+          "correct": false
+        },
+        {
+          "value": "Vitamin D",
+          "correct": false
+        }
+      ],
+      "explanation": "Fish oil (DHA/EPA) and Omega-3 fatty acids are scientifically proven to lower triglycerides, making them effective supplements for managing high triglyceride levels.",
+      "factoid": "Fish oil (DHA/EPA) and Omega-3 fatty acids are scientifically proven to lower triglycerides.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "What is the primary mechanism of action of Orlistat in the treatment of obesity?",
+      "answerChoices": [
+        {
+          "value": "It increases basal metabolic rate.",
+          "correct": false
+        },
+        {
+          "value": "It suppresses appetite.",
+          "correct": false
+        },
+        {
+          "value": "It inhibits pancreatic lipase.",
+          "correct": true
+        },
+        {
+          "value": "It stimulates insulin secretion.",
+          "correct": false
+        },
+        {
+          "value": "It increases fat oxidation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Orlistat works by inhibiting pancreatic lipase, an enzyme necessary for the breakdown and absorption of dietary fats, thus aiding in weight loss.",
+      "factoid": "Orlistat is a pancreatic lipase inhibitor used for obesity and can lower triglycerides and cause diarrhea.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following drugs inhibits both thyroperoxidase and 5-deiodinase?",
+      "answerChoices": [
+        {
+          "value": "Methimazole",
+          "correct": false
+        },
+        {
+          "value": "Propylthiouracil",
+          "correct": true
+        },
+        {
+          "value": "Levothyroxine",
+          "correct": false
+        },
+        {
+          "value": "Radioactive iodine",
+          "correct": false
+        },
+        {
+          "value": "Beta-blockers",
+          "correct": false
+        }
+      ],
+      "explanation": "Propylthiouracil (PTU) is the thionamide that inhibits both thyroperoxidase and 5-deiodinase, while methimazole only inhibits thyroperoxidase.",
+      "factoid": "Thionamides (propylthiouracil and methimazole) inhibit thyroperoxidase, with PTU also inhibiting 5-deiodinase.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following conditions are treated with PTU and methimazole?",
+      "answerChoices": [
+        {
+          "value": "Graves' disease, hypothyroidism, and Hashimoto's thyroiditis",
+          "correct": false
+        },
+        {
+          "value": "Graves' disease, toxic adenoma, and toxic multinodular goiter",
+          "correct": true
+        },
+        {
+          "value": "Toxic adenoma, hypothyroidism, and thyroid cancer",
+          "correct": false
+        },
+        {
+          "value": "Toxic multinodular goiter, thyroiditis, and thyroid cancer",
+          "correct": false
+        },
+        {
+          "value": "Hashimoto's thyroiditis, thyroid cancer, and hypothyroidism",
+          "correct": false
+        }
+      ],
+      "explanation": "PTU (propylthiouracil) and methimazole are antithyroid medications primarily used in the management of hyperthyroid conditions such as Graves' disease, toxic adenoma, and toxic multinodular goiter.",
+      "factoid": "PTU and methimazole are used for Graves' disease, toxic adenoma, and toxic multinodular goiter.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following adverse effects can be caused by both PTU (propylthiouracil) and methimazole?",
+      "answerChoices": [
+        {
+          "value": "Agranulocytosis and hepatotoxicity",
+          "correct": true
+        },
+        {
+          "value": "Nephrotoxicity and ototoxicity",
+          "correct": false
+        },
+        {
+          "value": "Cardiotoxicity and nephrotoxicity",
+          "correct": false
+        },
+        {
+          "value": "Ototoxicity and hepatotoxicity",
+          "correct": false
+        },
+        {
+          "value": "Neurotoxicity and nephrotoxicity",
+          "correct": false
+        }
+      ],
+      "explanation": "PTU (propylthiouracil) and methimazole are both antithyroid medications that can cause serious adverse effects, including agranulocytosis (a dangerous drop in white blood cells) and hepatotoxicity (liver damage).",
+      "factoid": "PTU and methimazole can cause agranulocytosis and hepatotoxicity.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is known to be teratogenic when used during the first trimester of pregnancy?",
+      "answerChoices": [
+        {
+          "value": "Levothyroxine",
+          "correct": false
+        },
+        {
+          "value": "Methimazole",
+          "correct": true
+        },
+        {
+          "value": "Metformin",
+          "correct": false
+        },
+        {
+          "value": "Labetalol",
+          "correct": false
+        },
+        {
+          "value": "Aspirin",
+          "correct": false
+        }
+      ],
+      "explanation": "Methimazole is known to cause birth defects if taken during the first trimester of pregnancy, making it teratogenic.",
+      "factoid": "Methimazole is teratogenic in the first trimester.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is used to treat tachycardia in hyperthyroidism by decreasing the peripheral conversion of T4 to T3?",
+      "answerChoices": [
+        {
+          "value": "Methimazole",
+          "correct": false
+        },
+        {
+          "value": "Levothyroxine",
+          "correct": false
+        },
+        {
+          "value": "Propranolol",
+          "correct": true
+        },
+        {
+          "value": "Propylthiouracil",
+          "correct": false
+        },
+        {
+          "value": "Metoprolol",
+          "correct": false
+        }
+      ],
+      "explanation": "Propranolol is a beta-blocker that is used to treat tachycardia in hyperthyroidism and also decreases the peripheral conversion of T4 to T3.",
+      "factoid": "Propranolol decreases peripheral conversion of T4 to T3 and is used to treat tachycardia in hyperthyroidism.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which medication is a T4 analogue commonly used to treat Hashimoto thyroiditis and drug-induced hypothyroidism?",
+      "answerChoices": [
+        {
+          "value": "Methimazole",
+          "correct": false
+        },
+        {
+          "value": "Levothyroxine",
+          "correct": true
+        },
+        {
+          "value": "Propylthiouracil",
+          "correct": false
+        },
+        {
+          "value": "Liothyronine",
+          "correct": false
+        },
+        {
+          "value": "Amiodarone",
+          "correct": false
+        }
+      ],
+      "explanation": "Levothyroxine is a synthetic T4 analogue that is used to treat hypothyroidism, including cases caused by Hashimoto thyroiditis and drug-induced hypothyroidism.",
+      "factoid": "Levothyroxine is a T4 analogue used for Hashimoto thyroiditis and drug-induced hypothyroidism.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following conditions is NOT typically treated with Desmopressin (DDAVP)?",
+      "answerChoices": [
+        {
+          "value": "Central diabetes insipidus",
+          "correct": false
+        },
+        {
+          "value": "Von Willebrand disease",
+          "correct": false
+        },
+        {
+          "value": "Hemophilia A",
+          "correct": false
+        },
+        {
+          "value": "Nephrogenic diabetes insipidus",
+          "correct": true
+        },
+        {
+          "value": "Nocturnal enuresis",
+          "correct": false
+        }
+      ],
+      "explanation": "Desmopressin (DDAVP) is used to treat central diabetes insipidus, von Willebrand disease, and hemophilia A, but it is not effective for nephrogenic diabetes insipidus where the kidneys do not respond to vasopressin.",
+      "factoid": "Desmopressin (DDAVP) is a vasopressin analogue used for central diabetes insipidus, von Willebrand disease, and hemophilia A.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications are vasopressin receptor antagonists used for SIADH?",
+      "answerChoices": [
+        {
+          "value": "Conivaptan and tolvaptan",
+          "correct": true
+        },
+        {
+          "value": "Furosemide and spironolactone",
+          "correct": false
+        },
+        {
+          "value": "Lisinopril and losartan",
+          "correct": false
+        },
+        {
+          "value": "Metoprolol and carvedilol",
+          "correct": false
+        },
+        {
+          "value": "Amlodipine and diltiazem",
+          "correct": false
+        }
+      ],
+      "explanation": "Conivaptan and tolvaptan are vasopressin receptor antagonists specifically used to treat Syndrome of Inappropriate Antidiuretic Hormone secretion (SIADH) by blocking the effects of vasopressin.",
+      "factoid": "Conivaptan and tolvaptan are vasopressin receptor antagonists used for SIADH.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is a tetracycline antibiotic used to treat SIADH by causing nephrogenic diabetes insipidus?",
+      "answerChoices": [
+        {
+          "value": "Demeclocycline",
+          "correct": true
+        },
+        {
+          "value": "Doxycycline",
+          "correct": false
+        },
+        {
+          "value": "Tetracycline",
+          "correct": false
+        },
+        {
+          "value": "Minocycline",
+          "correct": false
+        },
+        {
+          "value": "Oxytetracycline",
+          "correct": false
+        }
+      ],
+      "explanation": "Demeclocycline is the correct answer because it is a tetracycline antibiotic that specifically causes nephrogenic diabetes insipidus and is used to treat SIADH (Syndrome of Inappropriate Antidiuretic Hormone secretion). The other options are also tetracycline antibiotics but are not used for this purpose.",
+      "factoid": "62. Demeclocycline is a tetracycline antibiotic that causes nephrogenic diabetes insipidus and is used for SIADH.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is an aldosterone receptor antagonist used as a potassium-sparing diuretic and for hyperaldosteronism?",
+      "answerChoices": [
+        {
+          "value": "Furosemide",
+          "correct": false
+        },
+        {
+          "value": "Hydrochlorothiazide",
+          "correct": false
+        },
+        {
+          "value": "Spironolactone",
+          "correct": true
+        },
+        {
+          "value": "Metolazone",
+          "correct": false
+        },
+        {
+          "value": "Chlorthalidone",
+          "correct": false
+        }
+      ],
+      "explanation": "Spironolactone is an aldosterone receptor antagonist used as a potassium-sparing diuretic and for the treatment of hyperaldosteronism. The other medications listed are diuretics but do not act as aldosterone receptor antagonists.",
+      "factoid": "Spironolactone and eplerenone are aldosterone receptor antagonists used as potassium-sparing diuretics and for hyperaldosteronism.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following adverse effects is associated with the use of Spironolactone?",
+      "answerChoices": [
+        {
+          "value": "Hypertension",
+          "correct": false
+        },
+        {
+          "value": "Hypokalemia",
+          "correct": false
+        },
+        {
+          "value": "Gynecomastia",
+          "correct": true
+        },
+        {
+          "value": "Hypernatremia",
+          "correct": false
+        },
+        {
+          "value": "Bradycardia",
+          "correct": false
+        }
+      ],
+      "explanation": "Spironolactone is known to cause gynecomastia and hyperkalemia as adverse effects. It is important for clinicians to monitor these potential side effects in patients taking this medication.",
+      "factoid": "64. Spironolactone can cause gynecomastia and hyperkalemia.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following statements about Cinacalcet is correct?",
+      "answerChoices": [
+        {
+          "value": "Cinacalcet is a calcimimetic that increases serum PTH and calcium levels.",
+          "correct": false
+        },
+        {
+          "value": "Cinacalcet is a calcimimetic used for hyperthyroidism.",
+          "correct": false
+        },
+        {
+          "value": "Cinacalcet is a calcimimetic that decreases serum PTH and calcium levels and is used for secondary hyperparathyroidism due to renal failure.",
+          "correct": true
+        },
+        {
+          "value": "Cinacalcet is a calcimimetic used primarily for primary hyperparathyroidism.",
+          "correct": false
+        },
+        {
+          "value": "Cinacalcet is a calcimimetic that decreases serum PTH and increases calcium levels.",
+          "correct": false
+        }
+      ],
+      "explanation": "Cinacalcet is a calcimimetic that decreases serum PTH and calcium levels and is used for secondary hyperparathyroidism due to renal failure. It works by increasing the sensitivity of the calcium-sensing receptors on the parathyroid gland to extracellular calcium, thus reducing PTH secretion.",
+      "factoid": "Cinacalcet is a calcimimetic that decreases serum PTH and calcium levels and is used for secondary hyperparathyroidism due to renal failure.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is used as a phosphate binder to decrease phosphate levels in patients with chronic renal disease?",
+      "answerChoices": [
+        {
+          "value": "Amlodipine",
+          "correct": false
+        },
+        {
+          "value": "Lisinopril",
+          "correct": false
+        },
+        {
+          "value": "Sevelamer",
+          "correct": true
+        },
+        {
+          "value": "Metformin",
+          "correct": false
+        },
+        {
+          "value": "Warfarin",
+          "correct": false
+        }
+      ],
+      "explanation": "Sevelamer is the correct answer because it is a phosphate binder specifically used to decrease phosphate levels in patients with chronic renal disease.",
+      "factoid": "Sevelamer is a phosphate binder that decreases phosphate levels in patients with chronic renal disease.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following drugs is an \u03b11 agonist used for nasal decongestion due to its arteriolar vasoconstriction properties?",
+      "answerChoices": [
+        {
+          "value": "Albuterol",
+          "correct": false
+        },
+        {
+          "value": "Phenylephrine",
+          "correct": true
+        },
+        {
+          "value": "Propranolol",
+          "correct": false
+        },
+        {
+          "value": "Loratadine",
+          "correct": false
+        },
+        {
+          "value": "Diltiazem",
+          "correct": false
+        }
+      ],
+      "explanation": "Phenylephrine is an \u03b11 agonist that causes arteriolar vasoconstriction, making it effective for nasal decongestion.",
+      "factoid": "Phenylephrine, oxymetazoline, and midodrine are \u03b11 agonists that cause arteriolar vasoconstriction and are used for nasal decongestion.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications are \u03b11 antagonists used for the treatment of pheochromocytoma?",
+      "answerChoices": [
+        {
+          "value": "Labetalol and Metoprolol",
+          "correct": false
+        },
+        {
+          "value": "Phentolamine and Phenoxybenzamine",
+          "correct": true
+        },
+        {
+          "value": "Propranolol and Timolol",
+          "correct": false
+        },
+        {
+          "value": "Atenolol and Prazosin",
+          "correct": false
+        },
+        {
+          "value": "Terazosin and Doxazosin",
+          "correct": false
+        }
+      ],
+      "explanation": "Phentolamine and phenoxybenzamine are \u03b11 antagonists that are specifically used in the management of pheochromocytoma, a condition characterized by an adrenal gland tumor that secretes excessive catecholamines.",
+      "factoid": "Phentolamine and phenoxybenzamine are \u03b11 antagonists used for pheochromocytoma.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is used as an \u03b11 antagonist for the treatment of benign prostatic hyperplasia (BPH)?",
+      "answerChoices": [
+        {
+          "value": "Finasteride",
+          "correct": false
+        },
+        {
+          "value": "Tamsulosin",
+          "correct": true
+        },
+        {
+          "value": "Dutasteride",
+          "correct": false
+        },
+        {
+          "value": "Ciprofloxacin",
+          "correct": false
+        },
+        {
+          "value": "Leuprolide",
+          "correct": false
+        }
+      ],
+      "explanation": "Tamsulosin is an \u03b11 antagonist commonly used to treat symptoms of benign prostatic hyperplasia (BPH) by relaxing the muscles in the prostate and bladder neck, making it easier to urinate.",
+      "factoid": "69. Tamsulosin and terazosin are \u03b11 antagonists used for benign prostatic hyperplasia (BPH).",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following drugs are \u03b12 agonists used to treat hypertension?",
+      "answerChoices": [
+        {
+          "value": "Atenolol and Metoprolol",
+          "correct": false
+        },
+        {
+          "value": "Lisinopril and Enalapril",
+          "correct": false
+        },
+        {
+          "value": "Methyldopa and Clonidine",
+          "correct": true
+        },
+        {
+          "value": "Losartan and Valsartan",
+          "correct": false
+        },
+        {
+          "value": "Hydralazine and Minoxidil",
+          "correct": false
+        }
+      ],
+      "explanation": "Methyldopa and clonidine are \u03b12 agonists that work by stimulating \u03b12-adrenergic receptors in the brain, which leads to a reduction in sympathetic outflow and thus lowers blood pressure.",
+      "factoid": "Methyldopa and clonidine are \u03b12 agonists used to treat hypertension.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which medication is an \u03b12 antagonist that is used to stimulate appetite and treat anorexia with depression?",
+      "answerChoices": [
+        {
+          "value": "Sertraline",
+          "correct": false
+        },
+        {
+          "value": "Fluoxetine",
+          "correct": false
+        },
+        {
+          "value": "Mirtazapine",
+          "correct": true
+        },
+        {
+          "value": "Amitriptyline",
+          "correct": false
+        },
+        {
+          "value": "Bupropion",
+          "correct": false
+        }
+      ],
+      "explanation": "Mirtazapine is an \u03b12 antagonist that is used to stimulate appetite and treat anorexia with depression. The other medications listed do not have this specific combination of properties.",
+      "factoid": "Mirtazapine is an \u03b12 antagonist used to stimulate appetite and treat anorexia with depression.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following receptors does epinephrine bind to?",
+      "answerChoices": [
+        {
+          "value": "\u03b11 and \u03b21 only",
+          "correct": false
+        },
+        {
+          "value": "\u03b11, \u03b12, and \u03b21 only",
+          "correct": false
+        },
+        {
+          "value": "\u03b11, \u03b12, \u03b21, and \u03b22",
+          "correct": true
+        },
+        {
+          "value": "\u03b12 and \u03b22 only",
+          "correct": false
+        },
+        {
+          "value": "\u03b21 and \u03b22 only",
+          "correct": false
+        }
+      ],
+      "explanation": "Epinephrine binds to \u03b11, \u03b12, \u03b21, and \u03b22 receptors, which allows it to exert a wide range of physiological effects.",
+      "factoid": "72. Epinephrine binds to \u03b11, \u03b12, \u03b21, and \u03b22 receptors.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which receptors does norepinephrine bind to?",
+      "answerChoices": [
+        {
+          "value": "\u03b11, \u03b12, and \u03b22 receptors",
+          "correct": false
+        },
+        {
+          "value": "\u03b11, \u03b12, and \u03b21 receptors",
+          "correct": true
+        },
+        {
+          "value": "\u03b11, \u03b21, and \u03b22 receptors",
+          "correct": false
+        },
+        {
+          "value": "\u03b12, \u03b21, and \u03b22 receptors",
+          "correct": false
+        },
+        {
+          "value": "\u03b12 and \u03b21 receptors only",
+          "correct": false
+        }
+      ],
+      "explanation": "Norepinephrine binds specifically to \u03b11, \u03b12, and \u03b21 receptors, playing a role in the sympathetic nervous system by causing vasoconstriction, increasing heart rate, and enhancing cardiac contractility.",
+      "factoid": "73. Norepinephrine binds to \u03b11, \u03b12, and \u03b21 receptors.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following receptors does dopamine bind to?",
+      "answerChoices": [
+        {
+          "value": "\u03b11, \u03b12, \u03b21, \u03b22, and \u03941",
+          "correct": false
+        },
+        {
+          "value": "\u03b11, \u03b12, \u03b21, \u03b22, and D1",
+          "correct": true
+        },
+        {
+          "value": "\u03b11, \u03b12, \u03b21, \u03b22, and D2",
+          "correct": false
+        },
+        {
+          "value": "\u03b11, \u03b21, \u03b22, and D2",
+          "correct": false
+        },
+        {
+          "value": "\u03b11, \u03b22, and D1",
+          "correct": false
+        }
+      ],
+      "explanation": "Dopamine binds to \u03b11, \u03b12, \u03b21, \u03b22, and D1 receptors. This is essential for its various physiological effects.",
+      "factoid": "74. Dopamine binds to \u03b11, \u03b12, \u03b21, \u03b22, and D1 receptors.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "On which of the following structures are \u03b11 receptors predominantly found?",
+      "answerChoices": [
+        {
+          "value": "Veins and bronchioles",
+          "correct": false
+        },
+        {
+          "value": "Arterioles and internal sphincters",
+          "correct": true
+        },
+        {
+          "value": "Capillaries and alveoli",
+          "correct": false
+        },
+        {
+          "value": "Arteries and external sphincters",
+          "correct": false
+        },
+        {
+          "value": "Veins and external sphincters",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b11 receptors are predominantly found on arterioles and internal sphincters, where they play a crucial role in vasoconstriction and controlling the flow of blood and other substances through these structures.",
+      "factoid": "\u03b11 receptors are predominantly found on arterioles and internal sphincters.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following statements best describes the function of \u03b12 receptors?",
+      "answerChoices": [
+        {
+          "value": "They promote vasoconstriction resulting in increased blood pressure.",
+          "correct": false
+        },
+        {
+          "value": "They facilitate the release of norepinephrine from presynaptic neurons.",
+          "correct": false
+        },
+        {
+          "value": "They serve a negative-feedback mechanism, inhibiting further release of norepinephrine.",
+          "correct": true
+        },
+        {
+          "value": "They primarily stimulate the heart to increase cardiac output.",
+          "correct": false
+        },
+        {
+          "value": "They enhance the release of insulin from pancreatic beta cells.",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b12 receptors serve a negative-feedback mechanism by inhibiting the further release of norepinephrine from presynaptic neurons, thereby modulating neurotransmitter release and maintaining homeostasis.",
+      "factoid": "76. \u03b12 receptors serve a negative-feedback",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following receptors does epinephrine agonize?",
+      "answerChoices": [
+        {
+          "value": "\u03b11 and \u03b21 only",
+          "correct": false
+        },
+        {
+          "value": "\u03b22 and \u03b23 only",
+          "correct": false
+        },
+        {
+          "value": "\u03b12 and \u03b23 only",
+          "correct": false
+        },
+        {
+          "value": "\u03b11, \u03b12, \u03b21, and \u03b22",
+          "correct": true
+        },
+        {
+          "value": "\u03b11, \u03b21, and \u03b22 only",
+          "correct": false
+        }
+      ],
+      "explanation": "Epinephrine agonizes \u03b11, \u03b12, \u03b21, and \u03b22 receptors, which means it activates these adrenergic receptors to exert its physiological effects.",
+      "factoid": "Epinephrine agonizes \u03b11, \u03b12, \u03b21, and \u03b22 receptors.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following receptors is NOT agonized by norepinephrine?",
+      "answerChoices": [
+        {
+          "value": "\u03b11 receptor",
+          "correct": false
+        },
+        {
+          "value": "\u03b12 receptor",
+          "correct": false
+        },
+        {
+          "value": "\u03b21 receptor",
+          "correct": false
+        },
+        {
+          "value": "\u03b22 receptor",
+          "correct": true
+        },
+        {
+          "value": "All of the above are agonized by norepinephrine",
+          "correct": false
+        }
+      ],
+      "explanation": "Norepinephrine agonizes \u03b11, \u03b12, and \u03b21 receptors, but it does not agonize \u03b22 receptors.",
+      "factoid": "2. Norepinephrine agonizes \u03b11, \u03b12, and \u03b21 receptors, but not \u03b22.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which receptors does dopamine agonize?",
+      "answerChoices": [
+        {
+          "value": "\u03b11, \u03b21, and D2 receptors",
+          "correct": false
+        },
+        {
+          "value": "\u03b12, \u03b22, and D3 receptors",
+          "correct": false
+        },
+        {
+          "value": "\u03b11, \u03b12, \u03b21, \u03b22, and D1 receptors",
+          "correct": true
+        },
+        {
+          "value": "\u03b11, \u03b22, and D1 receptors",
+          "correct": false
+        },
+        {
+          "value": "\u03b12, \u03b21, and D4 receptors",
+          "correct": false
+        }
+      ],
+      "explanation": "Dopamine acts as an agonist at \u03b11, \u03b12, \u03b21, \u03b22, and D1 receptors, stimulating these receptors and thereby influencing various physiological responses.",
+      "factoid": "Dopamine agonizes \u03b11, \u03b12, \u03b21, \u03b22, and D1 receptors.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "At low doses, which receptor does dopamine bind to most strongly?",
+      "answerChoices": [
+        {
+          "value": "D2 receptor",
+          "correct": false
+        },
+        {
+          "value": "Alpha-1 receptor",
+          "correct": false
+        },
+        {
+          "value": "Beta-1 receptor",
+          "correct": false
+        },
+        {
+          "value": "D1 receptor",
+          "correct": true
+        },
+        {
+          "value": "D3 receptor",
+          "correct": false
+        }
+      ],
+      "explanation": "At low doses, dopamine predominantly binds to D1 receptors, exerting its effects through this receptor interaction.",
+      "factoid": "4. At low doses, dopamine binds D1 most strongly.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "As the dose of dopamine increases, which additional receptors are bound?",
+      "answerChoices": [
+        {
+          "value": "Dopamine receptors only",
+          "correct": false
+        },
+        {
+          "value": "Only \u03b1 receptors",
+          "correct": false
+        },
+        {
+          "value": "Only \u03b2 receptors",
+          "correct": false
+        },
+        {
+          "value": "Both \u03b2 and \u03b1 receptors",
+          "correct": true
+        },
+        {
+          "value": "Muscarinic receptors",
+          "correct": false
+        }
+      ],
+      "explanation": "As the dose of dopamine increases, it binds to both \u03b2 and \u03b1 receptors in addition to its primary action on dopamine receptors.",
+      "factoid": "5. As dopamine dose increases, \u03b2 and \u03b1 receptors are also bound.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which receptor does dopamine agonize to increase blood pressure?",
+      "answerChoices": [
+        {
+          "value": "\u03b21 receptors",
+          "correct": false
+        },
+        {
+          "value": "\u03b12 receptors",
+          "correct": false
+        },
+        {
+          "value": "\u03b22 receptors",
+          "correct": false
+        },
+        {
+          "value": "\u03b11 receptors",
+          "correct": true
+        },
+        {
+          "value": "D1 receptors",
+          "correct": false
+        }
+      ],
+      "explanation": "Dopamine increases blood pressure by agonizing \u03b11 receptors, which leads to vasoconstriction and an increase in blood pressure.",
+      "factoid": "6. Dopamine is used to increase blood pressure by agonizing \u03b11 receptors.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Where are \u03b21 receptors predominantly found?",
+      "answerChoices": [
+        {
+          "value": "Skeletal muscle",
+          "correct": false
+        },
+        {
+          "value": "Smooth muscle",
+          "correct": false
+        },
+        {
+          "value": "Cardiac muscle",
+          "correct": true
+        },
+        {
+          "value": "Liver",
+          "correct": false
+        },
+        {
+          "value": "Kidneys",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b21 receptors are predominantly found in cardiac muscle, where they play a critical role in regulating heart rate and contractility.",
+      "factoid": "7. \u03b21 receptors are predominantly found in cardiac muscle.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Where are \u03b21 receptors found in the kidney?",
+      "answerChoices": [
+        {
+          "value": "Proximal tubule cells",
+          "correct": false
+        },
+        {
+          "value": "Distal tubule cells",
+          "correct": false
+        },
+        {
+          "value": "Glomerular endothelial cells",
+          "correct": false
+        },
+        {
+          "value": "Juxtaglomerular cells",
+          "correct": true
+        },
+        {
+          "value": "Podocytes",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b21 receptors are specifically found in juxtaglomerular cells of the kidney, where they play a role in the regulation of renin release.",
+      "factoid": "8. \u03b21 receptors are found in juxtaglomerular cells of the kidney.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is a high-yield \u03b21 agonist often tested on the USMLE?",
+      "answerChoices": [
+        {
+          "value": "Epinephrine",
+          "correct": false
+        },
+        {
+          "value": "Norepinephrine",
+          "correct": false
+        },
+        {
+          "value": "Dobutamine",
+          "correct": true
+        },
+        {
+          "value": "Isoproterenol",
+          "correct": false
+        },
+        {
+          "value": "Phenylephrine",
+          "correct": false
+        }
+      ],
+      "explanation": "Dobutamine is a high-yield \u03b21 agonist and is often tested on the USMLE. It primarily affects the heart, increasing cardiac output by stimulating \u03b21 adrenergic receptors.",
+      "factoid": "9. Dobutamine is a high-yield \u03b21 agonist for the USMLE.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following effects is directly caused by \u03b21 agonism?",
+      "answerChoices": [
+        {
+          "value": "Decreased heart rate",
+          "correct": false
+        },
+        {
+          "value": "Bronchodilation",
+          "correct": false
+        },
+        {
+          "value": "Increased heart rate",
+          "correct": true
+        },
+        {
+          "value": "Vasoconstriction",
+          "correct": false
+        },
+        {
+          "value": "Decreased myocardial contractility",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b21 agonism specifically stimulates the \u03b21-adrenergic receptors in the heart, leading to an increase in heart rate (positive chronotropy).",
+      "factoid": "\u03b21 agonism increases heart rate (chronotropy).",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "What is the effect of \u03b21 agonism on the heart?",
+      "answerChoices": [
+        {
+          "value": "Decreases heart rate (chronotropy)",
+          "correct": false
+        },
+        {
+          "value": "Decreases stroke volume",
+          "correct": false
+        },
+        {
+          "value": "Increases contractility (inotropy)",
+          "correct": true
+        },
+        {
+          "value": "Decreases cardiac output",
+          "correct": false
+        },
+        {
+          "value": "Increases peripheral resistance",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b21 agonism specifically increases the contractility (inotropy) of the heart, enhancing its pumping efficiency.",
+      "factoid": "11. \u03b21 agonism increases contractility (inotropy).",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "What is one effect of \u03b21 agonism on the heart?",
+      "answerChoices": [
+        {
+          "value": "Decreases heart rate",
+          "correct": false
+        },
+        {
+          "value": "Increases oxygen demand on the heart",
+          "correct": true
+        },
+        {
+          "value": "Decreases oxygen demand on the heart",
+          "correct": false
+        },
+        {
+          "value": "Decreases cardiac output",
+          "correct": false
+        },
+        {
+          "value": "Increases blood pressure",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b21 agonism increases the heart rate and contractility, which in turn increases the oxygen demand on the heart.",
+      "factoid": "12. \u03b21 agonism increases oxygen demand on the heart.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which medication is commonly used in stress tests for patients who are unable to perform exercise stress tests?",
+      "answerChoices": [
+        {
+          "value": "Metoprolol",
+          "correct": false
+        },
+        {
+          "value": "Verapamil",
+          "correct": false
+        },
+        {
+          "value": "Dobutamine",
+          "correct": true
+        },
+        {
+          "value": "Nitroglycerin",
+          "correct": false
+        },
+        {
+          "value": "Adenosine",
+          "correct": false
+        }
+      ],
+      "explanation": "Dobutamine is a medication used in pharmacologic stress testing to mimic the effects of exercise on the heart for patients who cannot perform physical exercise.",
+      "factoid": "13. Dobutamine is used in stress tests for patients who cannot perform exercise stress tests.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following drugs is used to increase heart rate and oxygen demand for evaluating cardiac function via transthoracic echo?",
+      "answerChoices": [
+        {
+          "value": "Atropine",
+          "correct": false
+        },
+        {
+          "value": "Adenosine",
+          "correct": false
+        },
+        {
+          "value": "Dobutamine",
+          "correct": true
+        },
+        {
+          "value": "Metoprolol",
+          "correct": false
+        },
+        {
+          "value": "Lidocaine",
+          "correct": false
+        }
+      ],
+      "explanation": "Dobutamine is used to increase heart rate and oxygen demand, which helps in evaluating cardiac function via transthoracic echo.",
+      "factoid": "14. Dobutamine increases heart rate and oxygen demand, allowing cardiac function evaluation via transthoracic echo.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following effects is caused by \u03b21 agonism in the kidney?",
+      "answerChoices": [
+        {
+          "value": "Decreased renin release",
+          "correct": false
+        },
+        {
+          "value": "Increased aldosterone release",
+          "correct": false
+        },
+        {
+          "value": "Increased renin release",
+          "correct": true
+        },
+        {
+          "value": "Decreased sodium reabsorption",
+          "correct": false
+        },
+        {
+          "value": "Increased urine output",
+          "correct": false
+        }
+      ],
+      "explanation": "\u03b21 agonism stimulates the release of renin from the juxtaglomerular cells in the kidney, leading to increased renin release.",
+      "factoid": "15. \u03b21 agonism causes increased renin release from the kidney.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "What is the effect of increased sympathetic nerve stimulation at the kidney?",
+      "answerChoices": [
+        {
+          "value": "Decreased renin production",
+          "correct": false
+        },
+        {
+          "value": "Upregulation of the renin-angiotensin system",
+          "correct": true
+        },
+        {
+          "value": "Inhibition of aldosterone secretion",
+          "correct": false
+        },
+        {
+          "value": "Reduction in glomerular filtration rate",
+          "correct": false
+        },
+        {
+          "value": "Decreased sodium and water reabsorption",
+          "correct": false
+        }
+      ],
+      "explanation": "Increased sympathetic nerve stimulation at the kidney leads to the upregulation of the renin-angiotensin system, which plays a crucial role in regulating blood pressure and fluid balance.",
+      "factoid": "Increased sympathetic nerve stimulation at the kidney upregulates the renin-angiotensin system.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is a \u03b21-selective blocker?",
+      "answerChoices": [
+        {
+          "value": "Propranolol",
+          "correct": false
+        },
+        {
+          "value": "Atenolol",
+          "correct": true
+        },
+        {
+          "value": "Labetalol",
+          "correct": false
+        },
+        {
+          "value": "Carvedilol",
+          "correct": false
+        },
+        {
+          "value": "Nadolol",
+          "correct": false
+        }
+      ],
+      "explanation": "Atenolol is a \u03b21-selective blocker, unlike Propranolol, Labetalol, Carvedilol, and Nadolol, which are either non-selective beta blockers or have additional alpha-blocking properties.",
+      "factoid": "17. \u03b21-selective blockers include Atenolol, Bisoprolol, Esmolol, Acebutolol, and Metoprolol.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following beta-blockers is \u03b21-selective?",
+      "answerChoices": [
+        {
+          "value": "Metoprolol",
+          "correct": false
+        },
+        {
+          "value": "Propranolol",
+          "correct": false
+        },
+        {
+          "value": "Atenolol",
+          "correct": true
+        },
+        {
+          "value": "Carvedilol",
+          "correct": false
+        },
+        {
+          "value": "Nadolol",
+          "correct": false
+        }
+      ],
+      "explanation": "Atenolol is a \u03b21-selective beta-blocker that starts with a letter before M and ends in -olol.",
+      "factoid": "Beta-blockers that start with a letter before M and end in -olol are \u03b21-selective.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following is a non-selective beta-blocker?",
+      "answerChoices": [
+        {
+          "value": "Atenolol",
+          "correct": false
+        },
+        {
+          "value": "Metoprolol",
+          "correct": false
+        },
+        {
+          "value": "Propranolol",
+          "correct": true
+        },
+        {
+          "value": "Bisoprolol",
+          "correct": false
+        },
+        {
+          "value": "Esmolol",
+          "correct": false
+        }
+      ],
+      "explanation": "Propranolol is a non-selective beta-blocker, whereas Atenolol, Metoprolol, Bisoprolol, and Esmolol are selective beta-blockers.",
+      "factoid": "Non-selective beta-blockers include Propranolol, Pindolol, Timolol, and Nebivolol.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following beta-blockers also has mixed alpha-blocking effects?",
+      "answerChoices": [
+        {
+          "value": "Atenolol",
+          "correct": false
+        },
+        {
+          "value": "Metoprolol",
+          "correct": false
+        },
+        {
+          "value": "Propranolol",
+          "correct": false
+        },
+        {
+          "value": "Carvedilol",
+          "correct": true
+        },
+        {
+          "value": "Bisoprolol",
+          "correct": false
+        }
+      ],
+      "explanation": "Carvedilol is a beta-blocker that also has mixed alpha-blocking effects, which is not the case for Atenolol, Metoprolol, Propranolol, or Bisoprolol.",
+      "factoid": "Beta-blockers with mixed alpha-blocking effects include Carvedilol and Labetalol.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following drugs is a beta-blocker?",
+      "answerChoices": [
+        {
+          "value": "Atenolol",
+          "correct": true
+        },
+        {
+          "value": "Carvedilol",
+          "correct": false
+        },
+        {
+          "value": "Labetalol",
+          "correct": false
+        },
+        {
+          "value": "Amiodarone",
+          "correct": false
+        },
+        {
+          "value": "Clonidine",
+          "correct": false
+        }
+      ],
+      "explanation": "Atenolol is a beta-blocker, which can be identified by the -olol suffix. Carvedilol and labetalol are mixed blockers, while amiodarone is an antiarrhythmic agent and clonidine is an alpha-2 adrenergic agonist.",
+      "factoid": "21. Beta-blockers end with -olol; if not, they are mixed blockers.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which of the following medications is known to decrease mortality in heart failure?",
+      "answerChoices": [
+        {
+          "value": "Amlodipine",
+          "correct": false
+        },
+        {
+          "value": "Metoprolol XR",
+          "correct": true
+        },
+        {
+          "value": "Hydrochlorothiazide",
+          "correct": false
+        },
+        {
+          "value": "Furosemide",
+          "correct": false
+        },
+        {
+          "value": "Losartan",
+          "correct": false
+        }
+      ],
+      "explanation": "Metoprolol XR, along with Bisoprolol, Carvedilol, and Nebivolol, is known to decrease mortality in patients with heart failure. The other medications listed do not have the same evidence supporting a mortality benefit in heart failure.",
+      "factoid": "Metoprolol XR, Bisoprolol, Carvedilol, and Nebivolol decrease mortality in heart failure.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "Which medication is commonly used for rate control in atrial fibrillation?",
+      "answerChoices": [
+        {
+          "value": "Amiodarone",
+          "correct": false
+        },
+        {
+          "value": "Metoprolol",
+          "correct": true
+        },
+        {
+          "value": "Furosemide",
+          "correct": false
+        },
+        {
+          "value": "Digoxin",
+          "correct": false
+        },
+        {
+          "value": "Lisinopril",
+          "correct": false
+        }
+      ],
+      "explanation": "Metoprolol is a beta-blocker that is commonly used to control the heart rate in patients with atrial fibrillation. It works by slowing down the electrical conduction in the heart, which helps to control the heart rate.",
+      "factoid": "23. Metoprolol is used for rate control in atrial fibrillation.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    },
+    {
+      "question": "What is the appropriate anticoagulant therapy for a patient with atrial fibrillation (AF) who has a CHADS2 score of 3?",
+      "answerChoices": [
+        {
+          "value": "Aspirin",
+          "correct": false
+        },
+        {
+          "value": "Warfarin",
+          "correct": true
+        },
+        {
+          "value": "Clopidogrel",
+          "correct": false
+        },
+        {
+          "value": "No anticoagulation needed",
+          "correct": false
+        },
+        {
+          "value": "Low-dose heparin",
+          "correct": false
+        }
+      ],
+      "explanation": "For patients with atrial fibrillation and a CHADS2 score of 2 or more, warfarin or NOAC (novel oral anticoagulants) is recommended for blood thinning to reduce the risk of stroke.",
+      "factoid": "For blood thinning in AF, aspirin is given for a low CHADS2 score, and warfarin or NOAC for a score of 2+.",
+      "source_file": "Pharmacology",
+      "bank_id": "pharmacology"
+    }
+  ]
+}

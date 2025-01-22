@@ -20,11 +20,33 @@ const Home = () => {
       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
         <QuestionBankButton 
           bankId="mehlman-anatomy" 
-          title="Mehlman Anatomy/Rheum/MSK" 
+          title="HY Anatomy/Rheum/MSK" 
+          sourceFile="Mehlman Anatomy_factoids.json"
         />
         <QuestionBankButton 
           bankId="mehlman-microbiology" 
-          title="Mehlman Microbiology" 
+          title="HY Microbiology" 
+          sourceFile="Microbiology_factoids.json"
+        />
+        <QuestionBankButton 
+          bankId="mehlman-pharmacology" 
+          title="HY Pharmacology" 
+          sourceFile="Pharmacology_factoids.json"
+        />
+        <QuestionBankButton 
+          bankId="mehlman-biochemistry" 
+          title="HY Biochemistry" 
+          sourceFile="Biochemistry_factoids.json"
+        />
+        <QuestionBankButton 
+          bankId="mehlman-psychology" 
+          title="HY Psychiatry" 
+          sourceFile="Psychology_factoids.json"
+        />
+        <QuestionBankButton 
+          bankId="obgyn" 
+          title="HY OBGYN/Repro" 
+          sourceFile="HY Obgyn:repro.txt"
         />
       </div>
 
